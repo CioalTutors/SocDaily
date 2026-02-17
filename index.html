@@ -136,13 +136,11 @@
                         const lastTime = getSavedTimestamp();
                         const now = Date.now();
                         
-                        // Check if 1 hour has passed
                         if (now - lastTime >= 3600000 && lastTime !== 0) { 
                             const nextIdx = (lastIdx + 1) % entries.length;
                             saveProgression(nextIdx);
                             await loadTopic(entries[nextIdx]);
                         } else {
-                            // If first time, lastTime is 0, so just load index 0
                             if (lastTime === 0) saveProgression(0);
                             await loadTopic(entries[lastIdx % entries.length]);
                         }
@@ -186,7 +184,7 @@
 
                     const imgPromises = analysis.imagePrompts.map(p => generateImage(p));
                     const imgs = await Promise.all(imgPromises);
-                    setTopicImages(imgs);
+                    setTopicImages(imgs.filter(img => img !== null));
 
                     setLoading(false);
                     setRefreshing(false);
@@ -204,7 +202,7 @@
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
-                            instances: { prompt: `${p}, minimalist pencil sketch, white background` },
+                            instances: { prompt: `${p}, minimalist pencil sketch, white background, simple thin lines, educational illustration` },
                             parameters: { sampleCount: 1 }
                         })
                     });
@@ -262,43 +260,29 @@
                 }
             };
 
+            // Smart Splitter: Breaks text into chunks of roughly 2-3 sentences to keep paragraphs small
+            const getMiniParagraphs = (text) => {
+                const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+                const chunks = [];
+                for (let i = 0; i < sentences.length; i += 2) {
+                    chunks.push(sentences.slice(i, i + 2).join(' ').trim());
+                }
+                return chunks;
+            };
+
             if (showSplash) {
                 return (
                     <div className="fixed inset-0 bg-[#f7fee7] z-[100] flex flex-col items-center justify-center p-6">
                         <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" className="w-64 h-64 rounded-[3rem] shadow-2xl border-8 border-white animate-bounce-slow" alt="Cioal Tutors" />
-                        <h2 className="mt-12 text-2xl font-black text-lime-900 tracking-tighter uppercase">Cioal Tutors</h2>
+                        <h2 className="mt-12 text-2xl font-black text-lime-900 tracking-tighter uppercase text-center">Cioal Tutors</h2>
                     </div>
                 );
             }
-
-            if (showKeySetup) return (
-                <div className="min-h-screen flex flex-col items-center justify-center bg-[#f7fee7] p-6 text-center">
-                    <div className="bg-white p-10 rounded-[3rem] shadow-2xl border-4 border-lime-100 max-w-md w-full">
-                        <div className="bg-lime-50 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-lime-600">
-                            <Icon name="Settings" className="w-8 h-8" />
-                        </div>
-                        <h2 className="text-2xl font-black text-slate-900 mb-2 tracking-tighter uppercase">API Configuration</h2>
-                        <p className="text-slate-600 font-medium mb-8 text-sm">Update your Gemini API key for advanced intelligence.</p>
-                        <input 
-                            type="password" 
-                            placeholder="Enter API Key..." 
-                            className="w-full p-4 rounded-2xl bg-slate-50 border-2 border-transparent api-input outline-none transition-all mb-4 text-center font-bold text-slate-700"
-                            value={tempKey}
-                            onChange={(e) => setTempKey(e.target.value)}
-                        />
-                        <button onClick={handleSaveKey} className="w-full bg-lime-500 hover:bg-lime-600 text-white font-black py-4 px-8 rounded-2xl shadow-xl shadow-lime-100 transition-all uppercase text-xs tracking-widest">
-                            Save Changes
-                        </button>
-                        <button onClick={() => setShowKeySetup(false)} className="mt-4 text-[10px] text-slate-400 font-bold uppercase hover:text-slate-600">Cancel</button>
-                    </div>
-                </div>
-            );
 
             if (loading) return (
                 <div className="min-h-screen flex flex-col items-center justify-center bg-[#f7fee7] p-6 text-center">
                     <div className="w-16 h-16 border-4 border-lime-200 border-t-lime-600 rounded-full animate-spin mb-6"></div>
                     <p className="font-bold text-lime-800 text-xl tracking-tight">Booting Intelligence Engine...</p>
-                    <p className="text-lime-600/60 text-sm mt-2 font-medium">Synchronizing latest repository streams</p>
                 </div>
             );
 
@@ -306,15 +290,14 @@
                 <div className="min-h-screen flex flex-col items-center justify-center bg-[#f7fee7] p-6 text-center">
                     <div className="bg-white p-10 rounded-[3rem] shadow-2xl border-4 border-red-50 max-w-md">
                         <Icon name="AlertCircle" className="text-red-500 w-12 h-12 mb-6" />
-                        <h2 className="text-2xl font-black text-slate-900 mb-4 tracking-tighter uppercase">Startup Failed</h2>
-                        <p className="text-slate-600 font-medium mb-8 leading-relaxed">{error}</p>
-                        <div className="flex flex-col gap-3">
-                            <button onClick={() => window.location.reload()} className="bg-lime-500 hover:bg-lime-600 text-white font-black py-4 px-8 rounded-2xl shadow-xl uppercase text-xs">Retry Connection</button>
-                            <button onClick={() => setShowKeySetup(true)} className="text-[10px] font-bold text-slate-400 uppercase tracking-widest py-2">Update Credentials</button>
-                        </div>
+                        <h2 className="text-2xl font-black text-slate-900 mb-4 tracking-tighter uppercase text-center">Startup Failed</h2>
+                        <p className="text-slate-600 font-medium mb-8 leading-relaxed text-center">{error}</p>
+                        <button onClick={() => window.location.reload()} className="bg-lime-500 hover:bg-lime-600 text-white font-black py-4 px-8 rounded-2xl shadow-xl uppercase text-xs w-full">Retry Connection</button>
                     </div>
                 </div>
             );
+
+            const miniParas = getMiniParagraphs(currentRawText);
 
             return (
                 <div className="pb-24">
@@ -349,13 +332,26 @@
                                             {isGeneratingAudio ? 'Loading...' : isSpeaking ? 'Stop Voice' : 'Hear Lesson'}
                                         </button>
                                     </div>
-                                    <div className="space-y-10 relative z-10">
-                                        {currentRawText.split('\n').filter(p => p.trim()).map((p, i) => (
-                                            <React.Fragment key={i}>
-                                                <p className={`text-lg md:text-xl font-medium leading-relaxed text-slate-600 tracking-tight ${i === 0 ? 'text-2xl font-black text-slate-900' : ''}`}>{p}</p>
-                                                {topicImages[i] && <div className="rounded-[3rem] overflow-hidden shadow-xl border-4 border-white aspect-[16/9] bg-[#fafafa] flex items-center justify-center p-4"><img src={topicImages[i]} className="max-w-full max-h-full object-contain mix-blend-multiply opacity-80" alt="Visual Insight" /></div>}
-                                            </React.Fragment>
-                                        ))}
+                                    <div className="space-y-12 relative z-10">
+                                        {miniParas.map((p, i) => {
+                                            // Image Distribution: Insert 3 images evenly between paragraphs
+                                            const step = Math.floor(miniParas.length / (topicImages.length + 1)) || 1;
+                                            const imgIndex = i > 0 && i % step === 0 ? (i / step) - 1 : -1;
+                                            const displayImg = imgIndex >= 0 && imgIndex < topicImages.length ? topicImages[imgIndex] : null;
+
+                                            return (
+                                                <React.Fragment key={i}>
+                                                    <p className={`text-base md:text-lg font-medium leading-relaxed text-slate-600 tracking-tight ${i === 0 ? 'text-xl md:text-2xl font-black text-slate-900 leading-tight mb-2' : ''}`}>
+                                                        {p}
+                                                    </p>
+                                                    {displayImg && (
+                                                        <div className="rounded-[3rem] overflow-hidden shadow-xl border-4 border-white aspect-[16/9] bg-[#fafafa] flex items-center justify-center p-8 transition-transform hover:scale-[1.01]">
+                                                            <img src={displayImg} className="max-w-full max-h-full object-contain mix-blend-multiply opacity-80" alt="Lesson Visual" />
+                                                        </div>
+                                                    )}
+                                                </React.Fragment>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             </div>
@@ -380,14 +376,14 @@
                                     ) : quizState.completed ? (
                                         <div>
                                             <div className="text-center mb-8">
-                                                <div className="w-24 h-24 bg-lime-50 text-lime-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-black border-4 border-lime-100">{quizState.score}/10</div>
+                                                <div className="w-24 h-24 bg-lime-50 text-lime-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl font-black border-4 border-lime-100">{quizState.score}/10</div>
                                                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Review Complete</p>
                                             </div>
                                             <div className="space-y-4 max-h-[400px] overflow-y-auto no-scrollbar pr-2 border-t pt-6">
                                                 {aiAnalysis.quiz.map((q, idx) => {
                                                     const userAns = quizState.answers.find(a => a.question === idx);
                                                     return (
-                                                        <div key={idx} className={`p-5 rounded-3xl border ${userAns.correct ? 'bg-green-50 border-green-100' : 'bg-red-50 border-red-100'}`}>
+                                                        <div key={idx} className={`p-5 rounded-3xl border transition-colors ${userAns.correct ? 'bg-green-50 border-green-100' : 'bg-red-50 border-red-100'}`}>
                                                             <p className="text-xs font-bold text-slate-800 mb-2">{q.question}</p>
                                                             <p className="text-[10px] font-bold uppercase text-slate-500">Answer: <span className={userAns.correct ? 'text-green-700' : 'text-red-700'}>{q.options[userAns.selected]}</span></p>
                                                             {!userAns.correct && <p className="text-[10px] font-black uppercase text-green-700 mt-1">Correct: {q.options[q.correctIndex]}</p>}
@@ -395,7 +391,7 @@
                                                     );
                                                 })}
                                             </div>
-                                            <button onClick={() => setQuizState({ active: false, currentIdx: 0, score: 0, completed: false, answers: [] })} className="w-full mt-8 text-[10px] font-bold text-lime-600 uppercase tracking-widest hover:bg-lime-50 py-3 rounded-xl border border-lime-100 text-center">Back to Lesson</button>
+                                            <button onClick={() => setQuizState({ active: false, currentIdx: 0, score: 0, completed: false, answers: [] })} className="w-full mt-8 text-[10px] font-bold text-lime-600 uppercase tracking-widest hover:bg-lime-50 py-3 rounded-xl border border-lime-100 text-center transition-colors">Back to Lesson</button>
                                         </div>
                                     ) : (
                                         <div className="space-y-8">
