@@ -3,511 +3,481 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SocDaily - Daily Sociology</title>
+    <title>SocDaily - Professional Sociology Suite</title>
     
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="data:application/manifest+json,{%22name%22:%22SocDaily%22,%22short_name%22:%22SocDaily%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22#c6ff60%22,%22theme_color%22:%22#84cc16%22,%22icons%22:[{%22src%22:%22https://cdn-icons-png.flaticon.com/512/3233/3233514.png%22,%22sizes%22:%22512x512%22,%22type%22:%22image/png%22}]} border-radius: 12px;">
+    <!-- PWA Metadata -->
+    <meta name="theme-color" content="#c6ff60">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SocDaily">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%202.png">
+    
+    <!-- Dynamic Manifest -->
+    <script id="pwa-manifest">
+        const manifest = {
+            "name": "SocDaily Academy",
+            "short_name": "SocDaily",
+            "start_url": ".",
+            "display": "standalone",
+            "background_color": "#c6ff60",
+            "theme_color": "#c6ff60",
+            "icons": [
+                {
+                    "src": "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%201.png",
+                    "sizes": "196x196",
+                    "type": "image/png",
+                    "purpose": "any maskable"
+                },
+                {
+                    "src": "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%202.png",
+                    "sizes": "512x512",
+                    "type": "image/png",
+                    "purpose": "any maskable"
+                }
+            ]
+        };
+        const stringManifest = JSON.stringify(manifest);
+        const blob = new Blob([stringManifest], {type: 'application/json'});
+        const manifestURL = URL.createObjectURL(blob);
+        const link = document.createElement('link');
+        link.rel = 'manifest';
+        link.href = manifestURL;
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    
-    <!-- Cool Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     
+    <script>
+        const GLOBAL_FALLBACK_IMAGE = "https://img.freepik.com/free-vector/diverse-crowd-people-different-ages-races_74855-5235.jpg";
+        window.handleImageError = function(img) { 
+            img.classList.add('opacity-50');
+            img.src = GLOBAL_FALLBACK_IMAGE; 
+        };
+    </script>
+
     <style>
-        :root {
-            --accent: #84cc16;
-            --secondary: #f97316;
-            --splash-bg: rgb(198, 255, 96);
+        :root { 
+            --accent: #84cc16; 
+            --accent-dark: #3f6212;
+            --bg-soft: #f8fafc;
+            --pwa-brand: rgb(198, 255, 96);
         }
-        body {
-            font-family: 'Outfit', sans-serif;
-            background: radial-gradient(circle at top right, #f7fee7 0%, #f1f5f9 100%);
+        body { 
+            font-family: 'Outfit', sans-serif; 
+            background-color: var(--bg-soft); 
             color: #1e293b;
-            min-height: 100vh;
+            line-height: 1.6;
             margin: 0;
             overflow-x: hidden;
         }
-        .font-serif { font-family: 'Playfair Display', serif; }
 
         /* Splash Screen */
         #splash-screen {
             position: fixed;
             inset: 0;
-            background-color: var(--splash-bg);
-            z-index: 9999;
+            background: var(--pwa-brand); 
+            z-index: 100;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             transition: opacity 0.8s ease, visibility 0.8s;
         }
-        #splash-screen img {
-            max-width: 85%;
-            max-height: 75%;
-            object-fit: contain;
-            border-radius: 2rem;
-        }
-        .splash-hidden { opacity: 0; visibility: hidden; }
-
-        .glass-card {
-            background: rgba(255, 255, 255, 0.98);
-            backdrop-filter: blur(30px) saturate(200%);
-            border: 1px solid rgba(255, 255, 255, 0.9);
-            box-shadow: 0 40px 100px -30px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        /* AGGRESSIVE HEADER CLEANING */
-        #question-header {
-            isolation: isolate;
-            background: none !important;
-            border: none !important;
-            box-shadow: none !important;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        #question-header::before, #question-header::after, #marks-badge::before, #marks-badge::after {
-            display: none !important;
-            content: none !important;
-        }
-
-        /* Marks Badges - Solid High-Contrast */
-        .marks-pill-lime {
-            background: #84cc16 !important;
-            color: #000000 !important; 
-            border-radius: 99px !important;
-            padding: 8px 22px !important;
-            font-weight: 900 !important;
-            font-size: 13px !important;
-            letter-spacing: 0.15em !important;
-            display: inline-flex !important;
-            align-items: center;
-            box-shadow: 0 5px 20px rgba(132, 204, 22, 0.3) !important;
-        }
-        .marks-pill-orange {
-            background: #f97316 !important;
-            color: #ffffff !important; 
-            border-radius: 99px !important;
-            padding: 8px 22px !important;
-            font-weight: 900 !important;
-            font-size: 13px !important;
-            letter-spacing: 0.15em !important;
-            display: inline-flex !important;
-            align-items: center;
-            box-shadow: 0 5px 20px rgba(249, 115, 22, 0.3) !important;
-        }
-        
-        /* PARAGRAPH STYLING */
-        .chunk-paragraph {
-            margin-bottom: 2.8rem;
-            line-height: 2.2;
+        #splash-screen.hidden {
             opacity: 0;
-            transform: translateY(20px);
-            animation: slideIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-            color: #334155;
-            display: block;
+            visibility: hidden;
+            pointer-events: none;
         }
-        @keyframes slideIn { to { opacity: 1; transform: translateY(0); } }
-        
-        .loader {
-            border: 4px solid rgba(132, 204, 22, 0.1);
-            border-top: 4px solid var(--accent);
-            border-radius: 50%;
-            width: 45px;
-            height: 45px;
-            animation: spin 0.8s linear infinite;
+        .splash-logo {
+            width: 200px;
+            height: auto;
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
         }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        
-        .glow-btn {
-            background: var(--accent);
-            color: #064e3b;
-            box-shadow: 0 12px 35px -5px rgba(132, 204, 22, 0.4);
+
+        .glass-card { 
+            background: white; 
+            border-radius: 3rem; 
+            box-shadow: 0 40px 100px -30px rgba(0, 0, 0, 0.05); 
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .glow-btn { 
+            background: var(--accent); 
+            color: var(--accent-dark); 
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-weight: 900;
         }
-        .glow-btn:hover { transform: scale(1.05) translateY(-3px); }
+        .glow-btn:hover:not(:disabled) { 
+            transform: translateY(-4px) scale(1.02); 
+            box-shadow: 0 20px 40px rgba(132, 204, 22, 0.3); 
+        }
+        
+        .quiz-option { 
+            border: 2px solid #f1f5f9; 
+            transition: all 0.2s ease; 
+            background: white; 
+            border-radius: 1.5rem; 
+            text-align: left;
+            padding: 1.5rem;
+            width: 100%;
+            font-weight: 600;
+        }
+        .quiz-option:hover:not(.locked) { 
+            border-color: var(--accent); 
+            background: #f7fee7; 
+            transform: translateX(8px);
+        }
+        .quiz-option.correct { background: #d9f99d !important; border-color: #84cc16 !important; color: var(--accent-dark) !important; }
+        .quiz-option.wrong { background: #fee2e2 !important; border-color: #ef4444 !important; color: #7f1d1d !important; }
 
-        #dynamic-image {
-            mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
-            -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+        .custom-select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233f6212'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 0.8rem;
+            padding: 0.75rem 3rem 0.75rem 1.5rem;
+            min-width: 180px;
         }
 
-        .quiz-option {
-            transition: all 0.2s ease;
-            background: white;
-            border: 2px solid #f1f5f9;
+        .hero-image-container {
+            width: 100%;
+            height: 250px;
+            border-radius: 2rem;
+            overflow: hidden;
+            margin-bottom: 2.5rem;
+            background: #f1f5f9;
         }
-        .quiz-option:hover {
-            border-color: var(--accent);
-            background: #f8fafc;
-            transform: translateX(10px);
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
-        .quiz-option.correct { background: #f0fdf4; border-color: #22c55e; color: #166534; font-weight: 800; }
-        .quiz-option.wrong { background: #fef2f2; border-color: #ef4444; color: #991b1b; font-weight: 800; }
+
+        #install-prompt-btn {
+            display: none;
+            background: var(--pwa-brand);
+            padding: 0.6rem 1.2rem;
+            border-radius: 2rem;
+            font-size: 0.7rem;
+            font-weight: 900;
+            color: #0f172a;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            box-shadow: 0 4px 15px rgba(198, 255, 96, 0.4);
+        }
+
+        .pulse-text {
+            animation: pulse-opacity 2s infinite;
+        }
+        @keyframes pulse-opacity {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
     </style>
 </head>
-<body class="flex flex-col items-center justify-center p-4 md:p-12">
+<body class="p-4 md:p-12 min-h-screen flex flex-col items-center">
 
     <!-- Splash Screen -->
     <div id="splash-screen">
-        <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" alt="SocDaily Logo">
+        <div class="mb-6">
+            <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" 
+                 alt="Logo" class="splash-logo" onerror="handleImageError(this)">
+        </div>
+        <p class="text-slate-900 text-[10px] font-black tracking-[0.5em] uppercase pulse-text">Activating Learning Engine</p>
     </div>
 
-    <header class="mb-10 text-center mt-6">
-        <div class="inline-block px-5 py-2 mb-3 bg-white/70 backdrop-blur-md rounded-full border border-lime-500/20 shadow-sm">
-            <h1 class="text-[10px] uppercase tracking-[0.8em] font-black text-lime-600">SocDaily Academy</h1>
+    <main id="app-content" class="w-full max-w-4xl glass-card p-8 md:p-16 relative overflow-hidden">
+        
+        <!-- Navbar -->
+        <div class="flex justify-between items-center mb-12">
+            <div class="flex items-center gap-3">
+                <div class="w-2 h-8 bg-lime-500 rounded-full"></div>
+                <span class="text-xs font-black uppercase tracking-[0.4em] text-slate-400">SocDaily Academy</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <button id="install-prompt-btn" onclick="installApp()">Install App</button>
+                <button onclick="nextQuestion()" class="bg-slate-100 px-8 py-3 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-sm">
+                    Next Insight
+                </button>
+            </div>
         </div>
-        <p class="text-slate-400 text-xs font-bold tracking-widest uppercase" id="current-date"></p>
-    </header>
 
-    <main class="w-full max-w-5xl">
-        <div id="content-area" class="glass-card rounded-[4rem] p-8 md:p-24 min-h-[600px] flex flex-col items-center justify-center overflow-hidden">
-            
-            <div id="loading" class="flex flex-col items-center gap-6">
-                <div class="loader"></div>
-                <p class="text-lime-600 font-black tracking-widest uppercase text-xs animate-pulse">Syncing Production Assets...</p>
+        <div id="content-container" class="hidden">
+            <div class="hero-image-container">
+                <img id="topic-hero" src="" alt="Visual" class="hero-image" onerror="handleImageError(this)">
             </div>
 
-            <div id="error-container" class="hidden text-center">
-                <p class="text-slate-900 font-bold text-xl mb-6">Database Link Severed</p>
-                <button onclick="fetchDailyQuestion(true)" class="px-12 py-5 bg-lime-500 text-white rounded-2xl font-black uppercase tracking-widest shadow-2xl">Re-Init</button>
+            <div class="mb-12 border-b border-slate-50 pb-10">
+                <div class="relative inline-block mb-6">
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2 ml-1">Current Topic</label>
+                    <select id="insight-selector" onchange="handleDropdownChange(this.value)" class="custom-select bg-lime-100 text-lime-800 font-black text-sm rounded-2xl outline-none cursor-pointer">
+                        <!-- Populated dynamically -->
+                    </select>
+                </div>
+                <h2 id="q-title" class="text-4xl md:text-6xl font-black text-slate-900 leading-[1.1] tracking-tight"></h2>
             </div>
 
-            <div id="question-container" class="hidden w-full">
-                <!-- Header Area -->
-                <div id="question-header" class="mb-14">
-                    <span id="label-tag" class="text-[11px] font-black uppercase tracking-[0.4em] px-6 py-3 rounded-xl border-2 bg-white/80 text-slate-500">Global Sociology</span>
-                    <div id="marks-badge" class="hidden">
-                        <span id="marks-value-wrapper">
-                            <span id="marks-value">0</span> <span class="font-black">MARKS</span>
-                        </span>
-                    </div>
-                </div>
+            <div id="q-answer" class="text-slate-600 text-xl md:text-2xl leading-relaxed space-y-8 mb-20 pl-4 border-l-2 border-slate-100"></div>
 
-                <!-- MASSIVE Illustration Area -->
-                <div id="illust-wrapper" class="w-full h-[650px] md:h-[950px] mb-20 rounded-[4.5rem] overflow-hidden relative bg-slate-50 flex items-center justify-center shadow-inner">
-                    <img id="dynamic-image" src="" alt="SocioVisual" class="w-full h-full object-contain transition-opacity duration-1000 opacity-0 p-6" onerror="handleImageError(this)">
-                </div>
-
-                <!-- Question Text -->
-                <div class="mb-16">
-                    <h2 id="question-text" class="font-serif text-5xl md:text-8xl text-slate-900 leading-[1.05] font-black"></h2>
-                </div>
-                
-                <div id="accent-bar" class="w-40 h-3 rounded-full mb-16 transition-all duration-700"></div>
-                
-                <!-- Answer Content -->
-                <div id="answer-text" class="text-slate-600 text-2xl md:text-4xl font-light leading-relaxed mb-24"></div>
-
-                <!-- Infographic Points -->
-                <div id="summary-section" class="mb-24 hidden">
-                    <h3 class="text-[12px] font-black uppercase tracking-[0.6em] text-slate-400 mb-12 border-b-2 border-slate-100 pb-8 text-center tracking-widest">Core Insights</h3>
-                    <div id="summary-grid" class="grid grid-cols-1 gap-10"></div>
-                </div>
-
-                <!-- Quiz Launcher -->
-                <div id="quiz-launcher" class="mb-24 p-16 bg-slate-50/50 rounded-[4.5rem] text-center border border-slate-100">
-                    <h4 class="text-4xl font-black text-slate-900 mb-6 italic">Recall Challenge</h4>
-                    <p class="text-slate-500 mb-12 max-w-xl mx-auto text-xl leading-relaxed">Generated via Hugging Face Inference API. This feature will work seamlessly once hosted on GitHub.</p>
-                    <button id="start-quiz-btn" onclick="handleQuizStart()" class="glow-btn px-16 py-8 text-[14px] font-black uppercase tracking-[0.4em] rounded-[2.5rem] inline-flex items-center gap-5">
-                        <span>Deploy Assessment</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/></svg>
+            <!-- Quiz Section -->
+            <div id="quiz-area" class="bg-slate-50 rounded-[3rem] p-10 md:p-16 text-center border-2 border-white shadow-inner">
+                <div id="quiz-check">
+                    <h3 class="text-2xl font-black text-slate-800 mb-2">Mastery Check</h3>
+                    <p id="quiz-status" class="text-slate-400 font-medium mb-8">Ready to assess your knowledge?</p>
+                    <button id="start-btn" onclick="startQuiz()" class="glow-btn hidden px-16 py-8 rounded-[2.5rem] uppercase tracking-[0.3em] text-xs shadow-xl">
+                        Start Quiz
                     </button>
                 </div>
 
-                <!-- Quiz Body -->
-                <div id="quiz-container" class="hidden mb-24">
-                    <div class="flex items-center justify-between mb-12">
-                        <h4 id="quiz-title-tag" class="text-[12px] font-black uppercase tracking-[0.5em] text-lime-600">HF NEURAL PROFICIENCY</h4>
-                        <span id="quiz-progress" class="text-[12px] font-bold text-slate-400 uppercase tracking-widest">Question 1 of 5</span>
+                <div id="quiz-body" class="hidden text-left">
+                    <div class="flex justify-between items-center mb-8">
+                        <span id="quiz-progress-label" class="text-[10px] font-black text-lime-600 uppercase tracking-widest">Q1</span>
+                        <div class="h-1 flex-1 mx-6 bg-slate-200 rounded-full overflow-hidden">
+                            <div id="quiz-progress-bar" class="h-full bg-lime-500 transition-all duration-500" style="width: 0%"></div>
+                        </div>
                     </div>
-                    <div id="quiz-question-box">
-                        <p id="quiz-question-text" class="text-3xl md:text-5xl font-bold text-slate-900 mb-14 leading-tight"></p>
-                        <div id="quiz-options" class="grid grid-cols-1 gap-6"></div>
+                    <div id="quiz-question-container">
+                        <p id="quiz-q" class="text-2xl md:text-3xl font-black text-slate-900 mb-10 leading-tight"></p>
+                        <div id="quiz-options" class="grid grid-cols-1 gap-4"></div>
                     </div>
-                </div>
-
-                <div class="flex flex-col sm:flex-row items-center justify-between gap-12 pt-16 border-t border-slate-100">
-                    <button id="next-btn" onclick="nextQuestion()" class="px-12 py-5 text-slate-300 hover:text-slate-900 font-black uppercase tracking-[0.4em] text-[12px] transition-all">
-                        Skip insight
-                    </button>
-                    
-                    <footer class="flex flex-col items-center sm:items-end text-[12px] text-slate-300 uppercase font-black tracking-[0.6em]">
-                        <span>Cioal Tutors Academy</span>
-                        <span id="knowledge-tag" class="mt-4 text-lime-500/50 tracking-[1em]">Knowledge is Power</span>
-                    </footer>
+                    <div id="quiz-feedback" class="mt-8 hidden p-6 rounded-2xl border-2">
+                        <p id="feedback-text" class="font-bold text-lg mb-4"></p>
+                        <button onclick="nextQuestionInQuiz()" class="glow-btn px-10 py-4 rounded-2xl uppercase tracking-widest text-xs">Continue</button>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
+    <!-- Modal -->
+    <div id="results-modal" class="fixed inset-0 z-50 flex items-center justify-center p-6 hidden bg-slate-900/80 backdrop-blur-sm">
+        <div class="bg-white rounded-[4rem] p-12 md:p-20 max-w-xl w-full text-center shadow-2xl">
+            <div id="result-icon" class="text-8xl mb-8">🏅</div>
+            <h2 class="text-5xl font-black text-slate-900 mb-4 tracking-tighter">Topic Mastered</h2>
+            <p id="result-text" class="text-slate-500 text-xl font-medium mb-12"></p>
+            <button onclick="closeModalAndNext()" class="glow-btn w-full py-8 rounded-[2.5rem] uppercase tracking-[0.4em] text-xs shadow-lg">
+                Next Insight
+            </button>
+        </div>
+    </div>
+
     <script>
-        // GLOBAL SETTINGS
-        const GLOBAL_FALLBACK_IMAGE = "https://img.freepik.com/free-vector/diverse-crowd-people-different-ages-races_74855-5235.jpg";
-        const HF_TOKEN = "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"; 
-        const SUPABASE_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
-        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
+        const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
+        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
         
-        // Define global error handler first
-        window.handleImageError = function(img) { 
-            img.src = GLOBAL_FALLBACK_IMAGE; 
+        const TOPIC_IMAGES = {
+            1: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000",
+            2: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000",
+            3: "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1000",
+            4: "https://images.unsplash.com/photo-1454165833767-027ffea9e41b?q=80&w=1000",
+            5: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1000",
+            6: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1000",
+            7: "https://images.unsplash.com/photo-1438032005730-c779502df39b?q=80&w=1000",
+            8: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000",
+            9: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1000",
+            10: "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?q=80&w=1000"
         };
 
-        const supabaseInstance = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-        let questionsCache = [];
+        if (typeof window.supabaseClient === 'undefined') {
+            window.supabaseClient = supabase.createClient(SB_URL, SB_KEY);
+        }
+
+        let bank = [];
         let currentItem = null;
-        let currentQuizData = null;
-        let currentQuizIndex = 0;
-        let quizScore = 0;
+        let quizData = [];
+        let quizIndex = 0;
+        let score = 0;
+        let deferredPrompt;
 
-        const CATEGORY_IMAGES = {
-            family: "https://img.freepik.com/free-vector/big-family-meeting_74855-5220.jpg",
-            passion: "https://cdn.pixabay.com/photo/2016/04/01/09/27/fishing-1299351_1280.png",
-            crime: "https://img.freepik.com/free-vector/hand-drawn-gangster-cartoon-illustration_23-2151221224.jpg",
-            research: "https://static.vecteezy.com/system/resources/previews/023/621/753/non_2x/clinical-research-coordinator-flat-illustration-minimalist-of-key-employees-healthcare-industry-modern-concepts-for-web-page-website-development-mobile-app-vector.jpg",
-            education: "https://cdn.prod.website-files.com/5e3ce2ec7f6e53c045fe7cfa/6363d1f1e5661824720bafe5_Boy%20Raising%20Hand.png",
-            media: "https://static.vecteezy.com/system/resources/previews/069/862/989/non_2x/colorful-news-media-illustration-microphone-camera-vector.jpg",
-            religion: "https://cdn.pixabay.com/photo/2020/04/22/00/11/muslim-5075077_1280.jpg",
-            inequality: "https://img.freepik.com/free-vector/multiracial-raised-fists_23-2148607771.jpg",
-            gender: "https://img.freepik.com/free-vector/hand-drawn-international-day-elimination-violence-against-women-illustration_52683-74084.jpg",
-            globalisation: "https://img.freepik.com/premium-vector/globalization-concept-illustration_114360-8551.jpg"
-        };
+        // PWA Installation - Note: Automatic prompts may not work in this preview sandbox
+        // but manifest and metadata are correctly set for real deployment.
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('install-prompt-btn').style.display = 'block';
+        });
 
-        /** HUGGING FACE QUIZ LOGIC **/
-        async function handleQuizStart() {
-            const btn = document.getElementById('start-quiz-btn');
-            const launcher = document.getElementById('quiz-launcher');
-            const container = document.getElementById('quiz-container');
-            const titleTag = document.getElementById('quiz-title-tag');
+        async function installApp() {
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') document.getElementById('install-prompt-btn').style.display = 'none';
+            deferredPrompt = null;
+        }
 
-            // 1. Static Check
-            const dbQuiz = currentItem.quiz || currentItem.Quiz;
-            if (dbQuiz) {
-                try {
-                    const parsed = typeof dbQuiz === 'string' ? JSON.parse(dbQuiz) : dbQuiz;
-                    currentQuizData = parsed.questions;
-                    currentQuizIndex = 0; quizScore = 0;
-                    titleTag.innerText = "Internal Sync Quiz";
-                    launcher.classList.add('hidden'); container.classList.remove('hidden');
-                    showQuizQuestion(); return;
-                } catch (e) { console.error(e); }
+        // Notification System (Foreground Reminders)
+        async function requestNotificationPermission() {
+            if (!("Notification" in window)) return;
+            const permission = await Notification.requestPermission();
+            if (permission === "granted") {
+                scheduleNextNotification();
             }
+        }
 
-            // 2. Production HF Fetch
-            btn.disabled = true;
-            btn.innerHTML = `<div class="loader w-6 h-6 mr-5"></div> Modeling via Neural API...`;
+        function scheduleNextNotification() {
+            // Best-effort foreground reminder every 3 hours
+            setInterval(() => {
+                if (Notification.permission === "granted") {
+                    new Notification("SocDaily Reminder", {
+                        body: "Time for your next Sociology Insight! Tap to continue learning.",
+                        icon: "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%201.png"
+                    });
+                }
+            }, 10800000);
+        }
 
+        async function init() {
             try {
-                // Mistral-7B-Instruct-v0.3 is very good at strictly following JSON instructions
-                const prompt = `[INST] Act as a Sociology Professor. Create a 5-question multiple choice quiz about "${currentItem.question}" using this text: "${currentItem.answer}". Output ONLY valid JSON: {"questions": [{"question": "text", "options": ["A", "B", "C", "D"], "correct": 0}]}. Index 0 is the first option. [/INST]`;
+                const { data, error } = await window.supabaseClient.from('questionbank').select('*').order('question_number', { ascending: true });
+                if (error) throw error;
+                bank = data;
                 
-                const response = await fetch("https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3", {
-                    headers: { Authorization: `Bearer ${HF_TOKEN}`, "Content-Type": "application/json" },
-                    method: "POST",
-                    body: JSON.stringify({ inputs: prompt, parameters: { return_full_text: false, max_new_tokens: 1500 } }),
-                });
+                populateDropdown();
+                if (bank.length > 0) loadItem(bank[0]);
+                
+                requestNotificationPermission();
 
-                if (!response.ok) throw new Error("HF unreachable (expected in sandbox)");
-                
-                const result = await response.json();
-                let text = result[0].generated_text;
-                
-                // Robust extraction
-                const firstBracket = text.indexOf('{');
-                const lastBracket = text.lastIndexOf('}');
-                if (firstBracket !== -1 && lastBracket !== -1) {
-                    text = text.substring(firstBracket, lastBracket + 1);
-                }
+                setTimeout(() => {
+                    document.getElementById('splash-screen').classList.add('hidden');
+                }, 2000);
 
-                currentQuizData = JSON.parse(text).questions;
-                currentQuizIndex = 0; quizScore = 0;
-                titleTag.innerText = "Production HF Quiz";
-                launcher.classList.add('hidden'); container.classList.remove('hidden');
-                showQuizQuestion();
             } catch (err) {
-                console.warn("HF blocked in sandbox. Once hosted on GitHub, this will load the quiz.");
-                btn.disabled = false;
-                btn.innerText = "Blocked in Sandbox - Works on GitHub";
+                console.error("[INIT ERROR]", err);
+                document.getElementById('splash-screen').innerHTML = `<p class="text-red-500 font-black">DATABASE CONNECTION FAILED</p>`;
             }
         }
 
-        function showQuizQuestion() {
-            const q = currentQuizData[currentQuizIndex];
-            document.getElementById('quiz-progress').innerText = `Step ${currentQuizIndex + 1} of 5`;
-            document.getElementById('quiz-question-text').innerText = q.question;
-            const optionsBox = document.getElementById('quiz-options');
-            optionsBox.innerHTML = '';
-            q.options.forEach((opt, idx) => {
-                const b = document.createElement('button');
-                b.className = 'quiz-option w-full p-10 text-left rounded-[2.5rem] font-bold text-slate-700 shadow-sm text-2xl';
-                b.innerText = opt;
-                b.onclick = () => {
-                    const all = document.querySelectorAll('.quiz-option');
-                    all.forEach(btn => btn.onclick = null);
-                    if (idx === q.correct) { b.classList.add('correct'); quizScore++; }
-                    else { b.classList.add('wrong'); all[q.correct].classList.add('correct'); }
-                    setTimeout(() => {
-                        currentQuizIndex++;
-                        if (currentQuizIndex < 5) showQuizQuestion();
-                        else showQuizResult();
-                    }, 1800);
-                };
-                optionsBox.appendChild(b);
+        function populateDropdown() {
+            const selector = document.getElementById('insight-selector');
+            selector.innerHTML = ''; 
+            bank.forEach(item => {
+                const num = Number(item.question_number || item.Question_Number);
+                const opt = document.createElement('option');
+                opt.value = num;
+                opt.innerText = `INSIGHT #${num}`;
+                selector.appendChild(opt);
             });
         }
 
-        function showQuizResult() {
-            const container = document.getElementById('quiz-container');
-            container.innerHTML = `
-                <div class="text-center p-20 bg-white rounded-[5rem] border-2 border-slate-50 shadow-sm">
-                    <div class="text-9xl mb-12">${quizScore >= 4 ? '🏅' : quizScore >= 2 ? '📖' : '🌱'}</div>
-                    <h4 class="text-6xl font-black text-slate-900 mb-8">Mastery Confirmed</h4>
-                    <p class="text-slate-400 mb-16 text-3xl tracking-[0.2em] uppercase font-black">Score Metric: <span class="text-lime-600">${quizScore}/5</span></p>
-                    <button onclick="nextQuestion()" class="glow-btn px-20 py-8 text-[14px] font-black uppercase tracking-[0.6em] rounded-[4rem]">Advance next chapter</button>
-                </div>
-            `;
+        function handleDropdownChange(val) {
+            const num = Number(val);
+            const item = bank.find(i => Number(i.question_number || i.Question_Number) === num);
+            if (item) {
+                loadItem(item);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
         }
 
-        function renderItem(item, isManual = false) {
+        function loadItem(item) {
             currentItem = item;
-            const container = document.getElementById('question-container');
-            const qText = document.getElementById('question-text');
-            const aText = document.getElementById('answer-text');
-            const labelTag = document.getElementById('label-tag');
-            const marksBadge = document.getElementById('marks-badge');
-            const marksValue = document.getElementById('marks-value');
-            const summarySection = document.getElementById('summary-section');
-            const summaryGrid = document.getElementById('summary-grid');
-            const accentBar = document.getElementById('accent-bar');
-            const imgEl = document.getElementById('dynamic-image');
-
-            document.getElementById('quiz-launcher').classList.remove('hidden');
-            document.getElementById('quiz-container').classList.add('hidden');
-
-            const useOrange = (item.id % 2 === 0); 
-            if (useOrange) {
-                marksBadge.className = "marks-pill-orange";
-                accentBar.className = "w-48 h-3 bg-orange-500 rounded-full mb-16 shadow-[0_10px_40px_rgba(249,115,22,0.4)]";
-                labelTag.className = "text-[12px] font-black uppercase tracking-[0.5em] px-8 py-3 rounded-xl border-2 border-orange-100 bg-orange-50 text-orange-600";
-            } else {
-                marksBadge.className = "marks-pill-lime";
-                accentBar.className = "w-48 h-3 bg-lime-500 rounded-full mb-16 shadow-[0_10px_40px_rgba(132,204,22,0.4)]";
-                labelTag.className = "text-[12px] font-black uppercase tracking-[0.5em] px-8 py-3 rounded-xl border-2 border-lime-100 bg-lime-50 text-lime-600";
-            }
-
-            labelTag.innerText = isManual ? "Sequential Knowledge" : "Daily Digest";
-            const qContent = item.question || "...";
-            const aContent = item.answer || "...";
-            const marks = item.marks || item.Marks;
+            document.getElementById('content-container').classList.remove('hidden');
             
-            const lowQ = qContent.toLowerCase();
-            if (lowQ.includes('family')) imgEl.src = CATEGORY_IMAGES.family;
-            else if (lowQ.includes('fishing')) imgEl.src = CATEGORY_IMAGES.passion;
-            else if (lowQ.includes('crime')) imgEl.src = CATEGORY_IMAGES.crime;
-            else if (lowQ.includes('research')) imgEl.src = CATEGORY_IMAGES.research;
-            else if (lowQ.includes('education')) imgEl.src = CATEGORY_IMAGES.education;
-            else if (lowQ.includes('media')) imgEl.src = CATEGORY_IMAGES.media;
-            else if (lowQ.includes('religion')) imgEl.src = CATEGORY_IMAGES.religion;
-            else if (lowQ.includes('inequality')) imgEl.src = CATEGORY_IMAGES.inequality;
-            else if (lowQ.includes('gender')) imgEl.src = CATEGORY_IMAGES.gender;
-            else if (lowQ.includes('global')) imgEl.src = CATEGORY_IMAGES.globalisation;
-            else imgEl.src = item.image_url || item.Image_URL || GLOBAL_FALLBACK_IMAGE;
+            const num = Number(item.question_number || item.Question_Number);
+            document.getElementById('insight-selector').value = num;
+            document.getElementById('topic-hero').src = TOPIC_IMAGES[num] || GLOBAL_FALLBACK_IMAGE;
+            document.getElementById('q-title').innerText = item.question || item.Question;
             
-            imgEl.onload = () => imgEl.classList.replace('opacity-0', 'opacity-100');
-            if (marks) { marksValue.innerText = marks; marksBadge.classList.remove('hidden'); }
-            else marksBadge.classList.add('hidden');
+            const box = document.getElementById('q-answer');
+            box.innerHTML = (item.answer || item.Answer || "").split('\n').filter(p => p.trim()).map(p => `<p>${p}</p>`).join('');
+            
+            document.getElementById('quiz-check').classList.remove('hidden');
+            document.getElementById('quiz-body').classList.add('hidden');
+            document.getElementById('start-btn').classList.add('hidden');
+            document.getElementById('quiz-status').innerText = "Checking assessment status...";
+            
+            checkQuiz(num);
+        }
 
-            const qNum = item.question_number || item.id;
-            qText.innerHTML = `<span class="${useOrange ? 'text-orange-500/20' : 'text-lime-500/20'} font-sans text-5xl align-top mr-8 font-black italic">#${qNum}</span>${qContent}`;
-            
-            // SMART PARAGRAPHING
-            aText.innerHTML = '';
-            let rawChunks = aContent.split(/\n+/).map(p => p.trim()).filter(p => p.length > 0);
-            
-            if (rawChunks.length <= 1) {
-                const sentences = aContent.match(/[^.!?]+[.!?]+/g) || [aContent];
-                rawChunks = [];
-                for(let i=0; i < sentences.length; i+=3) {
-                    rawChunks.push(sentences.slice(i, i+3).join(' '));
+        async function checkQuiz(num) {
+            try {
+                const { data, error } = await window.supabaseClient.from('quizzes').select('*').eq('insight', num).order('mcq_num', { ascending: true });
+                if (error) throw error;
+                if (data && data.length > 0) {
+                    quizData = data;
+                    document.getElementById('quiz-status').innerText = `${data.length} assessment questions synced.`;
+                    document.getElementById('start-btn').classList.remove('hidden');
+                } else {
+                    document.getElementById('quiz-status').innerText = "No assessment linked to this insight yet.";
+                    document.getElementById('start-btn').classList.add('hidden');
                 }
-            }
+            } catch (err) { console.error("Sync Failure", err); }
+        }
 
-            rawChunks.forEach((chunk, i) => {
-                const p = document.createElement('p');
-                p.className = 'chunk-paragraph';
-                p.style.animationDelay = `${(i + 1) * 0.15}s`;
-                p.innerText = chunk;
-                aText.appendChild(p);
-            });
+        function startQuiz() {
+            document.getElementById('quiz-check').classList.add('hidden');
+            document.getElementById('quiz-body').classList.remove('hidden');
+            quizIndex = 0; score = 0;
+            renderQuiz();
+        }
 
-            // Infographic points
-            const pts = (aContent.match(/[^.!?]+[.!?]+/g) || []).filter(s => s.length > 40 && s.length < 180).slice(0, 4).map(s => s.trim());
-            if (pts.length > 0) {
-                summarySection.classList.remove('hidden');
-                summaryGrid.innerHTML = '';
-                pts.forEach((pt, i) => {
-                    const card = document.createElement('div');
-                    card.className = 'infographic-card p-16 rounded-[4rem] flex items-start gap-12 shadow-sm hover:bg-slate-50 transition-colors';
-                    card.innerHTML = `<div class="w-16 h-16 shrink-0 rounded-full ${useOrange ? 'text-orange-500 bg-orange-50' : 'text-lime-600 bg-lime-50'} flex items-center justify-center font-black text-2xl italic border-4 border-current">${i + 1}</div><p class="text-2xl md:text-3xl leading-relaxed text-slate-600 font-medium">${pt}</p>`;
-                    summaryGrid.appendChild(card);
-                });
-            } else summarySection.classList.add('hidden');
-
-            document.getElementById('loading').classList.add('hidden');
-            container.classList.remove('hidden');
+        function renderQuiz() {
+            const q = quizData[quizIndex];
+            document.getElementById('quiz-progress-label').innerText = `Question ${quizIndex + 1}/${quizData.length}`;
+            document.getElementById('quiz-progress-bar').style.width = `${((quizIndex) / quizData.length) * 100}%`;
+            document.getElementById('quiz-q').innerText = q.question;
+            document.getElementById('quiz-feedback').classList.add('hidden');
+            document.getElementById('quiz-options').classList.remove('hidden');
             
-            setTimeout(() => {
-                const splash = document.getElementById('splash-screen');
-                if(splash) splash.classList.add('splash-hidden');
-            }, 1800);
+            const box = document.getElementById('quiz-options');
+            box.innerHTML = '';
+            const opts = [
+                { k: 'option_a', t: q.option_a }, { k: 'option_b', t: q.option_b },
+                { k: 'option_c', t: q.option_c }, { k: 'option_d', t: q.option_d }
+            ];
+
+            opts.forEach(o => {
+                if (!o.t) return;
+                const b = document.createElement('button');
+                b.className = 'quiz-option';
+                b.innerText = o.t;
+                b.onclick = () => {
+                    document.querySelectorAll('.quiz-option').forEach(btn => btn.classList.add('locked'));
+                    const feedback = document.getElementById('quiz-feedback');
+                    feedback.classList.remove('hidden');
+                    if (o.k === q.correct_op) {
+                        b.classList.add('correct'); score++;
+                        document.getElementById('feedback-text').innerText = "Correct! Well done.";
+                    } else {
+                        b.classList.add('wrong');
+                        const correctIdx = opts.findIndex(x => x.k === q.correct_op);
+                        box.children[correctIdx].classList.add('correct');
+                        document.getElementById('feedback-text').innerText = "Incorrect. Review this point.";
+                    }
+                };
+                box.appendChild(b);
+            });
+        }
+
+        function nextQuestionInQuiz() {
+            quizIndex++;
+            if (quizIndex < quizData.length) renderQuiz();
+            else showResults();
+        }
+
+        function showResults() {
+            const modal = document.getElementById('results-modal');
+            document.getElementById('result-text').innerText = `You scored ${score} out of ${quizData.length}.`;
+            modal.classList.remove('hidden');
+        }
+
+        function closeModalAndNext() {
+            document.getElementById('results-modal').classList.add('hidden');
+            nextQuestion();
         }
 
         function nextQuestion() {
-            if (!questionsCache.length) return;
-            document.getElementById('dynamic-image').classList.replace('opacity-100', 'opacity-0');
-            let nextIdx = (parseInt(localStorage.getItem('socDaily_currentIndex')) + 1) % questionsCache.length;
-            localStorage.setItem('socDaily_currentIndex', nextIdx);
-            renderItem(questionsCache[nextIdx], true);
+            const cur = Number(currentItem.question_number || currentItem.Question_Number);
+            let idx = bank.findIndex(i => Number(i.question_number || i.Question_Number) === cur);
+            loadItem(bank[(idx + 1) % bank.length]);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        function getDailyIndex(count) {
-            const today = new Date();
-            const dateStr = `${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
-            let hash = 0;
-            for (let i = 0; i < dateStr.length; i++) hash = ((hash << 5) - hash) + dateStr.charCodeAt(i), hash |= 0;
-            return Math.abs(hash) % count;
-        }
-
-        async function fetchDailyQuestion(forceReset = false) {
-            try {
-                let { data, error } = await supabaseInstance.from('questionbank').select('*');
-                if (error) throw error;
-                questionsCache = data.sort((a, b) => (a.id || 0) - (b.id || 0));
-                
-                const storedIdx = localStorage.getItem('socDaily_currentIndex');
-                const lastDate = localStorage.getItem('socDaily_lastDate');
-                const todayStr = new Date().toDateString();
-                
-                let indexToLoad = (lastDate !== todayStr || forceReset || storedIdx === null) ? getDailyIndex(data.length) : parseInt(storedIdx) % data.length;
-                
-                localStorage.setItem('socDaily_lastDate', todayStr);
-                localStorage.setItem('socDaily_currentIndex', indexToLoad);
-                renderItem(questionsCache[indexToLoad], lastDate === todayStr && storedIdx !== null);
-            } catch (err) {
-                document.getElementById('loading').classList.add('hidden');
-                document.getElementById('error-container').classList.remove('hidden');
-                console.error("Fetch Error:", err);
-            }
-        }
-
-        window.onload = () => {
-            document.getElementById('current-date').innerText = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-            fetchDailyQuestion();
-        };
+        window.onload = init;
     </script>
 </body>
 </html>
