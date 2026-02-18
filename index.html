@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocDaily - Professional Sociology Suite</title>
+    
+    <!-- PWA Metadata -->
+    <meta name="theme-color" content="#c6ff60">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SocDaily">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%202.png">
+    
+    <!-- Dynamic Manifest -->
+    <script id="pwa-manifest">
+        const manifest = {
+            "name": "SocDaily Academy",
+            "short_name": "SocDaily",
+            "start_url": ".",
+            "display": "standalone",
+            "background_color": "#c6ff60",
+            "theme_color": "#c6ff60",
+            "icons": [
+                {
+                    "src": "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%201.png",
+                    "sizes": "196x196",
+                    "type": "image/png",
+                    "purpose": "any maskable"
+                },
+                {
+                    "src": "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%202.png",
+                    "sizes": "512x512",
+                    "type": "image/png",
+                    "purpose": "any maskable"
+                }
+            ]
+        };
+        const stringManifest = JSON.stringify(manifest);
+        const blob = new Blob([stringManifest], {type: 'application/json'});
+        const manifestURL = URL.createObjectURL(blob);
+        const link = document.createElement('link');
+        link.rel = 'manifest';
+        link.href = manifestURL;
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+        const GLOBAL_FALLBACK_IMAGE = "https://img.freepik.com/free-vector/diverse-crowd-people-different-ages-races_74855-5235.jpg";
+        window.handleImageError = function(img) { 
+            img.classList.add('opacity-50');
+            img.src = GLOBAL_FALLBACK_IMAGE; 
+        };
+    </script>
+
+    <style>
+        :root { 
+            --accent: #84cc16; 
+            --accent-dark: #3f6212;
+            --bg-soft: #f8fafc;
+            --pwa-brand: rgb(198, 255, 96);
+        }
+        body { 
+            font-family: 'Outfit', sans-serif; 
+            background-color: var(--bg-soft); 
+            color: #1e293b;
+            line-height: 1.6;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        /* Splash & Onboarding Screens */
+        #splash-screen, #onboarding-overlay {
+            position: fixed;
+            inset: 0;
+            background: var(--pwa-brand); 
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.8s ease, visibility 0.8s;
+        }
+        #splash-screen.hidden, #onboarding-overlay.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .splash-logo {
+            width: 200px;
+            height: auto;
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+        }
+
+        .glass-card { 
+            background: white; 
+            border-radius: 3rem; 
+            box-shadow: 0 40px 100px -30px rgba(0, 0, 0, 0.05); 
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .glow-btn { 
+            background: var(--accent); 
+            color: var(--accent-dark); 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-weight: 900;
+        }
+        .glow-btn:hover:not(:disabled) { 
+            transform: translateY(-4px) scale(1.02); 
+            box-shadow: 0 20px 40px rgba(132, 204, 22, 0.3); 
+        }
+        
+        .quiz-option { 
+            border: 2px solid #f1f5f9; 
+            transition: all 0.2s ease; 
+            background: white; 
+            border-radius: 1.5rem; 
+            text-align: left;
+            padding: 1.5rem;
+            width: 100%;
+            font-weight: 600;
+        }
+        .quiz-option:hover:not(:disabled) { 
+            border-color: var(--accent); 
+            background: #f7fee7; 
+            transform: translateX(8px);
+        }
+        .quiz-option:disabled { cursor: default; }
+        .quiz-option.correct { background: #d9f99d !important; border-color: #84cc16 !important; color: var(--accent-dark) !important; opacity: 1 !important; }
+        .quiz-option.wrong { background: #fee2e2 !important; border-color: #ef4444 !important; color: #7f1d1d !important; opacity: 1 !important; }
+
+        .custom-select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233f6212'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 0.8rem;
+            padding: 0.75rem 3rem 0.75rem 1.5rem;
+            min-width: 180px;
+        }
+
+        .hero-image-container {
+            width: 100%;
+            height: 250px;
+            border-radius: 2rem;
+            overflow: hidden;
+            margin-bottom: 2.5rem;
+            background: #f1f5f9;
+        }
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Question Box Styling */
+        .question-box {
+            background: #fdfdfd;
+            border: 2px solid #f1f5f9;
+            border-radius: 2rem;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        .question-marks-label {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            background: #1e293b;
+            color: var(--pwa-brand);
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        #install-prompt-btn {
+            display: none;
+            background: var(--pwa-brand);
+            padding: 0.6rem 1.2rem;
+            border-radius: 2rem;
+            font-size: 0.7rem;
+            font-weight: 900;
+            color: #0f172a;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            box-shadow: 0 4px 15px rgba(198, 255, 96, 0.4);
+        }
+
+        .pulse-text {
+            animation: pulse-opacity 2s infinite;
+        }
+        @keyframes pulse-opacity {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Progress Bar in Header */
+        .header-progress-container {
+            width: 120px;
+            height: 4px;
+            background: #e2e8f0;
+            border-radius: 99px;
+            overflow: hidden;
+            margin-top: 4px;
+        }
+        .header-progress-fill {
+            height: 100%;
+            background: var(--accent);
+            transition: width 0.5s ease;
+        }
+
+        .notif-disclaimer {
+            font-size: 9px;
+            color: #94a3b8;
+            margin-top: 4px;
+            text-align: center;
+        }
+
+        .onboarding-input {
+            background: white;
+            border: none;
+            border-radius: 1.5rem;
+            padding: 1.5rem 2rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            width: 100%;
+            max-width: 400px;
+            outline: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-12 min-h-screen flex flex-col items-center">
+
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="mb-6">
+            <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" 
+                 alt="Logo" class="splash-logo" onerror="handleImageError(this)">
+        </div>
+        <p class="text-slate-900 text-[10px] font-black tracking-[0.5em] uppercase pulse-text">Restoring Persistent Progress</p>
+    </div>
+
+    <!-- First Time Onboarding Overlay -->
+    <div id="onboarding-overlay" class="hidden">
+        <div class="text-center p-8">
+            <h2 class="text-4xl font-black text-slate-900 mb-2">Welcome to SocDaily</h2>
+            <p class="text-slate-700 font-medium mb-8">Let's personalize your learning experience. What's your name?</p>
+            <input type="text" id="user-name-input" class="onboarding-input mb-6" placeholder="Enter your name..." autocomplete="off">
+            <br>
+            <button onclick="saveOnboarding()" class="glow-btn px-12 py-5 rounded-2xl uppercase tracking-widest text-sm shadow-xl">Get Started</button>
+        </div>
+    </div>
+
+    <main id="app-content" class="w-full max-w-4xl glass-card p-8 md:p-16 relative overflow-hidden">
+        
+        <!-- Navbar -->
+        <div class="flex justify-between items-center mb-12">
+            <div class="flex flex-col gap-0.5">
+                <div class="flex items-center gap-3">
+                    <div class="w-2 h-8 bg-lime-500 rounded-full"></div>
+                    <span class="text-xs font-black uppercase tracking-[0.4em] text-slate-400">SocDaily Academy</span>
+                </div>
+                <!-- Global Marks Tracker & User Name -->
+                <div class="ml-5 flex flex-col">
+                    <div class="flex items-center gap-2">
+                        <span id="user-display-name" class="text-[10px] font-black text-slate-800 uppercase tracking-widest">Learner:</span>
+                        <span id="global-marks-display" class="text-xs font-black text-lime-600">0 / 617</span>
+                    </div>
+                    <div class="header-progress-container">
+                        <div id="header-progress-fill" class="header-progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <button id="install-prompt-btn" onclick="installApp()">Install App</button>
+                <button onclick="nextQuestion()" class="bg-slate-100 px-8 py-3 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-sm">
+                    Next Insight
+                </button>
+            </div>
+        </div>
+
+        <div id="content-container" class="hidden">
+            <div class="hero-image-container">
+                <img id="topic-hero" src="" alt="Visual" class="hero-image" onerror="handleImageError(this)">
+            </div>
+
+            <!-- Insight Navigation -->
+            <div class="mb-8">
+                <div class="relative inline-block mb-4">
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2 ml-1">Current Topic</label>
+                    <select id="insight-selector" onchange="handleDropdownChange(this.value)" class="custom-select bg-lime-100 text-lime-800 font-black text-sm rounded-2xl outline-none cursor-pointer">
+                    </select>
+                </div>
+            </div>
+
+            <!-- MAIN QUESTION BOX -->
+            <div class="question-box">
+                <div id="q-marks-label" class="question-marks-label">0 MARKS</div>
+                <h2 id="q-title" class="text-3xl md:text-5xl font-black text-slate-900 leading-[1.1] tracking-tight"></h2>
+            </div>
+
+            <!-- Answer Section -->
+            <div id="q-answer" class="text-slate-600 text-xl md:text-2xl leading-relaxed space-y-8 mb-20 pl-4 border-l-4 border-lime-100"></div>
+
+            <!-- Quiz Section -->
+            <div id="quiz-area" class="bg-slate-50 rounded-[3rem] p-10 md:p-16 text-center border-2 border-white shadow-inner">
+                <div id="quiz-check">
+                    <h3 class="text-2xl font-black text-slate-800 mb-2">Knowledge Recall</h3>
+                    <p id="quiz-status" class="text-slate-400 font-medium mb-8">Synchronizing assessment module...</p>
+                    <button id="start-btn" onclick="startQuiz()" class="glow-btn hidden px-16 py-8 rounded-[2.5rem] uppercase tracking-[0.3em] text-xs shadow-xl">
+                        Start Recall Check
+                    </button>
+                </div>
+
+                <div id="quiz-body" class="hidden text-left">
+                    <div class="flex justify-between items-center mb-8">
+                        <div class="flex items-center gap-3">
+                            <span id="quiz-progress-label" class="text-[10px] font-black text-lime-600 uppercase tracking-widest">Q1</span>
+                            <span class="bg-slate-900 text-[rgb(198,255,96)] px-2 py-1 rounded-full text-[9px] font-black uppercase">[1 Mark]</span>
+                        </div>
+                        <div class="h-1 flex-1 mx-6 bg-slate-200 rounded-full overflow-hidden">
+                            <div id="quiz-progress-bar" class="h-full bg-lime-500 transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div id="quiz-question-container">
+                        <p id="quiz-q" class="text-2xl md:text-3xl font-black text-slate-900 mb-10 leading-tight"></p>
+                        <div id="quiz-options" class="grid grid-cols-1 gap-4"></div>
+                    </div>
+                    <div id="quiz-feedback" class="mt-8 hidden p-6 rounded-2xl border-2">
+                        <p id="feedback-text" class="font-bold text-lg mb-4"></p>
+                        <button onclick="nextQuestionInQuiz()" class="glow-btn px-10 py-4 rounded-2xl uppercase tracking-widest text-xs">Continue</button>
+                    </div>
+                </div>
+            </div>
+            
+            <p id="notif-hint" class="notif-disclaimer hidden">Mobile users: Install to Home Screen to enable 3-hour reminders.</p>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="results-modal" class="fixed inset-0 z-50 flex items-center justify-center p-6 hidden bg-slate-900/80 backdrop-blur-sm">
+        <div class="bg-white rounded-[4rem] p-12 md:p-20 max-w-xl w-full text-center shadow-2xl">
+            <div id="result-icon" class="text-8xl mb-8">🏅</div>
+            <h2 class="text-5xl font-black text-slate-900 mb-4 tracking-tighter">Insight Verified</h2>
+            <div class="flex flex-col gap-1 mb-12">
+                <p id="result-text" class="text-slate-500 text-xl font-medium"></p>
+                <p id="result-marks" class="text-lime-600 text-sm font-black uppercase tracking-widest"></p>
+            </div>
+            <button onclick="closeModalAndNext()" class="glow-btn w-full py-8 rounded-[2.5rem] uppercase tracking-[0.4em] text-xs shadow-lg">
+                Proceed to Next Topic
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
+        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
+        const TOTAL_MARKS_GOAL = 617;
+        
+        const TOPIC_IMAGES = {
+            1: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000",
+            2: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=1000",
+            3: "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1000",
+            4: "https://images.unsplash.com/photo-1454165833767-027ffea9e41b?q=80&w=1000",
+            5: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1000",
+            6: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1000",
+            7: "https://images.unsplash.com/photo-1438032005730-c779502df39b?q=80&w=1000",
+            8: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=1000",
+            9: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1000",
+            10: "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?q=80&w=1000"
+        };
+
+        if (typeof window.supabaseClient === 'undefined') {
+            window.supabaseClient = supabase.createClient(SB_URL, SB_KEY);
+        }
+
+        let bank = [];
+        let currentItem = null;
+        let quizData = [];
+        let quizIndex = 0;
+        let score = 0;
+        
+        // Persistent Progress Variables
+        let totalMarksEarned = parseInt(localStorage.getItem('socdaily_marks_v3')) || 0;
+        let completedInsights = JSON.parse(localStorage.getItem('socdaily_completed_v1')) || [];
+        let userName = localStorage.getItem('socdaily_user_name');
+        
+        let deferredPrompt;
+
+        function updateProgressUI() {
+            document.getElementById('global-marks-display').innerText = `${totalMarksEarned} / ${TOTAL_MARKS_GOAL}`;
+            const percentage = Math.min((totalMarksEarned / TOTAL_MARKS_GOAL) * 100, 100);
+            document.getElementById('header-progress-fill').style.width = `${percentage}%`;
+            
+            if (userName) {
+                document.getElementById('user-display-name').innerText = `${userName}:`;
+            }
+        }
+
+        // Onboarding logic
+        function saveOnboarding() {
+            const input = document.getElementById('user-name-input');
+            const name = input.value.trim();
+            if (name.length < 2) return;
+            
+            userName = name;
+            localStorage.setItem('socdaily_user_name', userName);
+            document.getElementById('onboarding-overlay').classList.add('hidden');
+            updateProgressUI();
+        }
+
+        // Installation Logic
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('install-prompt-btn').style.display = 'block';
+            document.getElementById('notif-hint').classList.remove('hidden');
+        });
+
+        async function installApp() {
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') document.getElementById('install-prompt-btn').style.display = 'none';
+            deferredPrompt = null;
+        }
+
+        // Notification System
+        async function setupNotifications() {
+            if (!("Notification" in window)) return;
+            
+            if (Notification.permission === "default") {
+                await Notification.requestPermission();
+            }
+            
+            if (Notification.permission === "granted") {
+                scheduleReminders();
+            }
+        }
+
+        function getNextInsightToSuggest() {
+            // Find the highest number in completed insights
+            if (completedInsights.length === 0) return 1;
+            const lastDone = Math.max(...completedInsights);
+            return lastDone + 1;
+        }
+
+        function scheduleReminders() {
+            const THREE_HOURS = 3 * 60 * 60 * 1000;
+            setInterval(() => {
+                const nextId = getNextInsightToSuggest();
+                const userPart = userName ? `Hey ${userName}, ready` : "Ready";
+                
+                new Notification("SocDaily Academy", {
+                    body: `${userPart} for Insight #${nextId}? You have ${totalMarksEarned} marks, only ${TOTAL_MARKS_GOAL - totalMarksEarned} to go!`,
+                    icon: "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%201.png"
+                });
+            }, THREE_HOURS);
+        }
+
+        async function init() {
+            try {
+                updateProgressUI();
+                const { data, error } = await window.supabaseClient.from('questionbank').select('*').order('question_number', { ascending: true });
+                if (error) throw error;
+                bank = data;
+                
+                populateDropdown();
+                if (bank.length > 0) loadItem(bank[0]);
+                
+                setupNotifications();
+
+                // Sequence: Splash -> Onboarding (if new) -> Content
+                setTimeout(() => {
+                    document.getElementById('splash-screen').classList.add('hidden');
+                    if (!userName) {
+                        document.getElementById('onboarding-overlay').classList.remove('hidden');
+                    }
+                }, 2000);
+
+            } catch (err) {
+                console.error("[INIT ERROR]", err);
+                document.getElementById('splash-screen').innerHTML = `<p class="text-red-500 font-black">SYNC ERROR: PLEASE REFRESH</p>`;
+            }
+        }
+
+        function populateDropdown() {
+            const selector = document.getElementById('insight-selector');
+            selector.innerHTML = ''; 
+            bank.forEach(item => {
+                const num = Number(item.question_number || item.Question_Number);
+                const opt = document.createElement('option');
+                opt.value = num;
+                const isDone = completedInsights.includes(num) ? "✓ " : "";
+                opt.innerText = `${isDone}INSIGHT #${num}`;
+                selector.appendChild(opt);
+            });
+        }
+
+        function handleDropdownChange(val) {
+            const num = Number(val);
+            const item = bank.find(i => Number(i.question_number || i.Question_Number) === num);
+            if (item) {
+                loadItem(item);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        function loadItem(item) {
+            currentItem = item;
+            document.getElementById('content-container').classList.remove('hidden');
+            
+            const num = Number(item.question_number || item.Question_Number);
+            document.getElementById('insight-selector').value = num;
+            document.getElementById('topic-hero').src = TOPIC_IMAGES[num] || GLOBAL_FALLBACK_IMAGE;
+            
+            document.getElementById('q-title').innerText = item.question || item.Question;
+            const itemMarks = item.marks || item.Marks || 0;
+            document.getElementById('q-marks-label').innerText = `${itemMarks} MARKS`;
+            
+            const box = document.getElementById('q-answer');
+            box.innerHTML = (item.answer || item.Answer || "").split('\n').filter(p => p.trim()).map(p => `<p>${p}</p>`).join('');
+            
+            document.getElementById('quiz-check').classList.remove('hidden');
+            document.getElementById('quiz-body').classList.add('hidden');
+            document.getElementById('start-btn').classList.add('hidden');
+            document.getElementById('quiz-status').innerText = "Querying assessment module...";
+            
+            checkQuiz(num);
+        }
+
+        async function checkQuiz(num) {
+            try {
+                const { data, error } = await window.supabaseClient.from('quizzes').select('*').eq('insight', num).order('mcq_num', { ascending: true });
+                if (error) throw error;
+                if (data && data.length > 0) {
+                    quizData = data;
+                    document.getElementById('quiz-status').innerText = `${data.length} assessment questions ready.`;
+                    document.getElementById('start-btn').classList.remove('hidden');
+                } else {
+                    document.getElementById('quiz-status').innerText = "Standalone assessment linked coming soon.";
+                    document.getElementById('start-btn').classList.add('hidden');
+                }
+            } catch (err) { console.error("Quiz Sync Failure", err); }
+        }
+
+        function startQuiz() {
+            document.getElementById('quiz-check').classList.add('hidden');
+            document.getElementById('quiz-body').classList.remove('hidden');
+            quizIndex = 0; score = 0;
+            renderQuiz();
+        }
+
+        function renderQuiz() {
+            const q = quizData[quizIndex];
+            document.getElementById('quiz-progress-label').innerText = `Q${quizIndex + 1}`;
+            document.getElementById('quiz-progress-bar').style.width = `${((quizIndex) / quizData.length) * 100}%`;
+            document.getElementById('quiz-q').innerText = q.question;
+            document.getElementById('quiz-feedback').classList.add('hidden');
+            document.getElementById('quiz-options').classList.remove('hidden');
+            
+            const box = document.getElementById('quiz-options');
+            box.innerHTML = '';
+            const opts = [
+                { k: 'option_a', t: q.option_a }, { k: 'option_b', t: q.option_b },
+                { k: 'option_c', t: q.option_c }, { k: 'option_d', t: q.option_d }
+            ];
+
+            opts.forEach(o => {
+                if (!o.t) return;
+                const b = document.createElement('button');
+                b.className = 'quiz-option';
+                b.innerText = o.t;
+                b.onclick = () => {
+                    const allButtons = document.querySelectorAll('.quiz-option');
+                    allButtons.forEach(btn => btn.disabled = true);
+                    
+                    const feedback = document.getElementById('quiz-feedback');
+                    feedback.classList.remove('hidden');
+                    
+                    if (o.k === q.correct_op) {
+                        b.classList.add('correct'); score++;
+                        document.getElementById('feedback-text').innerText = "Correct! +1 mark awarded.";
+                    } else {
+                        b.classList.add('wrong');
+                        const correctIdx = opts.findIndex(x => x.k === q.correct_op);
+                        if(box.children[correctIdx]) box.children[correctIdx].classList.add('correct');
+                        document.getElementById('feedback-text').innerText = "Incorrect. No mark for this attempt.";
+                    }
+                };
+                box.appendChild(b);
+            });
+        }
+
+        function nextQuestionInQuiz() {
+            quizIndex++;
+            if (quizIndex < quizData.length) renderQuiz();
+            else showResults();
+        }
+
+        function showResults() {
+            const modal = document.getElementById('results-modal');
+            const sessionMarks = score; 
+            const mainQuestionMarks = parseInt(currentItem.marks || currentItem.Marks || 0);
+            const totalEarnedThisSession = sessionMarks + mainQuestionMarks;
+            const currentInsightNum = Number(currentItem.question_number || currentItem.Question_Number);
+            
+            // Update marks
+            totalMarksEarned += totalEarnedThisSession;
+            localStorage.setItem('socdaily_marks_v3', totalMarksEarned);
+            
+            // Track completion for notifications & dropdown
+            if (!completedInsights.includes(currentInsightNum)) {
+                completedInsights.push(currentInsightNum);
+                localStorage.setItem('socdaily_completed_v1', JSON.stringify(completedInsights));
+            }
+            
+            updateProgressUI();
+            populateDropdown(); // Refresh checkmarks in dropdown
+            
+            document.getElementById('result-text').innerText = `You earned ${mainQuestionMarks} marks for the insight and ${sessionMarks} for the check.`;
+            document.getElementById('result-marks').innerText = `Progress: +${totalEarnedThisSession} Marks Added`;
+            
+            modal.classList.remove('hidden');
+        }
+
+        function closeModalAndNext() {
+            document.getElementById('results-modal').classList.add('hidden');
+            nextQuestion();
+        }
+
+        function nextQuestion() {
+            const cur = Number(currentItem.question_number || currentItem.Question_Number);
+            let idx = bank.findIndex(i => Number(i.question_number || i.Question_Number) === cur);
+            loadItem(bank[(idx + 1) % bank.length]);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
