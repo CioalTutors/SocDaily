@@ -249,7 +249,7 @@
             <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" 
                  alt="Logo" class="splash-logo" onerror="handleImageError(this)">
         </div>
-        <p class="text-slate-900 text-xs font-black tracking-tight uppercase text-center max-w-[300px]">
+        <p class="text-slate-900 text-xs font-black tracking-tight uppercase text-center w-full px-6 max-w-[400px]">
             CIE A level Sociology by CioalTutors.com | Sir Shamoeel
         </p>
     </div>
@@ -369,7 +369,7 @@
     <script>
         const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
         const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
-        const TOTAL_MARKS_GOAL = 1234; // Updated from 617 to 1234
+        const TOTAL_MARKS_GOAL = 1234; 
         
         const TOPIC_IMAGES = {
             1: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000",
@@ -394,7 +394,6 @@
         let quizIndex = 0;
         let score = 0;
         
-        // Persistent Progress Variables
         let totalMarksEarned = parseInt(localStorage.getItem('socdaily_marks_v3')) || 0;
         let completedInsights = JSON.parse(localStorage.getItem('socdaily_completed_v1')) || [];
         let userName = localStorage.getItem('socdaily_user_name');
@@ -411,7 +410,6 @@
             }
         }
 
-        // Onboarding logic
         function saveOnboarding() {
             const input = document.getElementById('user-name-input');
             const name = input.value.trim();
@@ -423,7 +421,6 @@
             updateProgressUI();
         }
 
-        // Installation Logic
         window.addEventListener('beforeinstallprompt', (e) => {
             e.preventDefault();
             deferredPrompt = e;
@@ -439,17 +436,10 @@
             deferredPrompt = null;
         }
 
-        // Notification System
         async function setupNotifications() {
             if (!("Notification" in window)) return;
-            
-            if (Notification.permission === "default") {
-                await Notification.requestPermission();
-            }
-            
-            if (Notification.permission === "granted") {
-                scheduleReminders();
-            }
+            if (Notification.permission === "default") await Notification.requestPermission();
+            if (Notification.permission === "granted") scheduleReminders();
         }
 
         function getNextInsightToSuggest() {
@@ -463,7 +453,6 @@
             setInterval(() => {
                 const nextId = getNextInsightToSuggest();
                 const userPart = userName ? `Hey ${userName}, ready` : "Ready";
-                
                 new Notification("SocDaily Academy", {
                     body: `${userPart} for Insight #${nextId}? You have ${totalMarksEarned} marks, only ${TOTAL_MARKS_GOAL - totalMarksEarned} to go!`,
                     icon: "https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors%201.png"
@@ -480,16 +469,12 @@
                 
                 populateDropdown();
                 if (bank.length > 0) loadItem(bank[0]);
-                
                 setupNotifications();
 
                 setTimeout(() => {
                     document.getElementById('splash-screen').classList.add('hidden');
-                    if (!userName) {
-                        document.getElementById('onboarding-overlay').classList.remove('hidden');
-                    }
+                    if (!userName) document.getElementById('onboarding-overlay').classList.remove('hidden');
                 }, 2500);
-
             } catch (err) {
                 console.error("[INIT ERROR]", err);
                 document.getElementById('splash-screen').innerHTML = `<p class="text-red-500 font-black">SYNC ERROR: PLEASE REFRESH</p>`;
@@ -521,23 +506,18 @@
         function loadItem(item) {
             currentItem = item;
             document.getElementById('content-container').classList.remove('hidden');
-            
             const num = Number(item.question_number || item.Question_Number);
             document.getElementById('insight-selector').value = num;
             document.getElementById('topic-hero').src = TOPIC_IMAGES[num] || GLOBAL_FALLBACK_IMAGE;
-            
             document.getElementById('q-title').innerText = item.question || item.Question;
             const itemMarks = item.marks || item.Marks || 0;
             document.getElementById('q-marks-label').innerText = `${itemMarks} MARKS`;
-            
             const box = document.getElementById('q-answer');
             box.innerHTML = (item.answer || item.Answer || "").split('\n').filter(p => p.trim()).map(p => `<p>${p}</p>`).join('');
-            
             document.getElementById('quiz-check').classList.remove('hidden');
             document.getElementById('quiz-body').classList.add('hidden');
             document.getElementById('start-btn').classList.add('hidden');
             document.getElementById('quiz-status').innerText = "Querying assessment module...";
-            
             checkQuiz(num);
         }
 
@@ -570,14 +550,9 @@
             document.getElementById('quiz-q').innerText = q.question;
             document.getElementById('quiz-feedback').classList.add('hidden');
             document.getElementById('quiz-options').classList.remove('hidden');
-            
             const box = document.getElementById('quiz-options');
             box.innerHTML = '';
-            const opts = [
-                { k: 'option_a', t: q.option_a }, { k: 'option_b', t: q.option_b },
-                { k: 'option_c', t: q.option_c }, { k: 'option_d', t: q.option_d }
-            ];
-
+            const opts = [{ k: 'option_a', t: q.option_a }, { k: 'option_b', t: q.option_b }, { k: 'option_c', t: q.option_c }, { k: 'option_d', t: q.option_d }];
             opts.forEach(o => {
                 if (!o.t) return;
                 const b = document.createElement('button');
@@ -586,10 +561,8 @@
                 b.onclick = () => {
                     const allButtons = document.querySelectorAll('.quiz-option');
                     allButtons.forEach(btn => btn.disabled = true);
-                    
                     const feedback = document.getElementById('quiz-feedback');
                     feedback.classList.remove('hidden');
-                    
                     if (o.k === q.correct_op) {
                         b.classList.add('correct'); score++;
                         document.getElementById('feedback-text').innerText = "Correct! +1 mark awarded.";
@@ -616,21 +589,16 @@
             const mainQuestionMarks = parseInt(currentItem.marks || currentItem.Marks || 0);
             const totalEarnedThisSession = sessionMarks + mainQuestionMarks;
             const currentInsightNum = Number(currentItem.question_number || currentItem.Question_Number);
-            
             totalMarksEarned += totalEarnedThisSession;
             localStorage.setItem('socdaily_marks_v3', totalMarksEarned);
-            
             if (!completedInsights.includes(currentInsightNum)) {
                 completedInsights.push(currentInsightNum);
                 localStorage.setItem('socdaily_completed_v1', JSON.stringify(completedInsights));
             }
-            
             updateProgressUI();
             populateDropdown();
-            
             document.getElementById('result-text').innerText = `You earned ${mainQuestionMarks} marks for the insight and ${sessionMarks} for the check.`;
             document.getElementById('result-marks').innerText = `Progress: +${totalEarnedThisSession} Marks Added`;
-            
             modal.classList.remove('hidden');
         }
 
