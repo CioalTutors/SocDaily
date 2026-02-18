@@ -249,7 +249,9 @@
             <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" 
                  alt="Logo" class="splash-logo" onerror="handleImageError(this)">
         </div>
-        <p class="text-slate-900 text-[10px] font-black tracking-[0.5em] uppercase pulse-text">Cambridge A level Sociology by CioalTutors| Sir Shamoeel</p>
+        <p class="text-slate-900 text-xs font-black tracking-tight uppercase text-center max-w-[300px]">
+            CIE A level Sociology by CioalTutors.com | Sir Shamoeel
+        </p>
     </div>
 
     <!-- First Time Onboarding Overlay -->
@@ -367,7 +369,7 @@
     <script>
         const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
         const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
-        const TOTAL_MARKS_GOAL = 1234;
+        const TOTAL_MARKS_GOAL = 1234; // Updated from 617 to 1234
         
         const TOPIC_IMAGES = {
             1: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000",
@@ -451,7 +453,6 @@
         }
 
         function getNextInsightToSuggest() {
-            // Find the highest number in completed insights
             if (completedInsights.length === 0) return 1;
             const lastDone = Math.max(...completedInsights);
             return lastDone + 1;
@@ -482,13 +483,12 @@
                 
                 setupNotifications();
 
-                // Sequence: Splash -> Onboarding (if new) -> Content
                 setTimeout(() => {
                     document.getElementById('splash-screen').classList.add('hidden');
                     if (!userName) {
                         document.getElementById('onboarding-overlay').classList.remove('hidden');
                     }
-                }, 2000);
+                }, 2500);
 
             } catch (err) {
                 console.error("[INIT ERROR]", err);
@@ -617,18 +617,16 @@
             const totalEarnedThisSession = sessionMarks + mainQuestionMarks;
             const currentInsightNum = Number(currentItem.question_number || currentItem.Question_Number);
             
-            // Update marks
             totalMarksEarned += totalEarnedThisSession;
             localStorage.setItem('socdaily_marks_v3', totalMarksEarned);
             
-            // Track completion for notifications & dropdown
             if (!completedInsights.includes(currentInsightNum)) {
                 completedInsights.push(currentInsightNum);
                 localStorage.setItem('socdaily_completed_v1', JSON.stringify(completedInsights));
             }
             
             updateProgressUI();
-            populateDropdown(); // Refresh checkmarks in dropdown
+            populateDropdown();
             
             document.getElementById('result-text').innerText = `You earned ${mainQuestionMarks} marks for the insight and ${sessionMarks} for the check.`;
             document.getElementById('result-marks').innerText = `Progress: +${totalEarnedThisSession} Marks Added`;
