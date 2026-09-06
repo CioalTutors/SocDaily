@@ -241,11 +241,6 @@
         }
 
         /* Left Sidebar Styling */
-        .sidebar-wrapper {
-            display: flex;
-            position: relative;
-        }
-
         .sidebar-panel {
             position: fixed;
             left: 0;
@@ -398,18 +393,9 @@
             border-bottom: 1px solid #e2e8f0;
         }
 
-        /* Adjust main content when sidebar is open */
-        body.sidebar-open {
-            padding-left: 300px;
-        }
-
         @media (max-width: 768px) {
             .sidebar-panel {
                 width: 280px;
-            }
-            
-            body.sidebar-open {
-                padding-left: 0;
             }
 
             .sidebar-toggle-btn.open {
@@ -531,7 +517,7 @@
             </div>
             <div class="flex items-center gap-4">
                 <button id="install-prompt-btn" onclick="installApp()">Install App</button>
-                <button onclick="nextQuestion()" class="bg-slate-100 px-8 py-3 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-sm">
+                <button onclick="nextQuestion()" class="bg-slate-100 px-8 py-3 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all">
                     Next Insight
                 </button>
             </div>
@@ -546,7 +532,7 @@
             <div class="mb-8">
                 <div class="relative inline-block mb-4">
                     <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2 ml-1">Current Topic</label>
-                    <select id="insight-selector" onchange="handleDropdownChange(this.value)" class="custom-select bg-lime-100 text-lime-800 font-black text-sm rounded-2xl outline-none cursor-pointer shadow-md">
+                    <select id="insight-selector" onchange="handleDropdownChange(this.value)" class="custom-select bg-lime-100 text-lime-800 font-black text-sm rounded-2xl outline-none cursor-pointer">
                     </select>
                 </div>
             </div>
@@ -624,7 +610,7 @@
 
     <script>
         const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
-        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRTVKMjUqGXkN2F5sTyA1vvksCqPgfUDvFTaBUM';
+        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRl-YrK-wzcTzMBLKGQJEp9n_L3bPNmjbHCl0hM';
         const TOTAL_MARKS_GOAL = 1234; 
         
         const TOPIC_IMAGES = {
@@ -685,7 +671,7 @@
             if (filtered.length > 0) {
                 loadItem(filtered[0]);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
-                // Optionally close sidebar on mobile
+                // Close sidebar on mobile
                 if (window.innerWidth < 768) {
                     document.getElementById('sidebar-panel').classList.add('hidden');
                     document.getElementById('sidebar-toggle').classList.remove('open');
