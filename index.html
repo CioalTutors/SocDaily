@@ -307,7 +307,14 @@
 
         .sidebar-toggle-btn.open {
             left: 316px;
-            background: #ef4444;
+            background: #f97316;
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+        }
+
+        .sidebar-toggle-btn.open:hover {
+            background: #ea580c;
+            box-shadow: 0 6px 20px rgba(249, 115, 22, 0.6);
         }
 
         .sidebar-content {
@@ -358,40 +365,127 @@
         .paper-marks-list {
             display: none;
             background: white;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
         }
 
         .paper-marks-list.expanded {
             display: block;
-            max-height: 500px;
+        }
+
+        .marks-group {
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .marks-group:last-child {
+            border-bottom: 1px solid #e2e8f0;
         }
 
         .marks-item {
             padding: 0.75rem 1.25rem;
-            border-top: 1px solid #e2e8f0;
             cursor: pointer;
             font-size: 0.9rem;
-            font-weight: 600;
+            font-weight: 700;
             color: #475569;
             transition: all 0.2s ease;
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             width: 100%;
             text-align: left;
             background: white;
             border: none;
+            outline: none;
         }
 
         .marks-item:hover {
             background: #f7fee7;
             color: var(--accent-dark);
             padding-left: 1.5rem;
+        }
+
+        .marks-item.expanded {
+            background: #f1f5f9;
+            color: var(--accent-dark);
             border-left: 3px solid var(--accent);
         }
 
-        .marks-item:last-child {
-            border-bottom: 1px solid #e2e8f0;
+        .marks-toggle-icon {
+            transition: transform 0.2s ease;
+            font-size: 0.7rem;
+            color: #94a3b8;
+        }
+
+        .marks-item.expanded .marks-toggle-icon {
+            transform: rotate(180deg);
+            color: var(--accent-dark);
+        }
+
+        .marks-badge {
+            font-size: 0.65rem;
+            font-weight: 800;
+            background: #f1f5f9;
+            color: #64748b;
+            padding: 2px 7px;
+            border-radius: 9999px;
+            letter-spacing: 0.02em;
+        }
+
+        .marks-item.expanded .marks-badge {
+            background: #e2e8f0;
+            color: var(--accent-dark);
+        }
+
+        .marks-insights-list {
+            display: none;
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .marks-insights-list.expanded {
+            display: block;
+        }
+
+        .insight-subitem {
+            display: block;
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 1.75rem;
+            text-align: left;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #edf2f7;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            outline: none;
+        }
+
+        .insight-subitem:last-child {
+            border-bottom: none;
+        }
+
+        .insight-subitem:hover {
+            background: #f7fee7;
+            padding-left: 2rem;
+        }
+
+        .insight-subitem.active {
+            background: #ecfccb;
+            border-left: 4px solid var(--accent);
+            padding-left: 1.75rem;
+        }
+
+        .insight-subitem-title {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 11px;
+            line-height: 1.35;
+            color: #64748b;
+        }
+
+        .insight-subitem.active .insight-subitem-title {
+            color: var(--accent-dark);
+            font-weight: 600;
         }
 
         @media (max-width: 768px) {
@@ -446,11 +540,56 @@
                     <span class="paper-toggle-icon">▼</span>
                 </div>
                 <div class="paper-marks-list">
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 4)">4 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 6)">6 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 8)">8 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 10)">10 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 26)">26 Marks</button>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Socialization", "Methods", "jurm"]' data-marks="4" onclick="toggleMarksSublist(this)">
+                            <span>4 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Socialization", "Methods", "jurm"]' data-marks="6" onclick="toggleMarksSublist(this)">
+                            <span>6 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Socialization", "Methods", "jurm"]' data-marks="8" onclick="toggleMarksSublist(this)">
+                            <span>8 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Socialization", "Methods", "jurm"]' data-marks="10" onclick="toggleMarksSublist(this)">
+                            <span>10 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Socialization", "Methods", "jurm"]' data-marks="26" onclick="toggleMarksSublist(this)">
+                            <span>26 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
                 </div>
             </div>
 
@@ -461,11 +600,56 @@
                     <span class="paper-toggle-icon">▼</span>
                 </div>
                 <div class="paper-marks-list">
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 4)">4 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 6)">6 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 8)">8 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 10)">10 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 26)">26 Marks</button>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Family"]' data-marks="4" onclick="toggleMarksSublist(this)">
+                            <span>4 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Family"]' data-marks="6" onclick="toggleMarksSublist(this)">
+                            <span>6 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Family"]' data-marks="8" onclick="toggleMarksSublist(this)">
+                            <span>8 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Family"]' data-marks="10" onclick="toggleMarksSublist(this)">
+                            <span>10 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Family"]' data-marks="26" onclick="toggleMarksSublist(this)">
+                            <span>26 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
                 </div>
             </div>
 
@@ -476,10 +660,46 @@
                     <span class="paper-toggle-icon">▼</span>
                 </div>
                 <div class="paper-marks-list">
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 4)">4 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 8)">8 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 12)">12 Marks</button>
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 26)">26 Marks</button>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Education"]' data-marks="4" onclick="toggleMarksSublist(this)">
+                            <span>4 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Education"]' data-marks="8" onclick="toggleMarksSublist(this)">
+                            <span>8 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Education"]' data-marks="12" onclick="toggleMarksSublist(this)">
+                            <span>12 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Education"]' data-marks="26" onclick="toggleMarksSublist(this)">
+                            <span>26 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
                 </div>
             </div>
 
@@ -490,7 +710,16 @@
                     <span class="paper-toggle-icon">▼</span>
                 </div>
                 <div class="paper-marks-list">
-                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Globalisation', 'Media', 'Religion'], 35)">35 Marks</button>
+                    <div class="marks-group">
+                        <button class="marks-item" data-topics='["Globalisation", "Media", "Religion"]' data-marks="35" onclick="toggleMarksSublist(this)">
+                            <span>35 Marks</span>
+                            <span class="flex items-center gap-2">
+                                <span class="marks-badge">...</span>
+                                <span class="marks-toggle-icon">▼</span>
+                            </span>
+                        </button>
+                        <div class="marks-insights-list"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -643,6 +872,13 @@
         
         let deferredPrompt;
 
+        function escapeHtml(str) {
+            if (!str) return '';
+            const d = document.createElement('div');
+            d.textContent = str;
+            return d.innerHTML;
+        }
+
         // Sidebar Functions
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebar-panel');
@@ -661,8 +897,95 @@
             icon.classList.toggle('expanded');
         }
 
+        function toggleMarksSublist(btn) {
+            const topics = JSON.parse(btn.dataset.topics || '[]');
+            const marks = parseInt(btn.dataset.marks || 0);
+            const group = btn.closest('.marks-group');
+            const container = group.querySelector('.marks-insights-list');
+            const isExpanded = btn.classList.contains('expanded');
+
+            if (isExpanded) {
+                btn.classList.remove('expanded');
+                container.classList.remove('expanded');
+                return;
+            }
+
+            // Filter matching items from bank
+            const filtered = bank.filter(item => {
+                const itemTopic = (item.topic || item.Topic || '').trim();
+                const itemMarks = parseInt(item.marks || item.Marks || 0);
+                return topics.some(t => itemTopic.toLowerCase().includes(t.toLowerCase())) && itemMarks === marks;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="p-3 text-xs text-slate-400 italic">No questions found.</div>';
+            } else {
+                const curNum = currentItem ? Number(currentItem.question_number || currentItem.Question_Number) : null;
+                container.innerHTML = filtered.map(item => {
+                    const num = Number(item.question_number || item.Question_Number);
+                    const isDone = completedInsights.includes(num);
+                    const isActive = curNum === num;
+                    const qText = item.question || item.Question || '';
+                    return `
+                        <button class="insight-subitem ${isActive ? 'active' : ''}" data-num="${num}" onclick="selectInsightFromSidebar(${num})" title="${escapeHtml(qText)}">
+                            <div class="flex items-center justify-between gap-1 mb-1">
+                                <span class="text-xs font-black text-slate-800">Insight #${num}</span>
+                                ${isDone ? '<span class="text-[10px] font-bold text-lime-600 bg-lime-100 px-1.5 py-0.5 rounded-full">✓ Completed</span>' : ''}
+                            </div>
+                            <div class="insight-subitem-title">${escapeHtml(qText)}</div>
+                        </button>
+                    `;
+                }).join('');
+            }
+
+            btn.classList.add('expanded');
+            container.classList.add('expanded');
+        }
+
+        function selectInsightFromSidebar(num) {
+            const item = bank.find(i => Number(i.question_number || i.Question_Number) === num);
+            if (item) {
+                loadItem(item);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                updateSidebarActiveAndDone();
+                // Close sidebar on mobile devices
+                if (window.innerWidth < 768) {
+                    document.getElementById('sidebar-panel').classList.add('hidden');
+                    document.getElementById('sidebar-toggle').classList.remove('open');
+                }
+            }
+        }
+
+        function updateSidebarActiveAndDone() {
+            const curNum = currentItem ? Number(currentItem.question_number || currentItem.Question_Number) : null;
+            document.querySelectorAll('.insight-subitem').forEach(btn => {
+                const num = Number(btn.dataset.num);
+                btn.classList.toggle('active', num === curNum);
+                const header = btn.querySelector('.flex');
+                const doneBadge = header ? header.querySelector('.text-lime-600') : null;
+                if (completedInsights.includes(num) && !doneBadge && header) {
+                    header.insertAdjacentHTML('beforeend', '<span class="text-[10px] font-bold text-lime-600 bg-lime-100 px-1.5 py-0.5 rounded-full">✓ Completed</span>');
+                }
+            });
+        }
+
+        function updateMarksBadges() {
+            document.querySelectorAll('.marks-item').forEach(btn => {
+                const topics = JSON.parse(btn.dataset.topics || '[]');
+                const marks = parseInt(btn.dataset.marks || 0);
+                if (topics.length && marks) {
+                    const count = bank.filter(item => {
+                        const itemTopic = (item.topic || item.Topic || '').trim();
+                        const itemMarks = parseInt(item.marks || item.Marks || 0);
+                        return topics.some(t => itemTopic.toLowerCase().includes(t.toLowerCase())) && itemMarks === marks;
+                    }).length;
+                    const badge = btn.querySelector('.marks-badge');
+                    if (badge) badge.innerText = count;
+                }
+            });
+        }
+
         function filterByTopicsAndMarks(topics, marks) {
-            // Filter the bank by topics and marks
             const filtered = bank.filter(item => {
                 const itemTopic = (item.topic || item.Topic || '').trim();
                 const itemMarks = parseInt(item.marks || item.Marks || 0);
@@ -670,13 +993,7 @@
             });
 
             if (filtered.length > 0) {
-                loadItem(filtered[0]);
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                // Close sidebar on mobile
-                if (window.innerWidth < 768) {
-                    document.getElementById('sidebar-panel').classList.add('hidden');
-                    document.getElementById('sidebar-toggle').classList.remove('open');
-                }
+                selectInsightFromSidebar(Number(filtered[0].question_number || filtered[0].Question_Number));
             } else {
                 alert(`No questions found for the selected criteria.`);
             }
@@ -750,6 +1067,7 @@
                 bank = data;
                 
                 populateDropdown();
+                updateMarksBadges();
                 if (bank.length > 0) loadItem(bank[0]);
                 setupNotifications();
 
@@ -833,6 +1151,7 @@
             document.getElementById('start-btn').classList.add('hidden');
             document.getElementById('quiz-status').innerText = "Querying assessment module...";
             checkQuiz(num);
+            updateSidebarActiveAndDone();
         }
 
         async function checkQuiz(num) {
@@ -911,6 +1230,7 @@
             }
             updateProgressUI();
             populateDropdown();
+            updateSidebarActiveAndDone();
             document.getElementById('result-text').innerText = `You earned ${mainQuestionMarks} marks for the insight and ${sessionMarks} for the check.`;
             document.getElementById('result-marks').innerText = `Progress: +${totalEarnedThisSession} Marks Added`;
             modal.classList.remove('hidden');
