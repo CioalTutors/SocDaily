@@ -611,7 +611,7 @@
 
     <script>
         const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
-        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRl-YrK-wzcTzMBLKGQJEp9n_L3bPNmjbHCl0hM';
+        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
         const TOTAL_MARKS_GOAL = 1234; 
         
         const TOPIC_IMAGES = {
@@ -759,7 +759,11 @@
                 }, 2500);
             } catch (err) {
                 console.error("[INIT ERROR]", err);
-                document.getElementById('splash-screen').innerHTML = `<p class="text-red-500 font-black">SYNC ERROR: PLEASE REFRESH</p>`;
+                document.getElementById('splash-screen').innerHTML = `
+                    <div class="text-center p-6 flex flex-col items-center">
+                        <p class="text-red-600 font-black text-lg mb-4">SYNC ERROR: PLEASE REFRESH</p>
+                        <button onclick="location.reload()" class="glow-btn px-8 py-3 rounded-2xl text-xs uppercase tracking-widest cursor-pointer shadow-lg">Refresh Now</button>
+                    </div>`;
             }
         }
 
