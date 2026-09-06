@@ -488,6 +488,22 @@
             font-weight: 600;
         }
 
+        .strategy-pill {
+            cursor: pointer;
+            color: #64748b;
+            background: transparent;
+        }
+        .strategy-pill:hover {
+            color: #0f172a;
+            background: #e2e8f0;
+        }
+        .strategy-pill.active {
+            background: var(--accent) !important;
+            color: var(--accent-dark) !important;
+            font-weight: 900 !important;
+            box-shadow: 0 2px 8px rgba(132, 204, 22, 0.3);
+        }
+
         @media (max-width: 768px) {
             .sidebar-panel {
                 width: 280px;
@@ -804,6 +820,40 @@
                 <p id="q-topic" class="text-lg text-slate-700 mt-2"></p>
             </div>
 
+            <!-- EXAM STRATEGY: HOW TO ATTEMPT CARD -->
+            <div id="strategy-card" class="mb-10 bg-white/95 border-2 border-slate-200/90 rounded-[2.5rem] p-6 md:p-8 shadow-sm transition-all">
+                <div class="flex flex-wrap items-center justify-between gap-3 mb-4 pb-4 border-b border-slate-100">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-2xl bg-lime-100 text-lime-800 flex items-center justify-center font-black text-base shadow-inner">💡</div>
+                        <div>
+                            <span class="text-[10px] font-black uppercase tracking-[0.25em] text-slate-400 block">Exam Technique Guide</span>
+                            <h3 id="strategy-title" class="text-lg md:text-xl font-black text-slate-900 leading-tight">How to Attempt this Question</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-2">
+                        <!-- Mark Pills for browsing all mark guides -->
+                        <div class="hidden sm:flex items-center gap-1 bg-slate-100 p-1 rounded-xl" id="strategy-mark-pills">
+                            <button type="button" onclick="displayStrategyByMark(4)" class="strategy-pill px-2.5 py-1 rounded-lg text-[10px] font-black uppercase transition-all" data-mark="4">4M</button>
+                            <button type="button" onclick="displayStrategyByMark(6)" class="strategy-pill px-2.5 py-1 rounded-lg text-[10px] font-black uppercase transition-all" data-mark="6">6M</button>
+                            <button type="button" onclick="displayStrategyByMark(8)" class="strategy-pill px-2.5 py-1 rounded-lg text-[10px] font-black uppercase transition-all" data-mark="8">8M</button>
+                            <button type="button" onclick="displayStrategyByMark(10)" class="strategy-pill px-2.5 py-1 rounded-lg text-[10px] font-black uppercase transition-all" data-mark="10">10M</button>
+                            <button type="button" onclick="displayStrategyByMark(12)" class="strategy-pill px-2.5 py-1 rounded-lg text-[10px] font-black uppercase transition-all" data-mark="12">12M</button>
+                            <button type="button" onclick="displayStrategyByMark(26)" class="strategy-pill px-2.5 py-1 rounded-lg text-[10px] font-black uppercase transition-all" data-mark="26">26/35M</button>
+                        </div>
+                        <button type="button" onclick="toggleStrategyCard()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 px-3.5 py-1.5 rounded-xl text-xs font-black transition-all flex items-center gap-1.5 cursor-pointer shadow-sm">
+                            <span id="strategy-collapse-btn-text">Hide</span>
+                            <span id="strategy-collapse-btn-icon" class="text-[10px]">▲</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Strategy Body -->
+                <div id="strategy-body" class="space-y-4">
+                    <!-- Injected dynamically via JS based on current question marks -->
+                </div>
+            </div>
+
             <!-- optional video section; hidden until a video_path is available -->
             <div id="video-section" class="mb-8 hidden">
                 <button id="video-toggle" class="glow-btn px-6 py-2 rounded-2xl text-xs uppercase tracking-widest">
@@ -1028,6 +1078,258 @@
             }
         }
 
+        let isStrategyCollapsed = false;
+
+        function toggleStrategyCard() {
+            isStrategyCollapsed = !isStrategyCollapsed;
+            const body = document.getElementById('strategy-body');
+            const text = document.getElementById('strategy-collapse-btn-text');
+            const icon = document.getElementById('strategy-collapse-btn-icon');
+            if (isStrategyCollapsed) {
+                body.classList.add('hidden');
+                text.innerText = 'Show';
+                icon.innerText = '▼';
+            } else {
+                body.classList.remove('hidden');
+                text.innerText = 'Hide';
+                icon.innerText = '▲';
+            }
+        }
+
+        function displayStrategyByMark(markInput) {
+            const marks = parseInt(markInput || 0);
+            const body = document.getElementById('strategy-body');
+            const titleEl = document.getElementById('strategy-title');
+            if (!body || !titleEl) return;
+
+            // Update pill active states
+            document.querySelectorAll('.strategy-pill').forEach(pill => {
+                const pMark = parseInt(pill.dataset.mark);
+                if (marks >= 26) {
+                    pill.classList.toggle('active', pMark === 26);
+                } else {
+                    pill.classList.toggle('active', pMark === marks);
+                }
+            });
+
+            if (marks === 4) {
+                titleEl.innerText = "How to Attempt a 4-Mark Question";
+                body.innerHTML = `
+                    <div class="bg-amber-50/90 border-l-4 border-amber-400 p-3.5 rounded-r-xl text-amber-950 text-xs font-semibold">
+                        📌 <strong class="font-black">Rule for 4, 6 & 8 Marks:</strong> Always write exactly <strong>two points</strong> (two short paragraphs). Do not write an introduction or conclusion.
+                    </div>
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="bg-lime-500 text-lime-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">The Recipe</span>
+                            <span class="text-xs font-black text-slate-800 tracking-tight">ID + EX</span>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-2 text-xs font-bold text-slate-800 bg-white p-3 rounded-xl border border-slate-200 mb-2">
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">1. Identify it (ID)</span>
+                            <span class="text-lime-600 font-black text-base">➔</span>
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">2. Explain it with an example (EX)</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 font-medium italic">Repeat this sequence twice (once for each of the two points).</p>
+                    </div>
+                    <div class="bg-lime-50/70 border border-lime-200/80 rounded-2xl p-4">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-lime-800 block mb-1.5">Model Formulation Example:</span>
+                        <p class="text-xs text-slate-800 font-medium italic leading-relaxed">
+                            "One informal sanction is clapping <strong class="text-lime-700 not-italic font-bold">(ID)</strong>, which rewards a sports player for scoring a point <strong class="text-lime-700 not-italic font-bold">(EX)</strong>."
+                        </p>
+                    </div>
+                `;
+            } else if (marks === 6) {
+                titleEl.innerText = "How to Attempt a 6-Mark Question";
+                body.innerHTML = `
+                    <div class="bg-amber-50/90 border-l-4 border-amber-400 p-3.5 rounded-r-xl text-amber-950 text-xs font-semibold">
+                        📌 <strong class="font-black">Rule for 4, 6 & 8 Marks:</strong> Always write exactly <strong>two points</strong> (two short paragraphs). Do not write an introduction or conclusion.
+                    </div>
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="bg-lime-500 text-lime-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">The Recipe</span>
+                            <span class="text-xs font-black text-slate-800 tracking-tight">Point + Why + Sociological Term</span>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-2 text-xs font-bold text-slate-800 bg-white p-3 rounded-xl border border-slate-200 mb-2">
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">1. State the point</span>
+                            <span class="text-lime-600 font-black text-base">➔</span>
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">2. Explain why it happens</span>
+                            <span class="text-lime-600 font-black text-base">➔</span>
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">3. Link to exam keyword (<span class="text-lime-700">Validity, Reliability, Representativeness</span>)</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 font-medium italic">Repeat this sequence twice (once for each limitation/strength).</p>
+                    </div>
+                    <div class="bg-lime-50/70 border border-lime-200/80 rounded-2xl p-4">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-lime-800 block mb-1.5">Model Formulation Example:</span>
+                        <p class="text-xs text-slate-800 font-medium italic leading-relaxed">
+                            "Overt observation causes the observer effect <strong class="text-lime-700 not-italic font-bold">(Point)</strong> because people act differently when watched <strong class="text-lime-700 not-italic font-bold">(Why)</strong>, which lowers the study's validity <strong class="text-lime-700 not-italic font-bold">(Keyword)</strong>."
+                        </p>
+                    </div>
+                `;
+            } else if (marks === 8) {
+                titleEl.innerText = "How to Attempt an 8-Mark Question";
+                body.innerHTML = `
+                    <div class="bg-amber-50/90 border-l-4 border-amber-400 p-3.5 rounded-r-xl text-amber-950 text-xs font-semibold">
+                        📌 <strong class="font-black">Rule for 4, 6 & 8 Marks:</strong> Always write exactly <strong>two points</strong> (two short paragraphs). Do not write an introduction or conclusion.
+                    </div>
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="bg-lime-500 text-lime-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">The Recipe</span>
+                            <span class="text-xs font-black text-slate-800 tracking-tight">Point + Why + Study/Method + Outcome</span>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-2 text-xs font-bold text-slate-800 bg-white p-3 rounded-xl border border-slate-200 mb-2">
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">1. State the factor</span>
+                            <span class="text-lime-600 font-black text-base">➔</span>
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">2. Explain how it works</span>
+                            <span class="text-lime-600 font-black text-base">➔</span>
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">3. Give a real method/study</span>
+                            <span class="text-lime-600 font-black text-base">➔</span>
+                            <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-lg">4. Explain final impact on research</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 font-medium italic">Repeat this sequence twice for Paper 1, Q2a Methods.</p>
+                    </div>
+                    <div class="bg-lime-50/70 border border-lime-200/80 rounded-2xl p-4">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-lime-800 block mb-1.5">Model Formulation Example:</span>
+                        <p class="text-xs text-slate-800 font-medium italic leading-relaxed">
+                            "One factor is funding <strong class="text-lime-700 not-italic font-bold">(Point)</strong> which limits the study's scale <strong class="text-lime-700 not-italic font-bold">(Why)</strong>. A researcher with low funds cannot pay for thousands of unstructured interviews <strong class="text-lime-700 not-italic font-bold">(Method)</strong>, forcing them to choose cheap online questionnaires <strong class="text-lime-700 not-italic font-bold">(Outcome)</strong>."
+                        </p>
+                    </div>
+                `;
+            } else if (marks === 10) {
+                titleEl.innerText = "How to Attempt a 10-Mark Explanatory Essay";
+                body.innerHTML = `
+                    <div class="bg-rose-50 border-l-4 border-rose-500 p-3.5 rounded-r-xl text-rose-950 text-xs font-bold flex items-start gap-2.5">
+                        <span class="text-lg leading-none">⚠️</span>
+                        <div>
+                            <span class="uppercase font-black text-rose-700 tracking-wider">The Golden Rule:</span>
+                            <p class="mt-0.5 font-semibold text-slate-800">NEVER evaluate. Do not write <em>"however,"</em> <em>"on the other hand,"</em> or critiques. You get <strong>zero marks</strong> for evaluation here.</p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2.5">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="bg-lime-500 text-lime-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">The Recipe</span>
+                            <span class="text-xs font-black text-slate-800 tracking-tight">Explanatory Essay Structure</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                            <span class="bg-slate-900 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Intro</span>
+                            <span class="text-slate-700 font-medium">2 sentences defining the main concept.</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                            <span class="bg-lime-600 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Para 1</span>
+                            <span class="text-slate-800 font-semibold">Point <span class="text-lime-600 font-black">➔</span> Explanation <span class="text-lime-600 font-black">➔</span> Theorist / Concept <span class="text-lime-600 font-black">➔</span> Example.</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                            <span class="bg-lime-600 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Para 2</span>
+                            <span class="text-slate-800 font-semibold">Point <span class="text-lime-600 font-black">➔</span> Explanation <span class="text-lime-600 font-black">➔</span> Theorist / Concept <span class="text-lime-600 font-black">➔</span> Example.</span>
+                        </div>
+                    </div>
+                `;
+            } else if (marks === 12) {
+                titleEl.innerText = "How to Attempt a 12-Mark Explanatory Depth Essay";
+                body.innerHTML = `
+                    <div class="bg-amber-50 border border-amber-200 p-3.5 rounded-xl text-xs text-amber-950 font-semibold flex items-start gap-2">
+                        <span class="text-base leading-none">⭐</span>
+                        <div>
+                            <span class="uppercase font-black text-amber-800 tracking-wider">Depth Requirement (Paper 3 & 4):</span>
+                            <p class="mt-0.5 font-medium text-slate-800">Just like the 8-mark recipe, but you <strong>must name one major theory</strong> (e.g., Marxism, Functionalism) and <strong>one specific sociologist</strong> in each of your two paragraphs.</p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-2.5">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="bg-lime-500 text-lime-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">The Recipe</span>
+                            <span class="text-xs font-black text-slate-800 tracking-tight">Two Focused Paragraphs</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                            <span class="bg-lime-600 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Para 1</span>
+                            <span class="text-slate-800 font-semibold">Point <span class="text-lime-600 font-black">➔</span> Explanation (with Major Theory) <span class="text-lime-600 font-black">➔</span> Specific Sociologist / Study <span class="text-lime-600 font-black">➔</span> Outcome.</span>
+                        </div>
+                        <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                            <span class="bg-lime-600 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Para 2</span>
+                            <span class="text-slate-800 font-semibold">Point <span class="text-lime-600 font-black">➔</span> Explanation (with Major Theory) <span class="text-lime-600 font-black">➔</span> Specific Sociologist / Study <span class="text-lime-600 font-black">➔</span> Outcome.</span>
+                        </div>
+                    </div>
+                `;
+            } else {
+                // 26 & 35 Marks
+                titleEl.innerText = `How to Attempt a Long Essay (${marks || '26/35'} Marks)`;
+                body.innerHTML = `
+                    <div class="bg-blue-50/80 border-l-4 border-blue-500 p-3.5 rounded-r-xl text-blue-950 text-xs font-semibold flex items-start gap-2.5">
+                        <span class="text-lg leading-none">🏓</span>
+                        <div>
+                            <span class="uppercase font-black text-blue-800 tracking-wider">Ping-Pong Match Debate:</span>
+                            <p class="mt-0.5 font-medium text-slate-700">These are your big debates. Think of these as a Ping-Pong match between two competing theories (e.g., Positivism vs. Interpretivism, or Functionalism vs. Marxism).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 space-y-3">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="bg-lime-500 text-lime-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">The Recipe</span>
+                            <span class="text-xs font-black text-slate-800 tracking-tight">Essay Debate Structure</span>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                                <span class="bg-slate-900 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Intro</span>
+                                <span class="text-slate-700 font-medium">Define the term + State the Debate (<em>"While Theory A argues X, Theory B argues Y"</em>).</span>
+                            </div>
+                            
+                            <div class="bg-emerald-50/70 p-3 rounded-xl border border-emerald-200 text-xs space-y-1.5">
+                                <div class="font-black text-emerald-800 uppercase tracking-wider text-[10px]">The "YES" (Thesis)</div>
+                                <div class="text-slate-800"><strong>Paragraph 1:</strong> Point supporting the question + Theorist/Study.</div>
+                                <div class="text-slate-800"><strong>Paragraph 2:</strong> Another point supporting the question + Concept/Study.</div>
+                            </div>
+
+                            <div class="bg-rose-50/70 p-3 rounded-xl border border-rose-200 text-xs space-y-1.5">
+                                <div class="font-black text-rose-800 uppercase tracking-wider text-[10px]">The "NO" (Antithesis)</div>
+                                <div class="text-slate-800"><strong>Paragraph 3:</strong> Major limitation/critique of the "YES" side.</div>
+                                <div class="text-slate-800"><strong>Paragraph 4:</strong> A competing theory's view + alternative study.</div>
+                            </div>
+
+                            <div class="bg-white p-3 rounded-xl border border-slate-200 text-xs flex items-start gap-3">
+                                <span class="bg-slate-900 text-white font-black text-[10px] uppercase px-2.5 py-0.5 rounded-md shrink-0">Conclusion</span>
+                                <span class="text-slate-700 font-medium">Do not just summarize. Show how they fit together (<em>"Ultimately, we can combine both sides using triangulation to get both reliable numbers and deep validity"</em>).</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PEEL Framework -->
+                    <div class="bg-slate-900 text-white rounded-2xl p-4 md:p-5">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="bg-lime-400 text-slate-950 text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full">Blueprint</span>
+                            <h4 class="text-xs font-black uppercase tracking-wider text-lime-300">In each paragraph use PEEL</h4>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">
+                            <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                                <div class="font-black text-lime-400 mb-1 flex items-center gap-1.5">
+                                    <span class="w-5 h-5 bg-lime-400 text-slate-950 rounded-full flex items-center justify-center text-[10px] font-black">P</span>
+                                    <span>Point</span>
+                                </div>
+                                <p class="text-slate-300 text-[11px] leading-relaxed">State your main argument or claim in one clear sentence.</p>
+                            </div>
+                            <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                                <div class="font-black text-lime-400 mb-1 flex items-center gap-1.5">
+                                    <span class="w-5 h-5 bg-lime-400 text-slate-950 rounded-full flex items-center justify-center text-[10px] font-black">E</span>
+                                    <span>Explanation</span>
+                                </div>
+                                <p class="text-slate-300 text-[11px] leading-relaxed">Explain why or how this point is true in your own words.</p>
+                            </div>
+                            <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                                <div class="font-black text-lime-400 mb-1 flex items-center gap-1.5">
+                                    <span class="w-5 h-5 bg-lime-400 text-slate-950 rounded-full flex items-center justify-center text-[10px] font-black">E</span>
+                                    <span>Evidence / Example</span>
+                                </div>
+                                <p class="text-slate-300 text-[11px] leading-relaxed">Prove your point by naming a specific sociologist, theory, or concept (e.g., Talcott Parsons, Marxism, or verstehen).</p>
+                            </div>
+                            <div class="bg-slate-800/90 p-3 rounded-xl border border-slate-700">
+                                <div class="font-black text-lime-400 mb-1 flex items-center gap-1.5">
+                                    <span class="w-5 h-5 bg-lime-400 text-slate-950 rounded-full flex items-center justify-center text-[10px] font-black">L</span>
+                                    <span>Link</span>
+                                </div>
+                                <p class="text-slate-300 text-[11px] leading-relaxed">Write one closing sentence that connects your paragraph directly back to the exact words used in the exam question.</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
         function updateProgressUI() {
             document.getElementById('global-marks-display').innerText = `${totalMarksEarned} / ${TOTAL_MARKS_GOAL}`;
             const percentage = Math.min((totalMarksEarned / TOTAL_MARKS_GOAL) * 100, 100);
@@ -1171,8 +1473,9 @@
                 topicVideo.src = '';
             }
 
-            const itemMarks = item.marks || item.Marks || 0;
+            const itemMarks = parseInt(item.marks || item.Marks || 0);
             document.getElementById('q-marks-label').innerText = `${itemMarks} MARKS`;
+            displayStrategyByMark(itemMarks);
             const box = document.getElementById('q-answer');
             box.innerHTML = (item.answer || item.Answer || "").split('\n').filter(p => p.trim()).map(p => `<p>${p}</p>`).join('');
             document.getElementById('quiz-check').classList.remove('hidden');
