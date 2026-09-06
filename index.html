@@ -92,11 +92,56 @@
             visibility: hidden;
             pointer-events: none;
         }
+        .splash-phase {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: opacity 0.6s ease, transform 0.6s ease;
+            opacity: 1;
+            visibility: visible;
+        }
+        .splash-phase.hidden-phase {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transform: scale(0.96);
+        }
         .splash-logo {
             width: 200px;
             height: auto;
             border-radius: 1.5rem;
             box-shadow: none;
+        }
+        .splash-title {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: clamp(2rem, 5.5vw, 3.25rem);
+            color: #ffffff;
+            text-align: center;
+            line-height: 1.15;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 22px rgba(0, 0, 0, 0.22), 0 1px 3px rgba(0, 0, 0, 0.35);
+            margin: 0 0 0.85rem 0;
+            padding: 0 1rem;
+            max-width: 800px;
+        }
+        .splash-subtitle {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;
+            font-size: clamp(1.2rem, 3.6vw, 1.75rem);
+            color: #ffffff;
+            text-align: center;
+            line-height: 1.4;
+            letter-spacing: 0.01em;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.35), 0 0 18px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3);
+            margin: 0;
+            padding: 0 1rem;
         }
 
         .glass-card { 
@@ -519,18 +564,18 @@
 
     <!-- Splash Screen -->
     <div id="splash-screen">
-        <div>
+        <!-- Stage 1: Logo -->
+        <div id="splash-logo-phase" class="splash-phase">
             <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" 
                  alt="Logo" class="splash-logo" onerror="handleImageError(this)">
         </div>
+
+        <!-- Stage 2: CAIE A LEVEL SOCIOLOGY by Sir Shamoeel -->
+        <div id="splash-text-phase" class="splash-phase hidden-phase">
+            <h1 class="splash-title">CAIE A LEVEL SOCIOLOGY</h1>
+            <p class="splash-subtitle">by Sir Shamoeel</p>
+        </div>
     </div>
-    <script>
-        if (sessionStorage.getItem('socdaily_splash_shown') === 'true' || 
-            window.matchMedia('(display-mode: standalone)').matches || 
-            window.navigator.standalone) {
-            document.getElementById('splash-screen').classList.add('hidden');
-        }
-    </script>
 
     <!-- First Time Onboarding Overlay -->
     <div id="onboarding-overlay" class="hidden">
@@ -1396,9 +1441,45 @@
 
         let isInitialized = false;
 
+        function runSplashSequence(dataPromise) {
+            return new Promise(resolve => {
+                const logoPhase = document.getElementById('splash-logo-phase');
+                const textPhase = document.getElementById('splash-text-phase');
+                const splashEl = document.getElementById('splash-screen');
+
+                // Stage 1: Logo displays for 1.8 seconds, then transitions out
+                setTimeout(() => {
+                    if (logoPhase) logoPhase.classList.add('hidden-phase');
+                    if (textPhase) textPhase.classList.remove('hidden-phase');
+
+                    // Stage 2: Next splash for 3 seconds must remain
+                    setTimeout(async () => {
+                        try {
+                            await dataPromise;
+                        } catch (e) {
+                            // Sync error handled in init
+                        }
+                        if (splashEl && !splashEl.querySelector('.text-red-600')) {
+                            splashEl.classList.add('hidden');
+                        }
+                        resolve();
+                    }, 3000);
+                }, 1800);
+            });
+        }
+
         async function init() {
             if (isInitialized) return;
             isInitialized = true;
+
+            let dataResolve, dataReject;
+            const dataPromise = new Promise((res, rej) => {
+                dataResolve = res;
+                dataReject = rej;
+            });
+
+            const splashPromise = runSplashSequence(dataPromise);
+
             try {
                 updateProgressUI();
                 const { data, error } = await window.supabaseClient.from('questionbank').select('*').order('question_number', { ascending: true });
@@ -1409,26 +1490,25 @@
                 updateMarksBadges();
                 if (bank.length > 0) loadItem(bank[0]);
                 setupNotifications();
+                dataResolve();
 
-                const splashEl = document.getElementById('splash-screen');
-                const isAlreadyHidden = splashEl.classList.contains('hidden');
-
-                if (isAlreadyHidden) {
-                    if (!userName) document.getElementById('onboarding-overlay').classList.remove('hidden');
-                } else {
-                    sessionStorage.setItem('socdaily_splash_shown', 'true');
-                    setTimeout(() => {
-                        splashEl.classList.add('hidden');
-                        if (!userName) document.getElementById('onboarding-overlay').classList.remove('hidden');
-                    }, 1200);
+                await splashPromise;
+                if (!userName) {
+                    const onboarding = document.getElementById('onboarding-overlay');
+                    if (onboarding) onboarding.classList.remove('hidden');
                 }
             } catch (err) {
                 console.error("[INIT ERROR]", err);
-                document.getElementById('splash-screen').innerHTML = `
-                    <div class="text-center p-6 flex flex-col items-center">
-                        <p class="text-red-600 font-black text-lg mb-4">SYNC ERROR: PLEASE REFRESH</p>
-                        <button onclick="location.reload()" class="glow-btn px-8 py-3 rounded-2xl text-xs uppercase tracking-widest cursor-pointer shadow-lg">Refresh Now</button>
-                    </div>`;
+                dataReject(err);
+                const splashEl = document.getElementById('splash-screen');
+                if (splashEl) {
+                    splashEl.innerHTML = `
+                        <div class="text-center p-6 flex flex-col items-center">
+                            <p class="text-red-600 font-black text-lg mb-4">SYNC ERROR: PLEASE REFRESH</p>
+                            <button onclick="location.reload()" class="glow-btn px-8 py-3 rounded-2xl text-xs uppercase tracking-widest cursor-pointer shadow-lg">Refresh Now</button>
+                        </div>`;
+                    splashEl.classList.remove('hidden');
+                }
             }
         }
 
