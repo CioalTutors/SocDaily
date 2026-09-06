@@ -137,7 +137,7 @@
 
         .custom-select {
             appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233f6212'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233f6212'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 14l-7 7m0 0l-7-7m7 7V3'%3E%3C/path%3E%3C/svg%3E");
             background-repeat: no-repeat;
             background-position: right 1rem center;
             background-size: 0.8rem;
@@ -239,6 +239,183 @@
             outline: none;
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
         }
+
+        /* Left Sidebar Styling */
+        .sidebar-wrapper {
+            display: flex;
+            position: relative;
+        }
+
+        .sidebar-panel {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: 300px;
+            background: white;
+            border-right: 2px solid #e2e8f0;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.08);
+            z-index: 90;
+            transform: translateX(0);
+            transition: transform 0.3s ease;
+            overflow-y: auto;
+            padding: 0;
+        }
+
+        .sidebar-panel.hidden {
+            transform: translateX(-100%);
+        }
+
+        .sidebar-header {
+            background: linear-gradient(135deg, #84cc16 0%, #65a30d 100%);
+            color: white;
+            padding: 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .sidebar-header h3 {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .sidebar-toggle-btn {
+            position: fixed;
+            left: 1rem;
+            top: 1rem;
+            z-index: 91;
+            background: var(--accent);
+            color: var(--accent-dark);
+            border: none;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            box-shadow: 0 4px 15px rgba(132, 204, 22, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .sidebar-toggle-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(132, 204, 22, 0.4);
+        }
+
+        .sidebar-toggle-btn.open {
+            left: 316px;
+            background: #ef4444;
+        }
+
+        .sidebar-content {
+            padding: 1.5rem;
+        }
+
+        .paper-section {
+            margin-bottom: 1.5rem;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+        }
+
+        .paper-header {
+            background: #f1f5f9;
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: var(--accent-dark);
+        }
+
+        .paper-header:hover {
+            background: #e2e8f0;
+        }
+
+        .paper-header.expanded {
+            background: var(--accent);
+            color: white;
+        }
+
+        .paper-toggle-icon {
+            transition: transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .paper-toggle-icon.expanded {
+            transform: rotate(180deg);
+        }
+
+        .paper-marks-list {
+            display: none;
+            background: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .paper-marks-list.expanded {
+            display: block;
+            max-height: 500px;
+        }
+
+        .marks-item {
+            padding: 0.75rem 1.25rem;
+            border-top: 1px solid #e2e8f0;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #475569;
+            transition: all 0.2s ease;
+            display: block;
+            width: 100%;
+            text-align: left;
+            background: white;
+            border: none;
+        }
+
+        .marks-item:hover {
+            background: #f7fee7;
+            color: var(--accent-dark);
+            padding-left: 1.5rem;
+            border-left: 3px solid var(--accent);
+        }
+
+        .marks-item:last-child {
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        /* Adjust main content when sidebar is open */
+        body.sidebar-open {
+            padding-left: 300px;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar-panel {
+                width: 280px;
+            }
+            
+            body.sidebar-open {
+                padding-left: 0;
+            }
+
+            .sidebar-toggle-btn.open {
+                left: 296px;
+            }
+        }
     </style>
 </head>
 <body class="p-4 md:p-12 min-h-screen flex flex-col items-center">
@@ -262,6 +439,73 @@
             <input type="text" id="user-name-input" class="onboarding-input mb-6" placeholder="Enter your name..." autocomplete="off">
             <br>
             <button onclick="saveOnboarding()" class="glow-btn px-12 py-5 rounded-2xl uppercase tracking-widest text-sm shadow-xl">Get Started</button>
+        </div>
+    </div>
+
+    <!-- Sidebar Toggle Button -->
+    <button class="sidebar-toggle-btn" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+    <!-- Left Sidebar Panel -->
+    <div class="sidebar-panel hidden" id="sidebar-panel">
+        <div class="sidebar-header">
+            <h3>📚 Paper-wise Questions</h3>
+        </div>
+        
+        <div class="sidebar-content">
+            <!-- Paper 1 -->
+            <div class="paper-section">
+                <div class="paper-header" onclick="togglePaper(this)">
+                    <span>Paper 1: Socialization & Research</span>
+                    <span class="paper-toggle-icon">▼</span>
+                </div>
+                <div class="paper-marks-list">
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 4)">4 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 6)">6 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 8)">8 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 10)">10 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Socialization', 'Methods', 'jurm'], 26)">26 Marks</button>
+                </div>
+            </div>
+
+            <!-- Paper 2 -->
+            <div class="paper-section">
+                <div class="paper-header" onclick="togglePaper(this)">
+                    <span>Paper 2: Family</span>
+                    <span class="paper-toggle-icon">▼</span>
+                </div>
+                <div class="paper-marks-list">
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 4)">4 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 6)">6 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 8)">8 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 10)">10 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Family'], 26)">26 Marks</button>
+                </div>
+            </div>
+
+            <!-- Paper 3 -->
+            <div class="paper-section">
+                <div class="paper-header" onclick="togglePaper(this)">
+                    <span>Paper 3: Education</span>
+                    <span class="paper-toggle-icon">▼</span>
+                </div>
+                <div class="paper-marks-list">
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 4)">4 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 8)">8 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 12)">12 Marks</button>
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Education'], 26)">26 Marks</button>
+                </div>
+            </div>
+
+            <!-- Paper 4 -->
+            <div class="paper-section">
+                <div class="paper-header" onclick="togglePaper(this)">
+                    <span>Paper 4: Globalisation, Media & Religion</span>
+                    <span class="paper-toggle-icon">▼</span>
+                </div>
+                <div class="paper-marks-list">
+                    <button class="marks-item" onclick="filterByTopicsAndMarks(['Globalisation', 'Media', 'Religion'], 35)">35 Marks</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -302,7 +546,7 @@
             <div class="mb-8">
                 <div class="relative inline-block mb-4">
                     <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2 ml-1">Current Topic</label>
-                    <select id="insight-selector" onchange="handleDropdownChange(this.value)" class="custom-select bg-lime-100 text-lime-800 font-black text-sm rounded-2xl outline-none cursor-pointer">
+                    <select id="insight-selector" onchange="handleDropdownChange(this.value)" class="custom-select bg-lime-100 text-lime-800 font-black text-sm rounded-2xl outline-none cursor-pointer shadow-md">
                     </select>
                 </div>
             </div>
@@ -380,7 +624,7 @@
 
     <script>
         const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
-        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
+        const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRTVKMjUqGXkN2F5sTyA1vvksCqPgfUDvFTaBUM';
         const TOTAL_MARKS_GOAL = 1234; 
         
         const TOPIC_IMAGES = {
@@ -411,6 +655,45 @@
         let userName = localStorage.getItem('socdaily_user_name');
         
         let deferredPrompt;
+
+        // Sidebar Functions
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar-panel');
+            const toggle = document.getElementById('sidebar-toggle');
+            sidebar.classList.toggle('hidden');
+            toggle.classList.toggle('open');
+        }
+
+        function togglePaper(headerElement) {
+            const paper = headerElement.closest('.paper-section');
+            const marksList = paper.querySelector('.paper-marks-list');
+            const icon = headerElement.querySelector('.paper-toggle-icon');
+
+            headerElement.classList.toggle('expanded');
+            marksList.classList.toggle('expanded');
+            icon.classList.toggle('expanded');
+        }
+
+        function filterByTopicsAndMarks(topics, marks) {
+            // Filter the bank by topics and marks
+            const filtered = bank.filter(item => {
+                const itemTopic = (item.topic || item.Topic || '').trim();
+                const itemMarks = parseInt(item.marks || item.Marks || 0);
+                return topics.some(t => itemTopic.toLowerCase().includes(t.toLowerCase())) && itemMarks === marks;
+            });
+
+            if (filtered.length > 0) {
+                loadItem(filtered[0]);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                // Optionally close sidebar on mobile
+                if (window.innerWidth < 768) {
+                    document.getElementById('sidebar-panel').classList.add('hidden');
+                    document.getElementById('sidebar-toggle').classList.remove('open');
+                }
+            } else {
+                alert(`No questions found for the selected criteria.`);
+            }
+        }
 
         function updateProgressUI() {
             document.getElementById('global-marks-display').innerText = `${totalMarksEarned} / ${TOTAL_MARKS_GOAL}`;
