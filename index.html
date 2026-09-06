@@ -96,7 +96,7 @@
             width: 200px;
             height: auto;
             border-radius: 1.5rem;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+            box-shadow: none;
         }
 
         .glass-card { 
@@ -519,14 +519,18 @@
 
     <!-- Splash Screen -->
     <div id="splash-screen">
-        <div class="mb-6">
+        <div>
             <img src="https://raw.githubusercontent.com/CioalTutors/SocDaily/main/cioaltutors.jpg" 
                  alt="Logo" class="splash-logo" onerror="handleImageError(this)">
         </div>
-        <p class="text-slate-900 text-xs font-black tracking-tight uppercase text-center w-full px-6 max-w-[400px]">
-            CIE A level Sociology by CioalTutors.com | Sir Shamoeel
-        </p>
     </div>
+    <script>
+        if (sessionStorage.getItem('socdaily_splash_shown') === 'true' || 
+            window.matchMedia('(display-mode: standalone)').matches || 
+            window.navigator.standalone) {
+            document.getElementById('splash-screen').classList.add('hidden');
+        }
+    </script>
 
     <!-- First Time Onboarding Overlay -->
     <div id="onboarding-overlay" class="hidden">
@@ -1390,7 +1394,11 @@
             }, THREE_HOURS);
         }
 
+        let isInitialized = false;
+
         async function init() {
+            if (isInitialized) return;
+            isInitialized = true;
             try {
                 updateProgressUI();
                 const { data, error } = await window.supabaseClient.from('questionbank').select('*').order('question_number', { ascending: true });
@@ -1402,10 +1410,18 @@
                 if (bank.length > 0) loadItem(bank[0]);
                 setupNotifications();
 
-                setTimeout(() => {
-                    document.getElementById('splash-screen').classList.add('hidden');
+                const splashEl = document.getElementById('splash-screen');
+                const isAlreadyHidden = splashEl.classList.contains('hidden');
+
+                if (isAlreadyHidden) {
                     if (!userName) document.getElementById('onboarding-overlay').classList.remove('hidden');
-                }, 2500);
+                } else {
+                    sessionStorage.setItem('socdaily_splash_shown', 'true');
+                    setTimeout(() => {
+                        splashEl.classList.add('hidden');
+                        if (!userName) document.getElementById('onboarding-overlay').classList.remove('hidden');
+                    }, 1200);
+                }
             } catch (err) {
                 console.error("[INIT ERROR]", err);
                 document.getElementById('splash-screen').innerHTML = `
