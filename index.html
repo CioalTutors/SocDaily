@@ -1679,7 +1679,9 @@
             document.getElementById('content-container').classList.remove('hidden');
             const num = Number(item.question_number || item.Question_Number);
             document.getElementById('insight-selector').value = num;
-            document.getElementById('topic-hero').src = TOPIC_IMAGES[num] || GLOBAL_FALLBACK_IMAGE;
+            const heroEl = document.getElementById('topic-hero');
+            heroEl.classList.remove('opacity-50');
+            heroEl.src = (item.image_path || item.Image_Path || '').trim() || TOPIC_IMAGES[num] || GLOBAL_FALLBACK_IMAGE;
             document.getElementById('q-title').innerText = item.question || item.Question;
             const topicName = item.topic || item.Topic || '';
             document.getElementById('q-topic').innerText = topicName;
