@@ -832,9 +832,15 @@
                 </div>
                 <!-- Global Marks Tracker & User Name -->
                 <div class="ml-5 flex flex-col">
-                    <div class="flex items-baseline gap-3 mb-1">
-                        <span id="user-display-name" class="text-base md:text-xl font-black text-slate-800 uppercase tracking-wide">Learner:</span>
-                        <span id="global-marks-display" class="text-2xl md:text-3xl font-black text-lime-600 tracking-tight">0 / 1234</span>
+                    <div class="flex items-center gap-3 mb-1">
+                        <div class="flex items-baseline gap-2.5">
+                            <span id="user-display-name" class="text-base md:text-xl font-black text-slate-800 uppercase tracking-wide">Learner:</span>
+                            <span id="global-marks-display" class="text-2xl md:text-3xl font-black text-lime-600 tracking-tight">0 / 1234</span>
+                        </div>
+                        <button type="button" onclick="openResetScoreModal()" class="text-[10px] font-black uppercase text-slate-400 hover:text-rose-600 bg-slate-100 hover:bg-rose-50 px-2.5 py-1 rounded-lg transition-all tracking-wider flex items-center gap-1 cursor-pointer border border-transparent hover:border-rose-200 shadow-none hover:shadow-sm" title="Reset Score">
+                            <span>↻</span>
+                            <span>Reset</span>
+                        </button>
                     </div>
                     <div class="header-progress-container">
                         <div id="header-progress-fill" class="header-progress-fill" style="width: 0%"></div>
@@ -965,6 +971,59 @@
             <button onclick="closeModalAndNext()" class="glow-btn w-full py-8 rounded-[2.5rem] uppercase tracking-[0.4em] text-xs shadow-lg">
                 Proceed to Next Topic
             </button>
+        </div>
+    </div>
+
+    <!-- Reset Score Warning Modal -->
+    <div id="reset-score-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 hidden bg-slate-900/80 backdrop-blur-sm">
+        <div class="bg-white rounded-[2.5rem] p-6 sm:p-8 max-w-md w-full text-center shadow-2xl relative border border-slate-100">
+            <!-- Close Button -->
+            <button onclick="closeResetScoreModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 w-8 h-8 rounded-full flex items-center justify-center text-lg transition-all cursor-pointer">✕</button>
+
+            <!-- Step 1: Warning Window -->
+            <div id="reset-modal-step-1">
+                <div class="w-14 h-14 mx-auto mb-4 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center text-2xl shadow-inner">
+                    ⚠️
+                </div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-2 tracking-tight">
+                    Do you want to reset score?
+                </h3>
+                <p class="text-sm text-slate-500 font-medium mb-6 leading-relaxed">
+                    This will reset your earned marks back to zero. You will lose your current score progress.
+                </p>
+                <div class="flex items-center justify-center gap-3">
+                    <button type="button" onclick="closeResetScoreModal()" class="w-1/2 py-3 px-4 rounded-xl border border-slate-200 text-slate-700 font-bold text-xs uppercase tracking-wider hover:bg-slate-100 transition-all cursor-pointer">
+                        Cancel
+                    </button>
+                    <button type="button" onclick="proceedToResetStep2()" class="w-1/2 py-3 px-4 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-black text-xs uppercase tracking-wider transition-all shadow-md cursor-pointer">
+                        Yes, Continue
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 2: Confirm with RESET in Capital -->
+            <div id="reset-modal-step-2" class="hidden">
+                <div class="w-14 h-14 mx-auto mb-4 bg-rose-100 text-rose-600 rounded-2xl flex items-center justify-center text-2xl shadow-inner">
+                    🗑️
+                </div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 mb-2 tracking-tight">
+                    Final Confirmation
+                </h3>
+                <p class="text-sm text-slate-600 font-medium mb-4 leading-relaxed">
+                    Please write <strong class="text-rose-600 font-black tracking-wider bg-rose-50 px-1.5 py-0.5 rounded">RESET</strong> in capital letters before resetting to zero:
+                </p>
+                <input type="text" id="reset-confirm-input" placeholder="Type RESET" class="w-full text-center font-black tracking-widest text-lg uppercase py-3 px-4 rounded-xl border-2 border-slate-200 focus:border-rose-500 focus:outline-none mb-2 transition-all" autocomplete="off" oninput="validateResetInput()" onkeydown="if(event.key==='Enter' && this.value.trim()==='RESET') executeScoreReset()">
+                <p id="reset-error-msg" class="text-xs text-rose-600 font-bold mb-4 hidden">Please write RESET in exact capital letters.</p>
+                
+                <div class="flex items-center justify-center gap-3 mt-4">
+                    <button type="button" onclick="closeResetScoreModal()" class="w-1/2 py-3 px-4 rounded-xl border border-slate-200 text-slate-700 font-bold text-xs uppercase tracking-wider hover:bg-slate-100 transition-all cursor-pointer">
+                        Cancel
+                    </button>
+                    <button type="button" id="reset-final-confirm-btn" onclick="executeScoreReset()" disabled class="w-1/2 py-3 px-4 rounded-xl bg-rose-600 hover:bg-rose-700 disabled:opacity-40 disabled:cursor-not-allowed text-white font-black text-xs uppercase tracking-wider transition-all shadow-md cursor-pointer">
+                        Reset Score
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -1396,6 +1455,77 @@
             if (userName) {
                 document.getElementById('user-display-name').innerText = `${userName}:`;
             }
+        }
+
+        function openResetScoreModal() {
+            const modal = document.getElementById('reset-score-modal');
+            const step1 = document.getElementById('reset-modal-step-1');
+            const step2 = document.getElementById('reset-modal-step-2');
+            const input = document.getElementById('reset-confirm-input');
+            const errorMsg = document.getElementById('reset-error-msg');
+            const confirmBtn = document.getElementById('reset-final-confirm-btn');
+
+            if (step1) step1.classList.remove('hidden');
+            if (step2) step2.classList.add('hidden');
+            if (input) input.value = '';
+            if (errorMsg) errorMsg.classList.add('hidden');
+            if (confirmBtn) confirmBtn.disabled = true;
+
+            if (modal) modal.classList.remove('hidden');
+        }
+
+        function closeResetScoreModal() {
+            const modal = document.getElementById('reset-score-modal');
+            if (modal) modal.classList.add('hidden');
+        }
+
+        function proceedToResetStep2() {
+            const step1 = document.getElementById('reset-modal-step-1');
+            const step2 = document.getElementById('reset-modal-step-2');
+            const input = document.getElementById('reset-confirm-input');
+            const confirmBtn = document.getElementById('reset-final-confirm-btn');
+
+            if (step1) step1.classList.add('hidden');
+            if (step2) step2.classList.remove('hidden');
+            if (input) {
+                input.value = '';
+                setTimeout(() => input.focus(), 80);
+            }
+            if (confirmBtn) confirmBtn.disabled = true;
+        }
+
+        function validateResetInput() {
+            const input = document.getElementById('reset-confirm-input');
+            const confirmBtn = document.getElementById('reset-final-confirm-btn');
+            const errorMsg = document.getElementById('reset-error-msg');
+            if (!input || !confirmBtn) return;
+
+            const isExact = input.value.trim() === 'RESET';
+            confirmBtn.disabled = !isExact;
+            if (isExact && errorMsg) {
+                errorMsg.classList.add('hidden');
+            }
+        }
+
+        function executeScoreReset() {
+            const input = document.getElementById('reset-confirm-input');
+            const errorMsg = document.getElementById('reset-error-msg');
+
+            if (!input || input.value.trim() !== 'RESET') {
+                if (errorMsg) errorMsg.classList.remove('hidden');
+                return;
+            }
+
+            totalMarksEarned = 0;
+            localStorage.setItem('socdaily_marks_v3', 0);
+            completedInsights = [];
+            localStorage.setItem('socdaily_completed_v1', JSON.stringify([]));
+
+            updateProgressUI();
+            populateDropdown();
+            updateSidebarActiveAndDone();
+
+            closeResetScoreModal();
         }
 
         function saveOnboarding() {
