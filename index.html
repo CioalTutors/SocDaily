@@ -560,6 +560,101 @@
                 left: 296px;
             }
         }
+
+        /* Floating Flashcards Tab on Right Edge */
+        .flashcards-tab-btn {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 80;
+            background: linear-gradient(180deg, #84cc16 0%, #65a30d 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 1.25rem 0 0 1.25rem;
+            padding: 1.1rem 0.55rem;
+            cursor: pointer;
+            box-shadow: -4px 6px 20px rgba(101, 163, 13, 0.4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            user-select: none;
+        }
+        .flashcards-tab-btn:hover {
+            transform: translateY(-50%) translateX(-5px);
+            box-shadow: -6px 8px 24px rgba(101, 163, 13, 0.6);
+            background: linear-gradient(180deg, #a3e635 0%, #84cc16 100%);
+        }
+        .flashcards-tab-btn .tab-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            transform: rotate(180deg);
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.72rem;
+            font-weight: 900;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+        }
+        .flashcards-tab-btn .tab-badge {
+            font-size: 0.65rem;
+            font-weight: 900;
+            background: #1e293b;
+            color: var(--pwa-brand);
+            padding: 2px 6px;
+            border-radius: 9999px;
+            line-height: 1;
+        }
+
+        /* 3D Flip Card */
+        .flip-card-container {
+            perspective: 1200px;
+            width: 100%;
+            min-height: 250px;
+            cursor: pointer;
+            margin: 0.75rem 0 1rem;
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            min-height: 250px;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+        }
+        .flip-card-container.flipped .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1.5rem;
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08);
+            border: 2px solid #e2e8f0;
+        }
+        .flip-card-front {
+            background: #ffffff;
+        }
+        .flip-card-front:hover {
+            border-color: #cbd5e1;
+        }
+        .flip-card-back {
+            background: linear-gradient(135deg, #f7fee7 0%, #ecfccb 100%);
+            border-color: #a3e635;
+            transform: rotateY(180deg);
+            overflow-y: auto;
+        }
     </style>
 </head>
 <body class="p-4 md:p-12 min-h-screen flex flex-col items-center">
@@ -592,6 +687,13 @@
 
     <!-- Sidebar Toggle Button -->
     <button class="sidebar-toggle-btn" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+    <!-- Floating Flashcards Tab on Right Edge -->
+    <button class="flashcards-tab-btn" id="flashcards-toggle" onclick="openFlashcardsModal()" title="Open Insight Flashcards">
+        <span class="tab-icon">🗂️</span>
+        <span class="tab-text">FLASHCARDS</span>
+        <span class="tab-badge" id="fc-tab-badge">0</span>
+    </button>
 
     <!-- Left Sidebar Panel -->
     <div class="sidebar-panel hidden" id="sidebar-panel">
@@ -1027,6 +1129,166 @@
         </div>
     </div>
 
+    <!-- Flashcards Modal -->
+    <div id="flashcards-modal" class="fixed inset-0 z-95 flex items-center justify-center p-4 sm:p-6 hidden bg-slate-900/80 backdrop-blur-sm transition-all">
+        <div class="bg-white rounded-[2.5rem] p-6 sm:p-8 max-w-lg md:max-w-xl w-full shadow-2xl relative border-2 border-slate-100 flex flex-col max-h-[90vh] overflow-y-auto">
+            
+            <!-- Modal Header -->
+            <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-3 pb-3 border-b border-slate-100 mb-3">
+                <div class="flex items-center gap-2.5 min-w-0">
+                    <span class="text-2xl shrink-0">🗂️</span>
+                    <div class="min-w-0">
+                        <span id="fc-insight-badge" class="text-[10px] font-black uppercase tracking-widest text-lime-700 bg-lime-100 px-2 py-0.5 rounded-md truncate inline-block max-w-full">Topic</span>
+                        <h3 class="text-base sm:text-lg font-black text-slate-900 leading-tight">Insight Flashcards</h3>
+                    </div>
+                </div>
+                
+                <!-- Topic Dropdown on Right Side of Header -->
+                <div class="flex items-center gap-2 w-full sm:w-auto justify-between sm:justify-end shrink-0">
+                    <select id="fc-topic-select" onchange="handleFlashcardTopicChange(this.value)" class="text-xs font-black bg-lime-100 hover:bg-lime-200 text-lime-900 px-3 py-1.5 rounded-xl border border-lime-300 outline-none cursor-pointer max-w-[210px] truncate shadow-xs transition-all" title="Select Topic to Test">
+                        <!-- Populated dynamically -->
+                    </select>
+                    <button type="button" onclick="closeFlashcardsModal()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 flex items-center justify-center font-bold text-base transition-all cursor-pointer shrink-0">
+                        ✕
+                    </button>
+                </div>
+            </div>
+
+            <!-- Scorecard inside Flashcard Window -->
+            <div class="bg-slate-50 border border-slate-200 rounded-2xl p-3 mb-3 flex items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-9 h-9 rounded-xl bg-lime-500 text-lime-950 flex items-center justify-center text-base font-black shadow-xs">
+                        ⭐
+                    </div>
+                    <div>
+                        <div class="text-[10px] font-black uppercase tracking-wider text-slate-400">Flashcard Score</div>
+                        <div class="flex items-baseline gap-2">
+                            <span id="fc-score-display" class="text-xl font-black text-lime-600">0 pts</span>
+                            <span id="fc-known-display" class="text-[11px] font-bold text-slate-500">(0 known this deck)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-end gap-1">
+                    <span id="fc-counter-display" class="text-xs font-black text-slate-800 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs">Card 1 of 5</span>
+                    <button type="button" onclick="resetFlashcardScore()" class="text-[9px] font-bold uppercase text-slate-400 hover:text-rose-600 tracking-wider transition-all cursor-pointer">↻ Reset Score</button>
+                </div>
+            </div>
+
+            <!-- Deck Progress Bar -->
+            <div class="w-full bg-slate-200 rounded-full h-1.5 mb-3 overflow-hidden">
+                <div id="fc-progress-bar" class="bg-lime-500 h-full rounded-full transition-all duration-300" style="width: 0%;"></div>
+            </div>
+
+            <!-- Card Area View -->
+            <div id="fc-card-view" class="flex flex-col">
+                <!-- 3D Flip Card -->
+                <div class="flip-card-container" id="flip-card-container" onclick="toggleFlipCard()">
+                    <div class="flip-card-inner">
+                        <!-- Front Face (Question) -->
+                        <div class="flip-card-front">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[10px] font-black uppercase tracking-wider bg-slate-100 text-slate-600 px-2.5 py-1 rounded-full">❓ Question</span>
+                                <span class="text-[10px] text-slate-400 font-bold">Tap to flip ↻</span>
+                            </div>
+                            <div class="my-auto py-4">
+                                <p id="fc-question-text" class="text-base sm:text-lg md:text-xl font-extrabold text-slate-900 text-center leading-snug">
+                                    Loading question...
+                                </p>
+                            </div>
+                            <div class="text-center">
+                                <span class="inline-flex items-center gap-1.5 text-xs font-black text-lime-700 bg-lime-50 hover:bg-lime-100 px-3 py-1 rounded-full border border-lime-200 transition-all">
+                                    <span>↻</span> Click to reveal answer
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Back Face (Answer + Explanation) -->
+                        <div class="flip-card-back">
+                            <div class="flex items-center justify-between">
+                                <span class="text-[10px] font-black uppercase tracking-wider bg-lime-600 text-white px-2.5 py-1 rounded-full">✓ Answer</span>
+                                <span class="text-[10px] text-lime-800 font-bold">Tap to flip ↻</span>
+                            </div>
+                            <div class="my-auto py-3">
+                                <p id="fc-answer-text" class="text-sm sm:text-base md:text-lg font-bold text-slate-900 text-center leading-relaxed">
+                                    Answer text...
+                                </p>
+                            </div>
+
+                            <!-- Small Explain Button & Explanation Container -->
+                            <div class="pt-2 border-t border-lime-200/80">
+                                <div class="text-center">
+                                    <button type="button" onclick="event.stopPropagation(); toggleCardExplanation()" class="bg-white hover:bg-lime-100 text-lime-900 border border-lime-300 px-3 py-1 rounded-xl text-xs font-black transition-all inline-flex items-center gap-1.5 shadow-xs cursor-pointer">
+                                        <span>💡</span>
+                                        <span id="fc-explain-btn-text">Explain</span>
+                                    </button>
+                                </div>
+                                <div id="fc-explanation-box" class="hidden mt-2.5 p-3 bg-white/95 rounded-xl border border-lime-300 text-xs text-slate-700 font-medium leading-relaxed text-left shadow-xs">
+                                    <div class="font-black text-[10px] uppercase tracking-wider text-lime-800 mb-0.5">Sociological Context</div>
+                                    <div id="fc-explanation-text">...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Controls: I didn't know / I knew this -->
+                <div class="flex items-center justify-center gap-3 pt-2">
+                    <button type="button" onclick="handleCardResponse(false)" class="w-1/2 py-3.5 px-3 rounded-2xl border-2 border-slate-200 hover:border-slate-300 bg-slate-50 hover:bg-slate-100 text-slate-700 font-black text-xs sm:text-sm uppercase tracking-wider transition-all flex items-center justify-center gap-2 cursor-pointer shadow-xs active:scale-95">
+                        <span class="text-rose-500 font-bold">✕</span>
+                        <span>I Didn't Know</span>
+                    </button>
+                    <button type="button" onclick="handleCardResponse(true)" class="w-1/2 py-3.5 px-3 rounded-2xl bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-400 hover:to-lime-500 text-white font-black text-xs sm:text-sm uppercase tracking-wider transition-all flex items-center justify-center gap-2 cursor-pointer shadow-md shadow-lime-500/25 active:scale-95">
+                        <span class="font-black">✓</span>
+                        <span>I Knew This (+1)</span>
+                    </button>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <div class="flex items-center justify-between pt-3 text-xs text-slate-500 font-bold">
+                    <button type="button" onclick="prevFlashcard()" class="hover:text-slate-900 transition-all flex items-center gap-1 cursor-pointer">
+                        <span>◀</span> Previous
+                    </button>
+                    <button type="button" onclick="flipCurrentCard()" class="hover:text-lime-700 transition-all flex items-center gap-1 cursor-pointer">
+                        <span>↻</span> Flip Card
+                    </button>
+                    <button type="button" onclick="nextFlashcard()" class="hover:text-slate-900 transition-all flex items-center gap-1 cursor-pointer">
+                        Next <span>▶</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Empty Deck State -->
+            <div id="fc-empty-view" class="hidden text-center py-8">
+                <div class="text-5xl mb-3">🗂️</div>
+                <h4 class="text-lg font-black text-slate-800 mb-1">No Flashcards for this Topic Yet</h4>
+                <p class="text-xs text-slate-500 mb-6 max-w-sm mx-auto leading-relaxed">
+                    Flashcards for <span id="fc-empty-insight-num"></span> will appear here as soon as they are added to the database.
+                </p>
+                <button type="button" onclick="practiceInsight1Deck()" class="glow-btn px-6 py-2.5 rounded-xl text-xs uppercase tracking-wider shadow-md">
+                    Practice Available Flashcards
+                </button>
+            </div>
+
+            <!-- Deck Completed View -->
+            <div id="fc-completed-view" class="hidden text-center py-8">
+                <div class="text-6xl mb-3">🎉</div>
+                <h4 class="text-2xl font-black text-slate-900 mb-1 tracking-tight">Deck Completed!</h4>
+                <p id="fc-completed-summary" class="text-sm font-semibold text-slate-600 mb-6">
+                    You knew 5 out of 5 cards. Great work!
+                </p>
+                <div class="flex items-center justify-center gap-3">
+                    <button type="button" onclick="restartCurrentDeck()" class="py-3 px-6 rounded-xl border border-slate-200 text-slate-700 font-bold text-xs uppercase tracking-wider hover:bg-slate-100 transition-all cursor-pointer">
+                        Practice Again
+                    </button>
+                    <button type="button" onclick="closeFlashcardsModal()" class="glow-btn py-3 px-8 rounded-xl text-xs uppercase tracking-wider shadow-md">
+                        Done
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <script>
         const SB_URL = 'https://aydesvjgrtxijmdzctqa.supabase.co';
         const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5ZGVzdmpncnR4aWptZHpjdHFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzMzkwODgsImV4cCI6MjA4NjkxNTA4OH0.784ClRpeL_XmFTW1JvzPREL51YafIvYoOzljMf-tuTM';
@@ -1060,6 +1322,11 @@
         let userName = localStorage.getItem('socdaily_user_name');
         
         let deferredPrompt;
+        let allFlashcards = [];
+        let currentDeck = [];
+        let currentCardIndex = 0;
+        let flashcardScore = parseInt(localStorage.getItem('socdaily_flashcard_score')) || 0;
+        let knownCardsThisDeck = 0;
 
         function escapeHtml(str) {
             if (!str) return '';
@@ -1528,6 +1795,284 @@
             closeResetScoreModal();
         }
 
+        // ==================== FLASHCARDS MODULE ====================
+        function updateFlashcardsTabBadge() {
+            const badge = document.getElementById('fc-tab-badge');
+            if (!badge) return;
+            const curTopic = currentItem ? (currentItem.topic || currentItem.Topic || '').trim() : '';
+            const topicCards = allFlashcards.filter(fc => (fc.topic || '').trim().toLowerCase() === curTopic.toLowerCase());
+            const count = topicCards.length > 0 ? topicCards.length : allFlashcards.length;
+            badge.innerText = count;
+            badge.style.display = count > 0 ? 'inline-block' : 'none';
+        }
+
+        function populateFlashcardTopicDropdown(preferredSelection) {
+            const selectEl = document.getElementById('fc-topic-select');
+            if (!selectEl) return;
+
+            // Extract unique non-empty topics from allFlashcards
+            const topicCounts = {};
+            allFlashcards.forEach(fc => {
+                const t = (fc.topic || '').trim();
+                if (t) {
+                    topicCounts[t] = (topicCounts[t] || 0) + 1;
+                }
+            });
+            const uniqueTopics = Object.keys(topicCounts).sort((a, b) => a.localeCompare(b));
+
+            let html = '';
+            // Only Topics from flashcards table
+            uniqueTopics.forEach(t => {
+                html += `<option value="${escapeHtml(t)}">${escapeHtml(t)} (${topicCounts[t]} cards)</option>`;
+            });
+
+            // If more than 1 topic exists, optionally offer All Topics
+            if (uniqueTopics.length > 1) {
+                html += `<option value="__ALL__">All Topics (${allFlashcards.length} cards)</option>`;
+            }
+
+            selectEl.innerHTML = html;
+
+            // Determine default selection:
+            if (preferredSelection && uniqueTopics.some(t => t.toLowerCase() === preferredSelection.toLowerCase())) {
+                const matched = uniqueTopics.find(t => t.toLowerCase() === preferredSelection.toLowerCase());
+                selectEl.value = matched;
+            } else {
+                const curTopic = currentItem ? (currentItem.topic || currentItem.Topic || '').trim() : '';
+                const matchingTopic = uniqueTopics.find(t => t.toLowerCase() === curTopic.toLowerCase());
+                if (matchingTopic) {
+                    selectEl.value = matchingTopic;
+                } else if (uniqueTopics.length > 0) {
+                    selectEl.value = uniqueTopics[0];
+                }
+            }
+        }
+
+        function handleFlashcardTopicChange(selectedVal) {
+            const selectEl = document.getElementById('fc-topic-select');
+            if (selectEl && selectedVal && selectEl.value !== selectedVal) {
+                selectEl.value = selectedVal;
+            }
+
+            const val = selectedVal || (selectEl ? selectEl.value : '');
+            const badgeEl = document.getElementById('fc-insight-badge');
+
+            if (!val || val === '__ALL__') {
+                currentDeck = [...allFlashcards];
+                if (badgeEl) badgeEl.innerText = 'All Topics';
+            } else {
+                currentDeck = allFlashcards.filter(fc => (fc.topic || '').trim().toLowerCase() === val.trim().toLowerCase());
+                if (badgeEl) badgeEl.innerText = val;
+            }
+
+            // Sort cards by card_number
+            currentDeck.sort((a, b) => {
+                const insA = Number(a.insight) || 0;
+                const insB = Number(b.insight) || 0;
+                if (insA !== insB) return insA - insB;
+                return (Number(a.card_number) || 0) - (Number(b.card_number) || 0);
+            });
+
+            currentCardIndex = 0;
+            knownCardsThisDeck = 0;
+            updateFlashcardScoreUI();
+
+            const cardView = document.getElementById('fc-card-view');
+            const emptyView = document.getElementById('fc-empty-view');
+            const completedView = document.getElementById('fc-completed-view');
+
+            if (currentDeck.length === 0) {
+                if (cardView) cardView.classList.add('hidden');
+                if (completedView) completedView.classList.add('hidden');
+                if (emptyView) {
+                    emptyView.classList.remove('hidden');
+                    const emptyNum = document.getElementById('fc-empty-insight-num');
+                    if (emptyNum) emptyNum.innerText = val || 'this topic';
+                }
+                const counter = document.getElementById('fc-counter-display');
+                if (counter) counter.innerText = '0 cards';
+                const pb = document.getElementById('fc-progress-bar');
+                if (pb) pb.style.width = '0%';
+            } else {
+                if (emptyView) emptyView.classList.add('hidden');
+                if (completedView) completedView.classList.add('hidden');
+                if (cardView) cardView.classList.remove('hidden');
+                renderCurrentFlashcard();
+            }
+        }
+
+        async function openFlashcardsModal(targetTopic) {
+            const modal = document.getElementById('flashcards-modal');
+            if (!modal) return;
+
+            // Fetch flashcards if not yet loaded
+            if (allFlashcards.length === 0) {
+                try {
+                    const { data } = await window.supabaseClient.from('flashcards').select('*').order('card_number', { ascending: true });
+                    if (data) allFlashcards = data;
+                } catch (e) {
+                    console.error("Flashcards fetch failure", e);
+                }
+            }
+
+            let preferredTopic = null;
+            if (typeof targetTopic === 'string' && targetTopic.trim()) {
+                preferredTopic = targetTopic.trim();
+            } else if (currentItem) {
+                preferredTopic = (currentItem.topic || currentItem.Topic || '').trim();
+            }
+
+            populateFlashcardTopicDropdown(preferredTopic);
+            
+            const selectEl = document.getElementById('fc-topic-select');
+            const activeVal = selectEl ? selectEl.value : preferredTopic;
+            handleFlashcardTopicChange(activeVal);
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeFlashcardsModal() {
+            const modal = document.getElementById('flashcards-modal');
+            if (modal) modal.classList.add('hidden');
+            const card = document.getElementById('flip-card-container');
+            if (card) card.classList.remove('flipped');
+        }
+
+        function updateFlashcardScoreUI() {
+            const scoreEl = document.getElementById('fc-score-display');
+            const knownEl = document.getElementById('fc-known-display');
+            if (scoreEl) scoreEl.innerText = `${flashcardScore} pts`;
+            if (knownEl) knownEl.innerText = `(${knownCardsThisDeck} known this deck)`;
+        }
+
+        function renderCurrentFlashcard() {
+            if (!currentDeck || currentDeck.length === 0) return;
+            const card = currentDeck[currentCardIndex];
+
+            // Reset flip & explanation
+            const flipCard = document.getElementById('flip-card-container');
+            if (flipCard) flipCard.classList.remove('flipped');
+
+            const explainBox = document.getElementById('fc-explanation-box');
+            const explainText = document.getElementById('fc-explain-btn-text');
+            if (explainBox) explainBox.classList.add('hidden');
+            if (explainText) explainText.innerText = 'Explain';
+
+            // Populate card text
+            const qEl = document.getElementById('fc-question-text');
+            const aEl = document.getElementById('fc-answer-text');
+            const expEl = document.getElementById('fc-explanation-text');
+
+            if (qEl) qEl.innerText = card.card_question || 'No question provided.';
+            if (aEl) aEl.innerText = card.answer || 'No answer provided.';
+            if (expEl) expEl.innerText = card.explanation || 'No additional explanation available for this card.';
+
+            // Counter & progress bar
+            const counter = document.getElementById('fc-counter-display');
+            if (counter) counter.innerText = `Card ${currentCardIndex + 1} of ${currentDeck.length}`;
+
+            const progressBar = document.getElementById('fc-progress-bar');
+            if (progressBar) {
+                const pct = Math.round(((currentCardIndex + 1) / currentDeck.length) * 100);
+                progressBar.style.width = `${pct}%`;
+            }
+        }
+
+        function toggleFlipCard() {
+            const flipCard = document.getElementById('flip-card-container');
+            if (flipCard) flipCard.classList.toggle('flipped');
+        }
+
+        function flipCurrentCard() {
+            toggleFlipCard();
+        }
+
+        function toggleCardExplanation() {
+            const explainBox = document.getElementById('fc-explanation-box');
+            const explainText = document.getElementById('fc-explain-btn-text');
+            if (!explainBox) return;
+
+            const isHidden = explainBox.classList.contains('hidden');
+            if (isHidden) {
+                explainBox.classList.remove('hidden');
+                if (explainText) explainText.innerText = 'Hide';
+            } else {
+                explainBox.classList.add('hidden');
+                if (explainText) explainText.innerText = 'Explain';
+            }
+        }
+
+        function handleCardResponse(knewIt) {
+            if (knewIt) {
+                flashcardScore += 1;
+                localStorage.setItem('socdaily_flashcard_score', flashcardScore);
+                knownCardsThisDeck += 1;
+                updateFlashcardScoreUI();
+            }
+
+            // Move to next card
+            currentCardIndex++;
+            if (currentCardIndex < currentDeck.length) {
+                renderCurrentFlashcard();
+            } else {
+                // Deck completed
+                const cardView = document.getElementById('fc-card-view');
+                const completedView = document.getElementById('fc-completed-view');
+                const summaryEl = document.getElementById('fc-completed-summary');
+
+                if (cardView) cardView.classList.add('hidden');
+                if (completedView) completedView.classList.remove('hidden');
+                if (summaryEl) {
+                    summaryEl.innerText = `You knew ${knownCardsThisDeck} out of ${currentDeck.length} cards in this deck. Total Flashcard Score: ${flashcardScore} pts!`;
+                }
+            }
+        }
+
+        function prevFlashcard() {
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                renderCurrentFlashcard();
+            }
+        }
+
+        function nextFlashcard() {
+            if (currentCardIndex < currentDeck.length - 1) {
+                currentCardIndex++;
+                renderCurrentFlashcard();
+            }
+        }
+
+        function restartCurrentDeck() {
+            currentCardIndex = 0;
+            knownCardsThisDeck = 0;
+            updateFlashcardScoreUI();
+
+            const cardView = document.getElementById('fc-card-view');
+            const completedView = document.getElementById('fc-completed-view');
+            if (completedView) completedView.classList.add('hidden');
+            if (cardView) cardView.classList.remove('hidden');
+            renderCurrentFlashcard();
+        }
+
+        function practiceInsight1Deck() {
+            const selectEl = document.getElementById('fc-topic-select');
+            if (selectEl && selectEl.options.length > 0) {
+                selectEl.selectedIndex = 0;
+                handleFlashcardTopicChange(selectEl.value);
+            } else {
+                openFlashcardsModal();
+            }
+        }
+
+        function resetFlashcardScore() {
+            if (confirm("Do you want to reset your Flashcard Score back to 0?")) {
+                flashcardScore = 0;
+                localStorage.setItem('socdaily_flashcard_score', 0);
+                knownCardsThisDeck = 0;
+                updateFlashcardScoreUI();
+            }
+        }
+
         function saveOnboarding() {
             const input = document.getElementById('user-name-input');
             const name = input.value.trim();
@@ -1629,6 +2174,18 @@
                 updateMarksBadges();
                 if (bank.length > 0) loadItem(bank[0]);
                 setupNotifications();
+
+                // Fetch flashcards for instant availability
+                try {
+                    const { data: fcData } = await window.supabaseClient.from('flashcards').select('*').order('card_number', { ascending: true });
+                    if (fcData) {
+                        allFlashcards = fcData;
+                        updateFlashcardsTabBadge();
+                    }
+                } catch (fcErr) {
+                    console.error("Flashcards fetch error", fcErr);
+                }
+
                 dataResolve();
 
                 await splashPromise;
@@ -1721,6 +2278,7 @@
             document.getElementById('quiz-status').innerText = "Querying assessment module...";
             checkQuiz(num);
             updateSidebarActiveAndDone();
+            updateFlashcardsTabBadge();
         }
 
         async function checkQuiz(num) {
