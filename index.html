@@ -609,6 +609,13 @@
             border-radius: 9999px;
             line-height: 1;
         }
+        .flashcards-tab-btn.hidden {
+            display: none !important;
+        }
+        body:has(#flashcards-modal:not(.hidden)) #flashcards-toggle,
+        body:has(#revision-page-modal:not(.hidden)) #flashcards-toggle {
+            display: none !important;
+        }
 
         /* 3D Flip Card */
         .flip-card-container {
@@ -2028,6 +2035,8 @@
             updateRevisionBadge();
 
             modal.classList.remove('hidden');
+            const toggleBtn = document.getElementById('flashcards-toggle');
+            if (toggleBtn) toggleBtn.classList.add('hidden');
         }
 
         function closeFlashcardsModal() {
@@ -2035,6 +2044,11 @@
             if (modal) modal.classList.add('hidden');
             const card = document.getElementById('flip-card-container');
             if (card) card.classList.remove('flipped');
+            const revModal = document.getElementById('revision-page-modal');
+            const toggleBtn = document.getElementById('flashcards-toggle');
+            if (toggleBtn && (!revModal || revModal.classList.contains('hidden'))) {
+                toggleBtn.classList.remove('hidden');
+            }
         }
 
         function updateFlashcardScoreUI() {
@@ -2195,6 +2209,8 @@
             renderRevisionCards();
             modal.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
+            const toggleBtn = document.getElementById('flashcards-toggle');
+            if (toggleBtn) toggleBtn.classList.add('hidden');
         }
 
         function closeRevisionPage() {
@@ -2202,6 +2218,11 @@
             if (modal) modal.classList.add('hidden');
             document.body.style.overflow = '';
             updateRevisionBadge();
+            const fcModal = document.getElementById('flashcards-modal');
+            const toggleBtn = document.getElementById('flashcards-toggle');
+            if (toggleBtn && (!fcModal || fcModal.classList.contains('hidden'))) {
+                toggleBtn.classList.remove('hidden');
+            }
         }
 
         function toggleRevisionCardFlip(cardEl) {
