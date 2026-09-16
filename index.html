@@ -117,27 +117,63 @@
             border-radius: 1.5rem;
             box-shadow: none;
         }
+        .splash-content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            max-width: 950px;
+            width: 100%;
+            padding: 0 1.25rem;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .splash-teacher-photo {
+            width: clamp(100px, 18vw, 155px);
+            height: clamp(100px, 18vw, 155px);
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: clamp(1.5rem, 3.5vw, 2.5rem);
+            border: clamp(3px, 0.5vw, 4px) solid #ffffff;
+            box-shadow: 0 14px 32px rgba(0, 0, 0, 0.25), 0 4px 12px rgba(0, 0, 0, 0.15);
+            margin: 0 auto clamp(1rem, 2.5vw, 1.75rem) auto;
+            display: block;
+            flex-shrink: 0;
+        }
         .splash-title {
             font-family: 'Outfit', sans-serif;
             font-weight: 800;
-            font-size: clamp(3.2rem, 9vw, 5.5rem);
+            font-size: clamp(2.4rem, 7vw, 4.8rem);
             color: #ffffff;
             text-align: center;
             line-height: 1.05;
             letter-spacing: -0.02em;
             text-shadow: 0 0 12px rgba(0, 0, 0, 0.4), 0 0 24px rgba(0, 0, 0, 0.22), 0 2px 4px rgba(0, 0, 0, 0.35);
-            margin: 0 0 1.25rem 0;
+            margin: 0 0 clamp(0.5rem, 1.5vw, 0.85rem) 0;
             padding: 0 1rem;
-            max-width: 950px;
+            max-width: 900px;
         }
         .splash-subtitle {
             font-family: 'Outfit', sans-serif;
-            font-weight: 200;
-            font-size: clamp(0.95rem, 2.4vw, 1.3rem);
+            font-weight: 300;
+            font-size: clamp(1.1rem, 2.8vw, 1.6rem);
             color: #000000;
             text-align: center;
-            line-height: 1.4;
-            letter-spacing: 0.03em;
+            line-height: 1.35;
+            letter-spacing: 0.02em;
+            text-shadow: none;
+            margin: 0 0 clamp(0.25rem, 0.8vw, 0.45rem) 0;
+            padding: 0 1rem;
+        }
+        .splash-qualification {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 300;
+            font-size: clamp(0.85rem, 2vw, 1.15rem);
+            color: rgba(0, 0, 0, 0.82);
+            text-align: center;
+            line-height: 1.35;
+            letter-spacing: 0.02em;
             text-shadow: none;
             margin: 0;
             padding: 0 1rem;
@@ -719,10 +755,17 @@
                  alt="Logo" class="splash-logo" onerror="handleImageError(this)">
         </div>
 
-        <!-- Stage 2: CIE Alevel Sociology by Sir Shamoeel -->
+        <!-- Stage 2: CIE A Level Sociology by Sir Shamoeel with photo -->
         <div id="splash-text-phase" class="splash-phase hidden-phase">
-            <h1 class="splash-title">CIE Alevel Sociology</h1>
-            <p class="splash-subtitle">by Sir Shamoeel</p>
+            <div class="splash-content-container">
+                <img src="https://kgkmjgbwttylpkylprsm.supabase.co/storage/v1/object/public/testimonials/off2.jpg" 
+                     alt="Sir Shamoeel" 
+                     class="splash-teacher-photo" 
+                     onerror="handleImageError(this)">
+                <h1 class="splash-title">CIE A level Sociology</h1>
+                <p class="splash-subtitle">by Sir Shamoeel</p>
+                <p class="splash-qualification">(Master of Philosophy in Sociology)</p>
+            </div>
         </div>
     </div>
 
