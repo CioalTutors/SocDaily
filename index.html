@@ -47,6 +47,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
@@ -597,30 +598,106 @@
             }
         }
 
-        /* Floating Flashcards Tab on Right Edge */
-        .flashcards-tab-btn {
+        /* Floating Right Edge Tabs Dock (Guaranteed Gap, No Overlap) */
+        .floating-right-dock {
             position: fixed;
             right: 0;
             top: 50%;
             transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 1.5rem; /* Clear, visible gap between buttons */
             z-index: 80;
+            pointer-events: none;
+            transition: opacity 0.25s ease, visibility 0.25s ease;
+        }
+        .floating-right-dock.hidden {
+            display: none !important;
+        }
+
+        /* Auto-hide floating right dock when any modal/overlay is open */
+        body:has(#flashcards-modal:not(.hidden)) .floating-right-dock,
+        body:has(#revision-page-modal:not(.hidden)) .floating-right-dock,
+        body:has(#video-revision-modal:not(.hidden)) .floating-right-dock {
+            display: none !important;
+        }
+
+        .floating-right-dock > button {
+            pointer-events: auto;
+            position: relative;
+            right: 0;
+            top: auto;
+            transform: none;
+        }
+
+        /* Floating Video Revision Tab on Right Edge */
+        .video-revision-tab-btn {
+            background: linear-gradient(180deg, #ef4444 0%, #b91c1c 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 1.15rem 0 0 1.15rem;
+            padding: 0.95rem 0.5rem;
+            cursor: pointer;
+            box-shadow: -4px 6px 20px rgba(220, 38, 38, 0.4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.45rem;
+            transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            user-select: none;
+        }
+        .video-revision-tab-btn:hover {
+            transform: translateX(-6px) !important;
+            box-shadow: -6px 8px 24px rgba(220, 38, 38, 0.6);
+            background: linear-gradient(180deg, #f87171 0%, #dc2626 100%);
+        }
+        .video-revision-tab-btn .tab-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            transform: rotate(180deg);
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 900;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+        }
+        .video-revision-tab-btn .tab-badge {
+            font-size: 0.60rem;
+            font-weight: 900;
+            background: #ffffff;
+            color: #b91c1c;
+            padding: 2px 5px;
+            border-radius: 9999px;
+            line-height: 1;
+            letter-spacing: 0.02em;
+        }
+        .video-revision-tab-btn.hidden {
+            display: none !important;
+        }
+
+        /* Floating Flashcards Tab on Right Edge */
+        .flashcards-tab-btn {
             background: linear-gradient(180deg, #84cc16 0%, #65a30d 100%);
             color: #ffffff;
             border: none;
-            border-radius: 1.25rem 0 0 1.25rem;
-            padding: 1.1rem 0.55rem;
+            border-radius: 1.15rem 0 0 1.15rem;
+            padding: 0.95rem 0.5rem;
             cursor: pointer;
             box-shadow: -4px 6px 20px rgba(101, 163, 13, 0.4);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 0.5rem;
+            gap: 0.45rem;
             transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             user-select: none;
         }
         .flashcards-tab-btn:hover {
-            transform: translateY(-50%) translateX(-5px);
+            transform: translateX(-6px) !important;
             box-shadow: -6px 8px 24px rgba(101, 163, 13, 0.6);
             background: linear-gradient(180deg, #a3e635 0%, #84cc16 100%);
         }
@@ -629,15 +706,15 @@
             text-orientation: mixed;
             transform: rotate(180deg);
             font-family: 'Outfit', sans-serif;
-            font-size: 0.72rem;
+            font-size: 0.70rem;
             font-weight: 900;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.18em;
             text-transform: uppercase;
             color: #ffffff;
             text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
         }
         .flashcards-tab-btn .tab-badge {
-            font-size: 0.65rem;
+            font-size: 0.62rem;
             font-weight: 900;
             background: #1e293b;
             color: var(--pwa-brand);
@@ -648,9 +725,33 @@
         .flashcards-tab-btn.hidden {
             display: none !important;
         }
-        body:has(#flashcards-modal:not(.hidden)) #flashcards-toggle,
-        body:has(#revision-page-modal:not(.hidden)) #flashcards-toggle {
-            display: none !important;
+
+        /* Video Revision Chapter Buttons */
+        .video-chapter-btn {
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .video-chapter-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px -2px rgba(225, 29, 72, 0.14);
+        }
+        .video-chapter-btn.active {
+            border-color: #f43f5e !important;
+            background: #fff1f2 !important;
+            box-shadow: 0 0 0 1px #f43f5e, 0 8px 20px -4px rgba(244, 63, 94, 0.25) !important;
+        }
+        .video-chapter-btn.active .chapter-play-icon {
+            background: #e11d48 !important;
+            color: #ffffff !important;
+            border-color: #e11d48 !important;
+        }
+        .video-chapter-btn.active .chapter-title {
+            color: #be123c !important;
+            font-weight: 900 !important;
+        }
+        .video-chapter-btn.active .chapter-time-badge {
+            background: #e11d48 !important;
+            color: #ffffff !important;
+            border-color: #e11d48 !important;
         }
 
         /* 3D Flip Card */
@@ -783,12 +884,22 @@
     <!-- Sidebar Toggle Button -->
     <button class="sidebar-toggle-btn" id="sidebar-toggle" onclick="toggleSidebar()">☰</button>
 
-    <!-- Floating Flashcards Tab on Right Edge -->
-    <button class="flashcards-tab-btn" id="flashcards-toggle" onclick="openFlashcardsModal()" title="Open Insight Flashcards">
-        <span class="tab-icon">🗂️</span>
-        <span class="tab-text">FLASHCARDS</span>
-        <span class="tab-badge" id="fc-tab-badge">0</span>
-    </button>
+    <!-- Floating Right Edge Tabs Dock (Guaranteed Gap, No Overlap) -->
+    <div class="floating-right-dock" id="floating-right-dock">
+        <!-- Floating Video Revision Tab on Right Edge -->
+        <button class="video-revision-tab-btn" id="video-revision-toggle" onclick="openVideoRevisionModal()" title="Open Video Revision & Paper Timestamps">
+            <span class="tab-icon">🎬</span>
+            <span class="tab-text">VIDEO REVISION</span>
+            <span class="tab-badge">2h</span>
+        </button>
+
+        <!-- Floating Flashcards Tab on Right Edge -->
+        <button class="flashcards-tab-btn" id="flashcards-toggle" onclick="openFlashcardsModal()" title="Open Insight Flashcards">
+            <span class="tab-icon">🗂️</span>
+            <span class="tab-text">FLASHCARDS</span>
+            <span class="tab-badge" id="fc-tab-badge">0</span>
+        </button>
+    </div>
 
     <!-- Left Sidebar Panel -->
     <div class="sidebar-panel hidden" id="sidebar-panel">
@@ -1220,6 +1331,167 @@
                         Reset Score
                     </button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Revision Modal -->
+    <div id="video-revision-modal" class="fixed inset-0 z-95 flex items-center justify-center p-3 sm:p-6 hidden bg-slate-900/80 backdrop-blur-sm transition-all" onclick="if(event.target===this) closeVideoRevisionModal()">
+        <div class="bg-white rounded-[2.5rem] p-5 sm:p-7 max-w-3xl w-full shadow-2xl relative border-2 border-slate-100 flex flex-col max-h-[92vh] overflow-y-auto">
+            
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+                <div class="flex items-center gap-3 min-w-0">
+                    <div class="w-10 h-10 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center text-lg font-black shrink-0 shadow-inner">
+                        🎬
+                    </div>
+                    <div class="min-w-0">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[9px] font-black uppercase tracking-widest text-rose-700 bg-rose-100 px-2 py-0.5 rounded-md">CIE A Level Sociology</span>
+                            <span class="text-[9px] font-bold text-slate-400">Masterclass</span>
+                        </div>
+                        <h3 class="text-base sm:text-xl font-black text-slate-900 leading-tight">Video Revision & Paper Timestamps</h3>
+                    </div>
+                </div>
+                
+                <button type="button" onclick="closeVideoRevisionModal()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 flex items-center justify-center font-bold text-base transition-all cursor-pointer shrink-0" title="Close (Esc)">
+                    ✕
+                </button>
+            </div>
+
+            <!-- YouTube Video Embed Container (16:9 aspect ratio) -->
+            <div class="relative w-full rounded-2xl overflow-hidden shadow-lg bg-black aspect-video mb-4 border border-slate-200">
+                <iframe id="video-revision-iframe" 
+                        class="w-full h-full"
+                        src="https://www.youtube.com/embed/NuwICHq8MWs?si=7ehABLD-VO_5IvJg&enablejsapi=1&rel=0" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Chapter Header -->
+            <div class="flex items-center justify-between mb-2.5 px-1">
+                <div class="flex items-center gap-2">
+                    <span class="text-xs">⏱️</span>
+                    <span class="text-xs font-black uppercase tracking-wider text-slate-800">Jump to Paper Timestamps</span>
+                </div>
+                <span class="text-[10px] text-slate-400 font-bold">Tap any chapter to seek & play</span>
+            </div>
+
+            <!-- Timestamp Buttons List -->
+            <div class="space-y-2">
+                <!-- 1: Paper 1 Socialzation and Research Methods -->
+                <button type="button" onclick="jumpToVideoTimestamp(0, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
+                            ▶
+                        </div>
+                        <div class="min-w-0">
+                            <div class="flex items-center gap-1.5 mb-0.5">
+                                <span class="text-[9px] font-black uppercase tracking-wider bg-lime-100 text-lime-800 px-2 py-0.5 rounded-md font-bold">Paper 1</span>
+                            </div>
+                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
+                                Paper 1 Socialzation and Research Methods
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shrink-0 text-right">
+                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                            00:00:00 - 01:17:36
+                        </span>
+                    </div>
+                </button>
+
+                <!-- 2: Paper 2 Family -->
+                <button type="button" onclick="jumpToVideoTimestamp(4656, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
+                            ▶
+                        </div>
+                        <div class="min-w-0">
+                            <div class="flex items-center gap-1.5 mb-0.5">
+                                <span class="text-[9px] font-black uppercase tracking-wider bg-blue-100 text-blue-800 px-2 py-0.5 rounded-md font-bold">Paper 2</span>
+                            </div>
+                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
+                                Paper 2 Family
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shrink-0 text-right">
+                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                            01:17:36 - 01:25:08
+                        </span>
+                    </div>
+                </button>
+
+                <!-- 3: Paper 3 Education -->
+                <button type="button" onclick="jumpToVideoTimestamp(5109, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
+                            ▶
+                        </div>
+                        <div class="min-w-0">
+                            <div class="flex items-center gap-1.5 mb-0.5">
+                                <span class="text-[9px] font-black uppercase tracking-wider bg-amber-100 text-amber-800 px-2 py-0.5 rounded-md font-bold">Paper 3</span>
+                            </div>
+                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
+                                Paper 3 Education
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shrink-0 text-right">
+                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                            01:25:09 - 01:34:24
+                        </span>
+                    </div>
+                </button>
+
+                <!-- 4: Paper 4 Globalisation and Media -->
+                <button type="button" onclick="jumpToVideoTimestamp(5665, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
+                            ▶
+                        </div>
+                        <div class="min-w-0">
+                            <div class="flex items-center gap-1.5 mb-0.5">
+                                <span class="text-[9px] font-black uppercase tracking-wider bg-purple-100 text-purple-800 px-2 py-0.5 rounded-md font-bold">Paper 4</span>
+                            </div>
+                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
+                                Paper 4 Globalisation and Media
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shrink-0 text-right">
+                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                            01:34:25 - 01:52:04
+                        </span>
+                    </div>
+                </button>
+
+                <!-- 5: Paper 4 Religion -->
+                <button type="button" onclick="jumpToVideoTimestamp(6725, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
+                            ▶
+                        </div>
+                        <div class="min-w-0">
+                            <div class="flex items-center gap-1.5 mb-0.5">
+                                <span class="text-[9px] font-black uppercase tracking-wider bg-rose-100 text-rose-800 px-2 py-0.5 rounded-md font-bold">Paper 4</span>
+                            </div>
+                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
+                                Paper 4 Religion
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shrink-0 text-right">
+                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                            01:52:05 - 01:59:55
+                        </span>
+                    </div>
+                </button>
             </div>
         </div>
     </div>
@@ -2078,8 +2350,7 @@
             updateRevisionBadge();
 
             modal.classList.remove('hidden');
-            const toggleBtn = document.getElementById('flashcards-toggle');
-            if (toggleBtn) toggleBtn.classList.add('hidden');
+            hideRightTabs();
         }
 
         function closeFlashcardsModal() {
@@ -2087,11 +2358,7 @@
             if (modal) modal.classList.add('hidden');
             const card = document.getElementById('flip-card-container');
             if (card) card.classList.remove('flipped');
-            const revModal = document.getElementById('revision-page-modal');
-            const toggleBtn = document.getElementById('flashcards-toggle');
-            if (toggleBtn && (!revModal || revModal.classList.contains('hidden'))) {
-                toggleBtn.classList.remove('hidden');
-            }
+            showRightTabs();
         }
 
         function updateFlashcardScoreUI() {
@@ -2252,8 +2519,7 @@
             renderRevisionCards();
             modal.classList.remove('hidden');
             document.body.style.overflow = 'hidden';
-            const toggleBtn = document.getElementById('flashcards-toggle');
-            if (toggleBtn) toggleBtn.classList.add('hidden');
+            hideRightTabs();
         }
 
         function closeRevisionPage() {
@@ -2261,11 +2527,7 @@
             if (modal) modal.classList.add('hidden');
             document.body.style.overflow = '';
             updateRevisionBadge();
-            const fcModal = document.getElementById('flashcards-modal');
-            const toggleBtn = document.getElementById('flashcards-toggle');
-            if (toggleBtn && (!fcModal || fcModal.classList.contains('hidden'))) {
-                toggleBtn.classList.remove('hidden');
-            }
+            showRightTabs();
         }
 
         function toggleRevisionCardFlip(cardEl) {
@@ -2356,6 +2618,174 @@
                 </div>
             `).join('');
         }
+
+        // ==================== RIGHT TABS MANAGEMENT ====================
+        function hideRightTabs() {
+            const dock = document.getElementById('floating-right-dock');
+            if (dock) dock.classList.add('hidden');
+            const fcBtn = document.getElementById('flashcards-toggle');
+            const vidBtn = document.getElementById('video-revision-toggle');
+            if (fcBtn) fcBtn.classList.add('hidden');
+            if (vidBtn) vidBtn.classList.add('hidden');
+        }
+
+        function showRightTabs() {
+            const fcModal = document.getElementById('flashcards-modal');
+            const revModal = document.getElementById('revision-page-modal');
+            const vidModal = document.getElementById('video-revision-modal');
+
+            const isAnyModalOpen = (fcModal && !fcModal.classList.contains('hidden')) ||
+                                  (revModal && !revModal.classList.contains('hidden')) ||
+                                  (vidModal && !vidModal.classList.contains('hidden'));
+
+            if (!isAnyModalOpen) {
+                const dock = document.getElementById('floating-right-dock');
+                if (dock) dock.classList.remove('hidden');
+                const fcBtn = document.getElementById('flashcards-toggle');
+                const vidBtn = document.getElementById('video-revision-toggle');
+                if (fcBtn) fcBtn.classList.remove('hidden');
+                if (vidBtn) vidBtn.classList.remove('hidden');
+            }
+        }
+
+        // ==================== VIDEO REVISION MODULE ====================
+        let ytRevisionPlayer = null;
+
+        // Called automatically by YouTube IFrame API once loaded
+        window.onYouTubeIframeAPIReady = function() {
+            try {
+                ytRevisionPlayer = new YT.Player('video-revision-iframe', {
+                    events: {
+                        'onReady': () => {
+                            console.log('YouTube Revision Player ready.');
+                        }
+                    }
+                });
+            } catch (e) {
+                console.warn('YouTube Player API init exception:', e);
+            }
+        };
+
+        function openVideoRevisionModal(initialSeconds) {
+            const modal = document.getElementById('video-revision-modal');
+            if (!modal) return;
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            hideRightTabs();
+
+            if (typeof initialSeconds === 'number') {
+                jumpToVideoTimestamp(initialSeconds);
+            }
+        }
+
+        function closeVideoRevisionModal() {
+            const modal = document.getElementById('video-revision-modal');
+            if (modal) modal.classList.add('hidden');
+            document.body.style.overflow = '';
+
+            // Pause/stop the video when modal is closed
+            if (ytRevisionPlayer && typeof ytRevisionPlayer.pauseVideo === 'function') {
+                try { ytRevisionPlayer.pauseVideo(); } catch (e) {}
+            }
+            const iframe = document.getElementById('video-revision-iframe');
+            if (iframe) {
+                try {
+                    if (iframe.contentWindow) {
+                        iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'pauseVideo', args: [] }), '*');
+                    }
+                } catch (e) {}
+                const originParam = (window.location.protocol.startsWith('http')) ? `&origin=${encodeURIComponent(window.location.origin)}` : '';
+                iframe.src = `https://www.youtube.com/embed/NuwICHq8MWs?si=7ehABLD-VO_5IvJg&enablejsapi=1&rel=0${originParam}`;
+            }
+
+            showRightTabs();
+        }
+
+        function jumpToVideoTimestamp(seconds, btnEl) {
+            // 1. Update active state on chapter buttons
+            document.querySelectorAll('.video-chapter-btn').forEach(b => b.classList.remove('active'));
+            if (btnEl) {
+                btnEl.classList.add('active');
+            } else {
+                const buttons = document.querySelectorAll('.video-chapter-btn');
+                buttons.forEach(b => {
+                    const onclickAttr = b.getAttribute('onclick') || '';
+                    if (onclickAttr.includes(`jumpToVideoTimestamp(${seconds}`)) {
+                        b.classList.add('active');
+                    }
+                });
+            }
+
+            const iframe = document.getElementById('video-revision-iframe');
+            if (!iframe) return;
+
+            let seekedViaApi = false;
+
+            // Check if YouTube Player API is active and actively playing or paused
+            if (ytRevisionPlayer && typeof ytRevisionPlayer.getPlayerState === 'function') {
+                try {
+                    const state = ytRevisionPlayer.getPlayerState();
+                    // 1 = playing, 2 = paused, 3 = buffering
+                    if (state === 1 || state === 2 || state === 3) {
+                        ytRevisionPlayer.seekTo(seconds, true);
+                        ytRevisionPlayer.playVideo();
+                        seekedViaApi = true;
+                    }
+                } catch (e) {
+                    console.warn('API seekTo error, falling back to src reload:', e);
+                    seekedViaApi = false;
+                }
+            }
+
+            // If not actively playing via API, directly navigate the iframe src with start timestamp and autoplay
+            if (!seekedViaApi) {
+                const originParam = (window.location.protocol.startsWith('http')) ? `&origin=${encodeURIComponent(window.location.origin)}` : '';
+                iframe.src = `https://www.youtube.com/embed/NuwICHq8MWs?si=7ehABLD-VO_5IvJg&start=${seconds}&autoplay=1&enablejsapi=1&rel=0${originParam}`;
+            }
+
+            // Supplemental postMessage call for already buffered iframes
+            try {
+                if (iframe.contentWindow) {
+                    iframe.contentWindow.postMessage(JSON.stringify({
+                        event: 'command',
+                        func: 'seekTo',
+                        args: [seconds, true]
+                    }), '*');
+                    iframe.contentWindow.postMessage(JSON.stringify({
+                        event: 'command',
+                        func: 'playVideo',
+                        args: []
+                    }), '*');
+                }
+            } catch (e) {}
+
+            // Smooth scroll up to video player on mobile devices
+            const modalScroll = document.querySelector('#video-revision-modal > div');
+            if (modalScroll && window.innerWidth < 640) {
+                modalScroll.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        // Global ESC key listener to close modals
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const vidModal = document.getElementById('video-revision-modal');
+                if (vidModal && !vidModal.classList.contains('hidden')) {
+                    closeVideoRevisionModal();
+                    return;
+                }
+                const fcModal = document.getElementById('flashcards-modal');
+                if (fcModal && !fcModal.classList.contains('hidden')) {
+                    closeFlashcardsModal();
+                    return;
+                }
+                const revModal = document.getElementById('revision-page-modal');
+                if (revModal && !revModal.classList.contains('hidden')) {
+                    closeRevisionPage();
+                    return;
+                }
+            }
+        });
 
         function saveOnboarding() {
             const input = document.getElementById('user-name-input');
