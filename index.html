@@ -1336,21 +1336,21 @@
     </div>
 
     <!-- Video Revision Modal -->
-    <div id="video-revision-modal" class="fixed inset-0 z-95 flex items-center justify-center p-3 sm:p-6 hidden bg-slate-900/80 backdrop-blur-sm transition-all" onclick="if(event.target===this) closeVideoRevisionModal()">
-        <div class="bg-white rounded-[2.5rem] p-5 sm:p-7 max-w-3xl w-full shadow-2xl relative border-2 border-slate-100 flex flex-col max-h-[92vh] overflow-y-auto">
+    <div id="video-revision-modal" class="fixed inset-0 z-95 flex items-center justify-center p-2 sm:p-4 md:p-6 hidden bg-slate-900/85 backdrop-blur-md transition-all" onclick="if(event.target===this) closeVideoRevisionModal()">
+        <div class="bg-white rounded-[2rem] md:rounded-[2.5rem] p-4 sm:p-5 md:p-6 w-full max-w-3xl md:max-w-5xl lg:max-w-6xl shadow-2xl relative border-2 border-slate-100 flex flex-col max-h-[96vh] overflow-y-auto">
             
             <!-- Modal Header -->
-            <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
-                <div class="flex items-center gap-3 min-w-0">
-                    <div class="w-10 h-10 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center text-lg font-black shrink-0 shadow-inner">
+            <div class="flex items-center justify-between pb-2.5 border-b border-slate-100 mb-2.5 md:mb-3 shrink-0">
+                <div class="flex items-center gap-2.5 min-w-0">
+                    <div class="w-8 h-8 md:w-9 md:h-9 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center text-sm md:text-base font-black shrink-0 shadow-inner">
                         🎬
                     </div>
                     <div class="min-w-0">
                         <div class="flex items-center gap-2">
                             <span class="text-[9px] font-black uppercase tracking-widest text-rose-700 bg-rose-100 px-2 py-0.5 rounded-md">CIE A Level Sociology</span>
-                            <span class="text-[9px] font-bold text-slate-400">Masterclass</span>
+                            <span class="text-[9px] font-bold text-slate-400 hidden sm:inline">Masterclass Revision</span>
                         </div>
-                        <h3 class="text-base sm:text-xl font-black text-slate-900 leading-tight">Video Revision & Paper Timestamps</h3>
+                        <h3 class="text-sm md:text-lg font-black text-slate-900 leading-tight truncate">Video Revision & Paper Timestamps</h3>
                     </div>
                 </div>
                 
@@ -1359,8 +1359,8 @@
                 </button>
             </div>
 
-            <!-- YouTube Video Embed Container (16:9 aspect ratio) -->
-            <div class="relative w-full rounded-2xl overflow-hidden shadow-lg bg-black aspect-video mb-4 border border-slate-200">
+            <!-- YouTube Video Embed Container (Dominant theater view, max space to video) -->
+            <div class="relative w-full rounded-2xl overflow-hidden shadow-xl bg-black aspect-video mb-2.5 md:mb-3 border border-slate-200 shrink-0">
                 <iframe id="video-revision-iframe" 
                         class="w-full h-full"
                         src="https://www.youtube.com/embed/NuwICHq8MWs?si=7ehABLD-VO_5IvJg&enablejsapi=1&rel=0" 
@@ -1373,123 +1373,103 @@
             </div>
 
             <!-- Chapter Header -->
-            <div class="flex items-center justify-between mb-2.5 px-1">
-                <div class="flex items-center gap-2">
+            <div class="flex items-center justify-between mb-2 px-1 shrink-0">
+                <div class="flex items-center gap-1.5">
                     <span class="text-xs">⏱️</span>
-                    <span class="text-xs font-black uppercase tracking-wider text-slate-800">Jump to Paper Timestamps</span>
+                    <span class="text-[11px] font-black uppercase tracking-wider text-slate-800">Jump to Paper Timestamps</span>
                 </div>
-                <span class="text-[10px] text-slate-400 font-bold">Tap any chapter to seek & play</span>
+                <span class="text-[10px] text-slate-400 font-bold">Tap any paper below to seek & play</span>
             </div>
 
-            <!-- Timestamp Buttons List -->
-            <div class="space-y-2">
+            <!-- Timestamp Buttons: 1 column on mobile, exactly 1 ROW (5 columns) on computer -->
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-2.5 shrink-0">
                 <!-- 1: Paper 1 Socialzation and Research Methods -->
-                <button type="button" onclick="jumpToVideoTimestamp(0, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
-                    <div class="flex items-center gap-3 min-w-0">
-                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
-                            ▶
-                        </div>
-                        <div class="min-w-0">
-                            <div class="flex items-center gap-1.5 mb-0.5">
-                                <span class="text-[9px] font-black uppercase tracking-wider bg-lime-100 text-lime-800 px-2 py-0.5 rounded-md font-bold">Paper 1</span>
-                            </div>
-                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
-                                Paper 1 Socialzation and Research Methods
-                            </div>
+                <button type="button" onclick="jumpToVideoTimestamp(0, this)" class="video-chapter-btn w-full p-2.5 md:p-3 rounded-xl md:rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex flex-row md:flex-col items-center md:items-start justify-between md:justify-between gap-1.5 md:gap-2 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-1.5 min-w-0 w-full justify-between">
+                        <div class="flex items-center gap-1.5 min-w-0">
+                            <span class="chapter-play-icon w-5 h-5 md:w-6 md:h-6 rounded-md md:rounded-lg bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-[9px] md:text-[10px] font-black shrink-0 shadow-xs transition-all">▶</span>
+                            <span class="text-[9px] font-black uppercase tracking-wider bg-lime-100 text-lime-800 px-1.5 py-0.5 rounded font-bold">Paper 1</span>
                         </div>
                     </div>
-                    <div class="shrink-0 text-right">
-                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                    <div class="min-w-0 flex-1 md:w-full md:mt-0.5">
+                        <div class="chapter-title text-xs font-black text-slate-800 truncate transition-colors" title="Paper 1 Socialzation and Research Methods">
+                            Socialization & Methods
+                        </div>
+                        <div class="chapter-time-badge text-[10px] font-mono font-bold text-slate-500 bg-white md:bg-transparent px-2 py-0.5 md:px-0 rounded border md:border-0 border-slate-200 mt-0.5 truncate">
                             00:00:00 - 01:17:36
-                        </span>
+                        </div>
                     </div>
                 </button>
 
                 <!-- 2: Paper 2 Family -->
-                <button type="button" onclick="jumpToVideoTimestamp(4656, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
-                    <div class="flex items-center gap-3 min-w-0">
-                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
-                            ▶
-                        </div>
-                        <div class="min-w-0">
-                            <div class="flex items-center gap-1.5 mb-0.5">
-                                <span class="text-[9px] font-black uppercase tracking-wider bg-blue-100 text-blue-800 px-2 py-0.5 rounded-md font-bold">Paper 2</span>
-                            </div>
-                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
-                                Paper 2 Family
-                            </div>
+                <button type="button" onclick="jumpToVideoTimestamp(4656, this)" class="video-chapter-btn w-full p-2.5 md:p-3 rounded-xl md:rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex flex-row md:flex-col items-center md:items-start justify-between md:justify-between gap-1.5 md:gap-2 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-1.5 min-w-0 w-full justify-between">
+                        <div class="flex items-center gap-1.5 min-w-0">
+                            <span class="chapter-play-icon w-5 h-5 md:w-6 md:h-6 rounded-md md:rounded-lg bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-[9px] md:text-[10px] font-black shrink-0 shadow-xs transition-all">▶</span>
+                            <span class="text-[9px] font-black uppercase tracking-wider bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-bold">Paper 2</span>
                         </div>
                     </div>
-                    <div class="shrink-0 text-right">
-                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                    <div class="min-w-0 flex-1 md:w-full md:mt-0.5">
+                        <div class="chapter-title text-xs font-black text-slate-800 truncate transition-colors" title="Paper 2 Family">
+                            Family
+                        </div>
+                        <div class="chapter-time-badge text-[10px] font-mono font-bold text-slate-500 bg-white md:bg-transparent px-2 py-0.5 md:px-0 rounded border md:border-0 border-slate-200 mt-0.5 truncate">
                             01:17:36 - 01:25:08
-                        </span>
+                        </div>
                     </div>
                 </button>
 
                 <!-- 3: Paper 3 Education -->
-                <button type="button" onclick="jumpToVideoTimestamp(5109, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
-                    <div class="flex items-center gap-3 min-w-0">
-                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
-                            ▶
-                        </div>
-                        <div class="min-w-0">
-                            <div class="flex items-center gap-1.5 mb-0.5">
-                                <span class="text-[9px] font-black uppercase tracking-wider bg-amber-100 text-amber-800 px-2 py-0.5 rounded-md font-bold">Paper 3</span>
-                            </div>
-                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
-                                Paper 3 Education
-                            </div>
+                <button type="button" onclick="jumpToVideoTimestamp(5109, this)" class="video-chapter-btn w-full p-2.5 md:p-3 rounded-xl md:rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex flex-row md:flex-col items-center md:items-start justify-between md:justify-between gap-1.5 md:gap-2 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-1.5 min-w-0 w-full justify-between">
+                        <div class="flex items-center gap-1.5 min-w-0">
+                            <span class="chapter-play-icon w-5 h-5 md:w-6 md:h-6 rounded-md md:rounded-lg bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-[9px] md:text-[10px] font-black shrink-0 shadow-xs transition-all">▶</span>
+                            <span class="text-[9px] font-black uppercase tracking-wider bg-amber-100 text-amber-800 px-1.5 py-0.5 rounded font-bold">Paper 3</span>
                         </div>
                     </div>
-                    <div class="shrink-0 text-right">
-                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                    <div class="min-w-0 flex-1 md:w-full md:mt-0.5">
+                        <div class="chapter-title text-xs font-black text-slate-800 truncate transition-colors" title="Paper 3 Education">
+                            Education
+                        </div>
+                        <div class="chapter-time-badge text-[10px] font-mono font-bold text-slate-500 bg-white md:bg-transparent px-2 py-0.5 md:px-0 rounded border md:border-0 border-slate-200 mt-0.5 truncate">
                             01:25:09 - 01:34:24
-                        </span>
+                        </div>
                     </div>
                 </button>
 
                 <!-- 4: Paper 4 Globalisation and Media -->
-                <button type="button" onclick="jumpToVideoTimestamp(5665, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
-                    <div class="flex items-center gap-3 min-w-0">
-                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
-                            ▶
-                        </div>
-                        <div class="min-w-0">
-                            <div class="flex items-center gap-1.5 mb-0.5">
-                                <span class="text-[9px] font-black uppercase tracking-wider bg-purple-100 text-purple-800 px-2 py-0.5 rounded-md font-bold">Paper 4</span>
-                            </div>
-                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
-                                Paper 4 Globalisation and Media
-                            </div>
+                <button type="button" onclick="jumpToVideoTimestamp(5665, this)" class="video-chapter-btn w-full p-2.5 md:p-3 rounded-xl md:rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex flex-row md:flex-col items-center md:items-start justify-between md:justify-between gap-1.5 md:gap-2 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-1.5 min-w-0 w-full justify-between">
+                        <div class="flex items-center gap-1.5 min-w-0">
+                            <span class="chapter-play-icon w-5 h-5 md:w-6 md:h-6 rounded-md md:rounded-lg bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-[9px] md:text-[10px] font-black shrink-0 shadow-xs transition-all">▶</span>
+                            <span class="text-[9px] font-black uppercase tracking-wider bg-purple-100 text-purple-800 px-1.5 py-0.5 rounded font-bold">Paper 4</span>
                         </div>
                     </div>
-                    <div class="shrink-0 text-right">
-                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                    <div class="min-w-0 flex-1 md:w-full md:mt-0.5">
+                        <div class="chapter-title text-xs font-black text-slate-800 truncate transition-colors" title="Paper 4 Globalisation and Media">
+                            Globalisation & Media
+                        </div>
+                        <div class="chapter-time-badge text-[10px] font-mono font-bold text-slate-500 bg-white md:bg-transparent px-2 py-0.5 md:px-0 rounded border md:border-0 border-slate-200 mt-0.5 truncate">
                             01:34:25 - 01:52:04
-                        </span>
+                        </div>
                     </div>
                 </button>
 
                 <!-- 5: Paper 4 Religion -->
-                <button type="button" onclick="jumpToVideoTimestamp(6725, this)" class="video-chapter-btn w-full p-3 sm:p-3.5 rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex items-center justify-between gap-3 transition-all text-left cursor-pointer active:scale-98">
-                    <div class="flex items-center gap-3 min-w-0">
-                        <div class="chapter-play-icon w-8 h-8 rounded-xl bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-xs font-black shrink-0 shadow-xs transition-all">
-                            ▶
-                        </div>
-                        <div class="min-w-0">
-                            <div class="flex items-center gap-1.5 mb-0.5">
-                                <span class="text-[9px] font-black uppercase tracking-wider bg-rose-100 text-rose-800 px-2 py-0.5 rounded-md font-bold">Paper 4</span>
-                            </div>
-                            <div class="chapter-title text-xs sm:text-sm font-extrabold text-slate-800 truncate transition-colors">
-                                Paper 4 Religion
-                            </div>
+                <button type="button" onclick="jumpToVideoTimestamp(6725, this)" class="video-chapter-btn w-full p-2.5 md:p-3 rounded-xl md:rounded-2xl border-2 border-slate-100 hover:border-rose-400 bg-slate-50/80 hover:bg-rose-50/40 flex flex-row md:flex-col items-center md:items-start justify-between md:justify-between gap-1.5 md:gap-2 transition-all text-left cursor-pointer active:scale-98">
+                    <div class="flex items-center gap-1.5 min-w-0 w-full justify-between">
+                        <div class="flex items-center gap-1.5 min-w-0">
+                            <span class="chapter-play-icon w-5 h-5 md:w-6 md:h-6 rounded-md md:rounded-lg bg-white border border-slate-200 text-slate-600 flex items-center justify-center text-[9px] md:text-[10px] font-black shrink-0 shadow-xs transition-all">▶</span>
+                            <span class="text-[9px] font-black uppercase tracking-wider bg-rose-100 text-rose-800 px-1.5 py-0.5 rounded font-bold">Paper 4</span>
                         </div>
                     </div>
-                    <div class="shrink-0 text-right">
-                        <span class="chapter-time-badge text-[10px] sm:text-xs font-mono font-bold text-slate-600 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shadow-xs transition-all">
+                    <div class="min-w-0 flex-1 md:w-full md:mt-0.5">
+                        <div class="chapter-title text-xs font-black text-slate-800 truncate transition-colors" title="Paper 4 Religion">
+                            Religion
+                        </div>
+                        <div class="chapter-time-badge text-[10px] font-mono font-bold text-slate-500 bg-white md:bg-transparent px-2 py-0.5 md:px-0 rounded border md:border-0 border-slate-200 mt-0.5 truncate">
                             01:52:05 - 01:59:55
-                        </span>
+                        </div>
                     </div>
                 </button>
             </div>
