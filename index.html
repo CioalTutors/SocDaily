@@ -100,11 +100,12 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 2rem 1.5rem;
+            padding: 1.5rem 1rem;
             text-align: center;
             transition: opacity 0.6s ease, transform 0.6s ease;
             opacity: 1;
             visibility: visible;
+            overflow-y: auto;
         }
         .splash-phase.hidden-phase {
             opacity: 0;
@@ -126,19 +127,19 @@
             text-align: center;
             max-width: 950px;
             width: 100%;
-            padding: 0 1.25rem;
+            padding: 0 1rem;
             box-sizing: border-box;
             margin: 0 auto;
         }
         .splash-teacher-photo {
-            width: clamp(100px, 18vw, 155px);
-            height: clamp(100px, 18vw, 155px);
+            width: clamp(80px, 14vw, 135px);
+            height: clamp(80px, 14vw, 135px);
             aspect-ratio: 1 / 1;
             object-fit: cover;
-            border-radius: clamp(1.5rem, 3.5vw, 2.5rem);
+            border-radius: clamp(1.25rem, 3vw, 2.25rem);
             border: clamp(3px, 0.5vw, 4px) solid #ffffff;
             box-shadow: 0 14px 32px rgba(0, 0, 0, 0.25), 0 4px 12px rgba(0, 0, 0, 0.15);
-            margin: 0 auto clamp(1rem, 2.5vw, 1.75rem) auto;
+            margin: 0 auto clamp(0.75rem, 2vw, 1.25rem) auto;
             display: block;
             flex-shrink: 0;
         }
@@ -616,11 +617,27 @@
             display: none !important;
         }
 
-        /* Auto-hide floating right dock when any modal/overlay is open */
+        /* Auto-hide floating right dock when any modal/overlay, splash, or chapter notes is open */
         body:has(#flashcards-modal:not(.hidden)) .floating-right-dock,
         body:has(#revision-page-modal:not(.hidden)) .floating-right-dock,
-        body:has(#video-revision-modal:not(.hidden)) .floating-right-dock {
+        body:has(#video-revision-modal:not(.hidden)) .floating-right-dock,
+        body:has(#presentation-slide-modal:not(.hidden)) .floating-right-dock,
+        body:has(#splash-screen:not(.hidden)) .floating-right-dock,
+        body:has(#chapter-notes-view:not(.hidden)) .floating-right-dock {
             display: none !important;
+        }
+
+        /* Auto-hide sidebar toggle when on splash screen, chapter notes, or slide viewer */
+        body:has(#splash-screen:not(.hidden)) #sidebar-toggle,
+        body:has(#chapter-notes-view:not(.hidden)) #sidebar-toggle,
+        body:has(#presentation-slide-modal:not(.hidden)) #sidebar-toggle {
+            display: none !important;
+        }
+
+        #presentation-slide-modal.hidden {
+            display: none !important;
+            pointer-events: none !important;
+            visibility: hidden !important;
         }
 
         .floating-right-dock > button {
@@ -856,7 +873,7 @@
                  alt="Logo" class="splash-logo" onerror="handleImageError(this)">
         </div>
 
-        <!-- Stage 2: CIE A Level Sociology by Sir Shamoeel with photo -->
+        <!-- Stage 2: CIE A Level Sociology by Sir Shamoeel with photo & Mode Options -->
         <div id="splash-text-phase" class="splash-phase hidden-phase">
             <div class="splash-content-container">
                 <img src="https://kgkmjgbwttylpkylprsm.supabase.co/storage/v1/object/public/testimonials/off2.jpg" 
@@ -866,6 +883,20 @@
                 <h1 class="splash-title">CIE A level Sociology</h1>
                 <p class="splash-subtitle">by Sir Shamoeel</p>
                 <p class="splash-qualification">(Master of Philosophy in Sociology)</p>
+
+                <!-- Two options appear on screen: Chapter Notes and Insights -->
+                <div id="splash-options-container" class="flex flex-row items-stretch justify-center gap-3 sm:gap-4 mt-4 sm:mt-6 w-full max-w-md px-1 opacity-0 transform translate-y-3 transition-all duration-700">
+                    <button type="button" onclick="selectAppMode('notes')" class="w-1/2 p-3 sm:p-4 rounded-2xl bg-white text-slate-900 font-extrabold shadow-lg hover:shadow-2xl border-2 border-slate-900 hover:border-lime-600 hover:bg-slate-50 transition-all transform hover:-translate-y-1 active:scale-95 flex flex-col items-center justify-center gap-1 cursor-pointer group">
+                        <span class="text-2xl sm:text-3xl group-hover:scale-110 transition-transform">📑</span>
+                        <span class="text-xs sm:text-base font-black tracking-tight text-slate-900">Chapter Notes</span>
+                        <span class="text-[9px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-wider">Lecture Slides</span>
+                    </button>
+                    <button type="button" onclick="selectAppMode('insights')" class="w-1/2 p-3 sm:p-4 rounded-2xl bg-slate-900 text-white font-extrabold shadow-lg hover:shadow-2xl border-2 border-slate-900 hover:border-lime-400 hover:bg-slate-800 transition-all transform hover:-translate-y-1 active:scale-95 flex flex-col items-center justify-center gap-1 cursor-pointer group">
+                        <span class="text-2xl sm:text-3xl group-hover:scale-110 transition-transform">💡</span>
+                        <span class="text-xs sm:text-base font-black tracking-tight text-[rgb(198,255,96)]">Insights</span>
+                        <span class="text-[9px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-wider">Exam Questions & Q&A</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -903,8 +934,12 @@
 
     <!-- Left Sidebar Panel -->
     <div class="sidebar-panel hidden" id="sidebar-panel">
-        <div class="sidebar-header">
+        <div class="sidebar-header flex items-center justify-between">
             <h3>📚 Paper-wise Questions</h3>
+            <button type="button" onclick="selectAppMode('notes'); toggleSidebar();" class="text-[10px] font-black uppercase tracking-wider bg-lime-100 hover:bg-lime-200 text-lime-900 px-2.5 py-1 rounded-lg transition-all cursor-pointer flex items-center gap-1" title="Go to Chapter Notes">
+                <span>📑</span>
+                <span>Notes</span>
+            </button>
         </div>
         
         <div class="sidebar-content">
@@ -1129,6 +1164,69 @@
         </div>
     </div>
 
+    <!-- Chapter Notes Hub View -->
+    <main id="chapter-notes-view" class="w-full max-w-4xl glass-card p-6 sm:p-10 md:p-14 relative overflow-hidden hidden">
+        <!-- Chapter Notes Navbar -->
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-5 pb-6 border-b border-slate-100 mb-8">
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-lime-400 text-slate-950 flex items-center justify-center text-2xl font-black shadow-md shrink-0">
+                    📑
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-[10px] font-black uppercase tracking-[0.2em] text-lime-700 bg-lime-100 px-2 py-0.5 rounded-md">Presentations</span>
+                        <span class="text-[10px] font-bold text-slate-400">CIE A Level</span>
+                    </div>
+                    <h2 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-tight">Chapter Notes & Slides</h2>
+                </div>
+            </div>
+
+            <!-- Switcher Buttons -->
+            <div class="flex items-center gap-2.5 flex-wrap">
+                <button type="button" onclick="selectAppMode('insights')" class="bg-slate-900 hover:bg-slate-800 text-[rgb(198,255,96)] px-5 py-3 rounded-full font-black text-xs uppercase tracking-wider transition-all shadow-md flex items-center gap-1.5 cursor-pointer">
+                    <span>💡</span>
+                    <span>Go to Insights</span>
+                </button>
+                <button type="button" onclick="showModeSelectionScreen()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 px-3.5 py-3 rounded-full font-bold text-xs flex items-center justify-center transition-all cursor-pointer shadow-xs" title="Main Menu">
+                    <span>🏠</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Search Bar and Controls -->
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-3 mb-6 bg-slate-50 p-3 sm:p-4 rounded-2xl border border-slate-100">
+            <div class="relative w-full sm:w-80">
+                <input type="text" id="notes-search-input" oninput="handleNotesSearch(this.value)" placeholder="Search chapter, unit, or part..." class="w-full pl-9 pr-3 py-2.5 text-xs font-bold rounded-xl border border-slate-200 bg-white focus:border-lime-500 focus:ring-2 focus:ring-lime-100 outline-none transition-all" autocomplete="off">
+                <span class="absolute left-3 top-3 text-xs text-slate-400">🔍</span>
+            </div>
+            <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end">
+                <div class="text-xs font-black text-slate-500 flex items-center gap-1.5" id="notes-count-badge">
+                    <span>Loading presentations...</span>
+                </div>
+                <div class="flex items-center gap-1.5 shrink-0">
+                    <button type="button" onclick="toggleAllNotesAccordions(true)" class="text-[10px] font-black uppercase text-slate-600 hover:text-slate-900 bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1.5 rounded-lg transition-all cursor-pointer shadow-xs active:scale-95" title="Expand All Chapters & Units">
+                        Expand All
+                    </button>
+                    <button type="button" onclick="toggleAllNotesAccordions(false)" class="text-[10px] font-black uppercase text-slate-600 hover:text-slate-900 bg-white hover:bg-slate-100 border border-slate-200 px-2.5 py-1.5 rounded-lg transition-all cursor-pointer shadow-xs active:scale-95" title="Collapse All Chapters & Units">
+                        Collapse All
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Presentations Container (Grouped by Chapter) -->
+        <div id="presentations-container" class="space-y-6">
+            <!-- Populated dynamically via JS -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="presentations-empty-state" class="hidden text-center py-16">
+            <div class="text-5xl mb-3">📂</div>
+            <h3 class="text-lg font-black text-slate-800 mb-1">No Presentations Found</h3>
+            <p class="text-xs text-slate-400 max-w-sm mx-auto">Try clearing your search or check back soon as notes are being uploaded.</p>
+        </div>
+    </main>
+
     <main id="app-content" class="w-full max-w-4xl glass-card p-8 md:p-16 relative overflow-hidden">
         
         <!-- Navbar -->
@@ -1155,9 +1253,16 @@
                     </div>
                 </div>
             </div>
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2.5 flex-wrap">
+                <button type="button" onclick="selectAppMode('notes')" class="bg-lime-100 hover:bg-lime-200 text-lime-900 px-4 py-3 rounded-full font-black text-xs uppercase tracking-wider transition-all shadow-xs flex items-center gap-1.5 cursor-pointer">
+                    <span>📑</span>
+                    <span>Chapter Notes</span>
+                </button>
+                <button type="button" onclick="showModeSelectionScreen()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 w-10 h-10 rounded-full font-bold text-xs flex items-center justify-center transition-all cursor-pointer shadow-xs" title="Main Menu">
+                    <span>🏠</span>
+                </button>
                 <button id="install-prompt-btn" onclick="installApp()">Install App</button>
-                <button onclick="nextQuestion()" class="bg-slate-100 px-8 py-3.5 rounded-full font-black text-xs uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-sm">
+                <button onclick="nextQuestion()" class="bg-slate-100 px-6 sm:px-8 py-3 rounded-full font-black text-xs uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-sm cursor-pointer">
                     Next Insight
                 </button>
             </div>
@@ -1466,6 +1571,55 @@
         </div>
     </div>
 
+    <!-- Presentation Slide Modal -->
+    <div id="presentation-slide-modal" class="fixed inset-0 z-95 flex items-center justify-center p-2 sm:p-4 md:p-6 hidden bg-slate-900/90 backdrop-blur-md transition-all" onclick="if(event.target===this) closePresentationSlideModal()">
+        <div class="bg-slate-950 rounded-2xl md:rounded-3xl w-full max-w-6xl shadow-2xl relative border border-slate-800 flex flex-col h-[94vh] overflow-hidden">
+            
+            <!-- Viewer Header Bar -->
+            <div class="flex items-center justify-between px-3 sm:px-5 py-3 bg-slate-900 border-b border-slate-800 shrink-0 text-white">
+                <div class="flex items-center gap-2.5 min-w-0">
+                    <span class="text-xl shrink-0">📑</span>
+                    <div class="min-w-0">
+                        <div class="flex items-center gap-2">
+                            <span id="slide-viewer-chapter-badge" class="text-[9px] font-black uppercase tracking-wider bg-lime-400 text-slate-950 px-2 py-0.5 rounded font-bold shrink-0">Chapter 1</span>
+                            <span id="slide-viewer-unit-badge" class="text-[10px] font-mono text-slate-300 truncate hidden sm:inline">Unit 1.1</span>
+                        </div>
+                        <h3 id="slide-viewer-title" class="text-xs sm:text-sm font-black text-white truncate">Sociology Presentation</h3>
+                    </div>
+                </div>
+
+                <!-- Viewer Actions -->
+                <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                    <button type="button" onclick="navigatePresentation(-1)" id="prev-pres-btn" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition-all disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer" title="Previous Presentation">
+                        ◀ Prev
+                    </button>
+                    <button type="button" onclick="navigatePresentation(1)" id="next-pres-btn" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition-all disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer" title="Next Presentation">
+                        Next ▶
+                    </button>
+                    <button type="button" onclick="togglePresentationFullscreen()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-white flex items-center justify-center font-bold text-xs transition-all cursor-pointer" title="Toggle Fullscreen">
+                        ⛶
+                    </button>
+                    <button type="button" onclick="closePresentationSlideModal()" class="w-8 h-8 rounded-full bg-slate-800 hover:bg-rose-600 text-slate-300 hover:text-white flex items-center justify-center font-bold text-base transition-all cursor-pointer ml-1" title="Close (Esc)">
+                        ✕
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slide Frame Container -->
+            <div class="relative w-full flex-1 bg-white flex items-center justify-center overflow-hidden" id="slide-frame-container">
+                <!-- Loading Spinner -->
+                <div id="slide-loader" class="absolute inset-0 flex flex-col items-center justify-center bg-slate-950 text-white z-10">
+                    <div class="w-10 h-10 border-4 border-lime-400 border-t-transparent rounded-full animate-spin mb-3"></div>
+                    <p class="text-xs font-bold tracking-wider text-slate-400 uppercase">Loading Presentation Slide...</p>
+                </div>
+
+                <!-- Sandboxed iframe for 100% CSS/JS isolation of html_slide -->
+                <iframe id="presentation-iframe" class="w-full h-full border-0 bg-white" sandbox="allow-scripts allow-same-origin allow-popups allow-forms" allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Flashcards Modal -->
     <div id="flashcards-modal" class="fixed inset-0 z-95 flex items-center justify-center p-4 sm:p-6 hidden bg-slate-900/80 backdrop-blur-sm transition-all">
         <div class="bg-white rounded-[2.5rem] p-6 sm:p-8 max-w-lg md:max-w-xl w-full shadow-2xl relative border-2 border-slate-100 flex flex-col max-h-[90vh] overflow-y-auto">
@@ -1717,6 +1871,15 @@
         let flashcardScore = parseInt(localStorage.getItem('socdaily_flashcard_score')) || 0;
         let knownCardsThisDeck = 0;
         let revisionCards = JSON.parse(localStorage.getItem('socdaily_revision_cards_v1')) || [];
+
+        // Chapter Notes & Presentations State
+        let presentationsList = [];
+        let slideCache = {};
+        let activePresentationIndex = -1;
+        let currentAppMode = 'insights';
+        let openChaptersState = new Set();
+        let openUnitsState = new Set();
+        let accordionsInitialized = false;
 
         function escapeHtml(str) {
             if (!str) return '';
@@ -2739,6 +2902,11 @@
         // Global ESC key listener to close modals
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
+                const presModal = document.getElementById('presentation-slide-modal');
+                if (presModal && !presModal.classList.contains('hidden')) {
+                    closePresentationSlideModal();
+                    return;
+                }
                 const vidModal = document.getElementById('video-revision-modal');
                 if (vidModal && !vidModal.classList.contains('hidden')) {
                     closeVideoRevisionModal();
@@ -2754,6 +2922,1606 @@
                     closeRevisionPage();
                     return;
                 }
+            }
+        });
+
+        // ==================== MODE SWITCHING (CHAPTER NOTES vs INSIGHTS) ====================
+        function selectAppMode(mode) {
+            currentAppMode = mode;
+            const splashEl = document.getElementById('splash-screen');
+            const appContent = document.getElementById('app-content');
+            const notesView = document.getElementById('chapter-notes-view');
+
+            if (splashEl) splashEl.classList.add('hidden');
+            document.body.style.overflow = '';
+
+            if (mode === 'notes') {
+                if (appContent) appContent.classList.add('hidden');
+                if (notesView) notesView.classList.remove('hidden');
+                if (presentationsList.length === 0) {
+                    fetchPresentations();
+                }
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                if (notesView) notesView.classList.add('hidden');
+                if (appContent) appContent.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+
+                if (!userName) {
+                    const onboarding = document.getElementById('onboarding-overlay');
+                    if (onboarding) onboarding.classList.remove('hidden');
+                }
+            }
+        }
+
+        function showModeSelectionScreen() {
+            const splashEl = document.getElementById('splash-screen');
+            const logoPhase = document.getElementById('splash-logo-phase');
+            const textPhase = document.getElementById('splash-text-phase');
+            const optionsEl = document.getElementById('splash-options-container');
+
+            if (logoPhase) logoPhase.classList.add('hidden-phase');
+            if (textPhase) textPhase.classList.remove('hidden-phase');
+            if (optionsEl) optionsEl.classList.remove('opacity-0', 'translate-y-3');
+
+            if (splashEl) {
+                splashEl.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        // ==================== CHAPTER NOTES & PRESENTATIONS MODULE ====================
+        async function fetchPresentations() {
+            const countBadge = document.getElementById('notes-count-badge');
+            try {
+                if (countBadge) countBadge.innerText = 'Loading presentations...';
+                const { data, error } = await window.supabaseClient
+                    .from('sociology_presentations')
+                    .select('id, chapter_number, chapter_name, units, unit_name, part')
+                    .order('chapter_number', { ascending: true })
+                    .order('units', { ascending: true })
+                    .order('part', { ascending: true, nullsFirst: false });
+
+                if (error) throw error;
+                // Natural sort in JS for robust ordering (e.g., Unit 1.2 before 1.10, Part 1 before 2)
+                presentationsList = (data || []).sort((a, b) => {
+                    const chA = a.chapter_number != null ? a.chapter_number : 9999;
+                    const chB = b.chapter_number != null ? b.chapter_number : 9999;
+                    if (chA !== chB) return chA - chB;
+
+                    const uA = (a.units || '').trim();
+                    const uB = (b.units || '').trim();
+                    const cmp = uA.localeCompare(uB, undefined, { numeric: true });
+                    if (cmp !== 0) return cmp;
+
+                    const pA = Number(a.part) || 0;
+                    const pB = Number(b.part) || 0;
+                    return pA - pB;
+                });
+                renderPresentationsList();
+            } catch (err) {
+                console.error("Failed to fetch presentations:", err);
+                if (countBadge) countBadge.innerText = 'Error loading presentations';
+                const container = document.getElementById('presentations-container');
+                if (container && presentationsList.length === 0) {
+                    container.innerHTML = `
+                        <div class="text-center py-10 bg-rose-50 border border-rose-200 rounded-2xl p-4">
+                            <p class="text-xs font-black text-rose-700 uppercase">Unable to load presentations</p>
+                            <p class="text-xs text-slate-500 mt-1">Please check your connection and try refreshing.</p>
+                            <button type="button" onclick="fetchPresentations()" class="mt-3 glow-btn px-4 py-1.5 rounded-xl text-xs uppercase cursor-pointer">Retry</button>
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        function handleNotesSearch(val) {
+            renderPresentationsList(val);
+        }
+
+        function renderPresentationsList(query = '') {
+            const container = document.getElementById('presentations-container');
+            const emptyState = document.getElementById('presentations-empty-state');
+            const countBadge = document.getElementById('notes-count-badge');
+            if (!container) return;
+
+            const q = query.trim().toLowerCase();
+            const filtered = presentationsList.filter(p => {
+                if (!q) return true;
+                const chName = (p.chapter_name || '').toLowerCase();
+                const chNum = (p.chapter_number != null ? `chapter ${p.chapter_number}` : '').toLowerCase();
+                const chNumOnly = (p.chapter_number != null ? `${p.chapter_number}` : '');
+                const uCode = (p.units || '').toLowerCase();
+                const uCodeWithPrefix = (p.units ? `unit ${p.units}` : '').toLowerCase();
+                const uName = (p.unit_name || '').toLowerCase();
+                const partStr = (p.part != null ? `part ${p.part}` : '').toLowerCase();
+                return chName.includes(q) || chNum.includes(q) || chNumOnly === q || uCode.includes(q) || uCodeWithPrefix.includes(q) || uName.includes(q) || partStr.includes(q);
+            });
+
+            if (countBadge) {
+                countBadge.innerText = `${filtered.length} Presentation${filtered.length === 1 ? '' : 's'}`;
+            }
+
+            if (filtered.length === 0) {
+                container.innerHTML = '';
+                if (emptyState) emptyState.classList.remove('hidden');
+                return;
+            }
+
+            if (emptyState) emptyState.classList.add('hidden');
+
+            // 3-Level Grouping: Chapter -> Unit -> List of Parts
+            const chaptersMap = new Map();
+            filtered.forEach(p => {
+                const chNum = p.chapter_number != null ? p.chapter_number : 9999;
+                const chName = (p.chapter_name || '').trim() || (p.chapter_number != null ? `Chapter ${p.chapter_number}` : 'General Notes');
+                const chKey = `ch_${chNum}`;
+
+                if (!chaptersMap.has(chKey)) {
+                    chaptersMap.set(chKey, {
+                        chapterKey: chKey,
+                        chapterNumber: p.chapter_number,
+                        chapterName: chName,
+                        unitsMap: new Map(),
+                        totalParts: 0
+                    });
+                }
+
+                const chObj = chaptersMap.get(chKey);
+                chObj.totalParts++;
+
+                const uCode = (p.units || '').trim() || (p.chapter_number ? `${p.chapter_number}.0` : 'General');
+                const uName = (p.unit_name || '').trim() || (p.chapter_name || `Unit ${uCode}`);
+                const unitKey = `u_${chNum}_${uCode.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
+
+                if (!chObj.unitsMap.has(unitKey)) {
+                    chObj.unitsMap.set(unitKey, {
+                        unitKey: unitKey,
+                        unitCode: uCode,
+                        unitName: uName,
+                        parts: []
+                    });
+                }
+
+                chObj.unitsMap.get(unitKey).parts.push(p);
+            });
+
+            const sortedChapters = Array.from(chaptersMap.values()).sort((a, b) => {
+                const numA = a.chapterNumber != null ? a.chapterNumber : 9999;
+                const numB = b.chapterNumber != null ? b.chapterNumber : 9999;
+                return numA - numB;
+            });
+
+            // On initial load without active search, expand the first chapter and its first unit for immediate discoverability
+            if (!accordionsInitialized && !q && sortedChapters.length > 0) {
+                const firstCh = sortedChapters[0];
+                openChaptersState.add(firstCh.chapterKey);
+                const firstUnits = Array.from(firstCh.unitsMap.values());
+                if (firstUnits.length > 0) {
+                    openUnitsState.add(firstUnits[0].unitKey);
+                }
+                accordionsInitialized = true;
+            }
+
+            const isSearching = Boolean(q);
+
+            container.innerHTML = sortedChapters.map(grp => {
+                const isChOpen = isSearching || openChaptersState.has(grp.chapterKey);
+
+                const sortedUnits = Array.from(grp.unitsMap.values()).sort((a, b) => {
+                    return a.unitCode.localeCompare(b.unitCode, undefined, { numeric: true });
+                });
+
+                const unitsHtml = sortedUnits.map(unit => {
+                    const isUnitOpen = isSearching || openUnitsState.has(unit.unitKey);
+                    const unitCodeDisplay = unit.unitCode.toLowerCase().startsWith('unit') 
+                        ? unit.unitCode 
+                        : `Unit ${unit.unitCode}`;
+
+                    const sortedParts = unit.parts.sort((a, b) => {
+                        const pA = Number(a.part) || 0;
+                        const pB = Number(b.part) || 0;
+                        return pA - pB;
+                    });
+
+                    const partsHtml = sortedParts.map(p => {
+                        const partLabel = p.part != null ? `Part ${p.part}` : `Slide #${p.id}`;
+                        return `
+                            <div onclick="openPresentationSlide(${p.id})" class="bg-white hover:bg-lime-50/60 border border-slate-200 hover:border-lime-400 p-3 sm:p-3.5 rounded-xl shadow-xs hover:shadow-md transition-all flex items-center justify-between gap-3 cursor-pointer group active:scale-98">
+                                <div class="flex items-center gap-2.5 min-w-0">
+                                    <span class="w-7 h-7 rounded-lg bg-lime-100 text-lime-800 group-hover:bg-lime-400 group-hover:text-slate-950 font-black text-xs flex items-center justify-center shrink-0 transition-colors shadow-xs">
+                                        ▶
+                                    </span>
+                                    <div class="min-w-0">
+                                        <span class="text-xs sm:text-sm font-black text-slate-900 group-hover:text-lime-800 transition-colors block truncate">
+                                            ${escapeHtml(partLabel)}
+                                        </span>
+                                        <span class="text-[10px] font-bold text-slate-400 group-hover:text-slate-500 block truncate">
+                                            Interactive Slide Deck
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-1 text-[11px] font-black text-lime-700 group-hover:text-lime-900 bg-lime-50 group-hover:bg-lime-100 px-2.5 py-1 rounded-md shrink-0 transition-all group-hover:translate-x-0.5">
+                                    <span>View</span>
+                                    <span>➔</span>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    return `
+                        <div class="bg-white border border-slate-200 hover:border-lime-300 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs transition-all">
+                            <!-- Level 2: Unit Dropdown Header (Click to expand/collapse parts) -->
+                            <button type="button" 
+                                    onclick="toggleUnitAccordion('${unit.unitKey}')" 
+                                    class="w-full flex items-center justify-between p-3.5 sm:p-4 bg-white hover:bg-lime-50/30 text-left transition-colors cursor-pointer group select-none">
+                                <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
+                                    <span class="text-[10px] sm:text-xs font-black uppercase tracking-wider bg-slate-100 text-slate-800 group-hover:bg-lime-100 group-hover:text-lime-950 px-2.5 py-1 rounded-lg shrink-0 transition-colors">
+                                        ${escapeHtml(unitCodeDisplay)}
+                                    </span>
+                                    <h4 class="text-xs sm:text-sm font-black text-slate-800 group-hover:text-lime-800 transition-colors truncate">
+                                        ${escapeHtml(unit.unitName)}
+                                    </h4>
+                                </div>
+                                <div class="flex items-center gap-2.5 shrink-0 ml-2">
+                                    <span class="text-[10px] font-bold text-slate-400 bg-slate-100 group-hover:bg-slate-200 px-2 py-0.5 rounded-full transition-colors">
+                                        ${unit.parts.length} ${unit.parts.length === 1 ? 'Part' : 'Parts'}
+                                    </span>
+                                    <span id="unit-chevron-${unit.unitKey}" class="unit-chevron-icon w-6 h-6 rounded-lg bg-slate-50 border border-slate-200 text-slate-400 group-hover:text-slate-700 flex items-center justify-center text-[10px] font-bold shadow-xs transition-transform duration-200 inline-flex" style="transform: ${isUnitOpen ? 'rotate(180deg)' : 'rotate(0deg)'};">
+                                        ▼
+                                    </span>
+                                </div>
+                            </button>
+
+                            <!-- Level 3: Parts Grid -->
+                            <div id="unit-body-${unit.unitKey}" class="unit-accordion-body border-t border-slate-100 p-3 sm:p-4 bg-slate-50/50 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 sm:gap-3 ${isUnitOpen ? '' : 'hidden'}">
+                                ${partsHtml}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                return `
+                    <div class="bg-white border-2 border-slate-200/80 hover:border-slate-300 rounded-2xl sm:rounded-3xl shadow-xs overflow-hidden mb-4 sm:mb-5 transition-all">
+                        <!-- Level 1: Chapter Dropdown Header (Click to expand/collapse units) -->
+                        <button type="button" 
+                                onclick="toggleChapterAccordion('${grp.chapterKey}')" 
+                                class="w-full flex items-center justify-between p-4 sm:p-5 bg-gradient-to-r from-slate-50/90 to-white hover:from-lime-50/50 hover:to-white text-left transition-colors cursor-pointer group select-none">
+                            <div class="flex items-center gap-3 sm:gap-3.5 min-w-0">
+                                <span class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-lime-400 text-slate-950 font-black text-xs sm:text-sm flex items-center justify-center shrink-0 shadow-xs">
+                                    ${grp.chapterNumber != null ? grp.chapterNumber : '📖'}
+                                </span>
+                                <div class="min-w-0">
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        <span class="text-[10px] font-black uppercase tracking-wider bg-lime-100 text-lime-900 px-2 py-0.5 rounded">
+                                            ${grp.chapterNumber != null ? `Chapter ${grp.chapterNumber}` : 'General Notes'}
+                                        </span>
+                                        <span class="text-[11px] font-bold text-slate-400 hidden sm:inline">
+                                            ${sortedUnits.length} ${sortedUnits.length === 1 ? 'Unit' : 'Units'} • ${grp.totalParts} ${grp.totalParts === 1 ? 'Part' : 'Parts'}
+                                        </span>
+                                    </div>
+                                    <h3 class="text-base sm:text-lg font-black text-slate-900 group-hover:text-lime-800 transition-colors mt-0.5 truncate leading-snug">
+                                        ${escapeHtml(grp.chapterName)}
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2.5 shrink-0 ml-3">
+                                <span class="text-[10px] font-black uppercase text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full sm:hidden">
+                                    ${grp.totalParts} ${grp.totalParts === 1 ? 'Part' : 'Parts'}
+                                </span>
+                                <span id="ch-chevron-${grp.chapterKey}" class="chapter-chevron-icon w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-white border border-slate-200 text-slate-600 group-hover:text-slate-900 group-hover:border-slate-300 flex items-center justify-center text-xs font-black shadow-xs transition-transform duration-200 inline-flex" style="transform: ${isChOpen ? 'rotate(180deg)' : 'rotate(0deg)'};">
+                                    ▼
+                                </span>
+                            </div>
+                        </button>
+
+                        <!-- Level 2: Units Body -->
+                        <div id="ch-body-${grp.chapterKey}" class="chapter-accordion-body border-t border-slate-100 p-3 sm:p-5 space-y-3 bg-slate-50/40 ${isChOpen ? '' : 'hidden'}">
+                            ${unitsHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function toggleChapterAccordion(chKey) {
+            const body = document.getElementById(`ch-body-${chKey}`);
+            const chevron = document.getElementById(`ch-chevron-${chKey}`);
+            if (!body) return;
+            const isHidden = body.classList.contains('hidden');
+            if (isHidden) {
+                body.classList.remove('hidden');
+                if (chevron) chevron.style.transform = 'rotate(180deg)';
+                openChaptersState.add(chKey);
+            } else {
+                body.classList.add('hidden');
+                if (chevron) chevron.style.transform = 'rotate(0deg)';
+                openChaptersState.delete(chKey);
+            }
+        }
+
+        function toggleUnitAccordion(unitKey) {
+            const body = document.getElementById(`unit-body-${unitKey}`);
+            const chevron = document.getElementById(`unit-chevron-${unitKey}`);
+            if (!body) return;
+            const isHidden = body.classList.contains('hidden');
+            if (isHidden) {
+                body.classList.remove('hidden');
+                if (chevron) chevron.style.transform = 'rotate(180deg)';
+                openUnitsState.add(unitKey);
+            } else {
+                body.classList.add('hidden');
+                if (chevron) chevron.style.transform = 'rotate(0deg)';
+                openUnitsState.delete(unitKey);
+            }
+        }
+
+        function toggleAllNotesAccordions(expand = true) {
+            document.querySelectorAll('.chapter-accordion-body').forEach(el => {
+                if (expand) el.classList.remove('hidden');
+                else el.classList.add('hidden');
+            });
+            document.querySelectorAll('.unit-accordion-body').forEach(el => {
+                if (expand) el.classList.remove('hidden');
+                else el.classList.add('hidden');
+            });
+            document.querySelectorAll('.chapter-chevron-icon, .unit-chevron-icon').forEach(el => {
+                el.style.transform = expand ? 'rotate(180deg)' : 'rotate(0deg)';
+            });
+            if (!expand) {
+                openChaptersState.clear();
+                openUnitsState.clear();
+            }
+        }
+
+        function formatSlideDocument(rawHtml, pres) {
+            if (!rawHtml || !rawHtml.trim()) return '';
+
+            // 1. Strip markdown code block fences if present (e.g. ```html ... ``` or ``` ... ```)
+            let cleaned = rawHtml.trim();
+            cleaned = cleaned.replace(/^```(?:html)?\s*/i, '').replace(/\s*```$/i, '').trim();
+
+            // 2. Determine presentation metadata for headers
+            const chapterNum = (pres && pres.chapter_number != null) ? 'Chapter ' + pres.chapter_number : '';
+            const unitCode = (pres && pres.units) ? (pres.units.toLowerCase().startsWith('unit') ? pres.units : 'Unit ' + pres.units) : '';
+            const unitName = (pres && pres.unit_name) ? pres.unit_name : '';
+            const partNum = (pres && pres.part != null) ? 'Part ' + pres.part : '';
+
+            let deckTitle = [unitCode, unitName].filter(Boolean).join(': ');
+            if (partNum) deckTitle += ' (' + partNum + ')';
+            if (!deckTitle) deckTitle = (pres && pres.chapter_name) ? pres.chapter_name : 'Sociology Presentation Deck';
+
+            // If it's already a full HTML document that has our complete presentation player, return as is
+            if (cleaned.toLowerCase().includes('<html') && cleaned.toLowerCase().includes('<style') && !cleaned.includes('styles.css') && cleaned.includes('deckPrevSlide')) {
+                return cleaned;
+            }
+
+            // Extract inner slide content if full HTML was wrapped
+            let slideBody = cleaned;
+            if (slideBody.toLowerCase().includes('<body')) {
+                const bodyMatch = slideBody.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+                if (bodyMatch) slideBody = bodyMatch[1];
+            }
+
+            const safeScriptClose = '<' + '/script>';
+
+            // Return the full presentation player HTML document matching the expected UI design
+            return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>` + escapeHtml(deckTitle) + ` | CIE A-Level Sociology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Base */
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #fbfbf9;
+      background-image: 
+        linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
+      background-size: 24px 24px;
+      color: #0f172a;
+      display: flex;
+      flex-direction: column;
+      user-select: none;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Navigation Bar */
+    .deck-top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background: rgba(251, 251, 249, 0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+      z-index: 50;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    .deck-left-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+    .syllabus-hub-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #0f172a;
+      color: #fef08a;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      border: 1.5px solid #0f172a;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      box-shadow: 0 2px 5px rgba(15, 23, 42, 0.12);
+    }
+    .syllabus-hub-btn:hover {
+      background: #1e293b;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(15, 23, 42, 0.18);
+    }
+    .syllabus-hub-btn:active {
+      transform: translateY(0);
+    }
+    .deck-title-text {
+      font-weight: 800;
+      font-size: 13.5px;
+      color: #0f172a;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .deck-right-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .slide-counter-pill {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 12px;
+      color: #0f172a;
+      background: #ffffff;
+      border: 1.5px solid #0f172a;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    .deck-action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 6px 13px;
+      border-radius: 9999px;
+      background: #ffffff;
+      border: 1.5px solid rgba(15, 23, 42, 0.2);
+      color: #0f172a;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .deck-action-btn:hover {
+      background: #f1f5f9;
+      border-color: #0f172a;
+    }
+    .deck-action-btn.primary-gold {
+      background: #fef08a;
+      border-color: #0f172a;
+      font-weight: 800;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    }
+    .deck-action-btn.primary-gold:hover {
+      background: #fde047;
+    }
+
+    /* Progress bar */
+    .deck-progress-bar-wrap {
+      width: 100%;
+      height: 3px;
+      background: rgba(15, 23, 42, 0.08);
+      position: relative;
+      z-index: 49;
+      flex-shrink: 0;
+    }
+    .deck-progress-bar-fill {
+      height: 100%;
+      background: #0284c7;
+      transition: width 0.22s ease-out;
+    }
+
+    /* Stage Area */
+    .stage-area {
+      flex: 1;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 20px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-sizing: border-box;
+    }
+    .slides-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 920px;
+      margin: auto;
+    }
+    section.slide {
+      display: none;
+      width: 100%;
+    }
+    section.slide.active {
+      display: block;
+      animation: deckSlideIn 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes deckSlideIn {
+      from { opacity: 0; transform: scale(0.985) translateY(4px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    /* 1. Cover Card */
+    .editorial-cover-card {
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 40px 36px;
+      text-align: center;
+      box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.12);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .cover-emoji-frame {
+      width: 74px;
+      height: 74px;
+      background: #ffffff;
+      border: 2.5px solid #0f172a;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+    .cover-meta-badge {
+      display: inline-block;
+      font-weight: 800;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      color: #475569;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .cover-main-heading {
+      font-size: clamp(2.1rem, 4.8vw, 3.4rem);
+      font-weight: 900;
+      color: #0f172a;
+      letter-spacing: -0.03em;
+      line-height: 1.08;
+      margin: 0 0 10px 0;
+    }
+    .cover-subtitle {
+      font-size: clamp(1.15rem, 2.3vw, 1.55rem);
+      font-weight: 700;
+      color: #0f766e;
+      margin: 0 0 20px 0;
+      letter-spacing: -0.01em;
+    }
+    .cover-chip-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+    .cover-chip {
+      display: inline-flex;
+      align-items: center;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      background: #fef08a;
+      border: 1.5px solid #0f172a;
+      color: #0f172a;
+    }
+    .cover-desc {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #475569;
+      max-width: 640px;
+      margin: 0 auto;
+      font-weight: 450;
+    }
+
+    /* 2. Agenda Slide */
+    .agenda-slide-wrap {
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 32px 36px;
+      box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.12);
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .agenda-header { margin-bottom: 20px; }
+    .agenda-meta {
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      color: #64748b;
+      text-transform: uppercase;
+    }
+    .agenda-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 900;
+      color: #0f172a;
+      margin: 4px 0 6px 0;
+    }
+    .agenda-desc { font-size: 13px; color: #64748b; margin: 0; }
+    .agenda-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+    }
+    .agenda-card {
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 18px;
+      padding: 16px 14px;
+      position: relative;
+      overflow: hidden;
+    }
+    .agenda-card-num {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: #0f172a;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .agenda-card-title {
+      font-size: 12px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+    .agenda-card-sub {
+      font-size: 10.5px;
+      color: #64748b;
+      line-height: 1.35;
+    }
+    .agenda-corner-dot {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 8px;
+      height: 8px;
+      border-radius: 9999px;
+    }
+
+    /* 3. Chapter Split Banner */
+    .chapter-split-card {
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 36px 40px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 16px 36px -10px rgba(0,0,0,0.18);
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .chapter-float-emoji {
+      position: absolute;
+      right: 15px;
+      bottom: -15px;
+      font-size: 110px;
+      opacity: 0.16;
+      pointer-events: none;
+    }
+    .chapter-split-left { text-align: center; flex-shrink: 0; }
+    .chapter-huge-numeral {
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      color: #ffffff;
+    }
+    .chapter-numeral-label {
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.2em;
+      color: rgba(255,255,255,0.7);
+      text-transform: uppercase;
+    }
+    .chapter-split-divider {
+      width: 2px;
+      height: 90px;
+      background: rgba(255,255,255,0.25);
+      flex-shrink: 0;
+    }
+    .chapter-split-right { flex: 1; min-width: 0; }
+    .chapter-badge-strip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .pill-tag {
+      background: #ffffff;
+      color: #0f172a;
+      font-size: 9px;
+      font-weight: 900;
+      padding: 3px 8px;
+      border-radius: 6px;
+      letter-spacing: 0.08em;
+    }
+    .syllabus-tag {
+      font-size: 10px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.85);
+    }
+    .chapter-split-title {
+      font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+      font-weight: 900;
+      margin: 4px 0 8px 0;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+    .chapter-split-desc {
+      font-size: 13px;
+      line-height: 1.55;
+      color: rgba(255,255,255,0.9);
+      margin: 0;
+    }
+
+    /* 4. Twin Stack Cards */
+    .twin-stack-wrap {
+      position: relative;
+      max-width: 860px;
+      margin: 12px auto;
+    }
+    .twin-underlay-1 {
+      position: absolute;
+      inset: 0;
+      background: #f1f5f9;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      transform: rotate(-1.2deg) translateY(4px);
+      z-index: 1;
+    }
+    .twin-underlay-2 {
+      position: absolute;
+      inset: 0;
+      background: #e2e8f0;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      transform: rotate(1deg) translateY(6px);
+      z-index: 2;
+    }
+    .twin-card-top {
+      position: relative;
+      z-index: 3;
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 32px 36px;
+      box-shadow: 0 16px 32px -10px rgba(15, 23, 42, 0.12);
+    }
+    .card-content-layout {
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+    }
+    .card-text-col { flex: 1; min-width: 0; }
+    .card-header-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .card-category-tag {
+      font-size: 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: #0f172a;
+      color: #fef08a;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+    .card-syllabus-badge { font-size: 10px; font-weight: 700; color: #64748b; }
+    .card-heading-title {
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      font-weight: 900;
+      color: #0f172a;
+      margin: 4px 0 12px 0;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+    .card-body-text {
+      font-size: 14px;
+      line-height: 1.65;
+      color: #334155;
+      margin-bottom: 20px;
+    }
+    .card-chips-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .card-chip-item {
+      font-size: 11px;
+      font-weight: 700;
+      background: #f8fafc;
+      border: 1.5px solid #cbd5e1;
+      color: #0f172a;
+      padding: 4px 12px;
+      border-radius: 9999px;
+    }
+    .card-pic-col { flex-shrink: 0; }
+    .card-pic-frame {
+      width: 90px;
+      height: 90px;
+      background: #f8fafc;
+      border: 2px solid #0f172a;
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .card-pic-emoji { font-size: 44px; }
+
+    /* 5. Dual Column Comparisons */
+    .dual-comparison-wrap {
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 28px 32px;
+      box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.12);
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .dual-columns-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 14px 0;
+    }
+    .comparison-card {
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 20px;
+      padding: 20px 22px;
+    }
+    .comparison-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .comparison-badge {
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      color: #475569;
+      text-transform: uppercase;
+    }
+    .comparison-emoji-box { font-size: 24px; }
+    .comparison-term-title {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: #0f172a;
+      margin: 4px 0 8px 0;
+    }
+    .comparison-def {
+      font-size: 12.5px;
+      line-height: 1.5;
+      color: #334155;
+      margin-bottom: 10px;
+    }
+    .comparison-examples-list {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 11.5px;
+      line-height: 1.55;
+      color: #475569;
+    }
+    .takeaway-banner {
+      background: #fefce8;
+      border: 1.5px solid #fef08a;
+      border-radius: 14px;
+      padding: 10px 16px;
+      font-size: 12px;
+      color: #854d0e;
+      margin-top: 12px;
+    }
+
+    /* 6. Theorist Spotlight */
+    .theorist-spotlight-card {
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 32px 36px;
+      box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.12);
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .theorist-header-badge { margin-bottom: 6px; }
+    .theorist-perspective-tag {
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      color: #64748b;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .theorist-concept-title {
+      font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+      font-weight: 900;
+      color: #0f172a;
+      margin: 4px 0 12px 0;
+      line-height: 1.2;
+    }
+
+    /* 7. Tables */
+    .table-slide-wrap {
+      background: #ffffff;
+      border: 2px solid #0f172a;
+      border-radius: 28px;
+      padding: 24px 28px;
+      box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.12);
+      max-width: 860px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+    .master-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      text-align: left;
+    }
+    .master-table th {
+      background: #f1f5f9;
+      padding: 10px 12px;
+      font-weight: 900;
+      border-bottom: 2px solid #cbd5e1;
+      color: #0f172a;
+    }
+    .master-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #334155;
+      line-height: 1.45;
+    }
+    .table-theorist-pill {
+      background: #fef08a;
+      border: 1px solid #0f172a;
+      border-radius: 9999px;
+      padding: 2px 8px;
+      font-weight: 800;
+      font-size: 10.5px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+    mark.yellow-hl {
+      background: #fef08a;
+      color: #0f172a;
+      padding: 1px 4px;
+      border-radius: 4px;
+      font-weight: inherit;
+    }
+
+    /* Bottom Navigation Bar */
+    .deck-bottom-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 24px;
+      background: rgba(251, 251, 249, 0.96);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(15, 23, 42, 0.08);
+      z-index: 50;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+    .deck-keyboard-hints {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .key-pill {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 800;
+      color: #475569;
+      font-family: monospace;
+    }
+    .hint-label {
+      font-size: 11px;
+      color: #64748b;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+    .deck-nav-buttons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .deck-nav-btn {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 8px 22px;
+      border-radius: 9999px;
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .deck-nav-btn.prev-btn {
+      background: #94a3b8;
+      color: #ffffff;
+    }
+    .deck-nav-btn.prev-btn:hover:not(:disabled) {
+      background: #64748b;
+    }
+    .deck-nav-btn.prev-btn:disabled {
+      background: #e2e8f0;
+      color: #94a3b8;
+      cursor: not-allowed;
+    }
+    .deck-nav-btn.next-btn {
+      background: #0f172a;
+      color: #fef08a;
+      border-color: #0f172a;
+      box-shadow: 0 2px 5px rgba(15, 23, 42, 0.12);
+    }
+    .deck-nav-btn.next-btn:hover {
+      background: #1e293b;
+      transform: translateY(-1px);
+    }
+
+    /* Overview Modal Overlay */
+    .deck-overview-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+      display: none;
+      flex-direction: column;
+      padding: 24px;
+    }
+    .deck-overview-modal.open { display: flex; }
+    .overview-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #ffffff;
+      margin-bottom: 20px;
+      flex-shrink: 0;
+    }
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 14px;
+      overflow-y: auto;
+      padding: 4px;
+    }
+    .overview-thumb {
+      background: #ffffff;
+      border: 2px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 12px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100px;
+    }
+    .overview-thumb:hover {
+      border-color: #fef08a;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .overview-thumb.current {
+      border-color: #0284c7;
+      background: #f0f9ff;
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.3);
+    }
+    .thumb-num {
+      font-size: 11px;
+      font-weight: 900;
+      color: #64748b;
+    }
+    .thumb-title {
+      font-size: 11.5px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.3;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .deck-top-bar { padding: 8px 12px; }
+      .deck-bottom-bar { padding: 8px 12px; }
+      .deck-keyboard-hints { display: none; }
+      .dual-columns-grid { grid-template-columns: 1fr; }
+      .theorist-spotlight-card, .card-content-layout { flex-direction: column-reverse; }
+      .chapter-split-card { flex-direction: column; text-align: center; }
+      .chapter-split-divider { width: 100%; height: 2px; }
+      .deck-action-btn { padding: 6px 10px; font-size: 11px; }
+    }
+
+    /* Print Styles */
+    @media print {
+      body { background: #ffffff !important; overflow: visible !important; height: auto !important; }
+      .deck-top-bar, .deck-bottom-bar, .deck-progress-bar-wrap, .deck-overview-modal { display: none !important; }
+      .stage-area { padding: 0 !important; overflow: visible !important; display: block !important; }
+      .slides-wrapper { max-width: 100% !important; display: block !important; }
+      section.slide { display: block !important; page-break-after: always !important; break-after: page !important; margin-bottom: 2rem !important; }
+      .twin-stack-wrap, .editorial-cover-card, .agenda-slide-wrap, .chapter-split-card, .dual-comparison-wrap, .theorist-spotlight-card, .table-slide-wrap {
+        box-shadow: none !important;
+        border: 1.5px solid #000000 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Navigation Bar -->
+  <header class="deck-top-bar">
+    <div class="deck-left-group">
+      <button type="button" class="syllabus-hub-btn" onclick="exitToSyllabusHub()" title="Return to Syllabus Hub">
+        <span>←</span>
+        <span>SYLLABUS HUB</span>
+      </button>
+      <span class="deck-title-text" id="deck-top-title">` + escapeHtml(deckTitle) + `</span>
+    </div>
+    
+    <div class="deck-right-group">
+      <span class="slide-counter-pill" id="deck-slide-counter">01 / --</span>
+      <button type="button" class="deck-action-btn" id="deck-overview-btn" onclick="toggleOverviewModal()" title="View All Slides Grid">
+        <span>▦</span>
+        <span>Overview</span>
+      </button>
+      <button type="button" class="deck-action-btn" onclick="toggleDeckFullscreen()" title="Fullscreen">
+        <span>⛶</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Progress Bar Under Top Header -->
+  <div class="deck-progress-bar-wrap">
+    <div class="deck-progress-bar-fill" id="deck-progress-fill" style="width: 0%;"></div>
+  </div>
+
+  <!-- Main Slide Stage Area -->
+  <main class="stage-area" id="deck-stage">
+    <div class="slides-wrapper" id="deck-slides-wrapper">
+      ` + slideBody + `
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <footer class="deck-bottom-bar">
+    <div class="deck-keyboard-hints">
+      <span class="key-pill">←</span><span class="key-pill">→</span> <span class="hint-label">Navigate</span>
+      <span class="key-pill">Space</span> <span class="hint-label">Next</span>
+      <span class="key-pill">G</span> <span class="hint-label">Overview</span>
+      <span class="key-pill">F</span> <span class="hint-label">Fullscreen</span>
+    </div>
+
+    <div class="deck-nav-buttons">
+      <button type="button" class="deck-nav-btn prev-btn" id="deck-prev-btn" onclick="deckPrevSlide()" disabled>
+        ‹ Previous
+      </button>
+      <button type="button" class="deck-nav-btn next-btn" id="deck-next-btn" onclick="deckNextSlide()">
+        Next ›
+      </button>
+    </div>
+  </footer>
+
+  <!-- Overview Grid Modal -->
+  <div class="deck-overview-modal" id="deck-overview-modal" onclick="if(event.target===this) toggleOverviewModal()">
+    <div class="overview-header">
+      <div style="font-weight:900; font-size:1.25rem;">▦ Slide Navigator Overview</div>
+      <button type="button" onclick="toggleOverviewModal()" style="background:rgba(255,255,255,0.15); border:0; color:#fff; width:32px; height:32px; border-radius:999px; font-weight:800; cursor:pointer;">✕</button>
+    </div>
+    <div class="overview-grid" id="deck-overview-grid"></div>
+  </div>
+
+  <script>
+    (function() {
+      var slides = [];
+      var currentIndex = 0;
+
+      function initPresentation() {
+        slides = Array.from(document.querySelectorAll('section.slide, .slide'));
+        if (!slides.length) return;
+
+        var coverSub = document.querySelector('.cover-subtitle');
+        if (coverSub && coverSub.innerText.trim()) {
+          var titleEl = document.getElementById('deck-top-title');
+          if (titleEl) titleEl.innerText = coverSub.innerText.trim();
+        }
+
+        buildOverviewGrid();
+        showSlide(0);
+        bindKeyboardAndTouch();
+      }
+
+      function showSlide(index) {
+        if (!slides.length) return;
+        if (index < 0) index = 0;
+        if (index >= slides.length) index = slides.length - 1;
+        currentIndex = index;
+
+        slides.forEach(function(s, idx) {
+          if (idx === currentIndex) {
+            s.classList.add('active');
+            s.style.display = 'block';
+          } else {
+            s.classList.remove('active');
+            s.style.display = 'none';
+          }
+        });
+
+        var total = slides.length;
+        var curFormatted = String(currentIndex + 1).padStart(2, '0');
+        var totFormatted = String(total).padStart(2, '0');
+        var counterEl = document.getElementById('deck-slide-counter');
+        if (counterEl) counterEl.innerText = curFormatted + ' / ' + totFormatted;
+
+        var fillEl = document.getElementById('deck-progress-fill');
+        if (fillEl) fillEl.style.width = (((currentIndex + 1) / total) * 100) + '%';
+
+        var prevBtn = document.getElementById('deck-prev-btn');
+        var nextBtn = document.getElementById('deck-next-btn');
+        if (prevBtn) prevBtn.disabled = (currentIndex === 0);
+        if (nextBtn) {
+          if (currentIndex === total - 1) {
+            nextBtn.innerText = 'Complete ✓';
+            nextBtn.onclick = exitToSyllabusHub;
+          } else {
+            nextBtn.innerText = 'Next ›';
+            nextBtn.onclick = deckNextSlide;
+          }
+        }
+
+        document.querySelectorAll('.overview-thumb').forEach(function(th, idx) {
+          if (idx === currentIndex) th.classList.add('current');
+          else th.classList.remove('current');
+        });
+
+        var stage = document.getElementById('deck-stage');
+        if (stage) stage.scrollTop = 0;
+      }
+
+      window.deckNextSlide = function() {
+        if (currentIndex < slides.length - 1) showSlide(currentIndex + 1);
+      };
+
+      window.deckPrevSlide = function() {
+        if (currentIndex > 0) showSlide(currentIndex - 1);
+      };
+
+      window.exitToSyllabusHub = function() {
+        try {
+          if ((document.fullscreenElement || document.webkitFullscreenElement) && (document.exitFullscreen || document.webkitExitFullscreen)) {
+            var exitFn = document.exitFullscreen || document.webkitExitFullscreen;
+            exitFn.call(document);
+          }
+        } catch(e) {}
+        if (window.parent) {
+          window.parent.postMessage({ action: 'closePresentationSlide' }, '*');
+        }
+      };
+
+      window.toggleDeckFullscreen = function() {
+        if (window.parent) {
+          window.parent.postMessage({ action: 'toggleFullscreen' }, '*');
+        }
+      };
+
+      window.toggleOverviewModal = function() {
+        var modal = document.getElementById('deck-overview-modal');
+        if (modal) modal.classList.toggle('open');
+      };
+
+      function buildOverviewGrid() {
+        var grid = document.getElementById('deck-overview-grid');
+        if (!grid) return;
+        grid.innerHTML = '';
+        slides.forEach(function(s, idx) {
+          var titleHeader = s.querySelector('h1, h2, h3, .card-heading-title, .chapter-split-title, .agenda-title');
+          var title = titleHeader ? titleHeader.innerText.trim() : ('Slide ' + (idx + 1));
+          var thumb = document.createElement('div');
+          thumb.className = 'overview-thumb';
+          thumb.innerHTML = '<div class="thumb-num">SLIDE ' + String(idx + 1).padStart(2, '0') + '</div><div class="thumb-title">' + title + '</div>';
+          thumb.onclick = function() {
+            showSlide(idx);
+            toggleOverviewModal();
+          };
+          grid.appendChild(thumb);
+        });
+      }
+
+      function bindKeyboardAndTouch() {
+        window.addEventListener('keydown', function(e) {
+          if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+          if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+            e.preventDefault();
+            deckNextSlide();
+          } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+            e.preventDefault();
+            deckPrevSlide();
+          } else if (e.key === 'g' || e.key === 'G') {
+            toggleOverviewModal();
+          } else if (e.key === 'f' || e.key === 'F') {
+            toggleDeckFullscreen();
+          } else if (e.key === 'Escape') {
+            var ov = document.getElementById('deck-overview-modal');
+            if (ov && ov.classList.contains('open')) ov.classList.remove('open');
+            else exitToSyllabusHub();
+          }
+        });
+
+        var touchStartX = 0;
+        var touchEndX = 0;
+        document.addEventListener('touchstart', function(e) {
+          touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+        document.addEventListener('touchend', function(e) {
+          touchEndX = e.changedTouches[0].screenX;
+          var diff = touchEndX - touchStartX;
+          if (Math.abs(diff) > 50) {
+            if (diff < 0) deckNextSlide();
+            else deckPrevSlide();
+          }
+        }, { passive: true });
+      }
+
+      window.addEventListener('DOMContentLoaded', initPresentation);
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        initPresentation();
+      }
+    })();
+  ` + safeScriptClose + `
+</body>
+</html>`;
+        }
+
+        async function openPresentationSlide(id) {
+            const modal = document.getElementById('presentation-slide-modal');
+            const iframe = document.getElementById('presentation-iframe');
+            const loader = document.getElementById('slide-loader');
+            const chapterBadge = document.getElementById('slide-viewer-chapter-badge');
+            const unitBadge = document.getElementById('slide-viewer-unit-badge');
+            const titleEl = document.getElementById('slide-viewer-title');
+            const prevBtn = document.getElementById('prev-pres-btn');
+            const nextBtn = document.getElementById('next-pres-btn');
+            if (!modal) return;
+
+            const idx = presentationsList.findIndex(p => p.id === id);
+            if (idx === -1) return;
+            activePresentationIndex = idx;
+            const pres = presentationsList[idx];
+
+            // Update Header
+            if (chapterBadge) chapterBadge.innerText = pres.chapter_number != null ? `Chapter ${pres.chapter_number}` : 'Presentation';
+            if (unitBadge) {
+                const uLabel = pres.units ? (pres.units.toLowerCase().startsWith('unit') ? pres.units : `Unit ${pres.units}`) : '';
+                const partText = pres.part != null ? `Part ${pres.part}` : '';
+                unitBadge.innerText = [uLabel, partText].filter(Boolean).join(' • ');
+            }
+            if (titleEl) titleEl.innerText = pres.unit_name || pres.chapter_name || `Presentation #${pres.id}`;
+
+            // Update Prev/Next buttons
+            if (prevBtn) prevBtn.disabled = idx <= 0;
+            if (nextBtn) nextBtn.disabled = idx >= presentationsList.length - 1;
+
+            // Show modal & loader
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            if (loader) loader.classList.remove('hidden');
+
+            try {
+                let slideHtml = slideCache[id];
+                if (typeof slideHtml === 'undefined') {
+                    const { data, error } = await window.supabaseClient
+                        .from('sociology_presentations')
+                        .select('html_slide')
+                        .eq('id', id)
+                        .single();
+                    if (error) throw error;
+                    slideHtml = (data && data.html_slide) ? data.html_slide : '';
+                    slideCache[id] = slideHtml;
+                }
+
+                if (iframe) {
+                    if (!slideHtml || !slideHtml.trim()) {
+                        iframe.srcdoc = `
+                            <!DOCTYPE html>
+                            <html>
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <style>
+                                    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #0f172a; color: #94a3b8; text-align: center; padding: 2rem; box-sizing: border-box; }
+                                    .icon { font-size: 3.5rem; margin-bottom: 1rem; }
+                                    h2 { color: #f8fafc; margin: 0 0 0.5rem 0; font-size: 1.5rem; }
+                                    p { font-size: 0.95rem; max-width: 400px; line-height: 1.5; }
+                                </style>
+                            </head>
+                            <body>
+                                <div class="icon">📑</div>
+                                <h2>No Slide Content Yet</h2>
+                                <p>The HTML slide deck for this presentation unit is being prepared.</p>
+                            </body>
+                            </html>
+                        `;
+                    } else {
+                        const formattedDoc = formatSlideDocument(slideHtml, pres);
+                        iframe.srcdoc = formattedDoc;
+                    }
+                }
+            } catch (err) {
+                console.error("Error loading slide:", err);
+                if (iframe) {
+                    iframe.srcdoc = `
+                        <!DOCTYPE html>
+                        <html>
+                        <body style="font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; background: #0f172a; color: #f87171; text-align: center; margin: 0;">
+                            <div>
+                                <h3 style="margin-bottom: 0.5rem;">Failed to load presentation slide.</h3>
+                                <p style="color: #94a3b8; font-size: 0.85rem;">Please check your internet connection and try again.</p>
+                            </div>
+                        </body>
+                        </html>
+                    `;
+                }
+            } finally {
+                if (loader) loader.classList.add('hidden');
+            }
+        }
+
+        function navigatePresentation(dir) {
+            const nextIdx = activePresentationIndex + dir;
+            if (nextIdx >= 0 && nextIdx < presentationsList.length) {
+                openPresentationSlide(presentationsList[nextIdx].id);
+            }
+        }
+
+        async function closePresentationSlideModal() {
+            // First, if browser is currently in fullscreen mode, cleanly exit fullscreen
+            if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+                try {
+                    const exitFn = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
+                    if (exitFn) {
+                        const res = exitFn.call(document);
+                        if (res && typeof res.then === 'function') {
+                            await Promise.race([res, new Promise(r => setTimeout(r, 200))]).catch(() => {});
+                        }
+                    }
+                } catch (e) {
+                    console.warn('Exit fullscreen error:', e);
+                }
+            }
+
+            const modal = document.getElementById('presentation-slide-modal');
+            const iframe = document.getElementById('presentation-iframe');
+            if (modal) modal.classList.add('hidden');
+            if (iframe) iframe.srcdoc = '';
+            
+            // Cleanly restore scrolling, pointers and focus
+            document.body.style.overflow = '';
+            document.documentElement.style.overflow = '';
+            document.body.style.pointerEvents = 'auto';
+
+            // Ensure chapter notes view is visible and 100% interactive
+            const notesView = document.getElementById('chapter-notes-view');
+            if (notesView) {
+                notesView.classList.remove('hidden');
+                notesView.style.pointerEvents = 'auto';
+            }
+
+            // Remove any residual focus on iframe so window receives clicks immediately
+            if (document.activeElement && typeof document.activeElement.blur === 'function') {
+                document.activeElement.blur();
+            }
+            window.focus();
+        }
+
+        // Listen for actions from sandboxed presentation iframe (e.g. exitToSyllabusHub, toggleFullscreen)
+        window.addEventListener('message', (event) => {
+            if (event.data && (event.data.action === 'closePresentationSlide' || event.data.action === 'closeSlide')) {
+                closePresentationSlideModal();
+            }
+            if (event.data && event.data.action === 'toggleFullscreen') {
+                togglePresentationFullscreen();
+            }
+        });
+
+        function togglePresentationFullscreen() {
+            const container = document.getElementById('slide-frame-container') || document.getElementById('presentation-slide-modal');
+            if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+                if (container.requestFullscreen) {
+                    container.requestFullscreen();
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            }
+        }
+
+        // Global fallback listeners to guarantee clickability when fullscreen is exited
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement) {
+                document.body.style.pointerEvents = 'auto';
+                const notesView = document.getElementById('chapter-notes-view');
+                if (notesView) notesView.style.pointerEvents = 'auto';
+            }
+        });
+        document.addEventListener('webkitfullscreenchange', () => {
+            if (!document.webkitFullscreenElement) {
+                document.body.style.pointerEvents = 'auto';
+                const notesView = document.getElementById('chapter-notes-view');
+                if (notesView) notesView.style.pointerEvents = 'auto';
             }
         });
 
@@ -2813,25 +4581,22 @@
             return new Promise(resolve => {
                 const logoPhase = document.getElementById('splash-logo-phase');
                 const textPhase = document.getElementById('splash-text-phase');
-                const splashEl = document.getElementById('splash-screen');
+                const optionsEl = document.getElementById('splash-options-container');
 
-                // Stage 1: Logo displays for 1.8 seconds, then transitions out
+                // Stage 1: Logo displays for 1.8 seconds, then transitions to Stage 2
                 setTimeout(() => {
                     if (logoPhase) logoPhase.classList.add('hidden-phase');
                     if (textPhase) textPhase.classList.remove('hidden-phase');
 
-                    // Stage 2: Next splash for 3 seconds must remain
-                    setTimeout(async () => {
-                        try {
-                            await dataPromise;
-                        } catch (e) {
-                            // Sync error handled in init
+                    // Stage 2: Reveal the two options (Chapter Notes and Insights)
+                    setTimeout(() => {
+                        if (optionsEl) {
+                            optionsEl.classList.remove('opacity-0', 'translate-y-3');
                         }
-                        if (splashEl && !splashEl.querySelector('.text-red-600')) {
-                            splashEl.classList.add('hidden');
-                        }
-                        resolve();
-                    }, 3000);
+                    }, 400);
+
+                    // Resolve splashPromise so background initialization proceeds in parallel
+                    resolve();
                 }, 1800);
             });
         }
@@ -2871,13 +4636,15 @@
                     console.error("Flashcards fetch error", fcErr);
                 }
 
-                dataResolve();
-
-                await splashPromise;
-                if (!userName) {
-                    const onboarding = document.getElementById('onboarding-overlay');
-                    if (onboarding) onboarding.classList.remove('hidden');
+                // Pre-fetch presentations metadata for Chapter Notes
+                try {
+                    fetchPresentations();
+                } catch (pErr) {
+                    console.error("Presentations fetch error", pErr);
                 }
+
+                dataResolve();
+                await splashPromise;
             } catch (err) {
                 console.error("[INIT ERROR]", err);
                 dataReject(err);
