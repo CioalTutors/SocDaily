@@ -1,0 +1,13888 @@
+// Auto-generated Key Sociologists and Key Terms slide data
+(function() {
+  var root = typeof window !== 'undefined' ? window : (typeof global !== 'undefined' ? global : this);
+  root.KEY_SOCIOLOGISTS_HTML = ` <!-- SLIDE 1: COVER -->
+    <section class="slide active" id="slide-1">
+      <div class="flashcard-stage">
+        <div class="card-graphic-sticker">👤</div>
+        <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-pill">CAMBRIDGE A-LEVEL SOCIOLOGY 9699</div>
+          <h1 class="flashcard-title" style="font-size: 3.1rem; line-height: 1.1; margin-bottom: 12px;">Key Sociologists &amp; Thinkers:<br>Master Directory</h1>
+          <p class="flashcard-def" style="margin-bottom: 22px;">Essential canonical sociologists across Chapters 1 to 8 (Papers 1–4). Includes theorist name, theoretical school, landmark studies, and what they said in short below.</p>
+          <div class="card-badge-row">
+            <span class="mini-badge">👤 166 Thinkers</span>
+            <span class="mini-badge">Chapters 1–8</span>
+            <span class="mini-badge">Landmark Studies &amp; Evidence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+      <!-- SLIDE 2: CHAPTER 1 DIVIDER -->
+      <section class="slide" id="slide-2">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🌱</div>
+          <div class="flashcard theme-1" style="background: #00A859 !important;">
+            <div class="card-pill">CHAPTER 01 • PAPER 1</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Socialisation, Culture &amp; Social Control</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Nature vs Nurture • Feral Children • Agencies of Socialisation • Structural &amp; Interactionist Perspectives • Formal &amp; Informal Social Control • Power &amp; Resistance</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 21 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 3: Ann Oakley -->
+        <section class="slide" id="slide-3">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩‍👧</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
+              <div class="theorist-school-badge">Feminist Sociology (1972, 1974)</div>
+              <p class="flashcard-def">Demonstrated that gender roles are culturally learned through primary socialisation rather than biologically fixed: parents socialise children via manipulation (rewarding feminine/masculine acts), canalisation (toys), verbal appellations (&#039;brave boy&#039;, &#039;sweet girl&#039;), and differentiated domestic tasks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Sex, Gender and Society&#039; (1972).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 4: Talcott Parsons -->
+        <section class="slide" id="slide-4">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧩</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
+              <div class="theorist-school-badge">Structural Functionalism (1951, 1955)</div>
+              <p class="flashcard-def">Viewed society as a biological organism where primary socialisation in families and secondary socialisation in schools instill a shared value consensus; socialisation internalises core cultural norms into individual personalities, ensuring social equilibrium and order.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;The Social System&#039; (1951) &amp; &#039;Family, Socialization and Interaction Process&#039; (1955).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 5: George Herbert Mead -->
+        <section class="slide" id="slide-5">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">George Herbert Mead</h1>
+              <div class="theorist-school-badge">Symbolic Interactionism (1934)</div>
+              <p class="flashcard-def">Argued self-identity is socially constructed through social interaction and language: the self is divided into the spontaneous, impulsive &#039;I&#039; and the socially conditioned, rule-following &#039;Me&#039;; individuals learn to take the role of the &#039;generalised other&#039; during childhood play and games.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark work: &#039;Mind, Self, and Society&#039; (1934).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 6: Erving Goffman -->
+        <section class="slide" id="slide-6">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Erving Goffman</h1>
+              <div class="theorist-school-badge">Dramaturgical Interactionism (1959, 1961)</div>
+              <p class="flashcard-def">Analyzed everyday social interaction as theatrical &#039;dramaturgy&#039; where social actors engage in &#039;impression management&#039; using props and costumes on front stages; proved &#039;total institutions&#039; (mental asylums, prisons) achieve extreme social control through the systematic &#039;mortification of the self&#039;.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;The Presentation of Self in Everyday Life&#039; (1959) &amp; &#039;Asylums&#039; (1961).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 7: Charles Horton Cooley -->
+        <section class="slide" id="slide-7">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Charles Horton Cooley</h1>
+              <div class="theorist-school-badge">Interactionist Social Psychology (1909)</div>
+              <p class="flashcard-def">Formulated the &#039;Looking-Glass Self&#039;: our identity is socially created by imagining how other people perceive and judge our behavior, internalising those perceived evaluations as feelings of pride or shame across three distinct developmental stages.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark concept: &#039;Human Nature and the Social Order&#039; (1909).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 8: Émile Durkheim -->
+        <section class="slide" id="slide-8">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
+              <div class="theorist-school-badge">Classical Functionalism (1893, 1895)</div>
+              <p class="flashcard-def">Pioneered sociology as the scientific study of objective &#039;social facts&#039; that exercise coercive moral control over individuals; argued shared culture and the &#039;collective conscience&#039; maintain social solidarity, warning that rapid social change without regulation produces &#039;anomie&#039; (normlessness).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark works: &#039;The Division of Labour in Society&#039; (1893) &amp; &#039;The Rules of Sociological Method&#039; (1895).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 9: Edward Wilson -->
+        <section class="slide" id="slide-9">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Edward Wilson</h1>
+              <div class="theorist-school-badge">Sociobiology &amp; Evolutionary Psychology (1975)</div>
+              <p class="flashcard-def">Argued human social behavior is fundamentally shaped by biological &#039;biogrammars&#039; and evolutionary genetic predispositions (nature), a view strongly contested by mainstream sociologists who demonstrate that human culture and language require social nurture.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Sociobiology: The New Synthesis&#039; (1975).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 10: Dennis Wrong -->
+        <section class="slide" id="slide-10">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dennis Wrong</h1>
+              <div class="theorist-school-badge">Critical Interactionism (1961)</div>
+              <p class="flashcard-def">Strongly critiqued structural functionalism&#039;s &#039;over-socialised conception of man&#039;, arguing that humans are not passive robots programmed by society&#039;s norms, but active thinking agents who continually negotiate, question, interpret, and resist social rules.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;The Oversocialized Conception of Man in Modern Sociology&#039; (1961).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 11: Samuel Bowles -->
+        <section class="slide" id="slide-11">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Samuel Bowles</h1>
+              <div class="theorist-school-badge">Marxist Sociology of Education (1976)</div>
+              <p class="flashcard-def">Argued schooling operates as an instrument of capitalist social control through the &#039;Correspondence Principle&#039;: the authoritarian hierarchy, lack of control, and external rewards of school mirror the exploitative workplace, conditioning working-class youth into passive obedience.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Schooling in Capitalist America&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 12: Herbert Gintis -->
+        <section class="slide" id="slide-12">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚙️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Herbert Gintis</h1>
+              <div class="theorist-school-badge">Marxist Sociology of Education (1976)</div>
+              <p class="flashcard-def">Demonstrated that the &#039;hidden curriculum&#039; of schools reproduces capitalist social order by teaching docility, punctuality, and subservience to authority, while promoting the &#039;myth of meritocracy&#039; to legitimize structural class inequality as personal failure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Schooling in Capitalist America&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 13: Paul Willis -->
+        <section class="slide" id="slide-13">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔨</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
+              <div class="theorist-school-badge">Neo-Marxist Cultural Studies (1977)</div>
+              <p class="flashcard-def">Proved social control is not absolute: working-class &#039;lads&#039; formed an anti-school subculture to actively resist school authority and mock conformists (&#039;ear&#039;oles&#039;), yet ironically their resistance prepared them directly for manual shopfloor labour.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Learning to Labour: How Working Class Kids Get Working Class Jobs&#039; (1977).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 14: Walter Miller -->
+        <section class="slide" id="slide-14">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥊</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Walter Miller</h1>
+              <div class="theorist-school-badge">Subcultural Delinquency Theory (1958)</div>
+              <p class="flashcard-def">Argued lower-class youth delinquency is not a reaction to middle-class failure, but stems from socialisation into distinct working-class &#039;focal concerns&#039; (trouble, toughness, smartness, excitement, fate, autonomy) that inevitably clash with mainstream legal norms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Lower Class Culture as a Generating Milieu of Gang Delinquency&#039; (1958).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 15: Travis Hirschi -->
+        <section class="slide" id="slide-15">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔗</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Travis Hirschi</h1>
+              <div class="theorist-school-badge">Social Bond / Control Theory (1969)</div>
+              <p class="flashcard-def">Inverted traditional criminological questions to ask &#039;Why do people conform?&#039;: argued social control is maintained by four vital social bonds (attachment to others, commitment to conventional goals, involvement in legitimate activities, and belief in moral rules); when bonds weaken, deviance occurs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Causes of Delinquency&#039; (1969).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 16: Charles Murray -->
+        <section class="slide" id="slide-16">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Charles Murray</h1>
+              <div class="theorist-school-badge">New Right Perspective (1984, 1989)</div>
+              <p class="flashcard-def">Argued generous welfare state benefits have generated an &#039;underclass&#039; characterized by inadequate socialisation, voluntary unemployment, and fatherless lone-parent families, creating high rates of criminality and intergenerational dependency.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;Losing Ground&#039; (1984) &amp; &#039;The Emerging British Underclass&#039; (1989).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 17: Louis Althusser -->
+        <section class="slide" id="slide-17">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
+              <div class="theorist-school-badge">Structural Marxism (1971)</div>
+              <p class="flashcard-def">Argued capitalist social order is maintained through dual mechanisms of control: Repressive State Apparatuses (RSAs - police, courts, military using physical force) and Ideological State Apparatuses (ISAs - schools, media, family conditioning the mind to accept capitalist ideology).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark essay: &#039;Ideology and Ideological State Apparatuses&#039; (1971).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 18: J. Hood-Williams -->
+        <section class="slide" id="slide-18">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚸</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">J. Hood-Williams</h1>
+              <div class="theorist-school-badge">Gender Socialisation &amp; Childhood (1990)</div>
+              <p class="flashcard-def">Researched gender-differentiated social control in childhood, demonstrating that parents exercise significantly tighter spatial surveillance and behavioral control over young girls, while granting boys greater freedom of public movement and risk-taking.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Key sociology of childhood &amp; gender socialisation text (1990).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 19: Stuart Hall -->
+        <section class="slide" id="slide-19">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎸</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
+              <div class="theorist-school-badge">Neo-Marxist Cultural Studies (1978)</div>
+              <p class="flashcard-def">Demonstrated that youth subcultures (Mods, Punks, Rastas) represent symbolic resistance against dominant cultural hegemony and bourgeois social control; proved the state and media orchestrate &#039;moral panics&#039; (e.g. over mugging) to justify intensified policing.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Policing the Crisis: Mugging, the State, and Law and Order&#039; (1978).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 20: Steve Bruce -->
+        <section class="slide" id="slide-20">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steve Bruce</h1>
+              <div class="theorist-school-badge">Sociology of Social Control &amp; Religion (2002)</div>
+              <p class="flashcard-def">Explored how religious beliefs historically served as the supreme agency of informal social control through supernatural and cosmic sanctions; showed secularisation weakens these traditional moral restraints in modern societies.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;God is Dead: Secularization in the West&#039; (2002).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 21: James Potter -->
+        <section class="slide" id="slide-21">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">James Potter</h1>
+              <div class="theorist-school-badge">Media Socialisation &amp; Effects (2003)</div>
+              <p class="flashcard-def">Analyzed media socialisation, showing that repeated exposure to media representations subtly alters attitudes, values, and behaviors over time: short-term effects include emotional arousal, while long-term cognitive effects desensitize audiences to violence and inequality.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;The 11 Myths of Media Violence&#039; (2003).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 22: Paul Hodkinson -->
+        <section class="slide" id="slide-22">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🖤</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Hodkinson</h1>
+              <div class="theorist-school-badge">Subcultural Theory &amp; Youth Culture (2002)</div>
+              <p class="flashcard-def">Researched the Goth subculture, identifying four core criteria of authentic subcultural identity: consistent distinctiveness (style, music), shared identity commitment, practical autonomy (subcultural businesses), and high emotional significance for members.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Goth: Identity, Style and Subculture&#039; (2002).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 23: Michel Foucault -->
+        <section class="slide" id="slide-23">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👁️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Michel Foucault</h1>
+              <div class="theorist-school-badge">Post-Structuralist Theory (1975)</div>
+              <p class="flashcard-def">Analyzed disciplinary power and surveillance using Bentham&#039;s &#039;Panopticon&#039; prison as a metaphor for modern society: constant, invisible surveillance compels individuals to internalize control and police their own behaviour, transforming external coercion into internal self-discipline.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Discipline and Punish: The Birth of the Prison&#039; (1975).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 24: CHAPTER 2 DIVIDER -->
+      <section class="slide" id="slide-24">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🎭</div>
+          <div class="flashcard theme-2" style="background: #0284C7 !important;">
+            <div class="card-pill">CHAPTER 02 • PAPER 1</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Social Identity: Class, Gender, Ethnicity &amp; Age</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Social Class Identities • Hegemonic &amp; Subordinate Masculinities • Feminine Identities • Ethnic &amp; Hybrid Identities • Age Identities, Youth Culture &amp; Childhood</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 17 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 25: Ann Oakley -->
+        <section class="slide" id="slide-25">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩‍💼</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
+              <div class="theorist-school-badge">Feminist Sociology (1974)</div>
+              <p class="flashcard-def">Demonstrated how patriarchal society socialises women into a subordinate feminine identity centered on domesticity and emotional dependency; showed that the housewife role is an alienating, unpaid social construction rather than a natural biological destiny.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;The Sociology of Housework&#039; (1974) &amp; &#039;Housewife&#039; (1974).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 26: Robert Connell -->
+        <section class="slide" id="slide-26">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🦁</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Connell</h1>
+              <div class="theorist-school-badge">Gender Theory &amp; Sociology of Masculinities (1995)</div>
+              <p class="flashcard-def">Formulated the concept of &#039;hegemonic masculinity&#039; (the culturally exalted dominant ideal of aggressive, heterosexual, stoic manhood); identified a hierarchy of masculinities including subordinate (e.g. homosexual), complicit (enjoying patriarchal dividend), and marginalised masculinities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark work: &#039;Masculinities&#039; (1995).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 27: Louise Archer -->
+        <section class="slide" id="slide-27">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💄</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louise Archer</h1>
+              <div class="theorist-school-badge">Class, Gender &amp; Youth Identity (2010)</div>
+              <p class="flashcard-def">Analyzed working-class girls who construct &#039;hyper-heterosexual feminine identities&#039; (glamorous makeup, designer brands, sportswear) to generate peer status and symbolic self-worth, which middle-class school authorities penalize as unruly and academically deficient.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Educational Diversity and Social Class&#039; (2010).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 28: Paul Willis -->
+        <section class="slide" id="slide-28">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔨</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
+              <div class="theorist-school-badge">Class Identity &amp; Working-Class Culture (1977)</div>
+              <p class="flashcard-def">Analyzed traditional working-class male identity, showing it was founded on physical strength, manual labour, shopfloor solidarity, and aggressive humour (&#039;having a laff&#039;), which directly influenced how working-class boys perceived schooling and career paths.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Learning to Labour&#039; (1977).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 29: Mairtin Mac an Ghaill -->
+        <section class="slide" id="slide-29">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Mairtin Mac an Ghaill</h1>
+              <div class="theorist-school-badge">Gender &amp; Crisis of Masculinity (1994)</div>
+              <p class="flashcard-def">Documented the &#039;crisis of masculinity&#039;: the decline of heavy industrial manufacturing and rise of female employment stripped working-class boys of their traditional breadwinner identity, prompting some to form aggressive &#039;macho lad&#039; subcultures.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;The Making of Men: Masculinities, Sexualities and Schooling&#039; (1994).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 30: Stuart Hall -->
+        <section class="slide" id="slide-30">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌍</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
+              <div class="theorist-school-badge">Cultural Studies &amp; Post-Colonial Theory (1992, 1996)</div>
+              <p class="flashcard-def">Argued modern ethnic identities are not fixed or biologically determined, but fluid, fragmented, and socially constructed; showed young diaspora minorities negotiate &#039;hybrid identities&#039; (e.g. British-Afro-Caribbean, British-Asian) combining diverse cultural heritage.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;New Ethnicities&#039; (1988) &amp; &#039;Cultural Identity and Diaspora&#039; (1990).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 31: Sundeep Johal -->
+        <section class="slide" id="slide-31">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔄</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sundeep Johal</h1>
+              <div class="theorist-school-badge">British Asian Identity &amp; Code-Switching (1998)</div>
+              <p class="flashcard-def">Studied second- and third-generation British Asians, discovering that young British Asians construct dual or hybrid &#039;Brasian&#039; identities: they adopt &#039;code-switching&#039;, seamlessly shifting between traditional South Asian cultural norms at home and Western youth culture with peers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Brasians: Cultural Identities and Youth Culture&#039; (1998).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 32: Mike Savage -->
+        <section class="slide" id="slide-32">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mike Savage</h1>
+              <div class="theorist-school-badge">Class Stratification &amp; Cultural Capital (2013)</div>
+              <p class="flashcard-def">Co-led the Great British Class Survey, arguing traditional class models (working, middle, upper) are outdated; formulated a multi-dimensional 7-class model based on Pierre Bourdieu&#039;s concept of economic capital (wealth), cultural capital (tastes), and social capital (networks).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark BBC research: &#039;A New Model of Social Class? Findings from the BBC Great British Class Survey&#039; (2013).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 33: Rosemary Crompton -->
+        <section class="slide" id="slide-33">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rosemary Crompton</h1>
+              <div class="theorist-school-badge">Occupational Class &amp; Social Reproduction (2006)</div>
+              <p class="flashcard-def">Demonstrated that despite superficial consumer lifestyle differences, social class remains deeply entrenched in life chances, wealth inheritance, and occupational structures; parents actively pass down occupational and economic advantages to protect class position.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Class and Stratification&#039; (2006).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 34: John Benyon -->
+        <section class="slide" id="slide-34">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">John Benyon</h1>
+              <div class="theorist-school-badge">Sociology of Masculinities (2002)</div>
+              <p class="flashcard-def">Analyzed contemporary threats to male identity: identified four drivers of modern masculine crisis (deindustrialisation and loss of breadwinner roles, female educational overtaking, rise of the &#039;new man&#039; and &#039;new lad&#039;, and media scrutiny of toxic male behaviour).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;What is Masculinity?&#039; (2002).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 35: Neil Postman -->
+        <section class="slide" id="slide-35">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Neil Postman</h1>
+              <div class="theorist-school-badge">Media Ecology &amp; Childhood Identity (1994)</div>
+              <p class="flashcard-def">Argued childhood as a distinct age identity is &#039;disappearing&#039;: the rise of visual television and digital media eliminates the print-literacy information barrier that historically kept adult secrets (sex, violence, disease, death) hidden from children.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Disappearance of Childhood&#039; (1994).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 36: Sue Palmer -->
+        <section class="slide" id="slide-36">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚠️</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sue Palmer</h1>
+              <div class="theorist-school-badge">Childhood Studies &amp; Modern Culture (2006)</div>
+              <p class="flashcard-def">Diagnosed &#039;Toxic Childhood&#039;: rapid cultural, technological, and dietary changes (screen saturation, junk food, commercialised youth marketing, high-stakes school testing, and lack of outdoor play) damage young people&#039;s physical, psychological, and social development.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Toxic Childhood: How the Modern World is Damaging Our Children and What We Can Do About It&#039; (2006).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 37: Shmuel Eisenstadt -->
+        <section class="slide" id="slide-37">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌉</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Shmuel Eisenstadt</h1>
+              <div class="theorist-school-badge">Functionalist Youth Theory (1956)</div>
+              <p class="flashcard-def">Argued youth culture performs a crucial functional bridge: as industrial society shifts from the ascribed emotional security of the family to the competitive, universalistic demands of the adult economy, youth peer groups provide safe transitional solidarity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;From Generation to Generation: Age Groups and Social Structure&#039; (1956).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 38: David Gillborn -->
+        <section class="slide" id="slide-38">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gillborn</h1>
+              <div class="theorist-school-badge">Critical Race Theory &amp; Institutional Identity (1997, 2008)</div>
+              <p class="flashcard-def">Demonstrated how ethnic minority identities are shaped by institutional racism: white teachers frequently misinterpret the speech, walk, and cultural style of Black Caribbean boys as aggressive challenges to authority, leading to disproportionate school exclusions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;Young, Black and Benched&#039; (1997) &amp; &#039;Racism and Education&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 39: Tariq Modood -->
+        <section class="slide" id="slide-39">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕌</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Tariq Modood</h1>
+              <div class="theorist-school-badge">Multiculturalism &amp; Ethnic Identity (1997, 2005)</div>
+              <p class="flashcard-def">Researched second- and third-generation ethnic minorities in the UK, finding that religion (especially Islam) has overtaken skin color or country of origin as the primary anchor of social identity and pride for British South Asian youth.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;Ethnic Minorities in Britain&#039; (1997) &amp; &#039;Multiculturalism: A Civic Idea&#039; (2007).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 40: Heidi Mirza -->
+        <section class="slide" id="slide-40">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Heidi Mirza</h1>
+              <div class="theorist-school-badge">Black Feminist Sociology (1992)</div>
+              <p class="flashcard-def">Disproved the assumption that Black girls have low self-esteem: showed young Black women developed strategic coping mechanisms to navigate teacher racism, asserting high educational ambition, confidence, and positive ethnic self-identity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Young, Female and Black&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 41: Amy Chua -->
+        <section class="slide" id="slide-41">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🐅</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Amy Chua</h1>
+              <div class="theorist-school-badge">Cultural Socialisation &amp; Parenting (2011)</div>
+              <p class="flashcard-def">Popularised the concept of &#039;Tiger Parenting&#039;: high-demand, highly disciplined childrearing rooted in Confucian cultural values that emphasizes academic excellence, filial piety, and collective family honor over individual self-indulgence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Battle Hymn of the Tiger Mother&#039; (2011).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 42: CHAPTER 3 DIVIDER -->
+      <section class="slide" id="slide-42">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🔬</div>
+          <div class="flashcard theme-3" style="background: #0066FF !important;">
+            <div class="card-pill">CHAPTER 03 • PAPER 1</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Sociological Research Methods</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Positivism vs Interpretivism • Quantitative &amp; Qualitative Methods • Sampling &amp; Triangulation • Reliability, Validity &amp; Ethics • Sociological Value Freedom</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 20 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 43: Auguste Comte -->
+        <section class="slide" id="slide-43">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📐</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Auguste Comte</h1>
+              <div class="theorist-school-badge">Foundational Positivism (1830, 1848)</div>
+              <p class="flashcard-def">Coined the term &#039;Sociology&#039; and formulated the Law of Three Stages: argued human society progresses from theological and metaphysical stages to the positive (scientific) stage, where social behavior can be studied using objective, empirical laws identical to natural physics.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Course in Positive Philosophy&#039; (1830–1842).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 44: Émile Durkheim -->
+        <section class="slide" id="slide-44">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
+              <div class="theorist-school-badge">Positivist Quantitative Realism (1895, 1897)</div>
+              <p class="flashcard-def">Demonstrated the positivist method in his landmark study of official suicide statistics: proved that an apparently individualistic, psychological act is governed by external &#039;social facts&#039; (levels of social integration and moral regulation) that can be measured scientifically.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark methodological study: &#039;Suicide: A Study in Sociology&#039; (1897).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 45: Max Weber -->
+        <section class="slide" id="slide-45">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Max Weber</h1>
+              <div class="theorist-school-badge">Interpretivist Methodology (1922)</div>
+              <p class="flashcard-def">Pioneered interpretivism: argued human behavior cannot be measured like inanimate matter because humans possess consciousness; sociologists must seek &#039;Verstehen&#039; (empathetic understanding of actors&#039; subjective meanings) while remaining objective once research starts.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark methodological treatise: &#039;Economy and Society&#039; (1922).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 46: Karl Popper -->
+        <section class="slide" id="slide-46">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karl Popper</h1>
+              <div class="theorist-school-badge">Philosophy of Science &amp; Falsificationism (1959)</div>
+              <p class="flashcard-def">Rejected inductive verification in scientific methodology: argued a hypothesis can never be proven true forever, but must make precise empirical predictions capable of being &#039;falsified&#039; (tested and proven false); argued Marxism is unscientific because it cannot be falsified.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Logic of Scientific Discovery&#039; (1959).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 47: Robert K. Merton -->
+        <section class="slide" id="slide-47">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert K. Merton</h1>
+              <div class="theorist-school-badge">Sociology of Science &amp; Middle-Range Theory (1968)</div>
+              <p class="flashcard-def">Formulated the CUDOS norms governing scientific sociology (Communism/shared findings, Universalism, Disinterestedness, Organised Scepticism); advocated &#039;theories of the middle range&#039; that bridge abstract philosophy with empirical research.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Social Theory and Social Structure&#039; (1968).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 48: Norman Denzin -->
+        <section class="slide" id="slide-48">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔺</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Norman Denzin</h1>
+              <div class="theorist-school-badge">Methodological Triangulation (1978)</div>
+              <p class="flashcard-def">Formulated the classic framework of triangulation to eliminate researcher bias: identified four distinct types—data triangulation (time, space, persons), investigator triangulation, theoretical triangulation, and methodological triangulation (combining quantitative and qualitative).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark work: &#039;The Research Act&#039; (1978).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 49: Eileen Barker -->
+        <section class="slide" id="slide-49">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eileen Barker</h1>
+              <div class="theorist-school-badge">Methodological Pluralism &amp; Covert Ethics (1984)</div>
+              <p class="flashcard-def">Conducted a rigorous 6-year study of the Unification Church (&#039;The Moonies&#039;) using methodological pluralism: combined participant observation, in-depth qualitative interviews, and statistical questionnaires, refuting media claims that members were brainwashed.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;The Making of a Moonie: Choice or Brainwashing?&#039; (1984).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 50: Sudhir Venkatesh -->
+        <section class="slide" id="slide-50">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏙️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sudhir Venkatesh</h1>
+              <div class="theorist-school-badge">Ethnographic Participant Observation (2008)</div>
+              <p class="flashcard-def">Spent nearly a decade embedded with the Black Kings crack-dealing gang in Chicago housing projects, showing how deep qualitative immersion achieves rich ecological validity, while highlighting intense ethical dilemmas regarding researcher safety and witnessing crimes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Gang Leader for a Day&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 51: Jenni Ward -->
+        <section class="slide" id="slide-51">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jenni Ward</h1>
+              <div class="theorist-school-badge">Qualitative Fieldwork &amp; Vulnerable Groups (2008)</div>
+              <p class="flashcard-def">Researched street-level sex work and illicit substance abuse, demonstrating how building long-term empathetic rapport, non-judgmental questioning, and strict participant confidentiality enables researchers to collect valid qualitative data from stigmatized groups.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Flash Dolls: Female Street Sex Workers&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 52: Jason Ditton -->
+        <section class="slide" id="slide-52">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕵️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jason Ditton</h1>
+              <div class="theorist-school-badge">Covert Participant Observation &amp; Deception (1977)</div>
+              <p class="flashcard-def">Conducted covert participant observation as a dispatch worker in a bakery to study staff theft (&#039;fiddling&#039;), demonstrating that covert observation avoids the Hawthorne Effect but raises severe ethical concerns regarding deception and lack of informed consent.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Part-Time Crime: An Ethnography of Fiddling and Pilferage&#039; (1977).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 53: Ann Oakley -->
+        <section class="slide" id="slide-53">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
+              <div class="theorist-school-badge">Feminist Methodology (1981)</div>
+              <p class="flashcard-def">Critiqued traditional positivist interviewing as masculine, exploitative, and hierarchical; proposed a feminist methodology based on genuine equality, mutual rapport, reciprocal sharing of experiences, and emotional investment between researcher and participant.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;Interviewing Women: A Contradiction in Terms&#039; (1981).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 54: William Thomas -->
+        <section class="slide" id="slide-54">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✉️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">William Thomas</h1>
+              <div class="theorist-school-badge">Chicago School &amp; Interpretivist Documentation (1918)</div>
+              <p class="flashcard-def">Formulated the foundational Thomas Theorem (&#039;If men define situations as real, they are real in their consequences&#039;); demonstrated that sociologists must investigate subjective definitions of reality rather than assuming objective conditions dictate human choices.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark study: &#039;The Polish Peasant in Europe and America&#039; (1918–1920).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 55: Florian Znaniecki -->
+        <section class="slide" id="slide-55">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📖</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Florian Znaniecki</h1>
+              <div class="theorist-school-badge">Qualitative Personal Documents (1918)</div>
+              <p class="flashcard-def">Pioneered the sociological use of personal documents (migrant letters, autobiographies, diaries) with Thomas, demonstrating how biographical documents provide direct qualitative access to human motives, cultural adjustment, and personal meaning.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark study: &#039;The Polish Peasant in Europe and America&#039; (1918–1920).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 56: Robert Rosenthal -->
+        <section class="slide" id="slide-56">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧪</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Rosenthal</h1>
+              <div class="theorist-school-badge">Experimental Social Psychology &amp; Fieldwork (1968)</div>
+              <p class="flashcard-def">Conducted the classic &#039;Pygmalion in the Classroom&#039; field experiment with Jacobson: proved that false teacher expectations act as an experimental variable that produces a powerful self-fulfilling prophecy in pupil intellectual performance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark experiment: &#039;Pygmalion in the Classroom&#039; (1968).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 57: Lenore Jacobson -->
+        <section class="slide" id="slide-57">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Lenore Jacobson</h1>
+              <div class="theorist-school-badge">Educational Field Experimentation (1968)</div>
+              <p class="flashcard-def">Co-designed and implemented the Pygmalion field experiment in a primary school, demonstrating both the methodological power of naturalistic field experiments and the severe ethical dilemma of artificially manipulating children&#039;s educational progress.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark experiment: &#039;Pygmalion in the Classroom&#039; (1968).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 58: Elton Mayo -->
+        <section class="slide" id="slide-58">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Elton Mayo</h1>
+              <div class="theorist-school-badge">Industrial Field Experimentation (1933)</div>
+              <p class="flashcard-def">Conducted the famous illumination experiments at the Western Electric Hawthorne plant, discovering the &#039;Hawthorne Effect&#039;: research participants unconsciously alter their behaviour because they know they are being observed by researchers, threatening ecological validity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;The Human Problems of an Industrial Civilization&#039; (1933).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 59: Howard Becker -->
+        <section class="slide" id="slide-59">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗣️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Howard Becker</h1>
+              <div class="theorist-school-badge">Interactionist Ethics &amp; Value Commitment (1967)</div>
+              <p class="flashcard-def">Challenged the positivist idea of value-free neutrality in his essay &#039;Whose Side Are We On?&#039;: argued all sociological research is inherently political, and sociologists should openly commit their research to giving voice to marginalized &#039;underdogs&#039;.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark essay: &#039;Whose Side Are We On?&#039; (1967).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 60: Alvin Gouldner -->
+        <section class="slide" id="slide-60">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Alvin Gouldner</h1>
+              <div class="theorist-school-badge">Reflexive Sociology (1970)</div>
+              <p class="flashcard-def">Argued value-freedom is a convenient myth used by careerist academics to avoid challenging elite power; insisted sociologists must practice &#039;reflexivity&#039; by constantly scrutinizing their own funding, social backgrounds, and institutional biases.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark treatise: &#039;The Coming Crisis of Western Sociology&#039; (1970).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 61: Mayssoun Sukarieh -->
+        <section class="slide" id="slide-61">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mayssoun Sukarieh</h1>
+              <div class="theorist-school-badge">Critical Youth Studies &amp; Research Ethics (2012)</div>
+              <p class="flashcard-def">Critiqued Western researchers who extract qualitative data from youth in the Global South without giving back; analyzed how researcher positionality and colonial power dynamics distort the authenticity of qualitative findings.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored text: &#039;Subverting the Subversion: The Ethics and Politics of Youth Research&#039; (2012).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 62: Stuart Tannock -->
+        <section class="slide" id="slide-62">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Tannock</h1>
+              <div class="theorist-school-badge">Critical Research Ethics &amp; Educational Studies (2012)</div>
+              <p class="flashcard-def">Argued that qualitative researchers must dismantle the extractive relationship between elite universities and working-class research subjects, emphasizing ethical accountability, transparency, and collaborative community empowerment.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored text: &#039;Subverting the Subversion: The Ethics and Politics of Youth Research&#039; (2012).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 63: CHAPTER 4 DIVIDER -->
+      <section class="slide" id="slide-63">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
+          <div class="flashcard theme-4" style="background: #E11D48 !important;">
+            <div class="card-pill">CHAPTER 04 • PAPER 2</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">The Family</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Functionalist, Marxist &amp; Feminist Views • Family Diversity &amp; Households • Conjugal Roles &amp; Domestic Labour • Power, Decision-Making &amp; Abuse • Childhood &amp; Demographics</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 31 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 64: George Peter Murdock -->
+        <section class="slide" id="slide-64">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">George Peter Murdock</h1>
+              <div class="theorist-school-badge">Structural Functionalism (1949)</div>
+              <p class="flashcard-def">Sampled 250 societies and declared the nuclear family universal, serving four vital, indispensable societal functions: sexual regulation, reproductive renewal, economic cooperation, and educational primary socialisation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark cross-cultural text: &#039;Social Structure&#039; (1949).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 65: Talcott Parsons -->
+        <section class="slide" id="slide-65">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛁</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
+              <div class="theorist-school-badge">Functional Fit &amp; Nuclear Family Theory (1955)</div>
+              <p class="flashcard-def">Formulated the &#039;functional fit thesis&#039;: industrialisation required a geographically and socially mobile nuclear family; isolated nuclear family retains two irreducible functions: primary socialisation of children and the stabilization of adult personalities (&#039;warm bath theory&#039;).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Family, Socialization and Interaction Process&#039; (1955).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 66: Ronald Fletcher -->
+        <section class="slide" id="slide-66">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏥</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ronald Fletcher</h1>
+              <div class="theorist-school-badge">Functionalist Welfare Synthesis (1966)</div>
+              <p class="flashcard-def">Critiqued claims that the family has lost its functions: argued the modern welfare state (NHS, public schooling, housing) supports rather than replaces the family, enabling families to perform their socialisation and emotional functions far more effectively.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;The Family and Marriage in Britain&#039; (1966).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 67: Steven Horwitz -->
+        <section class="slide" id="slide-67">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steven Horwitz</h1>
+              <div class="theorist-school-badge">Neoliberal Institutional Economics &amp; Family (2005)</div>
+              <p class="flashcard-def">Analyzed the modern family as an adaptable economic micro-unit: argued the nuclear family fosters human capital, emotional resilience, and private cooperation necessary for decentralized capitalist markets.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;The Functions of the Family in the Market Order&#039; (2005).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 68: Friedrich Engels -->
+        <section class="slide" id="slide-68">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Friedrich Engels</h1>
+              <div class="theorist-school-badge">Classical Marxism (1884)</div>
+              <p class="flashcard-def">Argued the monogamous nuclear family emerged alongside private property to ensure legitimate biological heirs for wealth inheritance; turned women into private property (&#039;historical defeat of the female sex&#039;) and domestic servants for men.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark treatise: &#039;The Origin of the Family, Private Property and the State&#039; (1884).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 69: Louis Althusser -->
+        <section class="slide" id="slide-69">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
+              <div class="theorist-school-badge">Structural Marxism (1971)</div>
+              <p class="flashcard-def">Analyzed the family as an Ideological State Apparatus: the family conditions children into accepting patriarchal authority and hierarchical subordination, naturally preparing them to submit to capitalist exploitation in the workplace.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark work: &#039;Ideology and Ideological State Apparatuses&#039; (1971).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 70: Eli Zaretsky -->
+        <section class="slide" id="slide-70">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛋️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eli Zaretsky</h1>
+              <div class="theorist-school-badge">Marxist Psychoanalytic Family Theory (1976)</div>
+              <p class="flashcard-def">Argued the modern family provides a deceptive psychological &#039;haven&#039; from the brutal alienation of the capitalist workplace, while operating as a vital unit of economic consumption that absorbs mass-produced capitalist goods.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Capitalism, the Family, and Personal Life&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 71: Shulamith Firestone -->
+        <section class="slide" id="slide-71">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Shulamith Firestone</h1>
+              <div class="theorist-school-badge">Radical Feminism (1970)</div>
+              <p class="flashcard-def">Identified biological reproductive differences as the primal root of patriarchal oppression: argued women will never achieve true liberation until artificial reproductive technologies replace biological pregnancy, dismantling the nuclear family.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Dialectic of Sex: The Case for Feminist Revolution&#039; (1970).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 72: Ann Oakley -->
+        <section class="slide" id="slide-72">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧹</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
+              <div class="theorist-school-badge">Feminist Sociology of Housework (1974)</div>
+              <p class="flashcard-def">Rejected Young and Willmott&#039;s &#039;symmetrical family&#039; claim as a myth: found that 85% of wives still bore primary responsibility for housework and childcare, and husbands&#039; contributions remained minimal and sporadic (&#039;helping out&#039;).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark empirical studies: &#039;Housewife&#039; &amp; &#039;The Sociology of Housework&#039; (1974).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 73: Fran Ansley -->
+        <section class="slide" id="slide-73">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Fran Ansley</h1>
+              <div class="theorist-school-badge">Marxist Feminism (1972)</div>
+              <p class="flashcard-def">Famously described wives as &#039;takers of shit&#039; who absorb the frustration, alienation, and anger of exploited male workers that would otherwise be directed against capitalism, stabilizing the capitalist order at women&#039;s physical and emotional expense.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;On the Position of Women in the Family&#039; (1972).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 74: Christine Delphy -->
+        <section class="slide" id="slide-74">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Christine Delphy</h1>
+              <div class="theorist-school-badge">Radical Materialist Feminism (1992)</div>
+              <p class="flashcard-def">Demonstrated with Leonard that the domestic household constitutes a distinct patriarchal mode of production: husbands directly exploit the unpaid domestic, emotional, and sexual labour of their wives for personal gain.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Familiar Exploitation: A New Analysis of Marriage in Contemporary Western Societies&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 75: Diana Leonard -->
+        <section class="slide" id="slide-75">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Diana Leonard</h1>
+              <div class="theorist-school-badge">Radical Materialist Feminism (1992)</div>
+              <p class="flashcard-def">Showed that family finances, leisure time, and domestic burdens are profoundly unequal: even when women earn wages, men exercise ultimate authority over major financial expenditure and enjoy substantially more free time.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Familiar Exploitation&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 76: Michael Young -->
+        <section class="slide" id="slide-76">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Michael Young</h1>
+              <div class="theorist-school-badge">March of Progress Family Theory (1973)</div>
+              <p class="flashcard-def">Formulated the &#039;symmetrical family&#039; thesis with Willmott: documented an evolutionary March of Progress from segregated working-class extended families (Stage 2) to privatised, home-centred, symmetrical nuclear families with shared roles (Stage 3).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;The Symmetrical Family&#039; (1973).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 77: Peter Willmott -->
+        <section class="slide" id="slide-77">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏡</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Peter Willmott</h1>
+              <div class="theorist-school-badge">March of Progress &amp; Family Studies (1973)</div>
+              <p class="flashcard-def">Documented the decline of traditional gender segregation and extended kin dominance in East London, showing modern couples practice joint conjugal roles, spend leisure time together at home, and make joint decisions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark texts: &#039;Family and Kinship in East London&#039; (1957) &amp; &#039;The Symmetrical Family&#039; (1973).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 78: Jonathan Gershuny -->
+        <section class="slide" id="slide-78">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏱️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jonathan Gershuny</h1>
+              <div class="theorist-school-badge">Lagged Adaptation &amp; Time-Use Studies (1992, 2000)</div>
+              <p class="flashcard-def">Analyzed longitudinal time-use data, finding gradual &#039;lagged adaptation&#039;: as women work longer hours in paid employment, men slowly increase their share of domestic tasks and childcare, moving towards greater equality across generations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Changing Times: Work and Leisure in Postindustrial Society&#039; (2000).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 79: Esther Dermott -->
+        <section class="slide" id="slide-79">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👨‍👧</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Esther Dermott</h1>
+              <div class="theorist-school-badge">Intimate Fatherhood (2003, 2008)</div>
+              <p class="flashcard-def">Identified a generational shift toward &#039;intimate fatherhood&#039;: contemporary fathers define their paternal identity through emotional closeness, open communication, and shared time with children rather than purely through breadwinning.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Intimate Fatherhood: A Sociological Analysis&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 80: Stephen Edgell -->
+        <section class="slide" id="slide-80">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗳️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stephen Edgell</h1>
+              <div class="theorist-school-badge">Family Power &amp; Decision-Making (1980)</div>
+              <p class="flashcard-def">Identified a three-tiered power hierarchy in conjugal decision-making: men made very important decisions (finances, moving house), both made important decisions (holidays, schooling), while women made unimportant everyday decisions (food, clothing).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark empirical text: &#039;Middle-Class Couples: An Exploration of Decision-Making&#039; (1980).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 81: Jan Pahl -->
+        <section class="slide" id="slide-81">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💳</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jan Pahl</h1>
+              <div class="theorist-school-badge">Financial Allocation &amp; Marital Inequality (1989, 2008)</div>
+              <p class="flashcard-def">Identified pooling systems and allowance systems in household money management: showed that even in shared accounts (&#039;pooling&#039;), men frequently retain ultimate control over surplus spending, maintaining financial inequality.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark studies: &#039;Money and Marriage&#039; (1989) &amp; &#039;Family Money&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 82: Russell Dobash -->
+        <section class="slide" id="slide-82">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚨</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Russell Dobash</h1>
+              <div class="theorist-school-badge">Feminist Criminology &amp; Domestic Abuse (1979, 1992)</div>
+              <p class="flashcard-def">Analyzed police records and women&#039;s refuge interviews with Rebecca Dobash: found that domestic violence against wives is triggered by perceived challenges to male patriarchal authority, legitimated by traditional marriage ideals.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark study: &#039;Violence Against Wives&#039; (1979) &amp; &#039;Women, Violence and Social Change&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 83: Rebecca Dobash -->
+        <section class="slide" id="slide-83">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rebecca Dobash</h1>
+              <div class="theorist-school-badge">Patriarchy &amp; Domestic Violence (1979, 1992)</div>
+              <p class="flashcard-def">Showed domestic abuse is not caused by individual pathology or alcohol, but is structural: marriage historically institutionalised male entitlement, economic dependency of women, and systemic police reluctance to intervene in domestic spheres.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark study: &#039;Violence Against Wives&#039; (1979).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 84: Robert Chester -->
+        <section class="slide" id="slide-84">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔄</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Chester</h1>
+              <div class="theorist-school-badge">Neo-Conventional Family Thesis (1985)</div>
+              <p class="flashcard-def">Argued that the extent of family diversity has been greatly exaggerated: the dominant family form remains the &#039;neo-conventional family&#039; (a dual-earner nuclear family) that the vast majority of citizens will experience during their life cycle.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;The Rise of the Neo-Conventional Family&#039; (1985).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 85: Charles Murray -->
+        <section class="slide" id="slide-85">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Charles Murray</h1>
+              <div class="theorist-school-badge">New Right Family Critique (1984, 1990)</div>
+              <p class="flashcard-def">Attacked the rise of lone-parent families and welfare benefits: argued state subsidies provide &#039;perverse incentives&#039; that encourage teenage pregnancy and marital breakdown, creating a welfare-dependent underclass without male breadwinners.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Losing Ground&#039; (1984).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 86: Judith Stacey -->
+        <section class="slide" id="slide-86">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧩</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Judith Stacey</h1>
+              <div class="theorist-school-badge">Postmodern Feminist Family Studies (1998)</div>
+              <p class="flashcard-def">Argued postmodernity and economic changes have freed women from traditional patriarchal family traps: women have taken the lead in constructing diverse, flexible &#039;divorce-extended families&#039; connected through ex-spouses and new partners.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;In the Name of the Family: Rethinking Family Values in the Postmodern Age&#039; (1998).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 87: David Morgan -->
+        <section class="slide" id="slide-87">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🍳</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Morgan</h1>
+              <div class="theorist-school-badge">Family Practices (1996, 2011)</div>
+              <p class="flashcard-def">Proposed replacing the static noun &#039;the family&#039; with the concept of &#039;family practices&#039;: family is not a rigid structure but an active set of daily routines, caring activities, and relational practices that people &#039;do&#039; rather than &#039;have&#039;.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Family Connections: An Introduction to Family Studies&#039; (1996) &amp; &#039;Rethinking Family Practices&#039; (2011).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 88: Anthony Giddens -->
+        <section class="slide" id="slide-88">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">❤️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Anthony Giddens</h1>
+              <div class="theorist-school-badge">Transformation of Intimacy (1992)</div>
+              <p class="flashcard-def">Formulated the concepts of &#039;confluent love&#039; and the &#039;pure relationship&#039;: modern intimate relationships are based on personal emotional satisfaction and equality, surviving only as long as both partners feel their emotional needs are being met.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark work: &#039;The Transformation of Intimacy: Sexuality, Love and Eroticism in Modern Societies&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 89: Carol Smart -->
+        <section class="slide" id="slide-89">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🐕</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Carol Smart</h1>
+              <div class="theorist-school-badge">Personal Life Perspective (2007)</div>
+              <p class="flashcard-def">Advocated looking beyond the traditional nuclear family to study &#039;personal life&#039;: focuses on meaningful bonds that include fictive kin, chosen families, beloved pets, friends, and shared memories that form modern networks of intimacy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Personal Life: New Directions in Sociological Thinking&#039; (2007).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 90: Jeffrey Weeks -->
+        <section class="slide" id="slide-90">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌈</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jeffrey Weeks</h1>
+              <div class="theorist-school-badge">Sociology of Sexuality &amp; Chosen Families (1999)</div>
+              <p class="flashcard-def">Analyzed non-heterosexual kinship: showed gay and lesbian communities construct egalitarian &#039;chosen families&#039; and &#039;friendship networks&#039; that negotiate domestic roles without traditional patriarchal assumptions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Making Sex Count&#039; (1999) &amp; &#039;Same Sex Intimacies&#039; (2001).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 91: Julia Brannen -->
+        <section class="slide" id="slide-91">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Julia Brannen</h1>
+              <div class="theorist-school-badge">The Beanpole Family (2003)</div>
+              <p class="flashcard-def">Identified the rise of the multi-generational &#039;beanpole family&#039;: declining birth rates and rising life expectancy produce families that are &#039;long and thin&#039; (multiple generations alive simultaneously, but fewer aunts, uncles, and cousins per generation).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study on intergenerational family care: &#039;Connecting Children: Care and Family Life in Later Childhood&#039; (2003).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 92: Richard Berthoud -->
+        <section class="slide" id="slide-92">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗺️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Richard Berthoud</h1>
+              <div class="theorist-school-badge">Ethnic Family Diversity in the UK (2001)</div>
+              <p class="flashcard-def">Documented significant ethnic diversity in UK family structures: found high rates of lone-parent families and female independence among British Caribbean households, contrasted with larger, traditional patriarchal extended households in British Asian communities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark policy report: &#039;Family Formation in Multi-Cultural Britain&#039; (2001).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 93: Annette Lareau -->
+        <section class="slide" id="slide-93">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎨</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Annette Lareau</h1>
+              <div class="theorist-school-badge">Class Stratification &amp; Childrearing (2003)</div>
+              <p class="flashcard-def">Documented class differences in family childrearing: middle-class parents practice &#039;concerted cultivation&#039; (scheduled activities, verbal reasoning, negotiating with institutions), while working-class families practice &#039;natural growth&#039; (free play, respecting authority).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Unequal Childhoods: Class, Race, and Family Life&#039; (2003).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 94: Arlie Russell Hochschild -->
+        <section class="slide" id="slide-94">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⌛</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Arlie Russell Hochschild</h1>
+              <div class="theorist-school-badge">The Second Shift &amp; Emotional Labour (1989, 2003)</div>
+              <p class="flashcard-def">Identified the &#039;second shift&#039;: employed women return home from paid jobs to perform hours of unpaid domestic labour and emotional management for their partners and children, causing chronic physical and emotional exhaustion.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Second Shift: Working Families and the Revolution at Home&#039; (1989).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 95: CHAPTER 5 DIVIDER -->
+      <section class="slide" id="slide-95">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🎓</div>
+          <div class="flashcard theme-5" style="background: #D97706 !important;">
+            <div class="card-pill">CHAPTER 05 • PAPER 3</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Education</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Role of Education &amp; Meritocracy • Class, Gender &amp; Ethnic Differences in Attainment • Teacher Labelling, Streaming &amp; Subcultures • Hidden Curriculum • Educational Policy</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 25 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 96: Émile Durkheim -->
+        <section class="slide" id="slide-96">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
+              <div class="theorist-school-badge">Functionalist Educational Solidarity (1925)</div>
+              <p class="flashcard-def">Argued education performs two vital societal functions: creating social solidarity by transmitting shared historical culture (creating &#039;society in miniature&#039;), and teaching specialised technical skills required for the industrial division of labour.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Moral Education&#039; (1925).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 97: Talcott Parsons -->
+        <section class="slide" id="slide-97">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌉</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
+              <div class="theorist-school-badge">Meritocracy &amp; Universalistic Standards (1961)</div>
+              <p class="flashcard-def">Viewed school as a focal socialising agency acting as a bridge between family and wider society: school transitions children from particularistic ascribed standards of the family to universalistic meritocratic standards of modern society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;The School Class as a Social System&#039; (1961).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 98: Kingsley Davis -->
+        <section class="slide" id="slide-98">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Kingsley Davis</h1>
+              <div class="theorist-school-badge">Functionalist Role Allocation (1945)</div>
+              <p class="flashcard-def">Argued with Wilbert Moore that education acts as a meritocratic sorting mechanism: schools sift and grade pupils according to their abilities, matching the most talented individuals to functionally important career roles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark paper: &#039;Some Principles of Stratification&#039; (1945).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 99: Wilbert Moore -->
+        <section class="slide" id="slide-99">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Wilbert Moore</h1>
+              <div class="theorist-school-badge">Stratification &amp; Functional Importance (1945)</div>
+              <p class="flashcard-def">Argued unequal educational credentials and unequal financial rewards are necessary incentives to motivate the most capable individuals to endure long, demanding training for society&#039;s most functionally critical positions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark paper: &#039;Some Principles of Stratification&#039; (1945).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 100: Samuel Bowles -->
+        <section class="slide" id="slide-100">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Samuel Bowles</h1>
+              <div class="theorist-school-badge">Marxist Sociology &amp; Correspondence Principle (1976)</div>
+              <p class="flashcard-def">Formulated the Correspondence Principle with Gintis: the hidden curriculum of schools directly reproduces capitalist workplace relationships (hierarchy, loss of control, competition, and extrinsic motivation) to create a compliant workforce.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Schooling in Capitalist America&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 101: Herbert Gintis -->
+        <section class="slide" id="slide-101">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚙️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Herbert Gintis</h1>
+              <div class="theorist-school-badge">Hidden Curriculum &amp; Myth of Meritocracy (1976)</div>
+              <p class="flashcard-def">Demonstrated that schools promote the &#039;myth of meritocracy&#039;: schools persuade workers that educational success is based entirely on individual ability and effort, disguising how class privilege really dictates outcomes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Schooling in Capitalist America&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 102: Louis Althusser -->
+        <section class="slide" id="slide-102">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
+              <div class="theorist-school-badge">Structural Marxist Education Theory (1971)</div>
+              <p class="flashcard-def">Declared education the primary Ideological State Apparatus in modern capitalism: schooling reproduces class inequality by failing working-class pupils, and legitimates inequality by convincing people that educational failure is their own fault.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark essay: &#039;Ideology and Ideological State Apparatuses&#039; (1971).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 103: Pierre Bourdieu -->
+        <section class="slide" id="slide-103">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎨</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Pierre Bourdieu</h1>
+              <div class="theorist-school-badge">Cultural Capital &amp; Habitus (1977, 1984)</div>
+              <p class="flashcard-def">Analyzed how ruling classes reproduce privilege: middle-class children possess &#039;cultural capital&#039; (refined language, aesthetic tastes, etiquette) and middle-class &#039;habitus&#039; which schools reward with elite academic credentials.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;Reproduction in Education, Society and Culture&#039; (1977) &amp; &#039;Distinction&#039; (1984).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 104: Paul Willis -->
+        <section class="slide" id="slide-104">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔨</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
+              <div class="theorist-school-badge">Counter-School Culture &amp; Resistance (1977)</div>
+              <p class="flashcard-def">Conducted an ethnographic study of 12 working-class &#039;lads&#039;: showed they formed an anti-school subculture to actively resist school authority, but their counter-school culture ironically guaranteed they ended up in low-skilled manual labour.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Learning to Labour&#039; (1977).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 105: Basil Bernstein -->
+        <section class="slide" id="slide-105">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗣️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Basil Bernstein</h1>
+              <div class="theorist-school-badge">Sociolinguistics &amp; Speech Codes (1971)</div>
+              <p class="flashcard-def">Differentiated between the &#039;restricted speech code&#039; used by working-class families and the &#039;elaborated speech code&#039; required by schools, textbooks, and exam boards, giving middle-class pupils an unfair linguistic head start.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Class, Codes and Control&#039; (1971).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 106: David Hargreaves -->
+        <section class="slide" id="slide-106">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Hargreaves</h1>
+              <div class="theorist-school-badge">Subcultural Differentiation &amp; Polarisation (1967)</div>
+              <p class="flashcard-def">Studied streaming in a secondary modern school: showed that streaming pupils into bottom sets led teachers to label them as &#039;worthless&#039;, causing boys to polarize into delinquent anti-school subcultures to regain peer status.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Social Relations in a Secondary School&#039; (1967).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 107: Howard Becker -->
+        <section class="slide" id="slide-107">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏷️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Howard Becker</h1>
+              <div class="theorist-school-badge">Labelling Theory &amp; The Ideal Pupil (1971)</div>
+              <p class="flashcard-def">Interviewed 60 Chicago high-school teachers: revealed teachers evaluate pupils against an internalized concept of the &#039;ideal pupil&#039; (polite, clean, middle-class, compliant), disproportionately judging working-class children as unteachable.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;Social Class Variations in the Teacher-Pupil Relationship&#039; (1971).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 108: Nell Keddie -->
+        <section class="slide" id="slide-108">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Nell Keddie</h1>
+              <div class="theorist-school-badge">Cultural Difference &amp; Stratification of Knowledge (1971)</div>
+              <p class="flashcard-def">Critiqued cultural deprivation theory: argued working-class children are culturally different rather than culturally deficient; showed teachers reserve abstract &#039;high-status knowledge&#039; for top streams while dumbing down curriculum for bottom streams.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;Classroom Knowledge&#039; in &#039;Young: Knowledge and Control&#039; (1971).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 109: Robin Nash -->
+        <section class="slide" id="slide-109">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔍</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robin Nash</h1>
+              <div class="theorist-school-badge">Classroom Expectations &amp; Self-Fulfilling Prophecy (1972)</div>
+              <p class="flashcard-def">Observed Scottish primary classrooms: demonstrated that pupils rapidly perceive subtle teacher labels and behavioral expectations, adjusting their academic confidence and performance to fulfill the teacher&#039;s prediction.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Classrooms Observed: The Teacher&#039;s Perception and the Pupil&#039;s Peformance&#039; (1973).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 110: Louise Archer -->
+        <section class="slide" id="slide-110">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👟</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louise Archer</h1>
+              <div class="theorist-school-badge">Symbolic Violence &amp; Nike Identities (2010)</div>
+              <p class="flashcard-def">Analyzed working-class identity in schools: showed working-class students invest in branded sportswear (&#039;Nike identities&#039;) for peer status, which middle-class school regimes devalue as &#039;tasteless&#039; and deviant, committing &#039;symbolic violence&#039;.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Educational Diversity and Social Class&#039; (2010).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 111: David Gillborn -->
+        <section class="slide" id="slide-111">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gillborn</h1>
+              <div class="theorist-school-badge">Institutional Racism &amp; Educational Triage (2000, 2008)</div>
+              <p class="flashcard-def">Coined the &#039;A*-to-C Educational Triage&#039; with Youdell: marketisation league tables force schools to neglect hopeless bottom-set pupils (disproportionately working-class and Black) to focus resources exclusively on borderline C-grade students.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored text: &#039;Rationing Education: Policy, Practice, Reform and Equity&#039; (2000).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 112: Cecile Wright -->
+        <section class="slide" id="slide-112">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚸</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Cecile Wright</h1>
+              <div class="theorist-school-badge">Teacher Labelling &amp; Asian Students (1992)</div>
+              <p class="flashcard-def">Observed multi-ethnic primary schools: found teachers held ethnocentric stereotypes, assuming Asian pupils had poor English comprehension, leaving them isolated in classroom discussions and mispronouncing their names.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Race Relations in the Primary School&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 113: Heidi Mirza -->
+        <section class="slide" id="slide-113">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Heidi Mirza</h1>
+              <div class="theorist-school-badge">Black Girls &amp; Strategic Adaptations (1992)</div>
+              <p class="flashcard-def">Identified three types of teacher racism (overt racists, liberal chauvinists, and the color-blind), demonstrating that ambitious Black British girls rejected negative stereotypes and strategically avoided racist teachers to succeed academically.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;Young, Female and Black&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 114: Sewell -->
+        <section class="slide" id="slide-114">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧢</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sewell</h1>
+              <div class="theorist-school-badge">Black Masculinity &amp; Subcultural Adaptations (1997)</div>
+              <p class="flashcard-def">Identified four subcultural responses among Black Caribbean boys (rebels, conformists, retreatists, innovators); argued that peer pressure in street gangs and lack of nurturing father figures (&#039;tough love&#039;) contribute to educational underachievement.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Black Masculinities and Schooling&#039; (1997).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 115: Becky Francis -->
+        <section class="slide" id="slide-115">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚽</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Becky Francis</h1>
+              <div class="theorist-school-badge">Feminist Classroom Dynamics &amp; Laddishness (2000)</div>
+              <p class="flashcard-def">Showed classrooms remain deeply gendered: boys dominate physical space and teacher attention through boisterous banter; working-class boys adopt &#039;laddish&#039; anti-school behaviors to protect against being labelled uncool or gay.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Boys, Girls and Achievement: Addressing the Agenda&#039; (2000).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 116: Sue Sharpe -->
+        <section class="slide" id="slide-116">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sue Sharpe</h1>
+              <div class="theorist-school-badge">Longitudinal Study of Female Priorities (1976, 1994)</div>
+              <p class="flashcard-def">Compared female aspirations between 1970s and 1990s in &#039;Just Like a Girl&#039;: 1970s girls prioritized love, marriage, and children; by the 1990s, priorities shifted dramatically to careers, education, and financial independence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark longitudinal study: &#039;Just Like a Girl: How Girls Learn to Be Women&#039; (1976, 1994).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 117: Mairtin Mac an Ghaill -->
+        <section class="slide" id="slide-117">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👔</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Mairtin Mac an Ghaill</h1>
+              <div class="theorist-school-badge">Male Peer Subcultures in School (1994)</div>
+              <p class="flashcard-def">Identified four distinct male subcultures within a single comprehensive school: Macho Lads (manual anti-school), Academic Achievers (pro-school), New Enterprisers (vocational/business), and Real Englishmen (middle-class effortless superiority).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark ethnography: &#039;The Making of Men&#039; (1994).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 118: Peter Saunders -->
+        <section class="slide" id="slide-118">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Peter Saunders</h1>
+              <div class="theorist-school-badge">Meritocracy &amp; Intelligence Distribution (1996, 2010)</div>
+              <p class="flashcard-def">Challenged Marxist and socialist educational critiques: argued contemporary British education is largely meritocratic, and educational attainment reflects genuine differences in natural ability, cognitive effort, and motivation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Social Class and Stratification&#039; (1996) &amp; &#039;Unequal But Fair?&#039; (2010).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 119: Richard Breen -->
+        <section class="slide" id="slide-119">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Richard Breen</h1>
+              <div class="theorist-school-badge">Rational Action Theory &amp; Educational Transitions (2004, 2010)</div>
+              <p class="flashcard-def">Applied rational choice models across European education systems: showed class differences in educational attainment persist because middle- and working-class families face fundamentally different cost-benefit and risk calculations regarding university debt.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark research: &#039;Educational Expansion and Social Mobility in the 20th Century&#039; (2004).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 120: Melvin Tumin -->
+        <section class="slide" id="slide-120">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Melvin Tumin</h1>
+              <div class="theorist-school-badge">Critical Stratification Theory (1953)</div>
+              <p class="flashcard-def">Pioneered the classic critique of Davis-Moore&#039;s functionalist role allocation: argued functional importance cannot be objectively measured, and elite credentials often protect hereditary privilege rather than rewarding genuine merit.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark critique: &#039;Some Principles of Stratification: A Critical Analysis&#039; (1953).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 121: CHAPTER 6 DIVIDER -->
+      <section class="slide" id="slide-121">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🌐</div>
+          <div class="flashcard theme-6" style="background: #0D9488 !important;">
+            <div class="card-pill">CHAPTER 06 • PAPER 4</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Globalisation</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Dimensions of Globalisation • Modernisation vs Dependency Theory • World Systems Theory • Cultural Homogenisation &amp; Glocalisation • Global Migration &amp; Transnational Crime</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 17 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 122: Jan Aart Scholte -->
+        <section class="slide" id="slide-122">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jan Aart Scholte</h1>
+              <div class="theorist-school-badge">Globalisation as Supraterritoriality (2000, 2005)</div>
+              <p class="flashcard-def">Defined globalisation as &#039;supraterritoriality&#039;: the restructuring of social geography so that social space is no longer wholly mapped in terms of territorial borders and physical distance, enabled by telecommunications and jet travel.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark treatise: &#039;Globalization: A Critical Introduction&#039; (2000, 2005).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 123: Anthony Giddens -->
+        <section class="slide" id="slide-123">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏃</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Anthony Giddens</h1>
+              <div class="theorist-school-badge">High Modernity &amp; Runaway World (1990, 1999)</div>
+              <p class="flashcard-def">Defined globalisation as the intensification of worldwide social relations which link distant localities; coined &#039;runaway world&#039; to describe modern global life characterized by detraditionalisation, institutional reflexivity, and cosmopolitanism.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;The Consequences of Modernity&#039; (1990) &amp; &#039;Runaway World&#039; (1999).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 124: Marshall McLuhan -->
+        <section class="slide" id="slide-124">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌍</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Marshall McLuhan</h1>
+              <div class="theorist-school-badge">Media Ecology &amp; Global Village (1964)</div>
+              <p class="flashcard-def">Prophesied that electronic communications and satellite television would shrink the planet into a tightly interconnected &#039;global village&#039;, collapsing geographical barriers and fostering immediate worldwide awareness of events.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Understanding Media: The Extensions of Man&#039; (1964).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 125: Roland Robertson -->
+        <section class="slide" id="slide-125">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🍔</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Roland Robertson</h1>
+              <div class="theorist-school-badge">Glocalisation &amp; Cultural Sociology (1992, 1995)</div>
+              <p class="flashcard-def">Coined the concept of &#039;Glocalisation&#039;: global cultural products do not simply homogenise local traditions; instead, global corporations adapt their goods to fit local cultural tastes, producing hybrid cultural forms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Globalization: Social Theory and Global Culture&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 126: Fatima Adamu -->
+        <section class="slide" id="slide-126">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧕</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Fatima Adamu</h1>
+              <div class="theorist-school-badge">Globalisation &amp; African Gender Dynamics (2003)</div>
+              <p class="flashcard-def">Studied Hausa Muslim women in northern Nigeria, demonstrating that globalisation does not simply impose Western secularism: women creatively mobilize global digital technologies and educational resources to empower themselves while upholding Islamic traditions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Globalization and the Economic Empowerment of Women in Northern Nigeria&#039; (2003).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 127: Arjun Appadurai -->
+        <section class="slide" id="slide-127">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌊</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Arjun Appadurai</h1>
+              <div class="theorist-school-badge">Global Cultural Scapes (1996)</div>
+              <p class="flashcard-def">Deconstructed global cultural flows into five disjunctive dimensions: ethnoscapes (migrants, tourists), technoscapes, financescapes (global currency markets), mediascapes (news, entertainment), and ideoscapes (political ideologies).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark work: &#039;Modernity at Large: Cultural Dimensions of Globalization&#039; (1996).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 128: Immanuel Wallerstein -->
+        <section class="slide" id="slide-128">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Immanuel Wallerstein</h1>
+              <div class="theorist-school-badge">World Systems Theory (1974, 2004)</div>
+              <p class="flashcard-def">Analyzed global capitalism as a unified hierarchical world system: Core wealthy nations exploit Periphery developing nations for cheap labour and raw resources, using Semi-Periphery buffer zones to prevent systemic global rebellion.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark historical treatise: &#039;The Modern World-System&#039; (1974–1989).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 129: Walter Rostow -->
+        <section class="slide" id="slide-129">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Walter Rostow</h1>
+              <div class="theorist-school-badge">Modernisation Theory (1960)</div>
+              <p class="flashcard-def">Formulated the classic Five Stages of Economic Growth: argued developing nations must abandon traditional cultural values and adopt Western capitalist technology, investment, and infrastructure to reach high mass consumption.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Stages of Economic Growth: A Non-Communist Manifesto&#039; (1960).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 130: Andre Gunder Frank -->
+        <section class="slide" id="slide-130">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Andre Gunder Frank</h1>
+              <div class="theorist-school-badge">Dependency Theory (1966, 1971)</div>
+              <p class="flashcard-def">Formulated the &#039;Development of Underdevelopment&#039;: refuted modernisation theory, proving that wealthy Western nations actively created the poverty of the Global South through colonial plunder, slavery, and unequal terms of trade.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Capitalism and Underdevelopment in Latin America&#039; (1967).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 131: Naomi Klein -->
+        <section class="slide" id="slide-131">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏷️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Naomi Klein</h1>
+              <div class="theorist-school-badge">Anti-Corporate Globalisation &amp; Brand Imperialism (2000)</div>
+              <p class="flashcard-def">Exposed the exploitation of transnational brand manufacturing: corporations outsource production to sweatshops in Export Processing Zones in the Global South with near-zero labour rights, while flooding global culture with pervasive corporate marketing.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;No Logo: Taking Aim at the Brand Bullies&#039; (2000).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 132: Arlie Russell Hochschild -->
+        <section class="slide" id="slide-132">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✈️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Arlie Russell Hochschild</h1>
+              <div class="theorist-school-badge">Global Care Chains (2000, 2002)</div>
+              <p class="flashcard-def">Documented &#039;global care chains&#039;: millions of women from poor countries migrate to wealthy nations to work as nannies and maids, caring for Western families while their own children back home suffer an &#039;emotional deficit&#039;.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Global Woman: Nannies, Maids, and Sex Workers in the New Economy&#039; (2002).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 133: Misha Glenny -->
+        <section class="slide" id="slide-133">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕶️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Misha Glenny</h1>
+              <div class="theorist-school-badge">McMafia &amp; Transnational Organised Crime (2008)</div>
+              <p class="flashcard-def">Documented the rise of &#039;McMafia&#039;: post-Cold War economic deregulation and privatisation allowed transnational criminal syndicates (Russian mafia, Mexican cartels, Balkan smugglers) to operate globally like corporate business franchises.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark investigative text: &#039;McMafia: Seriously Organised Crime&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 134: Frank Pearce -->
+        <section class="slide" id="slide-134">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Frank Pearce</h1>
+              <div class="theorist-school-badge">Crimes of the Powerful &amp; Corporate Crime (1976, 2001)</div>
+              <p class="flashcard-def">Demonstrated that global transnational corporations commit massive financial, health, and environmental crimes with virtual impunity; argued the laws of capitalist states protect ruling-class crime while criminalizing working-class street offences.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Crimes of the Powerful: Marxism, Crime and Deviance&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 135: Rob White -->
+        <section class="slide" id="slide-135">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌲</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rob White</h1>
+              <div class="theorist-school-badge">Green Criminology &amp; Global Eco-Crime (2008)</div>
+              <p class="flashcard-def">Pioneered green criminology: argued environmental harm (toxic dumping, industrial pollution, deforestation) committed by transnational corporations must be treated as serious global crime, even when legal loopholes protect corporate polluters.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Crimes Against Nature: Environmental Criminology and Ecological Justice&#039; (2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 136: Paul Collier -->
+        <section class="slide" id="slide-136">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Collier</h1>
+              <div class="theorist-school-badge">Development Economics &amp; The Bottom Billion (2007)</div>
+              <p class="flashcard-def">Identified four structural development traps that keep the poorest 1 billion people in global poverty: the conflict trap (civil war), the natural resource trap (&#039;resource curse&#039;), landlocked with bad neighbours, and bad governance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Bottom Billion: Why the Poorest Countries are Failing&#039; (2007).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 137: Ulrich Beck -->
+        <section class="slide" id="slide-137">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">☢️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ulrich Beck</h1>
+              <div class="theorist-school-badge">Global Risk Society (1992)</div>
+              <p class="flashcard-def">Argued globalisation has ushered in the &#039;Risk Society&#039;: human technological progress now generates catastrophic manufactured risks (climate breakdown, nuclear disasters, cyber warfare) that cannot be contained by national borders.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Risk Society: Towards a New Modernity&#039; (1992).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 138: Sundeep Johal -->
+        <section class="slide" id="slide-138">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📡</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sundeep Johal</h1>
+              <div class="theorist-school-badge">Transnational Media &amp; Diasporic Culture (1998)</div>
+              <p class="flashcard-def">Researched transnational diaspora communities, showing how satellite broadcasting (Zee TV, Bollywood) and the internet enable global migrants to maintain continuous, daily cultural connections with ancestral homelands across national borders.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Transnational Media Networks and Ethnic Minorities&#039; (1998).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 139: CHAPTER 7 DIVIDER -->
+      <section class="slide" id="slide-139">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">📺</div>
+          <div class="flashcard theme-7" style="background: #7C3AED !important;">
+            <div class="card-pill">CHAPTER 07 • PAPER 4</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Media</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Ownership &amp; Control of Media • News Selection &amp; Moral Panics • Representations of Class, Gender &amp; Ethnicity • Audience Effects Models • New Media, Digital Surveillance &amp; Culture</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 21 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 140: James Curran -->
+        <section class="slide" id="slide-140">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📰</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">James Curran</h1>
+              <div class="theorist-school-badge">Political Economy of Media (1981, 2009)</div>
+              <p class="flashcard-def">Showed press history is driven by media proprietors seeking political influence and commercial profit rather than democratic pluralism; concentrated corporate ownership constrains the range of legitimate news discourse (with Seaton).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark book: &#039;Power Without Responsibility: Press, Broadcasting and the Internet in Britain&#039; (1981, 2009).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 141: Jean Seaton -->
+        <section class="slide" id="slide-141">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎙️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jean Seaton</h1>
+              <div class="theorist-school-badge">History of Broadcasting &amp; Media Monopoly (2009)</div>
+              <p class="flashcard-def">Demonstrated how public service broadcasting (BBC) has been increasingly undermined by commercial marketisation and conglomeration, reducing journalistic diversity and investigative depth (with Curran).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;Power Without Responsibility&#039; (2009).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 142: Ben Bagdikian -->
+        <section class="slide" id="slide-142">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏢</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ben Bagdikian</h1>
+              <div class="theorist-school-badge">Media Monopoly &amp; Conglomeration (1983, 2004)</div>
+              <p class="flashcard-def">Documented the rapid concentration of American media ownership: from 50 corporations owning the majority of US media outlets in 1983 down to just 5 global mega-conglomerates (Disney, Comcast, News Corp, etc.) today.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;The Media Monopoly&#039; (1983) &amp; &#039;The New Media Monopoly&#039; (2004).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 143: Noam Chomsky -->
+        <section class="slide" id="slide-143">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📢</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Noam Chomsky</h1>
+              <div class="theorist-school-badge">Propaganda Model &amp; Critical Media Analysis (1988)</div>
+              <p class="flashcard-def">Formulated the Propaganda Model with Herman: identified five structural news filters (ownership, advertising, official sources, flak, anti-ideology) that ensure mass media manufacture public consent for elite political and corporate interests.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark treatise: &#039;Manufacturing Consent: The Political Economy of the Mass Media&#039; (1988).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 144: Edward Herman -->
+        <section class="slide" id="slide-144">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💵</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Edward Herman</h1>
+              <div class="theorist-school-badge">Political Economy of Communications (1988)</div>
+              <p class="flashcard-def">Co-authored the Propaganda Model, detailing how media reliance on corporate advertising revenue drives news organizations to marginalize radical perspectives and avoid investigative reporting that offends wealthy sponsors.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark treatise: &#039;Manufacturing Consent&#039; (1988).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 145: Greg Philo -->
+        <section class="slide" id="slide-145">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Greg Philo</h1>
+              <div class="theorist-school-badge">Glasgow Media Group &amp; Hegemonic News (1976, 1982)</div>
+              <p class="flashcard-def">Conducted exhaustive television news analyses with the Glasgow Media Group: proved TV coverage systematically frames industrial strikes as disruptive and irrational, presenting management viewpoints as neutral common sense.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark studies: &#039;Bad News&#039; (1976) &amp; &#039;More Bad News&#039; (1982).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 146: Laura Mulvey -->
+        <section class="slide" id="slide-146">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👁️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Laura Mulvey</h1>
+              <div class="theorist-school-badge">Feminist Film Theory (1975)</div>
+              <p class="flashcard-def">Formulated the &#039;Male Gaze&#039;: visual cinema and mainstream media position the camera and audience from the perspective of a heterosexual male, turning women into passive objects of voyeuristic and erotic visual pleasure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;Visual Pleasure and Narrative Cinema&#039; (1975).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 147: Ben Carrington -->
+        <section class="slide" id="slide-147">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏃</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ben Carrington</h1>
+              <div class="theorist-school-badge">Race, Sport &amp; Media Representation (2001, 2002)</div>
+              <p class="flashcard-def">Exposed how mainstream sports media construct racialized representations: Black athletes are consistently portrayed as possessing natural, animalistic physical prowess, while tactical intelligence and leadership are attributed to white athletes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark studies: &#039;Race, Representation and the Sporting Body&#039; (2001, 2002).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 148: Stanley Cohen -->
+        <section class="slide" id="slide-148">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚨</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stanley Cohen</h1>
+              <div class="theorist-school-badge">Folk Devils &amp; Moral Panics (1972)</div>
+              <p class="flashcard-def">Analyzed media coverage of seaside clashes between Mods and Rockers: coined &#039;moral panic&#039; and &#039;folk devils&#039;, showing how media exaggeration and sensationalism create public anxiety, leading to police crackdowns and deviancy amplification.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Folk Devils and Moral Panics: The Creation of the Mods and Rockers&#039; (1972).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 149: Albert Bandura -->
+        <section class="slide" id="slide-149">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥊</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Albert Bandura</h1>
+              <div class="theorist-school-badge">Social Learning Theory &amp; Hypodermic Model (1963)</div>
+              <p class="flashcard-def">Conducted the Bobo Doll experiments: demonstrated that children directly imitate aggressive behaviors witnessed on film, providing foundational empirical support for direct &#039;hypodermic syringe&#039; models of media violence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark experiment: &#039;Transmission of Aggression Through Imitation of Aggressive Models&#039; (1963).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 150: William Belson -->
+        <section class="slide" id="slide-150">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">William Belson</h1>
+              <div class="theorist-school-badge">Empirical Studies on TV Violence (1978)</div>
+              <p class="flashcard-def">Conducted a rigorous longitudinal study of 1,500 London boys: found that prolonged, heavy exposure to violent television programs produced a modest but statistically significant increase in serious interpersonal violence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;Television Violence and the Adolescent Boy&#039; (1978).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 151: Elihu Katz -->
+        <section class="slide" id="slide-151">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗣️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Elihu Katz</h1>
+              <div class="theorist-school-badge">Two-Step Flow Communications Model (1955)</div>
+              <p class="flashcard-def">Formulated the Two-Step Flow Model with Lazarsfeld: proved media messages do not influence passive masses directly; media information flows first to influential &#039;opinion leaders&#039; who filter, interpret, and pass it on to peers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark book: &#039;Personal Influence: The Part Played by People in the Flow of Mass Communications&#039; (1955).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 152: Paul Lazarsfeld -->
+        <section class="slide" id="slide-152">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗳️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Lazarsfeld</h1>
+              <div class="theorist-school-badge">Empirical Communications Sociology (1955)</div>
+              <p class="flashcard-def">Pioneered empirical audience research: showed personal social networks and interpersonal conversations exert significantly stronger influence over voting decisions and consumer habits than direct mass media propaganda.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark book: &#039;Personal Influence&#039; (1955).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 153: Dennis McQuail -->
+        <section class="slide" id="slide-153">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📱</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dennis McQuail</h1>
+              <div class="theorist-school-badge">Uses &amp; Gratifications Model (1972)</div>
+              <p class="flashcard-def">Formulated the classic Uses and Gratifications typology with Blumler: rejected passive audience models, identifying four active motivations for media use—information/surveillance, personal identity, social integration, and diversion/escapism.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark work: &#039;The Uses of Mass Communications&#039; (1974).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 154: Jay Blumler -->
+        <section class="slide" id="slide-154">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jay Blumler</h1>
+              <div class="theorist-school-badge">Active Audience Theory (1972)</div>
+              <p class="flashcard-def">Demonstrated that audiences are active interpreters rather than passive sponges: individuals select specific media texts to satisfy distinct psychological and social needs, interpreting content through their personal social context.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark text: &#039;The Uses of Mass Communications&#039; (1974).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 155: Stuart Hall -->
+        <section class="slide" id="slide-155">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📡</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
+              <div class="theorist-school-badge">Encoding/Decoding Media Model (1973, 1980)</div>
+              <p class="flashcard-def">Argued media texts are &#039;encoded&#039; by producers with dominant ideological meanings, but audiences &#039;decode&#039; them through three distinct interpretive positions: dominant-hegemonic reading, negotiated reading, or oppositional reading.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;Encoding and Decoding in the Television Discourse&#039; (1973, 1980).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 156: David Morley -->
+        <section class="slide" id="slide-156">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Morley</h1>
+              <div class="theorist-school-badge">Audience Reception &amp; Class (1980)</div>
+              <p class="flashcard-def">Tested Hall&#039;s encoding/decoding model empirically by showing the BBC news program &#039;Nationwide&#039; to 29 diverse audience groups: proved social class, trade union background, and cultural milieu determine how texts are decoded.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark empirical study: &#039;The &quot;Nationwide&quot; Audience: Structure and Decoding&#039; (1980).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 157: George Gerbner -->
+        <section class="slide" id="slide-157">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌆</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">George Gerbner</h1>
+              <div class="theorist-school-badge">Cultivation Theory (1976, 1986)</div>
+              <p class="flashcard-def">Developed Cultivation Theory: long-term, heavy exposure to television gradually &#039;cultivates&#039; distorted perceptions of reality; heavy TV viewers suffer &#039;Mean World Syndrome&#039;, overestimating their likelihood of being victims of violent crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark longitudinal project: &#039;Living with Television: The Dynamics of the Cultivation Process&#039; (1976).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 158: Sherry Turkle -->
+        <section class="slide" id="slide-158">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📵</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sherry Turkle</h1>
+              <div class="theorist-school-badge">Digital Culture &amp; Social Psychology (2011)</div>
+              <p class="flashcard-def">Diagnosed &#039;Alone Together&#039;: hyper-connectivity via smartphones and social networking sites creates an illusion of companionship while undermining genuine face-to-face empathy, deep reflection, and authentic human intimacy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark book: &#039;Alone Together: Why We Expect More from Technology and Less from Each Other&#039; (2011).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 159: Judith Butler -->
+        <section class="slide" id="slide-159">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Judith Butler</h1>
+              <div class="theorist-school-badge">Gender Performativity &amp; Media (1990)</div>
+              <p class="flashcard-def">Argued that mass media reinforces rigid gender binaries by repeatedly portraying gender as an essential biological truth; showed gender is actually a stylized, ritualized &#039;performance&#039; that media constantly rehearses and regulates.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark treatise: &#039;Gender Trouble: Feminism and the Subversion of Identity&#039; (1990).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 160: David Gauntlett -->
+        <section class="slide" id="slide-160">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧰</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gauntlett</h1>
+              <div class="theorist-school-badge">Media, Gender &amp; Identity Toolbox (2002, 2008)</div>
+              <p class="flashcard-def">Argued contemporary media has moved beyond crude, monolithic stereotypes: digital media offers a diverse &#039;toolbox of identity&#039;, empowering audiences to construct fluid, multi-faceted, and non-traditional identities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Media, Gender and Identity: An Introduction&#039; (2002, 2008).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 161: CHAPTER 8 DIVIDER -->
+      <section class="slide" id="slide-161">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">⛪</div>
+          <div class="flashcard theme-8" style="background: #4338CA !important;">
+            <div class="card-pill">CHAPTER 08 • PAPER 4</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Religion</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Functions of Religion • Classical Perspectives (Durkheim, Marx, Weber) • The Secularisation Debate • Religious Organisations, Sects &amp; Cults • Gender, Fundamentalism &amp; Postmodernity</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">👤 14 Thinkers</span>
+              <span class="mini-badge">Theories &amp; Evidence</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 162: Émile Durkheim -->
+        <section class="slide" id="slide-162">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪵</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
+              <div class="theorist-school-badge">Classical Functionalism &amp; Totemism (1912)</div>
+              <p class="flashcard-def">Studied Australian Aboriginal totemism: defined religion as a unified system of beliefs and practices relative to &#039;sacred things&#039;; argued the sacred totem symbolizes the collective clan itself—when individuals worship god, they are really worshipping society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;The Elementary Forms of the Religious Life&#039; (1912).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 163: Karl Marx -->
+        <section class="slide" id="slide-163">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karl Marx</h1>
+              <div class="theorist-school-badge">Classical Marxism (1844)</div>
+              <p class="flashcard-def">Declared religion the &#039;opium of the people&#039;: an ideological mystification that dulls the pain of capitalist exploitation, promises supernatural compensation in heaven, and legitimates ruling-class power as divinely ordained.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark essay: &#039;Critique of Hegel&#039;s Philosophy of Right&#039; (1844).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 164: Max Weber -->
+        <section class="slide" id="slide-164">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏳</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Max Weber</h1>
+              <div class="theorist-school-badge">Social Action Theory &amp; Protestant Ethic (1905)</div>
+              <p class="flashcard-def">Argued religious ideas can act as a catalyst for major social change: Calvinist Protestant beliefs (predestination, asceticism, divine calling) inadvertently generated the worldly discipline and capital reinvestment that birthed modern industrial capitalism.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark treatise: &#039;The Protestant Ethic and the Spirit of Capitalism&#039; (1905).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 165: Robert Bellah -->
+        <section class="slide" id="slide-165">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🦅</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Bellah</h1>
+              <div class="theorist-school-badge">Civil Religion (1967)</div>
+              <p class="flashcard-def">Analyzed modern secular cohesion: argued the United States possesses an overarching &#039;Civil Religion&#039; (sacred reverence for the American flag, the Constitution, national anthems, and Memorial Day) that unites citizens of diverse faiths into one moral community.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark paper: &#039;Civil Religion in America&#039; (1967).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 166: Steve Bruce -->
+        <section class="slide" id="slide-166">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steve Bruce</h1>
+              <div class="theorist-school-badge">Sociology of Secularisation (2001, 2011)</div>
+              <p class="flashcard-def">Provided robust statistical evidence of secularisation in Western societies: falling church attendance, an ageing clergy, loss of institutional religious power, and dilution of Christian beliefs; showed New Age spirituality remains individualistic and marginal.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;God is Dead&#039; (2002) &amp; &#039;Secularization: In Defence of an Unfashionable Theory&#039; (2011).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 167: Bryan Wilson -->
+        <section class="slide" id="slide-167">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏳</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Bryan Wilson</h1>
+              <div class="theorist-school-badge">The Secularisation Thesis (1966, 1982)</div>
+              <p class="flashcard-def">Defined secularisation as the process whereby religious thinking, practice, and institutions lose social significance; showed rationalisation, industrialisation, and religious pluralism shatter religion&#039;s monopoly on sacred truth.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Religion in Secular Society&#039; (1966) &amp; &#039;Religion in Sociological Perspective&#039; (1982).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 168: Pippa Norris -->
+        <section class="slide" id="slide-168">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Pippa Norris</h1>
+              <div class="theorist-school-badge">Existential Security Theory (2004)</div>
+              <p class="flashcard-def">Formulated Existential Security Theory with Inglehart: cross-national global data proves religiosity is driven by vulnerability; in poor countries with high insecurity (famine, illness, war), religion thrives; in secure European welfare states, religious demand declines.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark study: &#039;Sacred and Secular: Religion and Politics Worldwide&#039; (2004).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 169: Ronald Inglehart -->
+        <section class="slide" id="slide-169">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ronald Inglehart</h1>
+              <div class="theorist-school-badge">Cultural Evolution &amp; Secularisation (2004)</div>
+              <p class="flashcard-def">Proved with Norris that generational cohort replacement drives secularisation: post-war generations raised with high socioeconomic security undergo cultural evolution away from traditional religious obedience toward secular, self-expression values.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Co-authored landmark study: &#039;Sacred and Secular&#039; (2004).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 170: Eileen Barker -->
+        <section class="slide" id="slide-170">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eileen Barker</h1>
+              <div class="theorist-school-badge">New Religious Movements (1984)</div>
+              <p class="flashcard-def">Conducted an intensive 6-year study of the Unification Church (&#039;Moonies&#039;): refuted media moral panics about brainwashing, showing that converts voluntarily chose to join to satisfy desires for community, and the majority left within two years.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark study: &#039;The Making of a Moonie: Choice or Brainwashing?&#039; (1984).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 171: Grace Davie -->
+        <section class="slide" id="slide-171">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕯️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Grace Davie</h1>
+              <div class="theorist-school-badge">Believing Without Belonging (1994, 2007)</div>
+              <p class="flashcard-def">Challenged the secularisation thesis by coining &#039;believing without belonging&#039;: while institutional church attendance has fallen, personal religious belief and private spirituality remain widespread; people practice &#039;vicarious religion&#039; (clergy believing on behalf of others).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark books: &#039;Religion in Britain since 1945: Believing without Belonging&#039; (1994) &amp; &#039;The Sociology of Religion&#039; (2007).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 172: David Martin -->
+        <section class="slide" id="slide-172">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗺️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Martin</h1>
+              <div class="theorist-school-badge">Secularisation &amp; Comparative History (1978, 2005)</div>
+              <p class="flashcard-def">Rejected universal secularisation models: argued each nation&#039;s historical relationship between the Church, the state, and revolutionary politics determines whether religion experiences secularisation (as in France) or high vitality (as in the USA).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark texts: &#039;A General Theory of Secularization&#039; (1978) &amp; &#039;On Secularization&#039; (2005).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 173: Mary Daly -->
+        <section class="slide" id="slide-173">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mary Daly</h1>
+              <div class="theorist-school-badge">Radical Feminist Theology (1968, 1973)</div>
+              <p class="flashcard-def">Famously declared &#039;If God is male, the male is God&#039;: argued patriarchal monotheism is inherently oppressive to women, serving as the supreme divine justification for male dominance and female subordination across human history.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;Beyond God the Father: Toward a Philosophy of Women&#039;s Liberation&#039; (1973).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 174: Dean Kelley -->
+        <section class="slide" id="slide-174">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dean Kelley</h1>
+              <div class="theorist-school-badge">Why Conservative Churches Are Growing (1972, 1986)</div>
+              <p class="flashcard-def">Discovered that while liberal, mainstream denominations decline, strict conservative and fundamentalist churches grow rapidly: strict religious bodies make high demands, set strict moral boundaries, and offer unequivocal answers to existential anxiety.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark sociological text: &#039;Why Conservative Churches Are Growing&#039; (1972).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 175: Karen Armstrong -->
+        <section class="slide" id="slide-175">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏺</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karen Armstrong</h1>
+              <div class="theorist-school-badge">Feminist History of Religion (1993)</div>
+              <p class="flashcard-def">Demonstrated that ancient early religions revered female fertility and Mother Goddesses; women were only excluded and subordinated from religious authority with the historical rise of aggressive, monotheistic patriarchal religions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">📖</span>
+                  <span class="tip-text"><strong>Landmark Context:</strong> Landmark text: &#039;A History of God: The 4000-Year Quest of Judaism, Christianity and Islam&#039; (1993).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>`;
+  root.KEY_TERMS_HTML = ` <!-- SLIDE 1: COVER -->
+    <section class="slide active" id="slide-1">
+      <div class="flashcard-stage">
+        <div class="card-graphic-sticker">📚</div>
+        <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-pill">CAMBRIDGE A-LEVEL SOCIOLOGY 9699</div>
+          <h1 class="flashcard-title" style="font-size: 3.1rem; line-height: 1.1; margin-bottom: 12px;">Exhaustive Glossary:<br>Key Terms &amp; Concepts</h1>
+          <p class="flashcard-def" style="margin-bottom: 22px;">Complete, intensive glossary containing all 540 sociological terms from the notes across Chapters 1 to 8 (Papers 1–4). Every concept explained in simple plain English with relevant theorists cited in exam tips.</p>
+          <div class="card-badge-row">
+            <span class="mini-badge">📚 540 Terms</span>
+            <span class="mini-badge">Chapters 1–8</span>
+            <span class="mini-badge">Beginner-Friendly Definitions</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+      <!-- SLIDE 2: CHAPTER 1 DIVIDER -->
+      <section class="slide" id="slide-2">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🌱</div>
+          <div class="flashcard theme-1" style="background: #00A859 !important;">
+            <div class="card-pill">CHAPTER 01 • PAPER 1</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Socialisation, Culture &amp; Social Control</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Nature vs Nurture • Feral Children • Agencies of Socialisation • Structural &amp; Interactionist Perspectives • Formal &amp; Informal Social Control • Power &amp; Resistance</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 103 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 3: Society -->
+        <section class="slide" id="slide-3">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Society</h1>
+              <p class="flashcard-def">A bounded collective of individuals who share a common culture (shared beliefs, values, customs, and ways of life), occupy an identifiable geographic territory, and interact within an overarching social framework (an organised network of shared institutions and authoritative rules) of shared institutions and authoritative rules.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim conceptualised society as an objective &#039;sui generis&#039; reality exercising coercive moral regulation over individual behaviour.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 4: Imagined Communities -->
+        <section class="slide" id="slide-4">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💭</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Imagined Communities</h1>
+              <p class="flashcard-def">Societies are imagined communities (nations where citizens feel united by a shared mental identity despite never meeting) because they exist mentally as much as physically. Citizens will never meet or hear the vast majority of their fellows, yet within each mind lives the powerful image of their collective communion.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Benedict Anderson (1983) showed nations are socially imagined through print capitalism, national anthems, and mass media uniting strangers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 5: Pluralist Integration -->
+        <section class="slide" id="slide-5">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏝️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Pluralist Integration</h1>
+              <p class="flashcard-def">Mauritius demonstrates an imagined community (a nation where citizens feel united by a shared mental identity despite never meeting) in practice: an ethnically diverse population peacefully unified within a shared national territory, democratic political system, and common civic identity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Thomas Hylland Eriksen studied how multi-ethnic societies (such as Mauritius) balance distinct ethnic identities with overarching civic cohesion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 6: Demographic Mosaic -->
+        <section class="slide" id="slide-6">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🇲🇺</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Demographic Mosaic</h1>
+              <p class="flashcard-def">The island population is composed of 68% Indo-Mauritian and 25% Creole, alongside smaller influential minorities of Franco-Mauritians and Sino-Mauritians—all united under one sovereign flag.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall highlighted how post-colonial migration transforms modern societies into complex cultural mosaics rather than monocultural melting pots.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 7: Social Construction -->
+        <section class="slide" id="slide-7">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧩</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Construction</h1>
+              <p class="flashcard-def">Human behavior and institutional reality are not biologically fixed. They are produced, sustained, and altered through continuous social interaction and collective cultural agreement.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Berger &amp; Thomas Luckmann (1966) showed social reality is socially constructed through human interaction, language, and institutionalization.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 8: Behavioral Regularities -->
+        <section class="slide" id="slide-8">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Behavioral Regularities</h1>
+              <p class="flashcard-def">For a society to avoid anarchy and function predictably, social actors must establish common meanings, shared symbolic systems, and dependable behavioral regularities across daily life.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1951) argued social order is maintained when behavioural regularities are institutionalized into shared cultural roles.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 9: Culture -->
+        <section class="slide" id="slide-9">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📖</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Culture</h1>
+              <p class="flashcard-def">The comprehensive total way of life of a human society, encompassing all physical objects (material artifacts) and abstract cognitive ideas (values, norms, knowledge, and beliefs).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Edward Burnett Tylor (1871) defined culture as that complex whole including knowledge, belief, art, law, morals, custom, and habits acquired by man.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 10: Material Culture -->
+        <section class="slide" id="slide-10">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Material Culture</h1>
+              <p class="flashcard-def">Physical objects, tools, technology, architecture, and goods produced by a human society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Daniel Miller (1987) showed material artefacts (clothes, cars, smartphones) physically embody cultural values and social class identities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 11: Non-material Culture -->
+        <section class="slide" id="slide-11">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Non-material Culture</h1>
+              <p class="flashcard-def">Abstract knowledge, values, etiquette, beliefs, and behavioral norms governing interaction.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim showed non-material culture consists of shared beliefs, values, and norms forming the collective conscience.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 12: Technological Duality -->
+        <section class="slide" id="slide-12">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤳</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Technological Duality</h1>
+              <p class="flashcard-def">Material Aspect: Silicon chips, touchscreens, batteries, and glass.Non-Material Aspect: Rules of etiquette (muting in cinemas), privacy boundaries, texting slang, and social prestige.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Neil Postman warned technology is a Faustian bargain: digital devices enhance connectivity while simultaneously fragmenting attention and community.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 13: Cultural Triad -->
+        <section class="slide" id="slide-13">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📐</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Triad</h1>
+              <p class="flashcard-def">Cultures are constructed from three fundamental building blocks: Roles define social positions and expectations; Values provide broad moral targets; and Norms enforce precise situational conduct.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1951) demonstrated how values, norms, and roles integrate to maintain equilibrium in the functionalist social system.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 14: Social Roles -->
+        <section class="slide" id="slide-14">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Roles</h1>
+              <p class="flashcard-def">A Role is a social position carrying agreed behavioral expectations. Roles are inherently relational—they cannot exist in isolation, but only in complementary reciprocal pairs (e.g., Teacher ↔ Student, Doctor ↔ Patient).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Erving Goffman (1959) analyzed role performance on front stages, while Robert K. Merton (1957) analyzed reciprocal role-sets.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 15: Pupil Role-set -->
+        <section class="slide" id="slide-15">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎒</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Pupil Role-set</h1>
+              <p class="flashcard-def">A single pupil status engages with 7 distinct relationships: (1) Subject teachers, (2) Other teachers, (3) Classmates, (4) Older/younger peers, (5) Administrative staff, (6) Caretaking staff, and (7) Parents/guardians.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert K. Merton (1957) formulated role-set theory to show how a single status (pupil) engages with teachers, peers, and parents.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 16: Social Values -->
+        <section class="slide" id="slide-16">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⭐</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Values</h1>
+              <p class="flashcard-def">Broad, shared beliefs and general targets regarding what is desirable, worthwhile, and morally correct in a society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1951) argued shared value consensus is the fundamental social glue preventing anomie and social disintegration.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 17: Social Norms -->
+        <section class="slide" id="slide-17">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📋</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Norms</h1>
+              <p class="flashcard-def">Specific, enforceable guidelines and situational rules that dictate exact behavioral conduct in particular settings.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim (1895) classified social norms as &#039;social facts&#039; that exist externally to the individual and exercise moral coercion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 18: Nurture Primacy -->
+        <section class="slide" id="slide-18">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🍼</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Nurture Primacy</h1>
+              <p class="flashcard-def">Sociologists argue that distinctively human behavior is learned through socialisation (the lifelong process of learning culture, values, and norms), rather than dictated by hardwired biological instincts. Without social nurture, human potential remains completely dormant.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1972) and socialisation theorists prove human behavior is primarily learned through cultural nurture rather than biological instinct.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 19: Feral Child -->
+        <section class="slide" id="slide-19">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🐺</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Feral Child</h1>
+              <p class="flashcard-def">A feral child (a child raised in extreme isolation without human contact or care) lacks speech and culture. They serve as rare &#039;natural experiments&#039; proving distinctively human behaviours are learned through nurture rather than genetically pre-programmed.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kingsley Davis (1940, 1947) documented feral children (Anna and Isabelle), proving human language, empathy, and social selfhood require social nurture.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 20: Dani -->
+        <section class="slide" id="slide-20">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏚️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Dani</h1>
+              <p class="flashcard-def">Discovered in Florida at age 7, locked in an empty, dark, cockroach-infested room with zero verbal interaction or human touch.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthropologist Karl Heider studied the Grand Valley Dani of New Guinea, demonstrating that cultural norms regulate conflict and emotional expression differently from Western societies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 21: Genie -->
+        <section class="slide" id="slide-21">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚪</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Genie</h1>
+              <p class="flashcard-def">Strapped to a potty chair in total isolation until age 13 in California; beaten by her father whenever she made any noise.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Curtiss and Davis studied Genie (isolated until age 13), proving severe early childhood isolation permanently impairs syntax acquisition and socialisation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 22: Instinct Refutation -->
+        <section class="slide" id="slide-22">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚶</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Instinct Refutation</h1>
+              <p class="flashcard-def">If upright walking, language, and empathy were innate biological instincts, feral children would display them automatically. Their complete absence provides decisive empirical proof that distinctively human behaviour requires socialisation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Edward O. Wilson claims biological determinism, but sociologists refute this by showing cross-cultural variability in human behavior.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 23: The &#039;I&#039; -->
+        <section class="slide" id="slide-23">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;I&#039;</h1>
+              <p class="flashcard-def">The unsocialised, spontaneous, creative, and impulsive aspect of self-awareness and direct action.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Herbert Mead (1934) identified the &#039;I&#039; as the unsocialised, impulsive, spontaneous, and creative component of selfhood.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 24: The &#039;Me&#039; -->
+        <section class="slide" id="slide-24">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Me&#039;</h1>
+              <p class="flashcard-def">The &#039;social self&#039; built through socialisation, which anticipates societal expectations and censors the &#039;I&#039;.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Herbert Mead (1934) formulated the &#039;Me&#039; as the social self that internalises the rules, expectations, and judgements of the generalised other.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 25: Reflex Regulation -->
+        <section class="slide" id="slide-25">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Reflex Regulation</h1>
+              <p class="flashcard-def">When burning a hand on a hot stove: the &#039;I&#039; experiences raw physical agony. However, the &#039;Me&#039; determines whether you scream, swear, or conceal your pain based on age, gender, and the presence of onlookers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Herbert Mead explained that internal dialogue between the spontaneous &#039;I&#039; and the socialized &#039;Me&#039; enables self-regulation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 26: Reflective Stages -->
+        <section class="slide" id="slide-26">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔍</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Reflective Stages</h1>
+              <p class="flashcard-def">Stage 1: We imagine how our appearance and actions look to others.Stage 2: We imagine their judgment or evaluation of that appearance.Stage 3: We experience self-feelings (pride, shame, confidence) and adapt our self-concept.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Charles Horton Cooley (1909) identified 3 stages in the Looking-Glass Self: imagining our appearance, imagining others&#039; judgment, and feeling pride or shame.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 27: Impression Management -->
+        <section class="slide" id="slide-27">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👔</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Impression Management</h1>
+              <p class="flashcard-def">Impression Management (controlling the image and persona one projects to an audience): Performing in calculated ways to project an idealized image.Social Props: Using physical objects to reinforce identity—such as carrying an academic textbook to project the status of a dedicated student.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Erving Goffman (1959, &#039;The Presentation of Self in Everyday Life&#039;) analyzed how actors use costumes, props, and personal facades to manage impressions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 28: Total Institution -->
+        <section class="slide" id="slide-28">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Total Institution</h1>
+              <p class="flashcard-def">In Asylums (1961), Goffman studied psychiatric wards as total institutions (enclosed establishments controlling every aspect of inmate life). Confiscating clothes and shaving hair—mortification of the self—destroys civilian identity, proving selfhood is an ongoing social performance supported by external props.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Erving Goffman (1961, &#039;Asylums&#039;) analyzed total institutions (prisons, psychiatric wards) that systematically strip an inmate&#039;s prior identity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 29: Stigma (1963): Spoiled Identity -->
+        <section class="slide" id="slide-29">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Stigma (1963): Spoiled Identity</h1>
+              <p class="flashcard-def">When an individual possesses a discrediting attribute (physical disability, criminal record, mental illness), their front-stage performance is compromised.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Erving Goffman (1963) analyzed how physical deformities, character blemishes, or tribal stigmas reduce a person to a &#039;spoiled identity&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 30: Gender Advertisements -->
+        <section class="slide" id="slide-30">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📸</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Gender Advertisements</h1>
+              <p class="flashcard-def">Goffman analyzed commercial ads, showing poses stage women in submissive, infant-like postures while men are staged in commanding authority.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Erving Goffman (1979) conducted visual semiotic analysis showing media adverts systematically portray women as subordinate, child-like, and vulnerable.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 31: Common Culture -->
+        <section class="slide" id="slide-31">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌍</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Common Culture</h1>
+              <p class="flashcard-def">A shared set of values, norms, customs, symbols, and beliefs held collectively by members of a society, creating social cohesion and mutual identity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Raymond Williams (1958) argued culture is ordinary and shared, binding communities through everyday language, rituals, and understandings.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 32: Social Framework -->
+        <section class="slide" id="slide-32">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Framework</h1>
+              <p class="flashcard-def">An organised network of shared institutions and authoritative rules</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons described the social framework as the interconnected web of institutions (family, education, legal system) maintaining social equilibrium.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 33: Role-set -->
+        <section class="slide" id="slide-33">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕸️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Role-set</h1>
+              <p class="flashcard-def">The cluster of different relational roles tied to a single social status</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert K. Merton (1957) formulated the concept of role-set to denote the complex of complementary role relationships an individual enters by occupying a single status.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 34: Looking-glass Self -->
+        <section class="slide" id="slide-34">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Looking-glass Self</h1>
+              <p class="flashcard-def">Forming self-identity based on how we imagine others perceive and judge us</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Charles Horton Cooley (1902) formulated the Looking-Glass Self: our sense of self develops as a reflection of how we imagine others perceive and judge us.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 35: Total Institutions -->
+        <section class="slide" id="slide-35">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Total Institutions</h1>
+              <p class="flashcard-def">Enclosed establishments controlling every aspect of inmate life</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Erving Goffman (1961) showed total institutions enforce mortification of the self through uniform dress, loss of privacy, and rigid timetables.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 36: Expressive Role -->
+        <section class="slide" id="slide-36">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Expressive Role</h1>
+              <p class="flashcard-def">Oriented toward emotional warmth, child socialisation (the lifelong process of learning culture, values, and norms), and stabilizing adult personalities within the domestic home.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1955) argued women naturally fulfill the expressive role (emotional care, child rearing, and tension management) in the nuclear family.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 37: Instrumental Role -->
+        <section class="slide" id="slide-37">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Instrumental Role</h1>
+              <p class="flashcard-def">Oriented toward economic breadwinning, resource acquisition, and connecting the family unit to the wider industrial economy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1955) argued men fulfill the instrumental role (economic breadwinning, disciplining, and external competition) in the nuclear family.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 38: Biological Determinism -->
+        <section class="slide" id="slide-38">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Biological Determinism</h1>
+              <p class="flashcard-def">Human behavior, gender divisions, and social hierarchies are genetically programmed by evolutionary biogrammars (genetically hardwired behavioral predispositions proposed by sociobiologists).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Edward O. Wilson and sociobiologists argue social hierarchies and gender roles stem from genetics, which sociologists strongly challenge.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 39: Social Constructionism -->
+        <section class="slide" id="slide-39">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Constructionism</h1>
+              <p class="flashcard-def">Human behavior is learned through social interaction; caregiver sensitivity (Meins et al.) and cultural variability disprove genetic destiny.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Berger &amp; Thomas Luckmann (1966) showed that what people perceive as natural or universal is actually socially constructed by culture and history.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 40: Primary Socialisation -->
+        <section class="slide" id="slide-40">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">❤️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Primary Socialisation</h1>
+              <p class="flashcard-def">Emotionally charged, unconditional identification with parents; constructs the foundational personality and moral compass.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1955) highlighted personality stabilisation in the family; Ann Oakley (1972) critiqued gendered primary conditioning.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 41: Secondary Socialisation -->
+        <section class="slide" id="slide-41">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👔</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Secondary Socialisation</h1>
+              <p class="flashcard-def">Conditional, formal, and instrumental relations in institutions; teaches specialized skills, bureaucratic discipline, and public norms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) and Bowles &amp; Gintis (1976) showed schools and media socialise youth into compliant capitalist workers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 42: Social Control -->
+        <section class="slide" id="slide-42">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Control</h1>
+              <p class="flashcard-def">Social control (mechanisms, rules, and sanctions used by society to enforce conformity) refers to the system of mechanisms, rules, and sanctions used by a society to encourage conformity, enforce shared norms, and discourage deviance. Without social control, predictable human cooperation collapses into social disorder.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Travis Hirschi (1969) argued social control works through bonds of attachment, commitment, involvement, and belief tying people to conventional society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 43: Formal Social Control -->
+        <section class="slide" id="slide-43">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👮</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Formal Social Control</h1>
+              <p class="flashcard-def">Explicit, written laws and bureaucratic regulations enforced by specialized state agencies armed with coercive legal power.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michel Foucault and structural Marxists analyze police, courts, and prisons as coercive institutions enforcing state and ruling-class power.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 44: Informal Social Control -->
+        <section class="slide" id="slide-44">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Informal Social Control</h1>
+              <p class="flashcard-def">Unwritten social expectations and interpersonal reactions enforced through spontaneous everyday approval or disapproval.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Travis Hirschi and interactionists emphasize peer groups, family expectations, gossip, and praise as daily regulators of conduct.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 45: Positive Sanctions -->
+        <section class="slide" id="slide-45">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⭐</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Positive Sanctions</h1>
+              <p class="flashcard-def">Pleasurable rewards, praise, and social recognition designed to encourage individuals to repeat approved conduct.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons showed positive sanctions (rewards, praise, promotions, badges) reinforce conformity by motivating individuals to fulfill social expectations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 46: Negative Sanctions -->
+        <section class="slide" id="slide-46">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚫</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Negative Sanctions</h1>
+              <p class="flashcard-def">Punitive penalties, deterrents, and social disapproval applied when an individual breaks shared social expectations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim showed negative sanctions (fines, detention, ostracism, imprisonment) punish deviance and reaffirm collective moral boundaries.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 47: Particularistic Standards -->
+        <section class="slide" id="slide-47">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧸</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Particularistic Standards</h1>
+              <p class="flashcard-def">Rules and expectations applied uniquely to a specific child based on unconditional kinship love and personal birth order.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1961) showed families judge children by particularistic standards based on unique kinship ties rather than universal laws.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 48: Universalistic Standards -->
+        <section class="slide" id="slide-48">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Universalistic Standards</h1>
+              <p class="flashcard-def">Impersonal, standardized rules applied equally to all members of society regardless of family background or personal kinship.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1961) showed schools judge pupils by universalistic standards (equal exam rules, meritocracy) preparing them for the wider world.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 49: Formal Curriculum -->
+        <section class="slide" id="slide-49">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📖</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Formal Curriculum</h1>
+              <p class="flashcard-def">Official, timetabled subjects, overt academic knowledge, and standardized examinable qualifications.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Young (1971) showed the formal curriculum reflects high-status knowledge selected by powerful educational elites.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 50: Hidden Curriculum -->
+        <section class="slide" id="slide-50">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏰</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Hidden Curriculum</h1>
+              <p class="flashcard-def">Unstated behavioral routines, hierarchies, and values transmitted through institutional school organisation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Philip Jackson (1968) and Bowles &amp; Gintis (1976) showed the hidden curriculum teaches punctuality, obedience, and hierarchy without being officially taught.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 51: Positive Cosmic Sanctions -->
+        <section class="slide" id="slide-51">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✨</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Positive Cosmic Sanctions</h1>
+              <p class="flashcard-def">Spiritual compensations promising eternal happiness or elevated status in exchange for earthly righteousness.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2002) noted traditional religions motivate conformity by promising celestial rewards, reincarnation, and eternal paradise for virtue.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 52: Negative Cosmic Sanctions -->
+        <section class="slide" id="slide-52">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Negative Cosmic Sanctions</h1>
+              <p class="flashcard-def">Religious sanctions involving threats of supernatural punishment, eternal damnation, divine retribution, or excommunication used by religious authorities to enforce conformity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce and Émile Durkheim analyzed how threats of divine wrath, sin, and eternal damnation historically served as powerful social controls.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 53: Traditional Religious Patriarchy -->
+        <section class="slide" id="slide-53">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Traditional Religious Patriarchy</h1>
+              <p class="flashcard-def">Priesthoods and theology monopolized by men; female roles confined to domestic virtue, modesty, and submission.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karen Armstrong (1993) showed monotheistic religions historically used sacred scriptures to legitimate male supremacy and female submission.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 54: Female-friendly Modernity -->
+        <section class="slide" id="slide-54">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌸</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Female-friendly Modernity</h1>
+              <p class="flashcard-def">Reinterpreting sacred scripture to support gender equality and elevating women into senior ecclesiastical governance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Linda Woodhead (2007) and Grace Davie showed modern spiritual movements offer women supportive, non-hierarchical spaces for self-development.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 55: Biogrammars -->
+        <section class="slide" id="slide-55">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Biogrammars</h1>
+              <p class="flashcard-def">Genetically hardwired behavioral predispositions proposed by sociobiologists</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Lionel Tiger &amp; Robin Fox (1971) claimed human behavior is programmed by biological biogrammars, a determinist claim refuted by sociological evidence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 56: Correspondence Theory -->
+        <section class="slide" id="slide-56">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Correspondence Theory</h1>
+              <p class="flashcard-def">Bowles &amp; Gintis&#039; theory that school hierarchies mirror capitalist workplace discipline</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis (1976) formulated the correspondence principle: school hierarchies and extrinsic rewards directly mirror the capitalist workplace.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 57: Structuralist Perspective -->
+        <section class="slide" id="slide-57">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏢</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structuralist Perspective</h1>
+              <p class="flashcard-def">Top-down view: society is an objective reality external to individuals, constraining behavior through institutions and economic forces.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim and Karl Marx viewed social structures (institutions, economy) as external forces that determine individual behavior and life chances.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 58: Social Action Perspective -->
+        <section class="slide" id="slide-58">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Action Perspective</h1>
+              <p class="flashcard-def">Bottom-up view: rejects structural determinism, arguing society is actively produced through everyday subjective encounters and shared meanings.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber and George Herbert Mead argued individuals are conscious agents who actively construct society through subjective meanings and interpretations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 59: Goal Attainment -->
+        <section class="slide" id="slide-59">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Goal Attainment</h1>
+              <p class="flashcard-def">Sets collective societal priorities and mobilizes political power and state resources to achieve shared national objectives.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons identified Goal Attainment (political institutions setting societal targets and allocating resources) in his AGIL functional prerequisites.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 60: Adaptation -->
+        <section class="slide" id="slide-60">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Adaptation</h1>
+              <p class="flashcard-def">Solves physical survival by organizing industrial production and allocating material goods and economic services.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons identified Adaptation (the economic system securing and producing material resources from the environment) in his AGIL model.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 61: Integration -->
+        <section class="slide" id="slide-61">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Integration</h1>
+              <p class="flashcard-def">Fosters shared moral consensus, social solidarity, and emotional belonging, resolving inter-group disputes through legal and cultural norms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons identified Integration (legal institutions and media coordinating social parts and enforcing solidarity) in his AGIL model.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 62: Latency -->
+        <section class="slide" id="slide-62">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛋️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Latency</h1>
+              <p class="flashcard-def">Manages emotional stress and interpersonal tensions, socialising children into adult roles and recharging workers&#039; mental stamina.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons identified Latency or pattern maintenance (family, school, religion preserving cultural values and managing emotional tension) in his AGIL model.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 63: Soft Social Controls -->
+        <section class="slide" id="slide-63">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩‍🏫</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Soft Social Controls</h1>
+              <p class="flashcard-def">Informal, everyday mechanisms that guide individuals toward voluntary conformity through the internalisation of moral values.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Antonio Gramsci (1971) showed soft controls (media messaging, peer approval, moral education) achieve ideological hegemony without overt violence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 64: Hard Social Controls -->
+        <section class="slide" id="slide-64">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👮</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hard Social Controls</h1>
+              <p class="flashcard-def">Formal, coercive state interventions deployed when socialisation (the lifelong process of learning culture, values, and norms) fails, using statutory power to punish deviance and deter disruption.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) identified Repressive State Apparatuses (police, courts, military) as hard social controls enforcing obedience through physical force.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 65: The Economic Base -->
+        <section class="slide" id="slide-65">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚙️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Economic Base</h1>
+              <p class="flashcard-def">The economic mode of production: encompasses the forces of production (factories, technology) and relations of production (capitalist vs wage worker).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx (1859) argued the economic base (means and relations of production) underpins and determines the cultural and political superstructure of society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 66: The Superstructure -->
+        <section class="slide" id="slide-66">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Superstructure</h1>
+              <p class="flashcard-def">Institutions resting on the base that legitimate and defend capitalist inequality through legal codes, political power, and cultural ideology.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx (1859) explained the superstructure (law, religion, education, family) exists to legitimate and reproduce the capitalist economic base.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 67: Repressive Apparatuses -->
+        <section class="slide" id="slide-67">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Repressive Apparatuses</h1>
+              <p class="flashcard-def">State institutions that operate primarily through direct physical coercion, legal punishment, and armed suppression.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) showed RSAs (the army, police, prisons) intervene coercively when ideological indoctrination fails to suppress resistance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 68: Ideological Apparatuses -->
+        <section class="slide" id="slide-68">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological Apparatuses</h1>
+              <p class="flashcard-def">Cultural institutions that operate through persuasion and socialization, transmitting ruling-class beliefs into human consciousness.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) showed ISAs (schools, churches, media) transmit ruling-class ideology peacefully, persuading workers their position is natural.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 69: The Caste System -->
+        <section class="slide" id="slide-69">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔒</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Caste System</h1>
+              <p class="flashcard-def">A rigid, closed hierarchy where social status is ascribed permanently at birth, ritualized by religion, with zero upward or downward mobility.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber analyzed the traditional Hindu caste system as an ascribed, religiously sanctified stratification system with zero social mobility.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 70: The Class System -->
+        <section class="slide" id="slide-70">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Class System</h1>
+              <p class="flashcard-def">An open stratification hierarchy where status is achieved through economic effort, educational credentials, and occupational mobility.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx (1848) argued the capitalist class system is defined by ownership vs non-ownership of the means of production, generating perpetual class conflict.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 71: Interpersonal Power -->
+        <section class="slide" id="slide-71">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏠</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Interpersonal Power</h1>
+              <p class="flashcard-def">Direct physical coercion, emotional manipulation, and unequal domestic exploitation of female labor within the household.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber defined interpersonal power as the ability of an individual to realize their will in a social action even against the resistance of others.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 72: Cultural Power -->
+        <section class="slide" id="slide-72">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Power</h1>
+              <p class="flashcard-def">Systemic male control of public institutions, corporate hierarchies, political bodies, and media representations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michel Foucault (1980) analyzed power/knowledge: cultural power operates through dominant discourses that define truth, sanity, and normality in society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 73: Marxist Feminism -->
+        <section class="slide" id="slide-73">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Marxist Feminism</h1>
+              <p class="flashcard-def">Capitalism is the primary beneficiary of female subordination: women reproduce future labor power for free and act as cheap reserve labor.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Fran Ansley (1972) and Margaret Benston (1969) showed women&#039;s unpaid domestic labour directly serves capitalism by reproducing healthy, docile workers for free.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 74: Radical Feminism -->
+        <section class="slide" id="slide-74">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔥</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Radical Feminism</h1>
+              <p class="flashcard-def">Patriarchy is the primary, universal system of domination, preceding capitalism and enforced through male violence and sexual control.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Shulamith Firestone (1970) and Andrea Dworkin argued patriarchy is the primary, fundamental form of oppression, requiring female separatism or radical restructuring.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 75: Social Structures -->
+        <section class="slide" id="slide-75">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Structures</h1>
+              <p class="flashcard-def">The overarching, patterned arrangements of relationships, institutions, and social hierarchies that shape and constrain individual behavior.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens (1984, Structuration Theory) showed social structures both enable and constrain human action, while being continuously reproduced by human agents.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 76: Social Facts -->
+        <section class="slide" id="slide-76">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Facts</h1>
+              <p class="flashcard-def">External forces like laws, customs, and money that exert coercive control over individuals</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim (1895, &#039;The Rules of Sociological Method&#039;) argued social facts (laws, customs, moral codes) must be studied as real things external to individuals.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 77: Functional Prerequisites -->
+        <section class="slide" id="slide-77">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Functional Prerequisites</h1>
+              <p class="flashcard-def">Universal survival requirements that every society must satisfy to maintain stability</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1951) identified 4 functional prerequisites (AGIL: Adaptation, Goal Attainment, Integration, Latency) necessary for any society to survive.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 78: Anomie -->
+        <section class="slide" id="slide-78">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌪️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Anomie</h1>
+              <p class="flashcard-def">A condition of normlessness and moral breakdown identified by Durkheim, occurring when rapid social change weakens shared rules and leaves individuals feeling disconnected.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim (1893, 1897) identified anomie as a state of normlessness occurring when rapid economic or social change weakens collective moral rules.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 79: Collective Conscience -->
+        <section class="slide" id="slide-79">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Collective Conscience</h1>
+              <p class="flashcard-def">Durkheim&#039;s term for the shared moral beliefs, values, and sentiments uniting a society</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim (1893) defined the collective conscience as the totality of shared beliefs, sentiments, and moral values common to members of a society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 80: Economic Base -->
+        <section class="slide" id="slide-80">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Economic Base</h1>
+              <p class="flashcard-def">Karl Marx&#039;s concept of the foundational economic structure of society (the means and relations of production) that shapes and determines the political and cultural superstructure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx formulated the economic base consisting of the forces of production (technology, raw materials) and relations of production (class relationships).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 81: Superstructure -->
+        <section class="slide" id="slide-81">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Superstructure</h1>
+              <p class="flashcard-def">Legal, political, educational, and religious institutions</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx demonstrated that social institutions in the superstructure reflect and legitimate ruling-class economic interests (e.g. laws protecting private property).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 82: Repressive State Apparatuses -->
+        <section class="slide" id="slide-82">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👮</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Repressive State Apparatuses</h1>
+              <p class="flashcard-def">RSAs: police and army enforcing control through physical force</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) showed RSAs function primarily through physical violence, coercion, and incarceration to enforce bourgeois domination.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 83: Ideological State Apparatuses -->
+        <section class="slide" id="slide-83">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Ideological State Apparatuses</h1>
+              <p class="flashcard-def">ISAs: schools and media subtly spreading ruling-class values to manufacture consent</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) identified the educational ISA as the dominant apparatus in modern capitalism, replacing the historic role of the Church.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 84: Patriarchy -->
+        <section class="slide" id="slide-84">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Patriarchy</h1>
+              <p class="flashcard-def">A social system in which men hold primary power and dominate women</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sylvia Walby (1990, &#039;Theorising Patriarchy&#039;) identified 6 patriarchal structures: household production, paid work, the state, male violence, sexuality, and cultural institutions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 85: Liberal Feminism -->
+        <section class="slide" id="slide-85">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Liberal Feminism</h1>
+              <p class="flashcard-def">A feminist approach arguing that gender inequality stems from outdated cultural stereotypes and discriminatory laws, seeking equality through legal reform, policy changes, and education.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1972) and Sue Sharpe (1994) argue gender equality can be achieved through legal reforms, educational policy changes, and anti-discrimination laws.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 86: The Street Brawl -->
+        <section class="slide" id="slide-86">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥊</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Street Brawl</h1>
+              <p class="flashcard-def">Identical physical punches thrown on a public pavement: socially interpreted as illegal assault, hooliganism, and violent disorder.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Norbert Elias (1939, &#039;The Civilising Process&#039;) showed that modern societies increasingly control and pacify spontaneous physical violence like street brawls.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 87: The Boxing Match -->
+        <section class="slide" id="slide-87">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏆</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Boxing Match</h1>
+              <p class="flashcard-def">Identical physical punches thrown within a licensed arena: socially interpreted as athletic discipline, courage, and legitimate sportsmanship.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Norbert Elias showed modern sports like boxing institutionalize and ritualize physical violence within strict, rationalized, codified rules.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 88: Unwritten Social Rules -->
+        <section class="slide" id="slide-88">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Unwritten Social Rules</h1>
+              <p class="flashcard-def">Informal, conversational norms continuously negotiated between actors in fluid everyday encounters.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Harold Garfinkel (1967, Ethnomethodology) revealed how unwritten social rules underpin daily life by conducting breaching experiments that deliberately violated them.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 89: Formal Codified Laws -->
+        <section class="slide" id="slide-89">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Formal Codified Laws</h1>
+              <p class="flashcard-def">Written statutory prohibitions created and enforced by designated state bodies armed with legal punishment.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber showed modern societies increasingly rely on formal codified laws enforced by rational-legal bureaucratic authorities rather than traditional customs.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 90: Active Power -->
+        <section class="slide" id="slide-90">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Active Power</h1>
+              <p class="flashcard-def">The visible capacity to mobilize collective resources, direct social action, and achieve intentional, measurable change.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steven Lukes (1974, &#039;Power: A Radical View&#039;) identified the first dimension of power: open decision-making where one actor visibly overcomes another&#039;s opposition.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 91: Passive Power -->
+        <section class="slide" id="slide-91">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧊</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Passive Power</h1>
+              <p class="flashcard-def">The covert power of non-decision making: preventing issues from entering the political agenda by making change seem impossible.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steven Lukes (1974) identified non-decision-making (agenda-setting) and ideological manipulation as invisible, passive dimensions of power that suppress grievance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 92: Charismatic &amp; Traditional -->
+        <section class="slide" id="slide-92">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Charismatic &amp; Traditional</h1>
+              <p class="flashcard-def">Charismatic: obedience rooted in devotion to a dynamic leader. Traditional: obedience rooted in sanctity of ancient customs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber formulated traditional authority (rooted in ancient customs) and charismatic authority (rooted in devotion to an extraordinary leader).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 93: Rational-legal Authority -->
+        <section class="slide" id="slide-93">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📑</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Rational-legal Authority</h1>
+              <p class="flashcard-def">Obedience rooted in clearly codified impersonal offices, meritocratic rules, constitutional statutes, and legal procedures.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber identified rational-legal authority as the defining feature of modern bureaucracies, where obedience is owed to impersonal codified laws and offices.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 94: Subcultural Commitment -->
+        <section class="slide" id="slide-94">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🦇</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Subcultural Commitment</h1>
+              <p class="flashcard-def">Deep, enduring identity rooted in distinctive values, consistent dress codes, dedicated venues, and dense friendship networks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Howard Becker (1963) showed individuals deepen subcultural commitment when societal labelling pushes them into a deviant master status.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 95: Postmodern &#039;Neo-tribes&#039; -->
+        <section class="slide" id="slide-95">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛍️</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Postmodern &#039;Neo-tribes&#039;</h1>
+              <p class="flashcard-def">Fluid, temporary lifestyle groupings where youth playfully &#039;pick-and-mix&#039; styles without deep ideological commitment (Maffesoli).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michel Maffesoli (1996) argued modern youth belong to fluid, transient &#039;neo-tribes&#039; based on shared lifestyle and consumer tastes rather than rigid subcultures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 96: Breaching Experiments -->
+        <section class="slide" id="slide-96">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Breaching Experiments</h1>
+              <p class="flashcard-def">Deliberately disrupting unspoken, taken-for-granted social rules to reveal how fragile social order is and how strongly individuals react to norm violations (e.g. students acting as polite lodgers in their own homes).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Harold Garfinkel (1967) instructed students to act like lodgers in their own homes, revealing the fragile taken-for-granted assumptions of everyday reality.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 97: Subjective Typifications -->
+        <section class="slide" id="slide-97">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Subjective Typifications</h1>
+              <p class="flashcard-def">Shared mental categories and common-sense classifications that individuals use during everyday interaction to make sense of people and social situations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Alfred Schutz (1967) and Aaron Cicourel (1968) showed humans navigate the world using shared typifications (mental categories and stereotypes).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 98: Group Belonging -->
+        <section class="slide" id="slide-98">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Group Belonging</h1>
+              <p class="flashcard-def">The psychological fear of social isolation and ostracism</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Henri Tajfel (1979, Social Identity Theory) demonstrated that individuals derive self-esteem and social identity from belonging to distinct in-groups vs out-groups.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 99: Panopticon -->
+        <section class="slide" id="slide-99">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏰</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Panopticon</h1>
+              <p class="flashcard-def">Bentham&#039;s circular prison where unseen surveillance causes inmates to self-police</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michel Foucault (1975, &#039;Discipline and Punish&#039;) analyzed Bentham&#039;s Panopticon as the ultimate metaphor for modern disciplinary surveillance and internalized self-policing.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 100: Focal Concerns -->
+        <section class="slide" id="slide-100">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Focal Concerns</h1>
+              <p class="flashcard-def">Core lower-class values: trouble, toughness, smartness, excitement, fate, and autonomy</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Walter Miller (1958) showed lower-class boys are socialised into distinctive focal concerns (trouble, toughness, smartness, excitement, fate, autonomy).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 101: Under-socialisation -->
+        <section class="slide" id="slide-101">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Under-socialisation</h1>
+              <p class="flashcard-def">Inadequate or incomplete learning of society&#039;s core values, norms, and moral rules during childhood, often cited by New Right theorists as a primary cause of delinquency and deviance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Charles Murray (1984) and functionalists argue under-socialisation in fractured homes creates youth who lack work ethic, moral discipline, and respect for law.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 102: Economic Marginalisation -->
+        <section class="slide" id="slide-102">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Economic Marginalisation</h1>
+              <p class="flashcard-def">The systemic exclusion of specific social groups (such as lower-class youth) from stable, well-paying employment, increasing feelings of frustration, alienation, and deviance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Lea &amp; Young (1984, Left Realism) showed economic marginalisation combined with relative deprivation drives working-class youth toward subcultural crime.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 103: Structural Coercion -->
+        <section class="slide" id="slide-103">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Coercion</h1>
+              <p class="flashcard-def">The use of institutional force, legal penalties, surveillance, and state power (such as police and courts) to compel conformity and punish deviance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx showed capitalism coerces workers structurally: lacking ownership of productive assets, the proletariat must sell their labor power to survive.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 104: Voluntary Conformity -->
+        <section class="slide" id="slide-104">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Voluntary Conformity</h1>
+              <p class="flashcard-def">Willing compliance with social norms and expectations that occurs because individuals have genuinely internalised the values of their culture through socialisation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons argued socialisation produces voluntary conformity because individuals internalize societal values as part of their own moral conscience.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 105: Human Resistance -->
+        <section class="slide" id="slide-105">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-1" style="background: #00A859 !important;">
+              <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Human Resistance</h1>
+              <p class="flashcard-def">The active agency of individuals and subcultures to question, resist, or subvert dominant cultural rules and social control rather than passively complying (e.g. anti-school subcultures).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Willis (1977) and Stuart Hall (1978) proved individuals are not passive cultural dopes; they actively deploy subcultural resistance against dominant structures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 106: CHAPTER 2 DIVIDER -->
+      <section class="slide" id="slide-106">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🎭</div>
+          <div class="flashcard theme-2" style="background: #0284C7 !important;">
+            <div class="card-pill">CHAPTER 02 • PAPER 1</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Social Identity: Class, Gender, Ethnicity &amp; Age</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Social Class Identities • Hegemonic &amp; Subordinate Masculinities • Feminine Identities • Ethnic &amp; Hybrid Identities • Age Identities, Youth Culture &amp; Childhood</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 28 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 107: Landed Aristocracy -->
+        <section class="slide" id="slide-107">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏰</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Landed Aristocracy</h1>
+              <p class="flashcard-def">Historic elite whose wealth and social closure derive from ancestral land and dynastic lineage.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> John Scott (1991) analyzed the traditional upper class, showing landed aristocracy maintains exclusivity through old boy networks, elite public schools, and inherited wealth.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 108: Corporate Super-rich -->
+        <section class="slide" id="slide-108">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Super-rich</h1>
+              <p class="flashcard-def">Modern upper class whose wealth stems from global corporate assets, hedge funds, and finance capital.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Mike Savage (2013, Great British Class Survey) identified the &#039;Elite&#039; (the corporate super-rich) who possess immense economic capital, vast social capital, and highbrow cultural capital.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 109: Hegemonic Masculinity -->
+        <section class="slide" id="slide-109">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏋️</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hegemonic Masculinity</h1>
+              <p class="flashcard-def">The culturally normative ideal of manhood that legitimates male authority over women and other men.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> R.W. Connell (1995, &#039;Masculinities&#039;) formulated hegemonic masculinity as the culturally dominant, heterosexual, aggressive ideal that subordinates women and non-hegemonic men.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 110: Emphasised Femininity -->
+        <section class="slide" id="slide-110">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌸</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Emphasised Femininity</h1>
+              <p class="flashcard-def">A compliant feminine identity constructed around accommodating the interests and desires of men.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> R.W. Connell (1987) identified emphasised femininity as the cultural ideal organized around accommodating the interests and desires of men.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 111: Contingent Femininities -->
+        <section class="slide" id="slide-111">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎀</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Contingent Femininities</h1>
+              <p class="flashcard-def">Identities structurally dependent on male validation, marital status, and domestic subordination.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Heidi Safia Mirza and Becky Francis showed young women adopt contingent femininities, negotiating independence while strategically conforming to cultural expectations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 112: Autonomous Femininities -->
+        <section class="slide" id="slide-112">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔥</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Autonomous Femininities</h1>
+              <p class="flashcard-def">Identities constructed around independent careers, educational success, and personal self-determination.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Angela McRobbie (2008) explored autonomous femininities: educated, professional women who achieve economic independence and delay marriage.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 113: Positive Ethnic Boundaries -->
+        <section class="slide" id="slide-113">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Positive Ethnic Boundaries</h1>
+              <p class="flashcard-def">Boundaries erected internally by minority groups to cultivate mutual pride, belonging, and security.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tariq Modood (1997) showed British South Asians actively maintain positive ethnic boundaries through shared religious rituals, dietary laws, and language retention.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 114: Imposed Boundaries &amp; &#039;the Other&#039; -->
+        <section class="slide" id="slide-114">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚪</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Imposed Boundaries &amp; &#039;the Other&#039;</h1>
+              <p class="flashcard-def">Hostile boundaries erected by dominant majorities to exclude and marginalise minority groups.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Edward Said (1978, &#039;Orientalism&#039;) showed Western colonial discourses construct non-Western cultures as exotic, inferior &#039;Others&#039; through imposed racial boundaries.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 115: Heavy Manual Labor -->
+        <section class="slide" id="slide-115">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Heavy Manual Labor</h1>
+              <p class="flashcard-def">Physically demanding industrial work (mining, docks, steelworks) that historically formed the foundation of traditional working-class male identity and masculine pride.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Māirín Mac an Ghaill (1994) documented how the decline of traditional heavy manual labor stripped working-class men of their core masculine identity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 116: Instrumental Orientation -->
+        <section class="slide" id="slide-116">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Instrumental Orientation</h1>
+              <p class="flashcard-def">Viewing work purely as a paycheck to support family, without workplace solidarity</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Goldthorpe &amp; Lockwood (1968, &#039;The Affluent Worker&#039;) showed privatized working-class employees view their jobs instrumentally—solely as a means of earning money.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 117: Manipulation -->
+        <section class="slide" id="slide-117">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Manipulation</h1>
+              <p class="flashcard-def">An agency of socialisation technique where parents encourage gender-typed behaviours and discourage behaviors deemed inappropriate for a child&#039;s sex.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1972) identified manipulation as the parental practice of encouraging gender-appropriate behaviors and discouraging non-conforming acts.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 118: Canalisation -->
+        <section class="slide" id="slide-118">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Canalisation</h1>
+              <p class="flashcard-def">An agency of socialisation technique identified by Ann Oakley where parents channel children&#039;s interests towards gender-typed toys, clothing, and activities (e.g. dolls for girls, cars for boys).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1972) showed parents channel children&#039;s interests towards gender-typed toys, clothes, and domestic roles (e.g. dolls for girls, building blocks for boys).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 119: Verbal Appellations -->
+        <section class="slide" id="slide-119">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Verbal Appellations</h1>
+              <p class="flashcard-def">The use of gender-differentiated language and pet names by parents (such as calling boys &#039;brave little soldier&#039; and girls &#039;sweet little princess&#039;) to reinforce traditional gender expectations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1972) highlighted gendered pet names and praise (&#039;brave little man&#039;, &#039;pretty princess&#039;) used by parents to instill traditional gender roles.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 120: Normalised Femininity -->
+        <section class="slide" id="slide-120">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Normalised Femininity</h1>
+              <p class="flashcard-def">The socially expected standard of female behaviour (passive, nurturing, domestic) that society portrays as natural and inevitable for women.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louise Archer (2010) analyzed how middle-class schools enforce normalised femininity: quiet, compliant, and academically diligent behavior.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 121: Assertive Femininities -->
+        <section class="slide" id="slide-121">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Assertive Femininities</h1>
+              <p class="flashcard-def">A contemporary female identity described by Hollows and McRobbie, where young women combine assertive independence, educational confidence, and economic ambition with aspects of traditional femininity (&#039;Girl Power&#039;).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Angela McRobbie (2008) analyzed assertive femininities (&#039;Girl Power&#039;) where young women combine career ambition with confidence and assertiveness.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 122: Moral Panics -->
+        <section class="slide" id="slide-122">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚨</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Moral Panics</h1>
+              <p class="flashcard-def">Intense, exaggerated media outcries over groups portrayed as evil threats to moral order</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Cohen (1972, &#039;Folk Devils and Moral Panics&#039;) showed how media sensationalism over youth subcultures (Mods and Rockers) creates amplified societal panic.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 123: Functionalism: S.n. Eisenstadt -->
+        <section class="slide" id="slide-123">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧑‍🤝‍🧑</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Functionalism: S.n. Eisenstadt</h1>
+              <p class="flashcard-def">Youth serves as a vital transitional bridge moving adolescents smoothly from childhood dependency to adult status.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Shmuel Eisenstadt (1956, &#039;From Generation to Generation&#039;) argued youth culture provides a vital transitional bridge from the particularistic family to the universalistic adult society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 124: Neo-marxism: Symbolic Resistance -->
+        <section class="slide" id="slide-124">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧷</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Neo-marxism: Symbolic Resistance</h1>
+              <p class="flashcard-def">Youth subcultures represent symbolic ideological resistance against class exploitation and deindustrialisation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall &amp; Tony Jefferson (1976, CCCS) showed youth subcultures (Teddy Boys, Punks) deploy distinctive styles as magical, symbolic resistance against class oppression.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 125: The Sociological Subject -->
+        <section class="slide" id="slide-125">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Sociological Subject</h1>
+              <p class="flashcard-def">Identity anchored in stable institutional roles, collective norms, and predictable social structures (Hall, 1992).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1992) explained the sociological subject has an inner core formed in continuous dialogue between the individual and cultural institutions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 126: The Postmodern Subject -->
+        <section class="slide" id="slide-126">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧩</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Postmodern Subject</h1>
+              <p class="flashcard-def">A fragmented, decentred persona composed of multiple shifting identities and styles (Hall, 1992).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1992) defined the postmodern subject as having no fixed, essential identity; identity becomes fluid, fragmented, and continuously remade through consumer choice.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 127: The &#039;Grey Pound&#039; &amp; Active Elders -->
+        <section class="slide" id="slide-127">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💷</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The &#039;Grey Pound&#039; &amp; Active Elders</h1>
+              <p class="flashcard-def">Affluent older generations in the West commanding unprecedented spending power and active retirement lifestyles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Mike Savage and marketing sociologists highlight how affluent retirees possess significant purchasing power (&#039;the grey pound&#039;), reshaping consumer culture.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 128: Global Youth Bulge: Africa -->
+        <section class="slide" id="slide-128">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌍</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Global Youth Bulge: Africa</h1>
+              <p class="flashcard-def">In stark contrast to aging Western societies, developing nations experience a massive demographic wave of young people.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Collier (2007) analyzed how a demographic youth bulge in developing nations creates economic strain and social volatility without job creation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 129: Control Over Space -->
+        <section class="slide" id="slide-129">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Control Over Space</h1>
+              <p class="flashcard-def">The social and parental restriction of physical movement and territory (such as confining girls to the home and bedroom culture while boys enjoy wider freedom in public spaces).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Hugh Cunningham (2006) showed parental control over children&#039;s spatial freedom has shrunk dramatically, restricting children to the home and supervised spaces.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 130: Control Over Time -->
+        <section class="slide" id="slide-130">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Control Over Time</h1>
+              <p class="flashcard-def">The rigid structuring of an individual&#039;s daily routine using school timetables, clocks, and bells to condition pupils into obedience and industrial punctuality.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Neil Postman and family sociologists show modern parents tightly control children&#039;s daily schedules, allocating strict hours for homework, screen time, and bedtimes.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 131: Control Over Bodies -->
+        <section class="slide" id="slide-131">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Control Over Bodies</h1>
+              <p class="flashcard-def">The social regulation of physical movement, sitting posture, clothing, and grooming, particularly used by schools and families to enforce discipline and gender conformity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jens Qvortrup and childhood sociologists note adults exert extensive control over children&#039;s bodies, regulating what they eat, wear, and how they sit.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 132: Cultural Hybridity -->
+        <section class="slide" id="slide-132">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎨</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Hybridity</h1>
+              <p class="flashcard-def">The creative blending of two or more cultural traditions into a new identity</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1992) and Sundeep Johal (1998) showed second- and third-generation ethnic minorities create new, dynamic hybrid cultural identities (e.g. &#039;Brasians&#039;).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 133: Social Institutions -->
+        <section class="slide" id="slide-133">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Institutions</h1>
+              <p class="flashcard-def">Established, organised social structures (such as the family, education, religion, law, and the economy) that guide human behavior and maintain social order.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons analyzed major social institutions (family, education, economy, law) as the structural pillars that socialise members and preserve equilibrium.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 134: Care Deficit -->
+        <section class="slide" id="slide-134">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-2" style="background: #0284C7 !important;">
+              <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Care Deficit</h1>
+              <p class="flashcard-def">The emotional crisis in developing nations when migrant mothers leave to care for Western children</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Arlie Russell Hochschild (2000) documented the global care deficit: career-driven Western families import migrant female domestic nannies, leaving care vacuums in the Global South.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 135: CHAPTER 3 DIVIDER -->
+      <section class="slide" id="slide-135">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🔬</div>
+          <div class="flashcard theme-3" style="background: #0066FF !important;">
+            <div class="card-pill">CHAPTER 03 • PAPER 1</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Sociological Research Methods</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Positivism vs Interpretivism • Quantitative &amp; Qualitative Methods • Sampling &amp; Triangulation • Reliability, Validity &amp; Ethics • Sociological Value Freedom</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 56 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 136: Primary Data -->
+        <section class="slide" id="slide-136">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Primary Data</h1>
+              <p class="flashcard-def">Information gathered directly by the researcher specifically for their sociological investigation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1981) and Sudhir Venkatesh (2008) generated firsthand primary data through qualitative interviews and immersive participant observation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 137: Secondary Data -->
+        <section class="slide" id="slide-137">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Secondary Data</h1>
+              <p class="flashcard-def">Pre-existing data generated by state agencies, historical witnesses, or past researchers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim (1897, &#039;Suicide&#039;) used official suicide records as secondary data to demonstrate that suicide rates correlate with social integration.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 138: Quantitative Data -->
+        <section class="slide" id="slide-138">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔢</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Quantitative Data</h1>
+              <p class="flashcard-def">Numerical, standardized measurement designed to discover objective social facts (external forces like laws, customs, and money that exert coercive control over individuals) and correlations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Auguste Comte (1830) and functionalists advocate quantitative data (numbers, rates, percentages) to discover cause-and-effect social laws.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 139: Qualitative Data -->
+        <section class="slide" id="slide-139">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗣️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Qualitative Data</h1>
+              <p class="flashcard-def">Textual, visual, and narrative data capturing subjective meanings, emotions, and motivations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber (1922) and interpretivists prioritize rich qualitative data (words, diary entries, narratives) to uncover subjective social meanings.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 140: Hard Statistics -->
+        <section class="slide" id="slide-140">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔒</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Hard Statistics</h1>
+              <p class="flashcard-def">Quantitative official records that are strictly mandated by law, yielding very high accuracy and validity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists view hard statistics (birth, death, and marriage registers) as highly objective and factual because they are legally recorded with minimal subjective interpretation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 141: Soft Statistics -->
+        <section class="slide" id="slide-141">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Soft Statistics</h1>
+              <p class="flashcard-def">Official statistics heavily influenced by human discretion, reporting decisions, and shifting state definitions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Aaron Cicourel (1968) and J.M. Atkinson (1978) proved soft statistics (crime and suicide rates) are social constructions shaped by police and coroner discretion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 142: Official Statistics -->
+        <section class="slide" id="slide-142">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Official Statistics</h1>
+              <p class="flashcard-def">Large-scale quantitative data collected by government agencies for administrative governance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx and critical criminologists warn official statistics reflect state interests, while Durkheim utilized them to establish positivist sociology.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 143: Personal Documents -->
+        <section class="slide" id="slide-143">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✉️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Personal Documents</h1>
+              <p class="flashcard-def">Intimate qualitative records created by individuals expressing private thoughts and experiences.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> William I. Thomas &amp; Florian Znaniecki (1918, &#039;The Polish Peasant in Europe and America&#039;) pioneered personal letters and diaries to study migrant adaptation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 144: Laboratory Experiments -->
+        <section class="slide" id="slide-144">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Laboratory Experiments</h1>
+              <p class="flashcard-def">Conducted in an artificial, strictly controlled environment where all extraneous variables are regulated.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Milgram (1963) and Albert Bandura (1963) used lab experiments to study obedience and aggression, though critics highlight high artificiality.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 145: Field Experiments -->
+        <section class="slide" id="slide-145">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Field Experiments</h1>
+              <p class="flashcard-def">Conducted in real-world natural social settings (classrooms, workplaces) without subjects&#039; direct awareness.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert Rosenthal &amp; Lenore Jacobson (1968, &#039;Pygmalion in the Classroom&#039;) conducted a field experiment in an elementary school, proving the self-fulfilling prophecy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 146: Operationalisation -->
+        <section class="slide" id="slide-146">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚙️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Operationalisation</h1>
+              <p class="flashcard-def">Converting abstract theoretical concepts into measurable empirical indicators</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists like Durkheim must operationalise abstract concepts (e.g. converting &#039;social integration&#039; into religious attendance or marriage status) to measure them.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 147: Positivism -->
+        <section class="slide" id="slide-147">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Positivism</h1>
+              <p class="flashcard-def">Studying society scientifically via objective quantitative laws</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Auguste Comte and Émile Durkheim established positivism: society can and should be studied scientifically through objective, observable, and measurable social facts.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 148: Interpretivism -->
+        <section class="slide" id="slide-148">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔍</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Interpretivism</h1>
+              <p class="flashcard-def">A sociological paradigm arguing that society cannot be studied like natural science; sociologists must uncover the subjective meanings, motives, and interpretations that guide human action.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber established interpretivism: sociologists must study the subjective meanings, motives, and interpretations that human actors attach to their actions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 149: Authenticity -->
+        <section class="slide" id="slide-149">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Authenticity</h1>
+              <p class="flashcard-def">In research methodology, the criterion determining whether a documentary source is genuine, unaltered, and truly produced by the claimed author.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> John Scott (1990) formulated 4 criteria for evaluating documentary evidence: authenticity, credibility, representativeness, and meaning.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 150: Credibility -->
+        <section class="slide" id="slide-150">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Credibility</h1>
+              <p class="flashcard-def">In research methodology, the criterion evaluating whether a document or evidence is honest, accurate, believable, and free from deliberate bias.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> John Scott (1990) emphasized checking whether a historical document or diary is sincere and free from intentional bias or distortion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 151: Cyclical Moral Panic -->
+        <section class="slide" id="slide-151">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚨</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cyclical Moral Panic</h1>
+              <p class="flashcard-def">An exaggerated media outcry over a group portrayed as a threat to moral order</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Cohen (1972) showed how media deviancy amplification creates recurring cyclical moral panics around youth subcultures and deviant groups.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 152: Self-fulfilling Prophecy -->
+        <section class="slide" id="slide-152">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔮</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Self-fulfilling Prophecy</h1>
+              <p class="flashcard-def">A teacher&#039;s label that directly influences a pupil to behave in a way that confirms the label</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert K. Merton (1948) coined the term, and Howard Becker (1963) applied it to show how labelling a student or deviant causes them to embody the label.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 153: Hawthorne Effect -->
+        <section class="slide" id="slide-153">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👁️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Hawthorne Effect</h1>
+              <p class="flashcard-def">Participants altering natural behaviour simply because they know they are being observed</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Elton Mayo (1933) discovered at the Western Electric Hawthorne Works that workers altered productivity simply because they knew researchers were observing them.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 154: Structured Interviews -->
+        <section class="slide" id="slide-154">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📋</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structured Interviews</h1>
+              <p class="flashcard-def">Reading a standardized list of questions in rigid order with zero deviation across respondents.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists favor structured interviews because standardized questions produce high reliability, easy comparability, and pre-coded quantitative answers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 155: Unstructured Interviews -->
+        <section class="slide" id="slide-155">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎙️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Unstructured Interviews</h1>
+              <p class="flashcard-def">An open, informal dialogue where the respondent sets the agenda and speaks in their own words.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley (1981, &#039;Interviewing Women&#039;) championed open, unstructured interviews to build egalitarian trust and capture deep qualitative validity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 156: Overt Fieldwork -->
+        <section class="slide" id="slide-156">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪪</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Overt Fieldwork</h1>
+              <p class="flashcard-def">The researcher openly declares their academic identity and purpose to the group being studied.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Eileen Barker (1984, &#039;The Making of a Moonie&#039;) conducted overt participant observation, openly informing the Unification Church to maintain strict research ethics.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 157: Covert Fieldwork -->
+        <section class="slide" id="slide-157">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕵️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Covert Fieldwork</h1>
+              <p class="flashcard-def">The researcher secretly infiltrates a group, posing as an authentic peer without revealing identity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jason Ditton (1977, bakery fiddling) and James Patrick (1973, Glasgow gang) conducted covert fieldwork to access closed deviant worlds without Hawthorne effects.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 158: Going Native -->
+        <section class="slide" id="slide-158">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Going Native</h1>
+              <p class="flashcard-def">A researcher becoming so emotionally attached to a group that they lose objectivity</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sudhir Venkatesh (2008, &#039;Gang Leader for a Day&#039;) and James Patrick (1973) documented the acute danger of &#039;going native&#039;—becoming so emotionally immersed in a group that objective sociological detachment is lost.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 159: Evaluation -->
+        <section class="slide" id="slide-159">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Evaluation</h1>
+              <p class="flashcard-def">Critical reflection on research bias and reporting</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists evaluate research by reliability and representativeness, whereas interpretivists evaluate research by ecological validity and empathic authenticity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 160: Methodological Triangulation -->
+        <section class="slide" id="slide-160">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📐</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Methodological Triangulation</h1>
+              <p class="flashcard-def">Combining multiple research methods to cross-check validity</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Norman Denzin (1978) formulated methodological triangulation (combining quantitative surveys with qualitative interviews) to cross-check validity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 161: Reflexivity -->
+        <section class="slide" id="slide-161">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Reflexivity</h1>
+              <p class="flashcard-def">The ongoing self-critical awareness practiced by researchers to evaluate how their own social position, values, and presence might bias data collection and analysis.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Alvin Gouldner (1970) and feminist sociologists argue researchers must practice reflexivity by critically reflecting on how their own gender, class, and values affect research findings.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 162: Triangulation -->
+        <section class="slide" id="slide-162">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📐</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Triangulation</h1>
+              <p class="flashcard-def">Combining multiple research methods or data sources to cross-check validity</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Norman Denzin (1978) identified 4 forms of triangulation: methodological, data, investigator, and theoretical triangulation to eliminate single-method bias.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 163: Social Surveys -->
+        <section class="slide" id="slide-163">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Surveys</h1>
+              <p class="flashcard-def">Standardized cross-sectional data collected from large representative samples.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Lazarsfeld and market researchers use structured social surveys with random sampling to collect large-scale, representative, generalisable data.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 164: Cross-sectional Surveys -->
+        <section class="slide" id="slide-164">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📸</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cross-sectional Surveys</h1>
+              <p class="flashcard-def">Data gathered from a representative sample at a single, frozen point in time.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivist researchers use cross-sectional surveys to capture a representative snapshot of attitudes across a whole population at a single point in time.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 165: Longitudinal Studies -->
+        <section class="slide" id="slide-165">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Longitudinal Studies</h1>
+              <p class="flashcard-def">Tracking the same cohort across recurring &#039;waves&#039; over months, years, or decades.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> J.W.B. Douglas (1964) and the Millennium Cohort Study followed children across decades to uncover the long-term impact of social class on life chances.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 166: Methodological Pluralism -->
+        <section class="slide" id="slide-166">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧰</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Methodological Pluralism</h1>
+              <p class="flashcard-def">The research strategy of combining multiple research methods (such as quantitative surveys with qualitative observation) within a single study to gain deeper validity and reliability.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Eileen Barker (1984) combined participant observation, in-depth interviews, and postal questionnaires to build a comprehensive, multi-method study.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 167: Methodological -->
+        <section class="slide" id="slide-167">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧰</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Methodological</h1>
+              <p class="flashcard-def">The research strategy of methodological pluralism—combining multiple research methods (such as quantitative surveys with qualitative observation) within a single study to gain deeper validity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists and interpretivists adopt opposing methodological stances: quantitative social facts vs qualitative interpretative understanding.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 168: The Cudos Ethos -->
+        <section class="slide" id="slide-168">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The Cudos Ethos</h1>
+              <p class="flashcard-def">Normative institutional rules designed to preserve scientific objectivity and public welfare.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert K. Merton (1942) formulated the CUDOS scientific norms: Communism, Universalism, Disinterestedness, and Organised Scepticism.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 169: Commercial Science -->
+        <section class="slide" id="slide-169">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Commercial Science</h1>
+              <p class="flashcard-def">Modern corporate research driven by private patents, market profits, and political sponsorship.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Gibbons (1994) argued commercial funding distorts pure science into &#039;Mode 2&#039; research driven by corporate profit rather than disinterested academic inquiry.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 170: Law of Three Stages -->
+        <section class="slide" id="slide-170">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Law of Three Stages</h1>
+              <p class="flashcard-def">Auguste Comte&#039;s evolutionary theory that human societies progress through theological, metaphysical, and finally positivist (scientific) stages of thinking.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Auguste Comte argued human societies progress through 3 epistemological stages: the Theological, the Metaphysical, and the Positivist/Scientific stage.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 171: Standardisation -->
+        <section class="slide" id="slide-171">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Standardisation</h1>
+              <p class="flashcard-def">The methodological practice of administering identical questions under identical conditions to every respondent to maximize comparative reliability.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists insist on standardisation in questionnaires and laboratory protocols so every respondent encounters identical stimuli, ensuring high reliability.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 172: Replicability -->
+        <section class="slide" id="slide-172">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Replicability</h1>
+              <p class="flashcard-def">Independent peer repetition yielding identical findings</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Popper (1959) argued genuine scientific research must be replicable: other researchers following identical procedures must be able to repeat the test.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 173: Verstehen -->
+        <section class="slide" id="slide-173">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Verstehen</h1>
+              <p class="flashcard-def">Deeply understanding action from the actor&#039;s own viewpoint</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber (1922) argued sociologists must practice &#039;Verstehen&#039; (empathetic understanding) to grasp the subjective motivations behind human actions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 174: Aktuelles Verstehen -->
+        <section class="slide" id="slide-174">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Aktuelles Verstehen</h1>
+              <p class="flashcard-def">Direct observational grasp, like seeing someone cry or chop wood</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber defined &#039;aktuelles Verstehen&#039; as direct observational understanding of what an actor is doing (e.g. seeing someone chop wood).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 175: Erklärendes Verstehen -->
+        <section class="slide" id="slide-175">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Erklärendes Verstehen</h1>
+              <p class="flashcard-def">Explanatory understanding of the underlying motive and cultural purpose driving the action</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber defined &#039;erklärendes Verstehen&#039; as explanatory motivational understanding: uncovering why the actor is performing the act.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 176: Reliability and Replication -->
+        <section class="slide" id="slide-176">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏱️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Reliability and Replication</h1>
+              <p class="flashcard-def">The scientific requirement that a research study can be repeated by other researchers using identical methods to verify whether the same findings occur.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists prioritize reliability and replication, ensuring that research instruments yield consistent, identical results when repeated.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 177: Quantitative Instruments -->
+        <section class="slide" id="slide-177">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔢</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Quantitative Instruments</h1>
+              <p class="flashcard-def">Standardized tools designed to measure objective social structures and quantify causal relationships across large populations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivists rely on quantitative instruments (closed questionnaires, structured interview schedules, official metrics) for statistical analysis.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 178: Qualitative Instruments -->
+        <section class="slide" id="slide-178">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗣️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Qualitative Instruments</h1>
+              <p class="flashcard-def">Flexible instruments designed to uncover subjective meanings, empathetic lived experience, and active social agency.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Interpretivists rely on qualitative instruments (open-ended interview guides, field journals, audio recorders) to capture unconstrained meaning.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 179: Theoretical Ambition -->
+        <section class="slide" id="slide-179">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Theoretical Ambition</h1>
+              <p class="flashcard-def">The unconstrained research vision maximizing validity, reliability, and representativeness across an exhaustive sample.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Structural sociologists (Marx, Durkheim, Parsons) pursue grand theoretical ambition, seeking macro-level universal laws governing entire societies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 180: Pragmatic Compromise -->
+        <section class="slide" id="slide-180">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Pragmatic Compromise</h1>
+              <p class="flashcard-def">The operational concessions enforced by restricted funding, contractual deadlines, and gatekeeper obstruction.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Alan Bryman (2008) noted practical research requires pragmatic compromise, balancing theoretical ideals against time, funding, and access constraints.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 181: Absolutist Moral Duty -->
+        <section class="slide" id="slide-181">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛑</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Absolutist Moral Duty</h1>
+              <p class="flashcard-def">Ethical rules are universal and unconditional; deception and lack of consent are impermissible regardless of scientific gains.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Deontological ethics holds that researchers have an absolutist moral duty never to deceive participants, harm subjects, or violate privacy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 182: Consequentialist Calculus -->
+        <section class="slide" id="slide-182">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Consequentialist Calculus</h1>
+              <p class="flashcard-def">Ethical decisions depend on outcomes; deception is justified if research produces profound public welfare benefits.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Utilitarian researchers argue covert observation or mild deception can be justified if the resulting social knowledge creates greater societal benefit.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 183: Informed Consent -->
+        <section class="slide" id="slide-183">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✍️</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Informed Consent</h1>
+              <p class="flashcard-def">Participants freely agreeing to take part with full knowledge of research aims</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> British Sociological Association (BSA) guidelines mandate informed consent: participants must understand research purposes, risks, and have the right to withdraw.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 184: Value-free Sociology -->
+        <section class="slide" id="slide-184">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Value-free Sociology</h1>
+              <p class="flashcard-def">Sociology must emulate the physical sciences by completely expelling moral values, establishing objective social facts (external forces like laws, customs, and money that exert coercive control over individuals) without preaching.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Auguste Comte and Émile Durkheim maintained sociology must be strictly value-free, keeping personal political or moral opinions out of scientific findings.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 185: Value-committed Sociology -->
+        <section class="slide" id="slide-185">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✊</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Value-committed Sociology</h1>
+              <p class="flashcard-def">Sociology must take the side of marginalized groups, using empirical evidence to actively challenge injustice and oppression.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Howard Becker (1967, &#039;Whose Side Are We On?&#039;) and Alvin Gouldner (1970) argued sociology cannot be neutral and must take the side of the oppressed.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 186: High Validity / Low Reliability -->
+        <section class="slide" id="slide-186">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">High Validity / Low Reliability</h1>
+              <p class="flashcard-def">Prioritizes deep subjective truth, naturalistic rapport, and rich description at the expense of standardization.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Interpretivist qualitative ethnographies (e.g. Sudhir Venkatesh, James Patrick) yield high ecological validity but cannot be easily replicated.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 187: High Reliability / Low Validity -->
+        <section class="slide" id="slide-187">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔄</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">High Reliability / Low Validity</h1>
+              <p class="flashcard-def">Prioritizes standardized replication, statistical generalizability, and uniform measurement across large samples.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivist closed postal questionnaires yield high reliability and standardisation but risk low validity due to superficial, pre-coded tick boxes.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 188: Academic Extraction -->
+        <section class="slide" id="slide-188">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Academic Extraction</h1>
+              <p class="flashcard-def">Researchers mine vulnerable communities for traumatic interview data to publish academic papers without providing local aid.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Mayssoun Sukarieh &amp; Stuart Tannock (2019) critiqued &#039;academic extraction&#039; where elite researchers extract data from marginalized communities without giving anything back.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 189: Participatory Reciprocity -->
+        <section class="slide" id="slide-189">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Participatory Reciprocity</h1>
+              <p class="flashcard-def">Collaborative research co-designed with participants to generate actionable political advocacy and material community improvements.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley and feminist researchers advocate participatory reciprocity: sharing information, helping respondents, and breaking down academic hierarchy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 190: Theoretical Paradigms -->
+        <section class="slide" id="slide-190">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Theoretical Paradigms</h1>
+              <p class="flashcard-def">Broad overarching worldviews and frameworks (such as Positivism or Interpretivism) that guide how sociologists conceptualize society and conduct research.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Thomas Kuhn (1962, &#039;The Structure of Scientific Revolutions&#039;) argued natural science shares a single unified paradigm, whereas sociology is multi-paradigmatic.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 191: Ethical Consequences -->
+        <section class="slide" id="slide-191">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-3" style="background: #0066FF !important;">
+              <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ethical Consequences</h1>
+              <p class="flashcard-def">The moral implications of sociological research, requiring protection of participants from physical harm, psychological distress, deception, and invasion of privacy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> The Milgram obedience study and Humphrey&#039;s &#039;Tearoom Trade&#039; highlighted severe ethical consequences: psychological trauma, deception, and invasion of privacy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 192: CHAPTER 4 DIVIDER -->
+      <section class="slide" id="slide-192">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
+          <div class="flashcard theme-4" style="background: #E11D48 !important;">
+            <div class="card-pill">CHAPTER 04 • PAPER 2</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">The Family</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Functionalist, Marxist &amp; Feminist Views • Family Diversity &amp; Households • Conjugal Roles &amp; Domestic Labour • Power, Decision-Making &amp; Abuse • Childhood &amp; Demographics</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 50 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 193: Murdock&#039;s Universal Model -->
+        <section class="slide" id="slide-193">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Murdock&#039;s Universal Model</h1>
+              <p class="flashcard-def">Defines family exclusively through heterosexual marriage, co-residence, reproduction, and children.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Peter Murdock (1949) studied 250 societies, concluding the nuclear family is universal and fulfills 4 essential functions (sexual, reproductive, economic, educational).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 194: Giddens&#039; Kinship Model -->
+        <section class="slide" id="slide-194">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌈</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Giddens&#039; Kinship Model</h1>
+              <p class="flashcard-def">Defines family flexibly through emotional care and adults assuming ongoing childcare responsibility.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens (1992) argued modern kinship is defined by choice and &#039;confluent love&#039; rather than rigid biological duty or economic contract.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 195: The Evolutionary Fit Thesis -->
+        <section class="slide" id="slide-195">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📐</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Evolutionary Fit Thesis</h1>
+              <p class="flashcard-def">Pre-industrial extended families naturally evolved into mobile nuclear units to fit industrial production.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1955) argued industrialisation caused an evolutionary shift from the extended family to the geographically mobile isolated nuclear family.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 196: Empirical Counter-evidence -->
+        <section class="slide" id="slide-196">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Empirical Counter-evidence</h1>
+              <p class="flashcard-def">Archival demographic data demonstrating that Parsons&#039; evolutionary timeline was historically flawed.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Laslett (1977) and Michael Anderson (1971) disproved Parsons&#039; evolutionary fit: British household records proved the nuclear family predated industrialisation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 197: Functionalist Harmony -->
+        <section class="slide" id="slide-197">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕊️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Functionalist Harmony</h1>
+              <p class="flashcard-def">The family is a universally beneficial institution that stabilizes adult mental health and integrates children into society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons portrayed the nuclear family as a harmonious institution that stabilizes adult personalities and socialises compliant children.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 198: Marxist Critique -->
+        <section class="slide" id="slide-198">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚩</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Marxist Critique</h1>
+              <p class="flashcard-def">The family is an ideological apparatus that conditions submission, extracts profits, and subsidises capitalist labor.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Friedrich Engels (1884) and Eli Zaretsky (1976) critiqued the family as a bourgeois unit designed to pass down private property and pacify alienated workers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 199: Economic Capital -->
+        <section class="slide" id="slide-199">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💰</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Economic Capital</h1>
+              <p class="flashcard-def">Direct material wealth, inherited property, liquid financial assets, and ownership of the means of production.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx showed families transmit economic capital (land, investments, business inheritance) to reproduce class privilege across generations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 200: Cultural &amp; Social Capital -->
+        <section class="slide" id="slide-200">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎻</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural &amp; Social Capital</h1>
+              <p class="flashcard-def">Intangible linguistic codes, habitus dispositions, elite tastes, and exclusive high-trust friendship networks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1984) showed middle-class parents transmit cultural capital (speech, etiquette, artistic knowledge) and social capital (elite networks) to secure advantages.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 201: Capitalist Exploitation -->
+        <section class="slide" id="slide-201">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Capitalist Exploitation</h1>
+              <p class="flashcard-def">Capitalism is the ultimate driver and beneficiary of female domestic subjugation and unpaid reproductive labor.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Eli Zaretsky (1976) showed the family cushions capitalist exploitation: the home offers an illusion of autonomy while serving as a vital unit of consumer consumption.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 202: Patriarchal Domination -->
+        <section class="slide" id="slide-202">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Patriarchal Domination</h1>
+              <p class="flashcard-def">Patriarchy (a social system in which men hold primary power and dominate women) is an autonomous power structure through which men directly control and exploit women within the home.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Radical feminists (Shulamith Firestone, Kate Millett) argue the family is the core patriarchal institution where men dominate women through unpaid domestic labor and violence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 203: Warm Bath Theory -->
+        <section class="slide" id="slide-203">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛁</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Warm Bath Theory</h1>
+              <p class="flashcard-def">The functionalist claim that the home acts as a soothing haven relieving workplace stress</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1955) formulated the &#039;warm bath&#039; theory: returning home to a caring wife relaxes the male worker, relieving capitalist workplace tensions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 204: Cultural Capital -->
+        <section class="slide" id="slide-204">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎻</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Capital</h1>
+              <p class="flashcard-def">The middle-class language skills, educational knowledge, cultural tastes, and refined manners that parents pass to their children, which schools reward with higher academic credentials.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1984) showed middle-class parents equip their children with linguistic fluency and cultural know-how that teachers reward with top grades.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 205: Habitus -->
+        <section class="slide" id="slide-205">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👔</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Habitus</h1>
+              <p class="flashcard-def">Deeply ingrained class-based manners, habits, and cultural tastes</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1984) defined habitus as the deeply ingrained dispositions, tastes, and lifestyle habits instilled by class upbringing within the family.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 206: Marriage As Sacred Duty -->
+        <section class="slide" id="slide-206">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Marriage As Sacred Duty</h1>
+              <p class="flashcard-def">A permanent, religiously sanctioned union essential for social respectability and economic survival.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Functionalists note traditional marriage was viewed as a sacred, lifelong religious obligation reinforced by churches and social stigma against divorce.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 207: Marriage As Lifestyle Choice -->
+        <section class="slide" id="slide-207">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥂</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Marriage As Lifestyle Choice</h1>
+              <p class="flashcard-def">An optional, negotiable partnership entered into purely for mutual intimacy and personal fulfillment.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens (1992) and Ulrich Beck (1992) showed modern marriage is an elective lifestyle choice based on individual emotional gratification and personal fulfillment.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 208: Biological Ascribed Kinship -->
+        <section class="slide" id="slide-208">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Biological Ascribed Kinship</h1>
+              <p class="flashcard-def">Family defined exclusively by genetic descent, legal marriage contracts, and bloodlines.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Schneider (1984) analyzed traditional kinship as ascribed through biological bloodlines and legal marriage ties.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 209: Kath Weston&#039;s Families of Choice -->
+        <section class="slide" id="slide-209">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌈</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Kath Weston&#039;s Families of Choice</h1>
+              <p class="flashcard-def">Family constructed voluntarily through mutual affection, shared care, and chosen commitment.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kath Weston (1991, &#039;Families We Choose&#039;) documented how gay and lesbian communities create supportive, chosen families rooted in friendship and mutual care.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 210: Risk Society -->
+        <section class="slide" id="slide-210">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚠️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Risk Society</h1>
+              <p class="flashcard-def">Modern life dominated by manufactured social and personal hazards</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ulrich Beck &amp; Elisabeth Beck-Gernsheim (1995, &#039;The Normal Chaos of Love&#039;) showed relationships in a risk society are characterized by negotiation, fragility, and uncertainty.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 211: Concerted Cultivation -->
+        <section class="slide" id="slide-211">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎹</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Concerted Cultivation</h1>
+              <p class="flashcard-def">Deliberate parental engineering of child talents, analytical reasoning, and adult institutional negotiation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Annette Lareau (2003, &#039;Unequal Childhoods&#039;) showed middle-class parents practice concerted cultivation: heavily scheduling children&#039;s extracurriculars and training them to negotiate with authority.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 212: Natural Growth -->
+        <section class="slide" id="slide-212">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚽</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Natural Growth</h1>
+              <p class="flashcard-def">Granting spontaneous childhood freedom within clear physical boundaries and parental authority.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Annette Lareau (2003) showed working-class parents practice the &#039;accomplishment of natural growth&#039;: providing basic care and love while granting children unstructured leisure time.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 213: Robert Chester: Neo-conventional -->
+        <section class="slide" id="slide-213">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏠</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Robert Chester: Neo-conventional</h1>
+              <p class="flashcard-def">Claims reports of the death of the nuclear family are exaggerated; nuclear living remains the dominant life-cycle phase.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert Chester (1985) argued family diversity is exaggerated; the dual-earner &#039;neo-conventional&#039; nuclear family remains the dominant social aspiration and norm.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 214: Judith Stacey: Fluid Diversity -->
+        <section class="slide" id="slide-214">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌈</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Judith Stacey: Fluid Diversity</h1>
+              <p class="flashcard-def">Rejects Chester&#039;s claims; argues traditional nuclear dominance has been permanently displaced by plural alternative forms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Judith Stacey (1998) showed postmodern women create fluid &#039;divorce-extended families&#039; incorporating ex-in-laws, step-siblings, and new partners.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 215: The New Right -->
+        <section class="slide" id="slide-215">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The New Right</h1>
+              <p class="flashcard-def">Family diversity is social breakdown; society must restore the traditional married heterosexual nuclear family.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Charles Murray (1984) argued generous welfare benefits encourage single-mother families, resulting in fatherless boys and an underclass lacking work ethic.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 216: Postmodernism -->
+        <section class="slide" id="slide-216">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌈</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Postmodernism</h1>
+              <p class="flashcard-def">Family diversity is evidence of individual freedom, gender equality, and democratic lifestyle choice.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Morgan (1996) and Carol Smart (2007) argue postmodern family life is diverse, fluid, and defined by active relationships rather than fixed structural templates.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 217: Symmetrical Family -->
+        <section class="slide" id="slide-217">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Symmetrical Family</h1>
+              <p class="flashcard-def">A nuclear home where domestic tasks and leisure are shared equitably</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Young &amp; Peter Willmott (1973) argued the British family evolved towards a symmetrical stage characterized by shared domestic roles and joint home leisure.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 218: Joint Conjugal Roles -->
+        <section class="slide" id="slide-218">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Joint Conjugal Roles</h1>
+              <p class="flashcard-def">Domestic arrangements in the family where husband and wife share household chores, childcare tasks, breadwinning, and leisure activities relatively equally, rather than dividing them by rigid gender lines.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Elizabeth Bott (1957) distinguished joint conjugal roles (where spouses share housework, childcare, and leisure) from segregated conjugal roles.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 219: Liberal Reformism -->
+        <section class="slide" id="slide-219">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚖️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Liberal Reformism</h1>
+              <p class="flashcard-def">Pursuing gender equality through legal reform, educational access, and flexible conjugal negotiation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ann Oakley and Jennifer Somerville advocate liberal feminist reformism: improving equal pay, affordable childcare, and paternity leave to gradually achieve gender equality.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 220: Radical Separatism -->
+        <section class="slide" id="slide-220">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔥</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Radical Separatism</h1>
+              <p class="flashcard-def">Viewing the nuclear family as irredeemably patriarchal; demanding structural abolition or female separatism.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Shulamith Firestone (1970) and Delphy &amp; Leonard (1992) argue men will never surrender patriarchal privilege voluntarily, advocating political lesbianism or separatism.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 221: Segregated Conjugal Roles -->
+        <section class="slide" id="slide-221">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔨</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Segregated Conjugal Roles</h1>
+              <p class="flashcard-def">Spouses perform strictly separated domestic tasks and spend leisure time apart with same-sex networks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Elizabeth Bott (1957) defined segregated conjugal roles: the husband is the sole breadwinner with separate male leisure, while the wife manages domestic labor alone.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 222: Parsonian Complementarity -->
+        <section class="slide" id="slide-222">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕊️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Parsonian Complementarity</h1>
+              <p class="flashcard-def">Conjugal division is natural, complementary, and functional for social order and emotional health.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1955) argued segregated roles are biologically complementary: the male instrumental breadwinner and female expressive caregiver produce stability.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 223: Morgan&#039;s Power Conflict -->
+        <section class="slide" id="slide-223">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥊</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Morgan&#039;s Power Conflict</h1>
+              <p class="flashcard-def">The family is a contested arena of conflicting interests, hidden domination, and power struggles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Morgan (1996) argued family life involves continuous micro-negotiation and power conflicts over chores, spending, and emotional attention.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 224: The Romantic Haven Myth -->
+        <section class="slide" id="slide-224">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏡</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Romantic Haven Myth</h1>
+              <p class="flashcard-def">The ideological belief that the privatised family is an emotional haven of unconditional safety and peace.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Christopher Lasch (1977, &#039;Haven in a Heartless World&#039;) critiqued the myth of the family as an idyllic haven isolated from harsh economic realities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 225: The &#039;Dark Side&#039; Reality -->
+        <section class="slide" id="slide-225">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚨</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The &#039;Dark Side&#039; Reality</h1>
+              <p class="flashcard-def">The empirical reality of the family home as the primary statistical site of domestic violence and abuse.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Russell &amp; Rebecca Dobash (1979) and Mary McIntosh exposed the dark side of family life: domestic violence, coercive control, and emotional abuse.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 226: The Case For Psychic Income -->
+        <section class="slide" id="slide-226">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💎</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Case For Psychic Income</h1>
+              <p class="flashcard-def">The family is an indispensable engine of emotional balance, mutual affection, and personal identity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Functionalists argue marriage provides &#039;psychic income&#039;: deep emotional security, companionship, and reciprocal validation between partners.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 227: The Case For Conflict Pathology -->
+        <section class="slide" id="slide-227">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💥</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Case For Conflict Pathology</h1>
+              <p class="flashcard-def">The family is a claustrophobic institution producing psychological neurosis, exploitation, and abuse.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Cooper (1972, &#039;The Death of the Family&#039;) argued the family is a pathological institution that suffocates individuality and trains children to submit to authority.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 228: Triple Shift -->
+        <section class="slide" id="slide-228">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏱️</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Triple Shift</h1>
+              <p class="flashcard-def">Performing paid work, domestic chores, and emotional care</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Duncombe &amp; Marsden (1995) showed working mothers bear a &#039;triple shift&#039;: paid employment, unpaid housework/childcare, and intense emotional work managing family harmony.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 229: Emotion Work -->
+        <section class="slide" id="slide-229">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👨‍👩‍👧</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Emotion Work</h1>
+              <p class="flashcard-def">Managing family feelings and calming household conflict</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Arlie Russell Hochschild (1983) and Duncombe &amp; Marsden (1995) showed women perform the majority of invisible emotion work keeping families emotionally cohesive.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 230: The Medieval &#039;Miniature Adult&#039; -->
+        <section class="slide" id="slide-230">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔨</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Medieval &#039;Miniature Adult&#039;</h1>
+              <p class="flashcard-def">Youth integrated into adult economic, social, and cultural life immediately upon physical weaning.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Philippe Ariès (1962, &#039;Centuries of Childhood&#039;) argued that in medieval Europe childhood did not exist; children were treated as miniature adults as soon as weaned.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 231: The Modern Protected Child -->
+        <section class="slide" id="slide-231">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧸</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Modern Protected Child</h1>
+              <p class="flashcard-def">A socially segregated, legally protected developmental stage defined by innocence and dependence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Hugh Cunningham (2006) documented the historical emergence of childhood as a distinct, innocent, and legally protected life stage requiring schooling and shelter.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 232: The Child-centred &#039;Golden Age&#039; -->
+        <section class="slide" id="slide-232">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧸</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Child-centred &#039;Golden Age&#039;</h1>
+              <p class="flashcard-def">The view that childhood in modern Western society has reached an unprecedented peak of health, protection, and devotion.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Young &amp; Peter Willmott (1973) showed smaller family sizes and rising living standards created modern child-centred families where children are emotional priorities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 233: The &#039;Toxic / Disappearing&#039; Child -->
+        <section class="slide" id="slide-233">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧪</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The &#039;Toxic / Disappearing&#039; Child</h1>
+              <p class="flashcard-def">The view that modern technological capitalism is destroying the innocence, mental health, and essence of childhood.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sue Palmer (2006, &#039;Toxic Childhood&#039;) and Neil Postman (1994) argue commercial media, junk food, and competitive testing destroy traditional childhood innocence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 234: Middle-class Cultivated Youth -->
+        <section class="slide" id="slide-234">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎻</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Middle-class Cultivated Youth</h1>
+              <p class="flashcard-def">Childhood designed entirely around adult-sponsored enrichment, resume-building, and protected leisure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Annette Lareau (2003) showed middle-class youth are trained in formal vocabulary and self-advocacy, giving them institutional confidence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 235: Ethnic Enterprise Youth -->
+        <section class="slide" id="slide-235">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥡</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ethnic Enterprise Youth</h1>
+              <p class="flashcard-def">Childhood embedded in reciprocal economic work supporting family commercial survival.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tariq Modood (1997) and Heidi Mirza showed ethnic minority parents instill high educational enterprise and ambition in children to overcome structural discrimination.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 236: The Isolated Nuclear Family -->
+        <section class="slide" id="slide-236">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏡</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Isolated Nuclear Family</h1>
+              <p class="flashcard-def">The functionalist claim that modern industrial families are geographically mobile and severed from extended kin.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons argued the modern nuclear family is structurally isolated from extended kin, relying entirely on internal conjugal bonds.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 237: The Modified Extended Family -->
+        <section class="slide" id="slide-237">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👵</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Modified Extended Family</h1>
+              <p class="flashcard-def">The empirical reality of dense daily intergenerational childcare, financial support, and emotional solidarity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Eugene Litwak (1960) showed modern families maintain a &#039;modified extended&#039; network, keeping frequent emotional and financial contact via cars and phones.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 238: Traditional Indigenous Elder Status -->
+        <section class="slide" id="slide-238">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Traditional Indigenous Elder Status</h1>
+              <p class="flashcard-def">Elders hold the highest moral prestige, property control, and spiritual respect in the community.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthropologists note traditional and indigenous societies venerate elders as wise moral leaders, knowledge keepers, and authority figures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 239: Modern Industrial Capitalist Ageism -->
+        <section class="slide" id="slide-239">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Modern Industrial Capitalist Ageism</h1>
+              <p class="flashcard-def">Elders suffer loss of occupational identity, workforce exit, and negative stereotyping as social burdens.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Mike Featherstone &amp; Mike Hepworth (1991) showed industrial capitalism stigmatizes elderly people as unproductive economic burdens, devaluing retirement.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 240: The Traditional Patriarch -->
+        <section class="slide" id="slide-240">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎩</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Traditional Patriarch</h1>
+              <p class="flashcard-def">Sole economic provider, ultimate household authority, and distant disciplinarian.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sylvia Walby (1990) analyzed the traditional patriarch as the unquestioned household head who controls finances and demands domestic obedience.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 241: The &#039;Fully Involved&#039; Modern Dad -->
+        <section class="slide" id="slide-241">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🍼</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The &#039;Fully Involved&#039; Modern Dad</h1>
+              <p class="flashcard-def">An emotionally accessible partner who shares 50/50 daily caregiving and domestic management.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Esther Dermott (2008, &#039;Intimate Fatherhood&#039;) showed modern fathers reject distant authoritarianism in favor of emotional intimacy and hands-on childcare.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 242: Ageism -->
+        <section class="slide" id="slide-242">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👨‍👩‍👧</div>
+            <div class="flashcard theme-4" style="background: #E11D48 !important;">
+              <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Ageism</h1>
+              <p class="flashcard-def">Prejudice, discrimination, and stereotyping directed against individuals based on chronological age</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert Butler (1969) coined &#039;ageism&#039; to describe systematic stereotyping and discrimination against people based on chronological age, marginalizing older citizens.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 243: CHAPTER 5 DIVIDER -->
+      <section class="slide" id="slide-243">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🎓</div>
+          <div class="flashcard theme-5" style="background: #D97706 !important;">
+            <div class="card-pill">CHAPTER 05 • PAPER 3</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Education</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Role of Education &amp; Meritocracy • Class, Gender &amp; Ethnic Differences in Attainment • Teacher Labelling, Streaming &amp; Subcultures • Hidden Curriculum • Educational Policy</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 93 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 244: Pre-industrial Learning -->
+        <section class="slide" id="slide-244">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏡</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Pre-industrial Learning</h1>
+              <p class="flashcard-def">Informal domestic transmission of subsistence craft skills embedded in kinship networks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ivan Illich (1971, &#039;Deschooling Society&#039;) noted pre-industrial education was informal and experiential, embedded in apprenticeship and family craft.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 245: State Mass Schooling -->
+        <section class="slide" id="slide-245">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">State Mass Schooling</h1>
+              <p class="flashcard-def">Compulsory universal schooling designed to train a standardized, disciplined national workforce.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) and Émile Durkheim (1925) analyzed how 19th-century industrial states introduced compulsory mass schooling to forge national identity and obedient workers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 246: Meritocratic Allocation -->
+        <section class="slide" id="slide-246">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌟</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Meritocratic Allocation</h1>
+              <p class="flashcard-def">Testing natural talent objectively to match human capacity to economic needs without class bias.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kingsley Davis &amp; Wilbert Moore (1945) argued schooling allocates top talent to functionally important roles based purely on merit and effort.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 247: Class Stratification -->
+        <section class="slide" id="slide-247">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Class Stratification</h1>
+              <p class="flashcard-def">Rigid institutional segregation reinforcing middle-class privilege and working-class failure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1984) and Samuel Bowles &amp; Herbert Gintis (1976) proved schooling reproduces capitalist class stratification behind an illusion of fairness.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 248: The Classroom Regimen -->
+        <section class="slide" id="slide-248">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Classroom Regimen</h1>
+              <p class="flashcard-def">Institutional school routines conditioning youth to accept external command and surveillance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis (1976) showed the regimented classroom (bells, timetables, obedience, extrinsic grades) trains children for factory discipline.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 249: The Workplace Regimen -->
+        <section class="slide" id="slide-249">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Workplace Regimen</h1>
+              <p class="flashcard-def">Corporate production conditions requiring compliant, fragmented, and clock-disciplined wage labour.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis formulated the correspondence principle: the hierarchical, alienating school regime directly prepares students for the corporate workplace.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 250: Repressive State Apparatus -->
+        <section class="slide" id="slide-250">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Repressive State Apparatus</h1>
+              <p class="flashcard-def">State agencies maintaining ruling-class order primarily through physical coercion and legal force.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) showed that when schools fail to discipline deviant youth, repressive apparatuses (truancy officers, police, courts) enforce compliance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 251: Ideological State Apparatus -->
+        <section class="slide" id="slide-251">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological State Apparatus</h1>
+              <p class="flashcard-def">Institutions securing ruling-class hegemony by shaping values, worldviews, and beliefs invisibly.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser (1971) identified the education system as the primary ISA in modern capitalism, legitimating inequality by persuading pupils that failure is their own fault.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 252: Cultural Capital Barrier -->
+        <section class="slide" id="slide-252">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Capital Barrier</h1>
+              <p class="flashcard-def">Differences in language codes, habitus, and aesthetic familiarity rewarded by official examiners.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1977) showed working-class pupils encounter a cultural capital barrier: schools privilege middle-class habitus, vocabulary, and artistic knowledge.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 253: Material Capital Barrier -->
+        <section class="slide" id="slide-253">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏠</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Material Capital Barrier</h1>
+              <p class="flashcard-def">Physical, dietary, and financial deprivations preventing effective study and cognitive flourishing.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stephen Ball (2003) and Diane Reay showed middle-class parents use financial capital to buy catchment-area houses, private tutors, and learning resources.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 254: The Vocational Ideal -->
+        <section class="slide" id="slide-254">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌟</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Vocational Ideal</h1>
+              <p class="flashcard-def">Official claims that vocational schemes provide cutting-edge skills and smooth transitions to high-wage jobs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Government policy promotes vocational education as practical training tailored to economic needs and technical skills.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 255: The Workfare Reality -->
+        <section class="slide" id="slide-255">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Workfare Reality</h1>
+              <p class="flashcard-def">Empirical findings showing schemes supply cheap disposable labor and suppress working-class wages.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Dan Finn (1987) critiqued youth vocational training schemes as cheap labor schemes that keep youth off official unemployment statistics without real job prospects.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 256: The &#039;Lads&#039; -->
+        <section class="slide" id="slide-256">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧢</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Lads&#039;</h1>
+              <p class="flashcard-def">Working-class boys celebrating manual masculinity and seeing through meritocratic slogans.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Willis (1977, &#039;Learning to Labour&#039;) studied the 12 working-class &#039;lads&#039; who created an anti-school counter-culture focused on &#039;having a laff&#039; and defying teacher authority.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 257: The &#039;Ear&#039;oles&#039; -->
+        <section class="slide" id="slide-257">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Ear&#039;oles&#039;</h1>
+              <p class="flashcard-def">Pupils who accepted formal school rules and believed academic qualifications unlocked social mobility.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Willis (1977) contrasted the rebellious &#039;lads&#039; with the conformist, pro-school working-class boys whom the lads mocked as passive &#039;ear&#039;oles&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 258: Vocational Exploitation -->
+        <section class="slide" id="slide-258">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Vocational Exploitation</h1>
+              <p class="flashcard-def">Schemes act as instruments of labour discipline, supplying disposable low-wage workers to capitalist firms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Marxist sociologists argue vocational tracks channel working-class pupils into low-paid, precarious manual and service work with limited progression.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 259: Vocational Empowerment -->
+        <section class="slide" id="slide-259">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩‍🔧</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Vocational Empowerment</h1>
+              <p class="flashcard-def">Initiatives open doors for young women to enter historically segregated, well-paying technical careers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Functionalists and human capital theorists argue vocational qualifications provide diverse pathways for non-academic learners to acquire industry-ready technical skills.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 260: Social Democracy -->
+        <section class="slide" id="slide-260">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Democracy</h1>
+              <p class="flashcard-def">Education is a public human right designed to foster social solidarity, equity, and democratic citizenship.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> A.H. Halsey (1980) and Anthony Crosland championed the social democratic view: comprehensive state schools can reduce class inequalities through compensatory investment.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 261: Social Capital -->
+        <section class="slide" id="slide-261">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤝</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Capital</h1>
+              <p class="flashcard-def">The valuable network of social contacts, influential friendships, and elite connections that provide advantages in education and career advancement.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> James Coleman (1988) and Stephen Ball (2003) showed middle-class parents leverage social capital (networks with teachers, governors, and professionals) to advance their children.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 262: Inter-generational Mobility -->
+        <section class="slide" id="slide-262">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👨‍👦</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Inter-generational Mobility</h1>
+              <p class="flashcard-def">Movement between social class of origin (parents) and social class of destination (adult children).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> John Goldthorpe (1980, Oxford Mobility Study) measured social mobility between generations, showing class destinations remain heavily tied to class origins.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 263: Intra-generational Mobility -->
+        <section class="slide" id="slide-263">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Intra-generational Mobility</h1>
+              <p class="flashcard-def">Movement up or down the occupational hierarchy across an individual&#039;s personal working career.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sociologists track intra-generational mobility: an individual&#039;s movement up or down the occupational ladder during their own working career.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 264: Ascribed Status System -->
+        <section class="slide" id="slide-264">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏰</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ascribed Status System</h1>
+              <p class="flashcard-def">Social position fixed arbitrarily at birth through immutable genealogy, bloodline, or caste.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Functionalists contrast traditional feudal caste systems (where social status is fixed at birth) with modern achieved status societies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 265: Achieved Status System -->
+        <section class="slide" id="slide-265">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Achieved Status System</h1>
+              <p class="flashcard-def">Social position attained through individual talent, effort, and certified qualifications.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1961) argued modern school systems replace ascribed kinship status with achieved educational credentials earned through merit.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 266: Meritocratic Escalator -->
+        <section class="slide" id="slide-266">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪜</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Meritocratic Escalator</h1>
+              <p class="flashcard-def">Education operates as an open, fair sorting machine that propels natural talent upward regardless of wealth.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons portrayed education as a fair meritocratic escalator: anyone with ability and drive can ascend regardless of background.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 267: Rigged Class Maze -->
+        <section class="slide" id="slide-267">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕸️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Rigged Class Maze</h1>
+              <p class="flashcard-def">Education operates as a class filter converting parental economic resources into legitimate certificates.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis (1976) countered that schooling is a rigged class maze where middle-class resources guarantee success while working-class children fail.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 268: Open Systemic Mobility -->
+        <section class="slide" id="slide-268">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌟</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Open Systemic Mobility</h1>
+              <p class="flashcard-def">The belief that state education provides an impartial ladder allowing any child with grit to rise.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Saunders (1996) argued Britain is an open society where educational and occupational mobility is largely determined by individual ability and effort.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 269: Ideological Camouflage -->
+        <section class="slide" id="slide-269">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological Camouflage</h1>
+              <p class="flashcard-def">Using exceptional success stories to conceal institutional barriers and systematic class sorting.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis showed the &#039;myth of meritocracy&#039; acts as ideological camouflage, justifying class inequality as fair and natural.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 270: Althusser: Passive Dupes -->
+        <section class="slide" id="slide-270">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Althusser: Passive Dupes</h1>
+              <p class="flashcard-def">Pupils are helpless victims smoothly indoctrinated by the Ideological State Apparatus.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Dennis Wrong (1961) and Paul Willis critiqued Althusser&#039;s structural Marxism for portraying working-class pupils as passive cultural dupes programmed by ideology.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 271: Willis: Active Rebels -->
+        <section class="slide" id="slide-271">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧢</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Willis: Active Rebels</h1>
+              <p class="flashcard-def">Pupils possess penetrating insight, creating anti-school cultures that resist authority.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Willis (1977) showed working-class lads actively see through the school&#039;s meritocratic ideology, knowingly rejecting academic compliance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 272: Individual &amp; Family Agency -->
+        <section class="slide" id="slide-272">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Individual &amp; Family Agency</h1>
+              <p class="flashcard-def">Educational mobility is determined by personal grit, smart study choices, and dedicated parental support.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens (1984) and interactionists emphasize that pupils and families exercise real agency and choice rather than acting as structural puppets.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 273: Structural Class Rigging -->
+        <section class="slide" id="slide-273">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Class Rigging</h1>
+              <p class="flashcard-def">Educational mobility is constrained by deep structural inequalities in economic and cultural capital (middle-class language skills, educational knowledge, and cultural tastes rewarded by schools).</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu and Diane Reay show class inequality in education is structurally entrenched through unequal school funding, catchment areas, and cultural bias.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 274: Genetic Meritocracy -->
+        <section class="slide" id="slide-274">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Genetic Meritocracy</h1>
+              <p class="flashcard-def">Differences in mobility reflect natural distributions of innate intelligence and individual drive.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Saunders (1996) argued genetic differences in cognitive ability explain why middle-class children disproportionately achieve higher educational outcomes.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 275: Cultural Reproduction -->
+        <section class="slide" id="slide-275">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Reproduction</h1>
+              <p class="flashcard-def">Standardized tests measure accumulated middle-class cultural capital rather than innate biological ability.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1977, &#039;Reproduction in Education, Society and Culture&#039;) demonstrated how schools systematically reproduce existing class hierarchies across generations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 276: Myth of Meritocracy -->
+        <section class="slide" id="slide-276">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏆</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Myth of Meritocracy</h1>
+              <p class="flashcard-def">Bowles and Gintis&#039;s Marxist concept that schools create the false belief that academic success is based purely on individual ability and effort, disguising how class privilege really determines outcomes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis (1976) showed meritocracy is a myth that persuades workers that academic winners deserve wealth and losers deserve low wages.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 277: Parentocracy -->
+        <section class="slide" id="slide-277">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👨‍👩‍👧</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Parentocracy</h1>
+              <p class="flashcard-def">Educational power shifting from schools to parents as consumers</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Miriam David (1993) coined &#039;parentocracy&#039;: marketised education means a child&#039;s educational success depends on parents&#039; wealth and cultural capital, not ability.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 278: Objective Knowledge -->
+        <section class="slide" id="slide-278">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📐</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Objective Knowledge</h1>
+              <p class="flashcard-def">Views the curriculum as a neutral, timeless repository of scientific facts and universal truths.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Positivist educators claim curriculum subjects represent neutral, objective scientific knowledge and cultural truth.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 279: Socially Constructed Knowledge -->
+        <section class="slide" id="slide-279">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔍</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Socially Constructed Knowledge</h1>
+              <p class="flashcard-def">Views the curriculum as an ideological selection designed to preserve class and status dominance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael F.D. Young (1971, &#039;Knowledge and Control&#039;) argued curriculum knowledge is socially constructed by powerful elites to preserve their cultural hegemony.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 280: Formal Workplace Learning -->
+        <section class="slide" id="slide-280">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Formal Workplace Learning</h1>
+              <p class="flashcard-def">Structured vocational training and formal job education that transmits specialized technical numeracy, professional literacy, and certified skills required in the modern economy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Human capital theorists like Theodore Schultz argued formal educational qualifications develop productive skills essential for post-industrial work.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 281: Credentialism -->
+        <section class="slide" id="slide-281">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Credentialism</h1>
+              <p class="flashcard-def">Relying on formal exam certificates as the primary test of occupational worth</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Randall Collins (1979, &#039;The Credential Society&#039;) showed educational qualifications function as gatekeeping credentials rather than indicators of actual job skills.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 282: Stem Subjects -->
+        <section class="slide" id="slide-282">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Stem Subjects</h1>
+              <p class="flashcard-def">Academic disciplines encompassing Science, Technology, Engineering, and Mathematics, historically characterized by masculine gender stereotyping and lower female uptake.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Becky Francis and Louise Archer showed STEM subjects remain heavily gender-typed as masculine, discouraging female participation despite equal scientific aptitude.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 283: Socialisation Messages -->
+        <section class="slide" id="slide-283">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏰</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Socialisation Messages</h1>
+              <p class="flashcard-def">Enforce behavioral obedience, punctuality, and docility required for modern workplace discipline.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons showed schools transmit value consensus (meritocracy, civic responsibility) through official and informal socialisation messages.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 284: Status Messages -->
+        <section class="slide" id="slide-284">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏷️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Status Messages</h1>
+              <p class="flashcard-def">Communicate implicit signals regarding an individual pupil&#039;s personal worth and expected social rank.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Nell Keddie (1971) showed schools transmit subtle status messages: top-stream pupils receive high-status academic knowledge while bottom streams receive low-status vocational tasks.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 285: Innate Intelligence -->
+        <section class="slide" id="slide-285">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Innate Intelligence</h1>
+              <p class="flashcard-def">Assumes IQ is an inherited, fixed, and objective biological property distributed across populations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Charles Murray &amp; Richard Herrnstein (1994, &#039;The Bell Curve&#039;) argued IQ is largely innate, a claim heavily rejected by sociologists who emphasize social environment.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 286: Cultural Capital in Disguise -->
+        <section class="slide" id="slide-286">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Capital in Disguise</h1>
+              <p class="flashcard-def">Views test performance as the product of class socialisation (the lifelong process of learning culture, values, and norms), linguistic familiarity, and coaching.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pierre Bourdieu (1984) showed what schools evaluate as &#039;natural intelligence&#039; or &#039;flair&#039; is actually middle-class cultural capital acquired at home.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 287: Meritocratic Sifting -->
+        <section class="slide" id="slide-287">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Meritocratic Sifting</h1>
+              <p class="flashcard-def">Schooling acts as a fair, objective filter allocating high-IQ individuals to demanding economic roles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1961) argued examinations act as an objective, neutral sieve allocating individuals to appropriate occupational roles.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 288: Structural Class Reproduction -->
+        <section class="slide" id="slide-288">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Structural Class Reproduction</h1>
+              <p class="flashcard-def">Attainment reflects parental economic capital and cultural privilege; IQ is a legitimating myth.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis (1976) proved schools reproduce the class structure by preparing each social tier for corresponding workplace positions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 289: Innate Cognitive Ability -->
+        <section class="slide" id="slide-289">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Innate Cognitive Ability</h1>
+              <p class="flashcard-def">Assumes educational achievement reflects fixed, scientifically measurable biological intelligence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Cyril Burt claimed 80% of intelligence was inherited, but his fraudulent twin studies proved the danger of attributing educational failure to genetics.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 290: Cultural Capital &amp; Habitus -->
+        <section class="slide" id="slide-290">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Capital &amp; Habitus</h1>
+              <p class="flashcard-def">Assumes attainment reflects inherited linguistic fluency, family reading habits, and elite culture.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Alice Sullivan (2001) tested Bourdieu empirically, confirming that cultural capital (reading habits, museum visits) directly boosts GCSE performance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 291: Cognitive Meritocracy -->
+        <section class="slide" id="slide-291">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧬</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cognitive Meritocracy</h1>
+              <p class="flashcard-def">Schooling identifies innate biological intelligence and fairly allocates high-IQ individuals to executive careers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Young (1958, &#039;The Rise of the Meritocracy&#039;) warned that a pure cognitive meritocracy (IQ + Effort = Success) creates a ruthless, complacent elite.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 292: Home Material Poverty -->
+        <section class="slide" id="slide-292">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏚️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Home Material Poverty</h1>
+              <p class="flashcard-def">Direct economic barriers within the domestic household that cripple health, physical vitality, and daily study conditions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Douglas (1964) and Marilyn Howard (2001) showed material deprivation (poor diet, cramped housing, lack of books) directly damages working-class attainment.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 293: Institutional Disinvestment -->
+        <section class="slide" id="slide-293">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏫</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Institutional Disinvestment</h1>
+              <p class="flashcard-def">Systemic underfunding within state schools serving working-class communities, degrading pedagogical quality.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Diane Reay (1998) showed schools in working-class neighborhoods suffer institutional disinvestment, higher teacher turnover, and inferior facilities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 294: Immediate Gratification -->
+        <section class="slide" id="slide-294">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Immediate Gratification</h1>
+              <p class="flashcard-def">Prioritizing instant earnings and early independence over prolonged, uncertain educational credential pathways.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Barry Sugarman (1970) claimed working-class subculture favors immediate gratification (seeking pleasure now rather than sacrificing for future exam success).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 295: Deferred Gratification -->
+        <section class="slide" id="slide-295">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏳</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Deferred Gratification</h1>
+              <p class="flashcard-def">Sacrificing immediate income and leisure for long-term credentials, professional status, and lucrative careers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Barry Sugarman (1970) argued middle-class subculture emphasizes deferred gratification: putting in long hours of study for long-term career payoff.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 296: Working-class Intimidation -->
+        <section class="slide" id="slide-296">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚪</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Working-class Intimidation</h1>
+              <p class="flashcard-def">Working-class parents feel silenced by professional jargon, middle-class teacher habitus (deeply ingrained class-based habits, manners, and worldviews acquired through socialisation (the lifelong process of learning culture, values, and norms)), and tokenistic school consultation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Diane Reay (1998) showed working-class parents often feel intimidated by middle-class school environments and teachers&#039; professional jargon.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 297: Middle-class Intervention -->
+        <section class="slide" id="slide-297">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩‍💼</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Middle-class Intervention</h1>
+              <p class="flashcard-def">Educated mothers aggressively intervene in school tracking, asserting parental rights and securing institutional advantages.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stephen Ball (2003) showed middle-class parents act as skilled &#039;school choosers&#039; who actively intervene with headteachers to secure top streams.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 298: Elaborated Code -->
+        <section class="slide" id="slide-298">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Elaborated Code</h1>
+              <p class="flashcard-def">Formal, grammatically explicit middle-class language used in exams and textbooks</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Basil Bernstein (1971) identified the elaborated speech code: grammatically complex, context-free language used by teachers and required by exam boards.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 299: Self-negating Prophecy -->
+        <section class="slide" id="slide-299">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✊</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Self-negating Prophecy</h1>
+              <p class="flashcard-def">Pupils reject unfair teacher stereotypes, channeling indignation into dedicated revision to disprove teacher expectations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Margaret Fuller (1984) studied Black girls in a London comprehensive who rejected negative teacher labelling and worked hard to achieve academic success.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 300: Top-stream Enrichment -->
+        <section class="slide" id="slide-300">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌟</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Top-stream Enrichment</h1>
+              <p class="flashcard-def">Enriched classroom pedagogy that prepares middle-class pupils for advanced exams, critical thinking, and elite universities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stephen Ball (1981, &#039;Beachside Comprehensive&#039;) showed teachers teach top streams enthusiastically, giving them enriched, conceptual high-status knowledge.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 301: Bottom-stream Rationing -->
+        <section class="slide" id="slide-301">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔒</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Bottom-stream Rationing</h1>
+              <p class="flashcard-def">Restricted, basic curricula designed for control rather than excellence, locking working-class pupils out of higher qualifications.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Nell Keddie (1971) proved teachers ration knowledge, withholding abstract theoretical concepts from bottom-stream pupils deemed incapable.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 302: Academic Conformity -->
+        <section class="slide" id="slide-302">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Academic Conformity</h1>
+              <p class="flashcard-def">Embracing school academic values, obeying teachers, and pursuing qualifications to achieve meritocratic social mobility.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Hargreaves (1967, &#039;Social Relations in a Secondary School&#039;) showed high-stream boys form pro-school subcultures centered on academic conformity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 303: Subcultural Inversion -->
+        <section class="slide" id="slide-303">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Subcultural Inversion</h1>
+              <p class="flashcard-def">Flipping school values upside-down so that disruptive, anti-academic behavior confers street credibility and peer respect.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Hargreaves (1967) and Colin Lacey (1970) showed bottom-stream boys invert school values, gaining peer status through bad behavior and truancy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 304: Ingratiation -->
+        <section class="slide" id="slide-304">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Ingratiation</h1>
+              <p class="flashcard-def">A pupil adaptation strategy where students actively seek teacher favor and conform enthusiastically to school expectations to gain advantages.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Woods (1979) identified &#039;ingratiation&#039;: pupils who eagerly seek teacher favor, conforming obsessively to gain maximum academic rewards.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 305: Compliance -->
+        <section class="slide" id="slide-305">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Compliance</h1>
+              <p class="flashcard-def">A pupil adaptation strategy where students pragmatically conform to school rules and do schoolwork purely to pass exams and avoid trouble, without genuinely internalizing the school ethos.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Woods (1979) identified &#039;compliance&#039;: pupils who conform to school rules not out of genuine love for learning, but simply to avoid disciplinary sanctions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 306: Opportunism -->
+        <section class="slide" id="slide-306">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Opportunism</h1>
+              <p class="flashcard-def">Fluctuating between peer banter and teacher pleasing</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Woods (1979) identified &#039;opportunism&#039;: pupils who strategically switch between conforming to teachers and indulging peer fun depending on the situation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 307: Ritualism -->
+        <section class="slide" id="slide-307">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Ritualism</h1>
+              <p class="flashcard-def">A pupil adaptation strategy identified by Robert Merton and school ethnographers where students mechanically follow rules and attend lessons without caring about academic success.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Woods (1979) identified &#039;ritualism&#039;: pupils who go through the motions of school attendance and homework without any deep enthusiasm or ambition.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 308: Retreatment -->
+        <section class="slide" id="slide-308">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Retreatment</h1>
+              <p class="flashcard-def">A pupil adaptation strategy where students mentally withdraw from the school environment into daydreaming without actively rebelling.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Woods (1979) identified &#039;retreatment&#039;: pupils who daydream, switch off mentally, and disengage from both teachers and subcultural rebellion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 309: Rebellion -->
+        <section class="slide" id="slide-309">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Rebellion</h1>
+              <p class="flashcard-def">Complete rejection of school goals and authority in favor of peer counter-culture</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Woods (1979) identified &#039;rebellion&#039;: pupils who reject school goals and means entirely, establishing an overt counter-school culture.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 310: Individual Racial Prejudice -->
+        <section class="slide" id="slide-310">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👤</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Individual Racial Prejudice</h1>
+              <p class="flashcard-def">Overt, conscious racial slurs, bullying, or individual malice committed by individual teachers or peers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Cecile Wright (1992) documented individual teacher prejudice: Asian girls were stereotyped as quiet and submissive, while Black boys were seen as aggressive.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 311: Institutional Racism -->
+        <section class="slide" id="slide-311">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Institutional Racism</h1>
+              <p class="flashcard-def">Routine organizational procedures and policies that systematically lock ethnic minorities into lower attainment tracks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Gillborn (2008, &#039;Conspiracy?&#039;) proved institutional racism exists in education through marketisation policies, tiered examination entry, and ethnocentric curricula.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 312: Linguistic Deficit Myth -->
+        <section class="slide" id="slide-312">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">❌</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Linguistic Deficit Myth</h1>
+              <p class="flashcard-def">Claims that working-class and Black youth communicate in broken, ungrammatical patois that stunts abstract thinking.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> William Labov (1972) disproved linguistic deficit theory, showing African American Vernacular English is logically structured and complex, not deficient.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 313: Linguistic Equality -->
+        <section class="slide" id="slide-313">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✅</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Linguistic Equality</h1>
+              <p class="flashcard-def">Demonstrates that Black English Vernacular is a sophisticated, highly structured linguistic system with complex grammar.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Trudgill and sociolinguists prove all linguistic dialects are structurally equal; schools arbitrarily privilege standard English as a cultural marker of power.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 314: Teacher Deficit Stereotypes -->
+        <section class="slide" id="slide-314">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏷️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Teacher Deficit Stereotypes</h1>
+              <p class="flashcard-def">Teacher assumptions that Black female pupils are unacademic, uncooperative, and destined for low-tier manual jobs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Bernard Coard (1971) exposed how British schools stereotyped West Indian pupils, disproportionately shunting them into &#039;educationally subnormal&#039; schools.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 315: Mirza&#039;s Strategic Reality -->
+        <section class="slide" id="slide-315">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩🏾‍🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Mirza&#039;s Strategic Reality</h1>
+              <p class="flashcard-def">Black girls deploy tactical resistance, circumventing biased teachers through peer study groups and Saturday Schools.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Heidi Safia Mirza (1992, &#039;Young, Female and Black&#039;) showed Black girls adopted strategic strategies to avoid racist teachers without disengaging from academic ambition.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 316: Overt Interpersonal Racism -->
+        <section class="slide" id="slide-316">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Overt Interpersonal Racism</h1>
+              <p class="flashcard-def">Direct, intentional verbal abuse, racist slurs, harassment, or physical discrimination committed by one individual against another based on their ethnic background.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Cecile Wright (1992) documented how teachers displayed overt interpersonal racism by openly mispronouncing Asian names and expressing disapproval of customs.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 317: Pro-school Acceptors -->
+        <section class="slide" id="slide-317">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Pro-school Acceptors</h1>
+              <p class="flashcard-def">Black pupils who consciously or unconsciously adopt school norms to secure high grades and social mobility.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tony Sewell (1997, &#039;Black Masculinities and Schooling&#039;) identified the &#039;conformists&#039;: the largest group of Black boys who accepted school values and worked hard.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 318: Anti-school Resistors -->
+        <section class="slide" id="slide-318">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Anti-school Resistors</h1>
+              <p class="flashcard-def">Pupils who reject racist teacher authority and white institutional culture, seeking status through street masculinity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tony Sewell (1997) identified the &#039;rebels&#039;: a visible minority of Black boys who embraced street culture and openly rejected school authority.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 319: The Survivors&#039; Camouflage -->
+        <section class="slide" id="slide-319">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📖</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Survivors&#039; Camouflage</h1>
+              <p class="flashcard-def">Pro-school pupils who deliberately play into quiet, docile Asian stereotypes to avoid confrontation and achieve top grades.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Heidi Safia Mirza (1992) showed ambitious minority pupils often camouflage their academic focus to avoid both peer ridicule and teacher scrutiny.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 320: The Gang&#039;s Confrontation -->
+        <section class="slide" id="slide-320">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🥊</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Gang&#039;s Confrontation</h1>
+              <p class="flashcard-def">Anti-school subcultural group asserting Asian identity, challenging white bullying, and refusing to tolerate racial injustice.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tony Sewell (1997) showed that anti-school Black boys formed peer groups to confront teacher racism, mirroring Macho Lads subcultures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 321: Marxist Class Primacy -->
+        <section class="slide" id="slide-321">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Marxist Class Primacy</h1>
+              <p class="flashcard-def">Argues economic class is the single fundamental cause of educational inequality, viewing race as a secondary symptom of capitalism.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Bowles &amp; Herbert Gintis argue social class is the primary structural determinant of educational attainment, overarching ethnicity and gender.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 322: Intersectional Matrix Model -->
+        <section class="slide" id="slide-322">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧩</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Intersectional Matrix Model</h1>
+              <p class="flashcard-def">Argues class, ethnicity, and gender operate as interacting systems of power that cannot be understood in isolation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kimberlé Crenshaw (1989) and Heidi Mirza showed class, gender, and ethnicity intersect simultaneously to create unique matrices of educational disadvantage.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 323: Domestic Socialisation -->
+        <section class="slide" id="slide-323">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏠</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Domestic Socialisation</h1>
+              <p class="flashcard-def">Social conditioning directing young women toward domestic duties, marriage, motherhood, and economic reliance on male wages.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Fiona Norman (1988) showed parents socialise girls into domestic, passive roles, while boys are encouraged to be adventurous and physically active.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 324: Career Femininities -->
+        <section class="slide" id="slide-324">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Career Femininities</h1>
+              <p class="flashcard-def">Primary socialisation (early childhood learning of language, morals, and identity within the family) promoting educational credentials as essential safeguards for career autonomy and financial self-reliance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sue Sharpe (1994) showed girls&#039; priorities shifted from love, marriage, and husbands in 1976 to careers, jobs, and financial self-sufficiency by the 1990s.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 325: Modular Coursework -->
+        <section class="slide" id="slide-325">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📑</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Modular Coursework</h1>
+              <p class="flashcard-def">Evaluation based on sustained independent research, multiple drafts, and neat organizational presentation over time.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Mitsos &amp; Browne (1998) argued girls outshine boys in modular coursework because of greater organizational skills, sustained application, and neatness.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 326: Terminal Examinations -->
+        <section class="slide" id="slide-326">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏱️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Terminal Examinations</h1>
+              <p class="flashcard-def">End-of-course timed examinations prioritizing rapid memory recall, risk-taking, and crisis performance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Educational sociologists note that shifting from continuous coursework back to high-stakes terminal exams favored male risk-taking over female diligence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 327: &#039;Mere Diligence&#039; -->
+        <section class="slide" id="slide-327">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✍️</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">&#039;Mere Diligence&#039;</h1>
+              <p class="flashcard-def">Teacher explanations that attribute female academic success entirely to passive compliance, neat folders, and revision drills.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Becky Francis (2000) showed teachers dismiss girls&#039; high academic achievement as &#039;mere diligence&#039; while attributing male underachievement to &#039;untapped genius&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 328: &#039;Innate Ability&#039; -->
+        <section class="slide" id="slide-328">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">&#039;Innate Ability&#039;</h1>
+              <p class="flashcard-def">Teacher explanations that attribute male performance to natural cognitive intellect, raw brilliance, and effortless spark.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Becky Francis (2000) showed educational stereotypes associate boys with raw &#039;innate ability&#039;, pardoning their lack of effort while undervaluing hard-working girls.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 329: Industrial Manual Economy -->
+        <section class="slide" id="slide-329">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Industrial Manual Economy</h1>
+              <p class="flashcard-def">Heavy industrial economy offering abundant manual jobs requiring physical labor, guaranteeing working-class male breadwinner status without exams.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Māirín Mac an Ghaill (1994) documented how the collapse of the industrial manual economy stripped traditional working-class boys of their guaranteed breadwinner jobs.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 330: Post-industrial Knowledge Economy -->
+        <section class="slide" id="slide-330">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💻</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Post-industrial Knowledge Economy</h1>
+              <p class="flashcard-def">Service and knowledge economy requiring formal credentials, literacy, emotional labor, and digital proficiency.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sociologists note the modern service and knowledge economy rewards communication skills, emotional intelligence, and credentials, giving girls an advantage.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 331: The Boffin Formations -->
+        <section class="slide" id="slide-331">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📚</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Boffin Formations</h1>
+              <p class="flashcard-def">Pupils who embrace school rules, homework rituals, and teacher authority, seeking social mobility through institutional conformity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louise Archer (2010) identified &#039;boffin&#039; subcultures: middle-class pupils who embrace intellectual and academic excellence as their core identity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 332: New Wave Girls &amp; Mod Boys -->
+        <section class="slide" id="slide-332">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">New Wave Girls &amp; Mod Boys</h1>
+              <p class="flashcard-def">Pupils who succeed academically while actively rejecting school authority, sexist double standards, and institutional rituals.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Māirín Mac an Ghaill (1994) identified the &#039;New Enterprising&#039; girls and &#039;Real Englishmen&#039; who negotiated academic success without losing peer coolness.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 333: Working-class Laddism -->
+        <section class="slide" id="slide-333">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧢</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Working-class Laddism</h1>
+              <p class="flashcard-def">Total immersion in anti-school laddish defiance without home academic support, producing severe examination failure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Carolyn Jackson (2006, &#039;Lads and Ladettes&#039;) showed boys adopt &#039;laddish&#039; anti-work attitudes to protect self-esteem from fear of academic failure.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 334: Middle-class Secret Study -->
+        <section class="slide" id="slide-334">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🤫</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Middle-class Secret Study</h1>
+              <p class="flashcard-def">Performing cool laddish nonchalance in school corridors while secretly completing intensive revision and tutoring at home.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Carolyn Jackson (2006) showed middle-class boys maintain an effortless laddish exterior in public while secretly studying hard at home.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 335: Pro-education Girls -->
+        <section class="slide" id="slide-335">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Pro-education Girls</h1>
+              <p class="flashcard-def">Pupil subcultures where female students prioritize academic achievement, revision, and university entry while navigating peer relationships.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sue Sharpe (1994) and Becky Francis showed modern pro-education girls view academic qualifications as essential insurance against male dependence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 336: Anti-education Girls -->
+        <section class="slide" id="slide-336">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎓</div>
+            <div class="flashcard theme-5" style="background: #D97706 !important;">
+              <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Anti-education Girls</h1>
+              <p class="flashcard-def">Pupil subcultures identified in sociological research where girls openly reject academic values and school authority in favor of peer status.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louise Archer (2010) showed working-class girls invest in hyper-heterosexual branded identities, clashing with school rules and rejecting academic paths.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 337: CHAPTER 6 DIVIDER -->
+      <section class="slide" id="slide-337">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">🌐</div>
+          <div class="flashcard theme-6" style="background: #0D9488 !important;">
+            <div class="card-pill">CHAPTER 06 • PAPER 4</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Globalisation</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Dimensions of Globalisation • Modernisation vs Dependency Theory • World Systems Theory • Cultural Homogenisation &amp; Glocalisation • Global Migration &amp; Transnational Crime</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 81 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 338: Symbolic Tokens &amp; Capital -->
+        <section class="slide" id="slide-338">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💳</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Symbolic Tokens &amp; Capital</h1>
+              <p class="flashcard-def">Detaching economic transactions and units of value from physical material objects and local bank vaults.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens (1990, &#039;The Consequences of Modernity&#039;) showed symbolic tokens (money, digital credit) enable disembedded global transactions across vast distances.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 339: Virtual Ties &amp; Cyberspace -->
+        <section class="slide" id="slide-339">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💻</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Virtual Ties &amp; Cyberspace</h1>
+              <p class="flashcard-def">Lifting human emotional and occupational ties out of physical communities into virtual networks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Howard Rheingold (1993, &#039;The Virtual Community&#039;) and Manuel Castells (1996) showed internet networks create global communities transcending geography.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 340: Cultural Homogenisation -->
+        <section class="slide" id="slide-340">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🇺🇸</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Homogenisation</h1>
+              <p class="flashcard-def">The worldwide diffusion of Western consumer capitalism leading to uniform global tastes and habits.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Ritzer (1993) and cultural imperialists argue global corporate media spreads Western consumer culture, wiping out distinctive local traditions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 341: Hybridity &amp; Resistance -->
+        <section class="slide" id="slide-341">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hybridity &amp; Resistance</h1>
+              <p class="flashcard-def">The active synthesis of global flows with indigenous traditions alongside movements of resistance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1992) and Homi Bhabha (1994) showed global flows produce cultural hybridity and creative resistance rather than passive homogenisation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 342: Simulacra -->
+        <section class="slide" id="slide-342">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📸</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Simulacra</h1>
+              <p class="flashcard-def">Copies or media representations that have no original in the physical world</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jean Baudrillard (1981, &#039;Simulacra and Simulation&#039;) argued postmodern media produces copies with no original reality (simulacra), replacing genuine culture.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 343: Hyperreality -->
+        <section class="slide" id="slide-343">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Hyperreality</h1>
+              <p class="flashcard-def">Baudrillard&#039;s concept of media simulations and images feeling more real than physical reality</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jean Baudrillard (1981) formulated hyperreality: a condition in which media representations become more real to viewers than the actual physical reality.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 344: Glocalisation -->
+        <section class="slide" id="slide-344">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌏</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Glocalisation</h1>
+              <p class="flashcard-def">Robertson&#039;s concept of global products being adapted to fit local cultural tastes</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Roland Robertson (1992, 1995) formulated &#039;glocalisation&#039;: global products and ideas are actively adapted to local cultural contexts (e.g. Maharaja Mac in India).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 345: Advanced Capitalist Core -->
+        <section class="slide" id="slide-345">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Advanced Capitalist Core</h1>
+              <p class="flashcard-def">Dominant industrialised states with high-skill production, massive capital reserves, and geopolitical authority.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Immanuel Wallerstein (1974, World Systems Theory) showed the Core (North America, Western Europe, Japan) exploits periphery nations through high-tech dominance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 346: Subordinate Periphery -->
+        <section class="slide" id="slide-346">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛏️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Subordinate Periphery</h1>
+              <p class="flashcard-def">Underdeveloped supplier regions locked in unequal dependency and low-wage primary extraction.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Immanuel Wallerstein (1974) showed the Periphery provides cheap raw materials, agricultural goods, and sweatshop labor to fuel Core capital accumulation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 347: The Emotional Care Drain -->
+        <section class="slide" id="slide-347">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💔</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Emotional Care Drain</h1>
+              <p class="flashcard-def">The severe emotional fragmentation suffered by migrant mothers and families separated across continents.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Arlie Russell Hochschild (2000) documented the global care drain: nannies migrate from poor nations to rich nations, depriving their own children of maternal care.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 348: Remittance Capital Flows -->
+        <section class="slide" id="slide-348">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💵</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Remittance Capital Flows</h1>
+              <p class="flashcard-def">The essential financial earnings remitted back to home communities, sustaining developing nation households.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Dilip Ratha (World Bank) showed migrant remittances send billions back to developing nations, exceeding total official foreign aid flows.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 349: Sceptical Paradigm -->
+        <section class="slide" id="slide-349">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛑</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Sceptical Paradigm</h1>
+              <p class="flashcard-def">Views globalisation as an exaggerated Western capitalist myth reinforcing regional economic divides and corporate dominance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Hirst &amp; Grahame Thompson (1999, &#039;Globalisation in Question&#039;) argued globalisation is an exaggerated myth; world trade remains dominated by regional national blocs.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 350: Transformationalist Paradigm -->
+        <section class="slide" id="slide-350">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Transformationalist Paradigm</h1>
+              <p class="flashcard-def">Views globalisation as an unprecedented, contradictory transformation creating cultural hybridity (the creative blending of two or more ethnic or cultural traditions into a new identity) and shared governance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Held et al. (1999, &#039;Global Transformations&#039;) argue globalisation is a transformative, unprecedented historical force restructuring world politics and society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 351: Cultural Imperialism -->
+        <section class="slide" id="slide-351">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🇺🇸</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Imperialism</h1>
+              <p class="flashcard-def">Arguments asserting that globalisation produces Western consumer uniformity and erodes indigenous identities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Herbert Schiller (1976) and John Tomlinson (1991) analyzed cultural imperialism: Western media conglomerates impose American values and consumerism globally.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 352: Glocalisation &amp; Agency -->
+        <section class="slide" id="slide-352">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Glocalisation &amp; Agency</h1>
+              <p class="flashcard-def">Evaluative evidence showing active local agency, cultural fusions, and conscious resistance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Roland Robertson (1995) and Arjun Appadurai (1996) argue local populations exercise active agency, reinterpreting global culture rather than submitting passively.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 353: Corporate Dominance -->
+        <section class="slide" id="slide-353">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛏️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Dominance</h1>
+              <p class="flashcard-def">Arguments demonstrating that globalisation primarily enriches Western elites and core corporations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Korten (1995, &#039;When Corporations Rule the World&#039;) exposed how transnational corporations hold greater economic power than sovereign nation-states.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 354: Development &amp; Rights -->
+        <section class="slide" id="slide-354">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Development &amp; Rights</h1>
+              <p class="flashcard-def">Evaluative evidence demonstrating widespread human development and supranational empowerment.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Amartya Sen (1999, &#039;Development as Freedom&#039;) argued true development requires expanding real human freedoms and rights, not merely increasing GDP.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 355: Globalist Openness -->
+        <section class="slide" id="slide-355">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Globalist Openness</h1>
+              <p class="flashcard-def">Economic, political, and cultural flows eroding sovereign physical borders and expanding cosmopolitan values.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kenichi Ohmae (1990, &#039;The Borderless World&#039;) celebrated hyper-globalism: a borderless world where trade, culture, and capital circulate freely without barriers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 356: Reactive Nationalism -->
+        <section class="slide" id="slide-356">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗳️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Reactive Nationalism</h1>
+              <p class="flashcard-def">Political counter-movements asserting strict border control, native priority, and national sovereignty.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Smith (1995) and Manuel Castells showed globalisation triggers reactive defensive nationalism as communities struggle to preserve endangered local identities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 357: Cultural Defence -->
+        <section class="slide" id="slide-357">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Defence</h1>
+              <p class="flashcard-def">Deploying religious institutions and traditions defensively to protect ethnic community identity from outside dominance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2002) showed religion functions as a cultural defence mechanism against perceived Western secular imperialist threats (e.g. Iranian Revolution).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 358: Religious Fundamentalism -->
+        <section class="slide" id="slide-358">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Religious Fundamentalism</h1>
+              <p class="flashcard-def">An aggressive ideological crusade demanding absolute scriptural literalism and theocratic control over modern society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens (1999) argued religious fundamentalism is a direct reaction against the uncertainties, pluralism, and moral fluidity of globalisation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 359: Assimilationist Expectation -->
+        <section class="slide" id="slide-359">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Assimilationist Expectation</h1>
+              <p class="flashcard-def">The conventional expectation that immigrant minorities must surrender ancestral cultures and adopt host norms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stephen Castles &amp; Mark Miller (2009) critiqued the assimilationist model that demands migrants abandon home cultures and blend entirely into host nations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 360: Hybrid Pluralism -->
+        <section class="slide" id="slide-360">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Hybrid Pluralism</h1>
+              <p class="flashcard-def">The post-colonial reality where citizens blend cultural repertoires, creating dynamic new identities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tariq Modood (2007) and Stuart Hall advocated hybrid pluralism: celebrating diverse multi-ethnic identities within shared democratic civic institutions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 361: Millennia of Divergence -->
+        <section class="slide" id="slide-361">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏹</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Millennia of Divergence</h1>
+              <p class="flashcard-def">The epoch where geographical isolation drove early human bands to develop wildly diverse, localized cultures.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Goran Therborn (2000) showed world history was characterized by millennia of cultural and civilizational divergence before modern global convergence.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 362: Era of Convergence -->
+        <section class="slide" id="slide-362">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Era of Convergence</h1>
+              <p class="flashcard-def">The contemporary epoch where commerce and digital networks bind humanity into a single shared space.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jan Aart Scholte (2000) documented the modern era of convergence: global communications, jet travel, and international law integrating disparate societies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 363: Mcdonaldisation -->
+        <section class="slide" id="slide-363">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🍟</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Mcdonaldisation</h1>
+              <p class="flashcard-def">Extending bureaucratic rationalisation to consumer sectors, creating uniform, predictable, and deskilled experiences.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Ritzer (1993, &#039;The McDonaldization of Society&#039;) identified 4 principles of modern global bureaucracy: efficiency, calculability, predictability, and control.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 364: Disneyisation -->
+        <section class="slide" id="slide-364">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏰</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Disneyisation</h1>
+              <p class="flashcard-def">Restructuring consumer institutions around theme park principles of narrative theming, spectacle, and fun.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Alan Bryman (2004, &#039;The Disneyization of Society&#039;) identified 4 characteristics: theming, hybrid consumption, merchandising, and performative emotional labor.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 365: Corporate Uniformity -->
+        <section class="slide" id="slide-365">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🇺🇸</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Uniformity</h1>
+              <p class="flashcard-def">Arguments asserting that global corporate capitalism imposes American consumerism and destroys cultural diversity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Naomi Klein (2000, &#039;No Logo&#039;) documented how multinational corporate chains create homogeneous &#039;blandscapes&#039; in shopping malls across the globe.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 366: Cultural Creativity -->
+        <section class="slide" id="slide-366">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Creativity</h1>
+              <p class="flashcard-def">Evaluative evidence showing active local filtering, hybrid cultural innovation, and counter-flows.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Arjun Appadurai (1996) showed cultural globalisation fosters immense cultural creativity, producing new hybrid genres in world music, cinema, and fashion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 367: Erosion of Nationhood -->
+        <section class="slide" id="slide-367">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Erosion of Nationhood</h1>
+              <p class="flashcard-def">Arguments that transnational flows and supranational governance dissolve traditional place-based national identities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Susan Strange (1996, &#039;The Retreat of the State&#039;) argued global finance capital and multinational corporations have eroded the sovereign power of the nation-state.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 368: Populist Assertiveness -->
+        <section class="slide" id="slide-368">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🗳️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Populist Assertiveness</h1>
+              <p class="flashcard-def">Evaluative evidence showing that globalization stimulates fierce reactive nationalism and boundary-building.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pippa Norris &amp; Ronald Inglehart (2019, &#039;Cultural Backlash&#039;) showed working-class communities displaced by globalisation fuel populist political movements.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 369: Democratic Diffusion -->
+        <section class="slide" id="slide-369">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕊️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Democratic Diffusion</h1>
+              <p class="flashcard-def">The hyperglobalist view that free markets, digital networks, and universal human rights treaties inevitably foster liberal governance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Samuel Huntington (1991, &#039;The Third Wave&#039;) and Francis Fukuyama argued global media and satellite TV spread democratic norms and human rights worldwide.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 370: Authoritarian Capitalism -->
+        <section class="slide" id="slide-370">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Authoritarian Capitalism</h1>
+              <p class="flashcard-def">Sovereign states that fully integrate into global capitalist markets while maintaining autocratic, illiberal political regimes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Slavoj Žižek and critical theorists point out that modern China and Russia prove capitalism can flourish under authoritarian regimes without Western democracy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 371: Anti-neoliberal Critique -->
+        <section class="slide" id="slide-371">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✊</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Anti-neoliberal Critique</h1>
+              <p class="flashcard-def">Moral and economic mobilisations against unconstrained corporate dominance, environmental degradation, and loss of local democratic sovereignty.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Harvey (2005, &#039;A Brief History of Neoliberalism&#039;) showed neoliberal deregulation and privatization systematically concentrate wealth among global elites.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 372: Movement Contradictions -->
+        <section class="slide" id="slide-372">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔍</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Movement Contradictions</h1>
+              <p class="flashcard-def">Scholarly evaluations identifying strategic inconsistencies, loose coordination, and unintended consequences within the movement.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Naomi Klein (2000) noted anti-globalisation movements use the very tools of globalisation (the internet, global summits, social media) to coordinate protests.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 373: Multi-directional Pluralism -->
+        <section class="slide" id="slide-373">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Multi-directional Pluralism</h1>
+              <p class="flashcard-def">The bottom-up emergence of decentralized cultural fusions, indigenous agency, and powerful non-Western contra-flows.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Arjun Appadurai (1996) argued global cultural flows are multi-directional (e.g. K-pop, Bollywood, Nollywood, Japanese anime spreading to the West).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 374: The Borderless Market -->
+        <section class="slide" id="slide-374">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Borderless Market</h1>
+              <p class="flashcard-def">The celebratory model asserting that frictionless capital mobility empowers global consumers and unlocks unprecedented prosperity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kenichi Ohmae (1990) envisioned a friction-free borderless world where consumers, capital, and corporations move across national boundaries unimpeded.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 375: Corporate State Capture -->
+        <section class="slide" id="slide-375">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛢️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate State Capture</h1>
+              <p class="flashcard-def">The coercive reality where mega-corporations subordinate sovereign governments, exploit labor, and devastate local ecologies.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Monbiot (2000, &#039;Captive State&#039;) exposed how transnational corporate lobbyists capture government regulatory agencies, weakening public welfare.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 376: Supranational Governance -->
+        <section class="slide" id="slide-376">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Supranational Governance</h1>
+              <p class="flashcard-def">The transfer of legislative and executive authority upward to regional and international supranational institutions.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Held (1995, &#039;Cosmopolitan Democracy&#039;) argued transnational challenges require supranational governance institutions (UN, EU, WTO, ICC).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 377: Regional Devolution -->
+        <section class="slide" id="slide-377">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📍</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Regional Devolution</h1>
+              <p class="flashcard-def">The decentralization of fiscal and administrative powers downward to sub-national parliaments and local communities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Manuel Castells (1997) noted globalisation paradoxically drives regional devolution (e.g. Scotland, Catalonia) as citizens seek closer local democratic control.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 378: The Withering State -->
+        <section class="slide" id="slide-378">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Withering State</h1>
+              <p class="flashcard-def">The thesis that frictionless capital markets and digital networks have rendered traditional sovereign governments obsolete.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kenichi Ohmae argued the nation-state is withering away as global markets, multinational corporations, and supranational agencies strip its economic sovereignty.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 379: The Resilient State -->
+        <section class="slide" id="slide-379">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Resilient State</h1>
+              <p class="flashcard-def">The counter-thesis that nation-states remain the indispensable foundation of law, property rights, and market stability.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Linda Weiss (1998, &#039;The Myth of the Powerless State&#039;) proved the state remains resilient, actively shaping industrial policies, tax regimes, and border security.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 380: Communicable Illness -->
+        <section class="slide" id="slide-380">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🦟</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Communicable Illness</h1>
+              <p class="flashcard-def">Infectious waterborne and airborne illnesses historically driving high mortality across low-income developing nations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Medical sociologists note global air travel accelerates the rapid cross-border spread of communicable pandemics (e.g. COVID-19, SARS, Ebola).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 381: Diseases of Affluence -->
+        <section class="slide" id="slide-381">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🍔</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Diseases of Affluence</h1>
+              <p class="flashcard-def">Non-communicable chronic conditions exported worldwide alongside Western industrial diets and sedentary lifestyles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens and health sociologists note globalisation exports Western sedentary lifestyles and fast food, spreading chronic diseases (diabetes, cardiovascular illness).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 382: Neoliberal Modernisation -->
+        <section class="slide" id="slide-382">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Neoliberal Modernisation</h1>
+              <p class="flashcard-def">The policy claim that fiscal discipline, free markets, and deregulation cure corruption and generate sustainable prosperity.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Walter Rostow (1960) and World Bank neoliberals argued adopting free markets and foreign direct investment is the essential route to modernization.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 383: Structural Devastation -->
+        <section class="slide" id="slide-383">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Devastation</h1>
+              <p class="flashcard-def">The documented sociological consequence of welfare retrenchment, mass unemployment, and public asset stripping.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Andre Gunder Frank (1971) and structuralists argue IMF Structural Adjustment Programmes devastated healthcare and education budgets in the Global South.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 384: Participatory Agility -->
+        <section class="slide" id="slide-384">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🩺</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Participatory Agility</h1>
+              <p class="flashcard-def">Flexible civil society interventions working directly with impoverished communities, bypassing corrupt state bureaucracies.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Manuel Castells (2012, &#039;Networks of Outrage and Hope&#039;) showed grassroots social movements use digital agility to organize without formal hierarchical parties.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 385: Accountability Deficit -->
+        <section class="slide" id="slide-385">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚠️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Accountability Deficit</h1>
+              <p class="flashcard-def">Ethical failures, executive inflation, and ideological co-optation compromising the moral legitimacy of global NGOs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Joseph Stiglitz (2002, &#039;Globalization and Its Discontents&#039;) exposed the democratic accountability deficit of unelected global bodies like the IMF and WTO.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 386: Corporate Exploitation -->
+        <section class="slide" id="slide-386">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">☣️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Exploitation</h1>
+              <p class="flashcard-def">The extraction of natural resources, environmental degradation, and farmgate price exploitation by unaccountable global multinationals.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Joel Bakan (2004, &#039;The Corporation&#039;) analyzed the corporation as a legally pathological entity programmed to externalize social costs and exploit sweatshop labor.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 387: Fdi Modernisation -->
+        <section class="slide" id="slide-387">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚀</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Fdi Modernisation</h1>
+              <p class="flashcard-def">The view that TNCs act as indispensable catalysts of capital investment, formal wage employment, and technological innovation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jeffrey Sachs (2005, &#039;The End of Poverty&#039;) argued foreign direct investment (FDI) provides the vital capital injection needed to lift developing nations out of poverty.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 388: Internal Deficit Model -->
+        <section class="slide" id="slide-388">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Internal Deficit Model</h1>
+              <p class="flashcard-def">Blames poverty on internal traditional cultural fatalism, low capital savings, weak technology, and unscientific values.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Walter Rostow (1960, Modernisation Theory) blamed traditional cultural values, fatalism, and lack of entrepreneurship for poverty in developing nations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 389: External Exploitation Model -->
+        <section class="slide" id="slide-389">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">External Exploitation Model</h1>
+              <p class="flashcard-def">Blames poverty on external imperial conquest, unequal terms of trade, and systematic surplus extraction by Western core nations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Andre Gunder Frank (1971, Dependency Theory) proved the Global South was actively underdeveloped through centuries of Western colonial exploitation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 390: 1951 Convention Refugees -->
+        <section class="slide" id="slide-390">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛂</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">1951 Convention Refugees</h1>
+              <p class="flashcard-def">Persons forced across sovereign borders due to well-founded fear of persecution, conflict, or violence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> The 1951 UN Refugee Convention defined refugees as individuals fleeing a well-founded fear of persecution based on race, religion, nationality, or political opinion.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 391: Internally Displaced -->
+        <section class="slide" id="slide-391">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛺</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Internally Displaced</h1>
+              <p class="flashcard-def">Persons displaced by warfare or environmental disasters who remain trapped within home country borders.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> The UNHCR distinguishes refugees (who cross international borders) from internally displaced persons (IDPs) forced from homes within their own country.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 392: 19th-century Urbanisation -->
+        <section class="slide" id="slide-392">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">19th-century Urbanisation</h1>
+              <p class="flashcard-def">Labor-intensive factory manufacturing systematically absorbed incoming rural agricultural workers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Friedrich Engels (1845) documented how industrial factory jobs drove rapid, unplanned urbanization in 19th-century Manchester and European cities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 393: Fragmented Megacity Growth -->
+        <section class="slide" id="slide-393">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏚️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Fragmented Megacity Growth</h1>
+              <p class="flashcard-def">Rapid demographic migration occurs without matching formal industrial job creation or civic infrastructure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Mike Davis (2006, &#039;Planet of Slums&#039;) documented modern fragmented megacity growth: 1 billion urban dwellers living in sprawling, informal shantytowns.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 394: Militarized Border Control -->
+        <section class="slide" id="slide-394">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛑</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Militarized Border Control</h1>
+              <p class="flashcard-def">State deployment of biometric barriers, deportations, and physical walls to enforce sovereign demographic selection.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Wendy Brown (2010, &#039;Walled States, Waning Sovereignty&#039;) showed modern nation-states erect militarized border walls as a theatrical display of declining sovereignty.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 395: Structural Labour Demand -->
+        <section class="slide" id="slide-395">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💼</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Labour Demand</h1>
+              <p class="flashcard-def">Advanced capitalist economies fundamentally require steady flows of low-cost, flexible labor to remain solvent.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Piore (1979, &#039;Dual Labour Market Theory&#039;) showed advanced capitalist economies have an insatiable structural demand for cheap, flexible migrant labor.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 396: Immigration -->
+        <section class="slide" id="slide-396">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Immigration</h1>
+              <p class="flashcard-def">The movement of people into a foreign country or region with the intention of settling permanently, creating diverse multi-ethnic societies and transnational ties.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stephen Castles &amp; Mark Miller (2009, &#039;The Age of Migration&#039;) showed immigration revitalizes aging Western populations and fills crucial labor market gaps.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 397: Emigration -->
+        <section class="slide" id="slide-397">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Emigration</h1>
+              <p class="flashcard-def">The permanent departure of individuals from their country of origin to settle in another nation, driven by economic or political push factors.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sociologists study emigration: the movement of individuals leaving their home countries in search of security, education, or higher economic wages abroad.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 398: Transnational Cultural Capital -->
+        <section class="slide" id="slide-398">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎻</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Transnational Cultural Capital</h1>
+              <p class="flashcard-def">Elite qualifications, language fluency, and global credentials</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peggy Levitt (2001, &#039;The Transnational Villagers&#039;) showed migrants acquire transnational cultural capital and &#039;social remittances&#039; connecting two homelands.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 399: Commercial Enclave Tourism -->
+        <section class="slide" id="slide-399">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏨</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Commercial Enclave Tourism</h1>
+              <p class="flashcard-def">Packaged resort enclaves that isolate tourists within Western-styled bubbles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> John Urry (1990, &#039;The Tourist Gaze&#039;) showed multinational travel corporations create gated, all-inclusive resort enclaves insulating tourists from local poverty.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 400: The Postmodern Authentic Quest -->
+        <section class="slide" id="slide-400">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎒</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Postmodern Authentic Quest</h1>
+              <p class="flashcard-def">Individualized travel seeking uncommercialized, pristine cultural and ecological encounters.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Dean MacCannell (1976, &#039;The Tourist&#039;) argued modern tourists embark on an endless, staged quest for authentic, uncommodified cultural experiences.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 401: The &#039;Brain Drain&#039; -->
+        <section class="slide" id="slide-401">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Brain Drain&#039;</h1>
+              <p class="flashcard-def">The selective loss of highly skilled doctors, educators, and engineers to high-income states.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Collier (2013, &#039;Exodus&#039;) analyzed the brain drain: poor nations lose their top doctors, engineers, and teachers to high-paying Western economies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 402: Remittance Lifelines -->
+        <section class="slide" id="slide-402">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💵</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Remittance Lifelines</h1>
+              <p class="flashcard-def">Direct financial cash transfers sent home by overseas workers to family households.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Dilip Ratha (World Bank) showed financial remittances sent home by migrant workers serve as crucial lifelines for food, housing, and schooling.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 403: Macro Determinism -->
+        <section class="slide" id="slide-403">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Macro Determinism</h1>
+              <p class="flashcard-def">Migration flows are determined and restricted by overarching capitalist and geopolitical structures.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Immanuel Wallerstein&#039;s World Systems Theory exemplifies macro determinism: structural global economic positions strictly dictate national development.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 404: Micro Human Agency -->
+        <section class="slide" id="slide-404">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚶</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Micro Human Agency</h1>
+              <p class="flashcard-def">Migrants act as active social agents calculating risks, mobilizing networks, and negotiating borders.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Anthony Giddens&#039; Structuration Theory emphasizes micro human agency: individuals actively negotiate, resist, and reshape global structural pressures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 405: Territorial Ethnic Mafias -->
+        <section class="slide" id="slide-405">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕴️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Territorial Ethnic Mafias</h1>
+              <p class="flashcard-def">Hierarchical organizations rooted in family kinship, ethnic loyalty, and local protection rackets.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Diego Gambetta (1993, &#039;The Sicilian Mafia&#039;) analyzed traditional territorial ethnic mafias whose power relies on physical violence and local protection rackets.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 406: Glenny&#039;s &#039;Mcmafia&#039; Franchises -->
+        <section class="slide" id="slide-406">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Glenny&#039;s &#039;Mcmafia&#039; Franchises</h1>
+              <p class="flashcard-def">Flexible, non-ideological networks linking local retail distribution into global commodity chains.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Misha Glenny (2008, &#039;McMafia&#039;) showed transnational criminal syndicates operate like global corporate franchises, trading in drugs, arms, and laundering money.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 407: Human Trafficking -->
+        <section class="slide" id="slide-407">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Human Trafficking</h1>
+              <p class="flashcard-def">Recruitment and movement of individuals through force, fraud, or deception for continuous commercial exploitation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Kevin Bales (1999, &#039;Disposable People&#039;) exposed modern human trafficking: criminal exploitation of vulnerable migrants through forced labor and debt bondage.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 408: People Smuggling -->
+        <section class="slide" id="slide-408">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚤</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">People Smuggling</h1>
+              <p class="flashcard-def">A commercial fee-paid service where a facilitator assists a migrant in crossing an international border illegally.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Criminologists distinguish consensual people smuggling (commercial border crossing services) from human trafficking (coercive, ongoing exploitation).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 409: Corporate &amp; Tnc Crime -->
+        <section class="slide" id="slide-409">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏢</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate &amp; Tnc Crime</h1>
+              <p class="flashcard-def">Illegal or harmful acts committed by powerful corporations and executives to expand profits.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Frank Pearce (1976, &#039;Crimes of the Powerful&#039;) showed transnational corporate crimes (tax avoidance, pollution, safety violations) cause greater harm than street crime.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 410: Conventional Street Crime -->
+        <section class="slide" id="slide-410">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👮</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Conventional Street Crime</h1>
+              <p class="flashcard-def">Individual property and violent offenses committed primarily by socioeconomically marginalized offenders.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Left realists (Lea &amp; Young, 1984) argue street crime should not be romanticized; it causes devastating harm to vulnerable working-class victims.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 411: Mcmafia -->
+        <section class="slide" id="slide-411">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Mcmafia</h1>
+              <p class="flashcard-def">Transnational criminal networks operating like corporate franchises</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Misha Glenny (2008) showed post-Soviet economic chaos and market deregulation birthed transnational criminal syndicates operating across international borders.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 412: Traditional Legalism -->
+        <section class="slide" id="slide-412">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📖</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Traditional Legalism</h1>
+              <p class="flashcard-def">Confines criminology strictly to actions that violate written, legally enacted national environmental laws.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sutherland (1949) challenged traditional legalism: criminology must not restrict itself to state law violations, but must study corporate harms and white-collar abuses.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 413: Lynch &amp; Stretsky&#039;s Zemiology -->
+        <section class="slide" id="slide-413">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Lynch &amp; Stretsky&#039;s Zemiology</h1>
+              <p class="flashcard-def">Defines environmental crime by the objective scale of ecological harm inflicted on species and the biosphere.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Michael Lynch &amp; Paul Stretsky (2003, Green Criminology) formulated zemiology: studying social and environmental harm regardless of whether it is officially illegal.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 414: Capitalist Class Power -->
+        <section class="slide" id="slide-414">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Capitalist Class Power</h1>
+              <p class="flashcard-def">Global crime is structured by transnational capitalism, deregulated markets, and elite state-corporate collusion.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Laureen Snider (1993) showed capitalist class power ensures corporate crimes and environmental harms are rarely criminalized or punished with prison sentences.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 415: Transnational Patriarchy -->
+        <section class="slide" id="slide-415">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👩‍⚖️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Transnational Patriarchy</h1>
+              <p class="flashcard-def">Global crime is structured by universal systems of male dominance, gendered exploitation, and violence against women.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Cynthia Enloe (2000, &#039;Bananas, Beaches and Bases&#039;) showed transnational patriarchy operates through global sex tourism and the exploitation of female sweatshop labor.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 416: Cybercriminal Advantages -->
+        <section class="slide" id="slide-416">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕶️</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cybercriminal Advantages</h1>
+              <p class="flashcard-def">Technical and geographical factors granting cybercriminals immense operational advantages over state authorities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Wall (2007, &#039;Cybercrime&#039;) identified cybercriminal advantages: anonymity, jurisdictional arbitrage, speed, and the ability to strike targets globally.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 417: State Jurisdictional Paralysis -->
+        <section class="slide" id="slide-417">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛑</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">State Jurisdictional Paralysis</h1>
+              <p class="flashcard-def">Structural and bureaucratic barriers preventing national law enforcement from curbing borderless digital crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Manuel Castells (1998) showed territorial nation-states face jurisdictional paralysis when attempting to police borderless, decentralized digital networks.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 418: Advanced Cybercrime -->
+        <section class="slide" id="slide-418">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💻</div>
+            <div class="flashcard theme-6" style="background: #0D9488 !important;">
+              <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Advanced Cybercrime</h1>
+              <p class="flashcard-def">Sophisticated criminal operations using malicious software, ransomware, and digital infrastructure attacks across international borders.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Wall (2007) categorized advanced cybercrimes: ransomware, intellectual property theft, state-sponsored cyber warfare, and automated phishing syndicates.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 419: CHAPTER 7 DIVIDER -->
+      <section class="slide" id="slide-419">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">📺</div>
+          <div class="flashcard theme-7" style="background: #7C3AED !important;">
+            <div class="card-pill">CHAPTER 07 • PAPER 4</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Media</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Ownership &amp; Control of Media • News Selection &amp; Moral Panics • Representations of Class, Gender &amp; Ethnicity • Audience Effects Models • New Media, Digital Surveillance &amp; Culture</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 63 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 420: Traditional Broadcast Media -->
+        <section class="slide" id="slide-420">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📻</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Traditional Broadcast Media</h1>
+              <p class="flashcard-def">Centralized, one-way mass communication where passive consumers receive standardized broadcast output.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Denis McQuail (2010) analyzed traditional broadcast media (terrestrial TV, radio, print) characterized by one-to-many communication and centralized control.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 421: Interactive Digital Media -->
+        <section class="slide" id="slide-421">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📱</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Interactive Digital Media</h1>
+              <p class="flashcard-def">Decentralized multi-directional networks where active prosumers generate, remix, and share digital content.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Henry Jenkins (2006, &#039;Convergence Culture&#039;) showed interactive digital media transforms passive consumers into active, participatory media &#039;prosumers&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 422: Marxist Proprietorial Control -->
+        <section class="slide" id="slide-422">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Marxist Proprietorial Control</h1>
+              <p class="flashcard-def">Media barons directly dictate editorial policies to defend private property, promote deregulation, and legitimize capitalism.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ralph Miliband (1969) argued media owners directly dictate editorial lines, ensuring television and newspapers broadcast ruling-class ideology.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 423: Pluralist Managerial Pluralism -->
+        <section class="slide" id="slide-423">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Pluralist Managerial Pluralism</h1>
+              <p class="flashcard-def">Professional managers run complex corporations while sovereign audiences dictate content through market purchasing choices.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> James Curran (2002) and pluralists argue media content is shaped by professional editorial autonomy and consumer market demand, not owner whim.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 424: 20th-century Conglomerates -->
+        <section class="slide" id="slide-424">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏢</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">20th-century Conglomerates</h1>
+              <p class="flashcard-def">Vertically integrated corporate giants managed by centralized executive boards and individual press moguls.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ben Bagdikian (1983) documented the dominance of 20th-century conglomerates (e.g. Disney, Time Warner, News Corp) owning TV, radio, and film studios.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 425: 21st-century Platform Networks -->
+        <section class="slide" id="slide-425">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">21st-century Platform Networks</h1>
+              <p class="flashcard-def">Flexible, decentralized network platforms capturing global behavioral surplus within proprietary walled gardens.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Nick Srnicek (2017, &#039;Platform Capitalism&#039;) showed 21st-century platform networks (Alphabet, Meta, Amazon) monopolize digital data and ad infrastructure.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 426: The Obsolescence Thesis -->
+        <section class="slide" id="slide-426">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Obsolescence Thesis</h1>
+              <p class="flashcard-def">The view that digital technologies have rendered print newspapers, scheduled radio, and broadcast TV obsolete.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Digital sociologists argue legacy print newspapers and broadcast TV face imminent obsolescence as audiences migrate to on-demand streaming and social feeds.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 427: The Colonisation Thesis -->
+        <section class="slide" id="slide-427">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔄</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Colonisation Thesis</h1>
+              <p class="flashcard-def">The evidence that traditional media institutions aggressively adapted, colonized, and dominate digital platforms.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> James Curran &amp; Jean Seaton (2009) showed established media giants successfully colonized the internet, buying up independent digital startups (e.g. Meta buying Instagram).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 428: Proprietor &amp; Corporate Control -->
+        <section class="slide" id="slide-428">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Proprietor &amp; Corporate Control</h1>
+              <p class="flashcard-def">Arguments that media output is dictated by concentrated corporate elites and private proprietors.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ben Bagdikian (2004, &#039;The New Media Monopoly&#039;) showed 5 global mega-corporations control the vast majority of American media outlets.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 429: Managerial &amp; Prosumer Power -->
+        <section class="slide" id="slide-429">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Managerial &amp; Prosumer Power</h1>
+              <p class="flashcard-def">Arguments that managers, consumer sovereignty, and interactive prosumers prevent elite control.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Don Tapscott &amp; Anthony Williams (2006, &#039;Wikinomics&#039;) showed user-generated content and prosumer communities challenge top-down corporate monopolies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 430: The Death of Legacy Media -->
+        <section class="slide" id="slide-430">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Death of Legacy Media</h1>
+              <p class="flashcard-def">Evidence demonstrating that digital media has shattered the economic foundations of old media.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Clay Shirky (2008, &#039;Here Comes Everybody&#039;) argued the collapse of print advertising revenue and rise of decentralized blogging dismantles legacy institutions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 431: Digital Colonisation &amp; Resilience -->
+        <section class="slide" id="slide-431">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔄</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Digital Colonisation &amp; Resilience</h1>
+              <p class="flashcard-def">Evidence that traditional media successfully adapted and colonised the new digital landscape.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Curran &amp; Seaton (2009) showed corporate resilience: legacy conglomerates adapted through cross-media convergence and proprietary streaming platforms.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 432: Surveillance Capitalism -->
+        <section class="slide" id="slide-432">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Surveillance Capitalism</h1>
+              <p class="flashcard-def">Tech monopolies harvesting personal behavioral data to sell predictive models</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Shoshana Zuboff (2019, &#039;The Age of Surveillance Capitalism&#039;) exposed how tech giants unilaterally claim human experience as free behavioral data to trade in behavioral futures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 433: Pluralist Consumer Sovereignty -->
+        <section class="slide" id="slide-433">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛒</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Pluralist Consumer Sovereignty</h1>
+              <p class="flashcard-def">Audience choice drives production; commercial discipline forces media companies to deliver responsive, diverse content.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pluralist sociologists argue consumers hold ultimate sovereignty: audiences dictate content through ratings, clicks, and market purchasing choices.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 434: Critical Political Economy -->
+        <section class="slide" id="slide-434">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Critical Political Economy</h1>
+              <p class="flashcard-def">Concentrated corporate ownership limits content to commodified products that defend private capital and ruling-class hegemony.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Golding &amp; Graham Murdock (1991) showed the economic logic of advertising and corporate funding systematically restricts dissenting political voices.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 435: Instrumental Marxism -->
+        <section class="slide" id="slide-435">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕹️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Instrumental Marxism</h1>
+              <p class="flashcard-def">Media owners directly intervene to impose their conservative class ideology onto newsrooms and passive audiences.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ralph Miliband (1969, &#039;The State in Capitalist Society&#039;) argued media owners directly manipulate news content to protect capitalism and undermine trade unions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 436: Hegemonic Neo-marxism -->
+        <section class="slide" id="slide-436">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hegemonic Neo-marxism</h1>
+              <p class="flashcard-def">Ideological consensus is maintained through professional routines and cultural common sense without daily owner meddling.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Glasgow Media Group (Philo, 1982) and Stuart Hall showed journalists internalize dominant bourgeois values, unconsciously framing news within a capitalist consensus.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 437: The Democratic Fourth Estate -->
+        <section class="slide" id="slide-437">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Democratic Fourth Estate</h1>
+              <p class="flashcard-def">The normative belief that journalism functions as an independent watchdog holding powerful state and corporate elites accountable.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Classical liberal theorists argue free press functions as the &#039;Fourth Estate&#039;: an independent watchdog holding governments and corrupt elites accountable.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 438: Commercial &amp; State Subjugation -->
+        <section class="slide" id="slide-438">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Commercial &amp; State Subjugation</h1>
+              <p class="flashcard-def">The empirical reality that news production is systematically constrained by cost-cutting, advertiser boycotts, and state control.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Edward Herman &amp; Noam Chomsky (1988) showed corporate advertising dependencies and state flak subjugate newsrooms, compromising democratic watchdog ideals.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 439: The Mirror Model Fallacy -->
+        <section class="slide" id="slide-439">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📷</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Mirror Model Fallacy</h1>
+              <p class="flashcard-def">The common-sense assumption that news organizations objectively capture and broadcast real-world events impartially.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1973) rejected the mirror model: news does not passively mirror objective reality, but actively selects, categorizes, and constructs events.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 440: The Social Construction of News -->
+        <section class="slide" id="slide-440">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Social Construction of News</h1>
+              <p class="flashcard-def">The sociological reality that news is systematically constructed via gatekeeping, news values, and commercial filters.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Golding &amp; Philip Elliott (1979, &#039;Making the News&#039;) proved news is socially constructed through news values, deadlines, and commercial logistics.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 441: Marxist Ideological Model -->
+        <section class="slide" id="slide-441">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Marxist Ideological Model</h1>
+              <p class="flashcard-def">Media is an ideological tool used by ruling elites to conceal objective class exploitation and maintain false consciousness.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Louis Althusser and Antonio Gramsci showed news media constructs an ideological picture of the world that naturalizes inequality and ruling-class power.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 442: Postmodern Hyper-reality -->
+        <section class="slide" id="slide-442">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔮</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Postmodern Hyper-reality</h1>
+              <p class="flashcard-def">Media images no longer conceal real exploitation; simulations replace physical truth entirely in a swirl of signs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jean Baudrillard (1995, &#039;The Gulf War Did Not Place&#039;) argued 24-hour cable news produces hyperreal media spectacles detached from real suffering.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 443: Ruling-class Determination -->
+        <section class="slide" id="slide-443">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ruling-class Determination</h1>
+              <p class="flashcard-def">Arguments that media content is determined by ruling-class interests to preserve capitalist exploitation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx (1845, &#039;The German Ideology&#039;) declared: &#039;The class which has the means of material production has control at the same time over the means of mental production.&#039;</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 444: Consumer &amp; Prosumer Power -->
+        <section class="slide" id="slide-444">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Consumer &amp; Prosumer Power</h1>
+              <p class="flashcard-def">Arguments that consumers, market discipline, and interactive prosumers determine media content.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Henry Jenkins (2006) showed digital consumers exercise real power by remixing content, generating counter-narratives, and boycotting sponsors.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 445: Social Construction of News -->
+        <section class="slide" id="slide-445">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎭</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Construction of News</h1>
+              <p class="flashcard-def">Evidence that news is an ideological artifact produced through professional values and commercial pressures.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Greg Philo and the Glasgow Media Group showed news construction relies on authoritative elite sources, marginalizing trade unions and protestors.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 446: Objective Mirror &amp; Citizen Realism -->
+        <section class="slide" id="slide-446">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📷</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Objective Mirror &amp; Citizen Realism</h1>
+              <p class="flashcard-def">Arguments that professional journalistic standards and citizen smartphones record real-world events.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Citizen journalists armed with smartphone cameras challenge corporate media framing by streaming unedited real-time video evidence directly online.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 447: Folk Devils -->
+        <section class="slide" id="slide-447">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">😈</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Folk Devils</h1>
+              <p class="flashcard-def">Stanley Cohen&#039;s concept of scapegoated groups (e.g., youth subcultures) who are portrayed in sensationalist media coverage as evil threats to society&#039;s moral order, triggering a moral panic.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Cohen (1972, &#039;Folk Devils and Moral Panics&#039;) defined folk devils as groups demonized by media and politicians as threats to core societal values.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 448: User Privacy Resistance -->
+        <section class="slide" id="slide-448">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">User Privacy Resistance</h1>
+              <p class="flashcard-def">Active citizens deploy technical counter-measures, peer-to-peer encryption, and deliberate risk management to reclaim digital autonomy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Digital activists and civil liberties groups use encryption tools (Tor, Signal) to resist corporate data tracking and government surveillance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 449: Corporate Enclosure -->
+        <section class="slide" id="slide-449">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔒</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Enclosure</h1>
+              <p class="flashcard-def">Media conglomerates deploy litigation, digital rights management (DRM), and subscription paywalls to protect private intellectual property.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Tim Wu (2010, &#039;The Master Switch&#039;) showed open communication networks historically undergo corporate enclosure, becoming centralized monopolies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 450: Open Network Sharing -->
+        <section class="slide" id="slide-450">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Open Network Sharing</h1>
+              <p class="flashcard-def">Decentralized protocols treat information as a collective human good, enabling planetary peer sharing without corporate gatekeeping.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Yochai Benkler (2006, &#039;The Wealth of Networks&#039;) celebrated open peer-to-peer sharing (e.g. Wikipedia, open-source software) as non-market production.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 451: Digital Pessimism -->
+        <section class="slide" id="slide-451">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Digital Pessimism</h1>
+              <p class="flashcard-def">A critical sociological perspective arguing that digital media and internet platforms exploit users through unpaid digital labour, invade privacy, spread disinformation, and deepen corporate surveillance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Evgeny Morozov (2011, &#039;The Net Delusion&#039;) critiqued &#039;cyber-utopianism&#039;, showing authoritarian regimes use the internet for surveillance, censorship, and propaganda.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 452: Democratic Liberation -->
+        <section class="slide" id="slide-452">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🚀</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Democratic Liberation</h1>
+              <p class="flashcard-def">Digital networks decentralize knowledge, empower active prosumers, and foster mass open-source peer production.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Larry Diamond (2010) formulated &#039;liberation technology&#039;: digital networks empower citizens to mobilize, expose injustice, and hold authoritarians to account.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 453: Corporate Monopoly -->
+        <section class="slide" id="slide-453">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏢</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Corporate Monopoly</h1>
+              <p class="flashcard-def">Digital platforms centralize wealth into predatory corporate oligopolies extracting free labour and surveilling citizens.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Robert McChesney (2013, &#039;Digital Disconnect&#039;) showed the democratic potential of the internet has been co-opted and corrupted by digital advertising monopolies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 454: Global Connection -->
+        <section class="slide" id="slide-454">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌍</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Global Connection</h1>
+              <p class="flashcard-def">Digital networks dissolve geographical barriers, empowering individuals to forge transnational friendships and mutual support groups.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Marshall McLuhan (1964) prophesied that electronic media would connect humanity into an interconnected, empathetic &#039;global village&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 455: Digital Alienation -->
+        <section class="slide" id="slide-455">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧩</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Digital Alienation</h1>
+              <p class="flashcard-def">Commercial algorithms partition the public into polarized ideological tribes, promoting toxic harassment and social isolation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sherry Turkle (2011, &#039;Alone Together&#039;) showed excessive screen connection produces digital alienation, replacing authentic empathy with shallow performance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 456: Pathological Caricatures -->
+        <section class="slide" id="slide-456">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚠️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Pathological Caricatures</h1>
+              <p class="flashcard-def">Working-class communities are routinely framed as problematic, criminal, inarticulate, and financially dependent on the state.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1981) showed media representations historically reduce ethnic minorities and working-class people to pathological stereotypes (criminals, freeloaders).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 457: The Universal Standard -->
+        <section class="slide" id="slide-457">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👔</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Universal Standard</h1>
+              <p class="flashcard-def">Middle- and upper-class lifestyles are presented as the default, cultured, and aspirational norm of modern civilized citizenship.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Critical race and feminist theorists show mass media defaults to white, heterosexual, middle-class male experience as the invisible universal standard.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 458: The Male Gaze &amp; Erasure -->
+        <section class="slide" id="slide-458">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👁️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Male Gaze &amp; Erasure</h1>
+              <p class="flashcard-def">Media visual codes continue to commodify women&#039;s bodies and symbolically annihilate older females past youthful reproductive age.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Laura Mulvey (1975, &#039;Visual Pleasure and Narrative Cinema&#039;) formulated the &#039;Male Gaze&#039;: visual media frames women as passive erotic objects for male desire.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 459: Evolving Roles &amp; Agency -->
+        <section class="slide" id="slide-459">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🦸‍♀️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Evolving Roles &amp; Agency</h1>
+              <p class="flashcard-def">New media representations and active audiences challenge submissive archetypes, asserting female power, independence, and agency.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Gauntlett (2002, &#039;Media, Gender and Identity&#039;) showed contemporary media offers diverse, empowered female and non-binary role models.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 460: Inferential Racism &amp; Threats -->
+        <section class="slide" id="slide-460">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📰</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Inferential Racism &amp; Threats</h1>
+              <p class="flashcard-def">Mainstream media relies on colonial stereotypes, framing ethnic minorities as criminal, cultural, or national security hazards.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1981) distinguished overt racism from inferential racism: unquestioned assumptions embedded in news coverage of immigration and crime.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 461: Independent Agency &amp; Voice -->
+        <section class="slide" id="slide-461">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎙️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Independent Agency &amp; Voice</h1>
+              <p class="flashcard-def">Ethnic-minority creators utilize digital platforms and independent cinema to bypass white gatekeepers and dismantle racial tropes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sarita Malik (2002, &#039;Representing Black Britain&#039;) showed minority creators use digital media platforms to broadcast independent narratives and bypass white gatekeepers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 462: The Delinquent Threat -->
+        <section class="slide" id="slide-462">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚠️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Delinquent Threat</h1>
+              <p class="flashcard-def">Youth culture is viewed through an adult gaze that pathologizes young people as antisocial, politically indifferent, and prone to crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Cohen (1972) and Jock Young showed media representations systematically frame youth subcultures and working-class youth as delinquent social threats.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 463: The Empowered Consumer -->
+        <section class="slide" id="slide-463">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💰</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Empowered Consumer</h1>
+              <p class="flashcard-def">Commercial media increasingly celebrates older demographics as active, wealthy, and stylish consumers controlling national wealth.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Gauntlett (2002) argued modern youth are media-savvy, reflexive consumers who pick and choose cultural messages to construct their own identities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 464: Direct Effects Model -->
+        <section class="slide" id="slide-464">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💉</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Direct Effects Model</h1>
+              <p class="flashcard-def">Assumes audiences are atomized, uncritical recipients who copy screen violence through immediate observational imitation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Albert Bandura (1963, Bobo Doll experiment) argued media violence exerts a direct, hypodermic effect on audience behavior, promoting imitation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 465: Media Literacy Paradigm -->
+        <section class="slide" id="slide-465">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧠</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Media Literacy Paradigm</h1>
+              <p class="flashcard-def">Proves audiences possess cognitive agency, decoding screen narratives while recognizing structural roots of crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Buckingham (2003, &#039;Media Education&#039;) argued audiences possess media literacy: children actively decode, critique, and contextualize media messages.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 466: The Hypodermic Syringe -->
+        <section class="slide" id="slide-466">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💉</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Hypodermic Syringe</h1>
+              <p class="flashcard-def">Media messages are directly injected into passive, atomized individuals, dictating behavior, values, and emotional states.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Harold Lasswell (1927) formulated the hypodermic syringe model: media messages are injected directly into passive audiences who react uniformly.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 467: Uses &amp; Gratifications -->
+        <section class="slide" id="slide-467">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎯</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Uses &amp; Gratifications</h1>
+              <p class="flashcard-def">Active, sovereign consumers purposefully select and decode media products to fulfill diverse personal psychological needs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Denis McQuail &amp; Jay Blumler (1972) identified 4 audience needs fulfilled by media: diversion, personal relationships, personal identity, and surveillance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 468: Hegemonic Saturation -->
+        <section class="slide" id="slide-468">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📺</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hegemonic Saturation</h1>
+              <p class="flashcard-def">Heavy media viewing cultivates distorted, fearful realities over time, instilling common-sense capitalist norms and Mean World paranoia.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Antonio Gramsci and neo-Marxists argue repetitive mainstream media coverage saturates consciousness, establishing bourgeois ideas as &#039;common sense&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 469: Oppositional Decoding -->
+        <section class="slide" id="slide-469">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🖼️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Oppositional Decoding</h1>
+              <p class="flashcard-def">Audiences critically decode media messages through the lens of social class and lived biographical experience, resisting preferred readings.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall (1973, 1980) formulated the oppositional decoding position: audience members understand the preferred reading but totally reject it.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 470: The Culture Industry -->
+        <section class="slide" id="slide-470">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏭</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Culture Industry</h1>
+              <p class="flashcard-def">Corporate cartels mass-manufacture formulaic entertainment to distract, pacify, and subordinate the working-class mass audience.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Theodor Adorno &amp; Max Horkheimer (1944, Frankfurt School) argued the culture industry mass-produces standardized, passive pop entertainment to stifle critical thought.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 471: Interactive Prosumer Agency -->
+        <section class="slide" id="slide-471">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📱</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Interactive Prosumer Agency</h1>
+              <p class="flashcard-def">Digital platforms transform audiences into active prosumers who remix, subvert, and challenge corporate commercial hegemony.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Henry Jenkins (2006) showed digital media prosumers actively participate, remix, and collaborate in producing cultural meaning.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 472: Laboratory Imitation -->
+        <section class="slide" id="slide-472">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧸</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Laboratory Imitation</h1>
+              <p class="flashcard-def">Asserts that viewing filmed aggression directly triggers imitative violence, desensitises youth, and instills aggressive behaviors.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Albert Bandura (1963) demonstrated laboratory imitation of film-mediated aggression, though critics highlight high artificiality and lack of real-world context.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 473: Methodological Reality -->
+        <section class="slide" id="slide-473">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔍</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Methodological Reality</h1>
+              <p class="flashcard-def">Proves that direct effects claims fail real-world criminological scrutiny, as family socialization and peer dynamics govern crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Martin Barker (1993, 2001) critiqued media violence experiments for ignoring the real social context, meanings, and interpretations viewers bring to media.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 474: Imitation &amp; Desensitisation -->
+        <section class="slide" id="slide-474">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💥</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Imitation &amp; Desensitisation</h1>
+              <p class="flashcard-def">Claims that violent screen content triggers observational aggression, desensitizes viewers, and encourages real-world crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> George Gerbner (1976, Cultivation Theory) showed heavy television viewing desensitises audiences to real-world suffering and increases fear of crime.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 475: Catharsis &amp; Empathy -->
+        <section class="slide" id="slide-475">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕊️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Catharsis &amp; Empathy</h1>
+              <p class="flashcard-def">Evidence that media safely purges frustration, sensitizes citizens to tragedy, and coincides with historical pacification.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Seymour Feshbach &amp; Robert Singer (1971) suggested media violence can have a cathartic effect: viewing aggressive fiction allows viewers to release tension safely.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 476: Deviance Amplification Spiral -->
+        <section class="slide" id="slide-476">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌪️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Deviance Amplification Spiral</h1>
+              <p class="flashcard-def">Focuses on the cyclical communication system where institutional reactions escalate minor deviance into serious crime.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Leslie Wilkins (1964) and Stanley Cohen (1972) showed media sensationalism triggers a spiral: public outcry $	o$ police clampdown $	o$ increased deviance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 477: Folk Devils &amp; Moral Panics -->
+        <section class="slide" id="slide-477">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Folk Devils &amp; Moral Panics</h1>
+              <p class="flashcard-def">Focuses on the cultural demonization of subcultural groups and the mobilization of moral crusaders to enforce social boundaries.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Cohen (1972) analyzed how mods and rockers became folk devils, generating public anxiety disproportionate to the actual damage caused.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 478: Spontaneous Public Anxiety -->
+        <section class="slide" id="slide-478">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👥</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Spontaneous Public Anxiety</h1>
+              <p class="flashcard-def">Moral panics emerge organically from authentic public anxieties during rapid change, clarifying collective moral boundaries.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Functionalists like Durkheim argue moral panics reflect spontaneous public anxieties, functioning to reaffirm collective moral boundaries during rapid change.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 479: Manufactured Elite Diversion -->
+        <section class="slide" id="slide-479">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Manufactured Elite Diversion</h1>
+              <p class="flashcard-def">Moral panics are calculated ideological tools manufactured by ruling elites to scapegoat minorities and legitimize police repression.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stuart Hall et al. (1978, &#039;Policing the Crisis&#039;) showed moral panics over &#039;mugging&#039; were manufactured by ruling elites to divert attention from capitalist economic crises.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 480: The Media As Corrupter -->
+        <section class="slide" id="slide-480">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚠️</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Media As Corrupter</h1>
+              <p class="flashcard-def">Media depicted as a destructive engine driving deviance amplification, sensationalist moral panics, and psychological harm.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> New Right moralists and hypodermic model theorists depict media as a corrupting influence eroding traditional moral discipline and family values.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 481: The Media As Emancipator -->
+        <section class="slide" id="slide-481">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✨</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Media As Emancipator</h1>
+              <p class="flashcard-def">Digital platforms providing vital tools for personal agency, gender subversion, democratic sousveillance, and civic education.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Gauntlett (2008) and digital sociologists celebrate media as an emancipatory toolkit empowering minority voices, personal expression, and civic action.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 482: Deviancy Amplification Spiral -->
+        <section class="slide" id="slide-482">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📣</div>
+            <div class="flashcard theme-7" style="background: #7C3AED !important;">
+              <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Deviancy Amplification Spiral</h1>
+              <p class="flashcard-def">Media hysteria prompting police crackdowns that intensify youth deviance</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stanley Cohen showed how sensational media reporting creates a self-fulfilling prophecy, drawing more youth into the deviant subculture.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+      <!-- SLIDE 483: CHAPTER 8 DIVIDER -->
+      <section class="slide" id="slide-483">
+        <div class="flashcard-stage">
+          <div class="card-graphic-sticker">⛪</div>
+          <div class="flashcard theme-8" style="background: #4338CA !important;">
+            <div class="card-pill">CHAPTER 08 • PAPER 4</div>
+            <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Religion</h1>
+            <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Functions of Religion • Classical Perspectives (Durkheim, Marx, Weber) • The Secularisation Debate • Religious Organisations, Sects &amp; Cults • Gender, Fundamentalism &amp; Postmodernity</p>
+            <div class="card-badge-row">
+              <span class="mini-badge">📚 66 Key Terms</span>
+              <span class="mini-badge">Cambridge 9699</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+        <!-- SLIDE 484: Inclusive (Functional) Models -->
+        <section class="slide" id="slide-484">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Inclusive (Functional) Models</h1>
+              <p class="flashcard-def">Defines religion by its social contribution to cohesion, meaning-making, and collective identity, regardless of supernatural belief.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Milton Yinger (1970) formulated inclusive definitions of religion based on what religion does (answering ultimate questions, providing meaning and solidarity).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 485: Exclusive (Substantive) Models -->
+        <section class="slide" id="slide-485">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Exclusive (Substantive) Models</h1>
+              <p class="flashcard-def">Defines religion strictly by its core supernatural beliefs in deities, transcendent cosmic forces, and the sacred realm.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber and Roland Robertson formulated exclusive definitions: religion must involve belief in a supernatural power or superhuman deity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 486: Quantitative Institutional Metrics -->
+        <section class="slide" id="slide-486">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📊</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Quantitative Institutional Metrics</h1>
+              <p class="flashcard-def">Measures observable, verifiable institutional behaviors like Sunday attendance, baptisms, and ordinations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Bryan Wilson (1966) used quantitative metrics (church attendance rates, Sunday school registrations, church marriages) to prove secularisation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 487: Qualitative Subjective Indicators -->
+        <section class="slide" id="slide-487">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💭</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Qualitative Subjective Indicators</h1>
+              <p class="flashcard-def">Investigates self-reported belief in God, afterlife, personal prayer, and emotional attachment.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Grace Davie (1994) argued quantitative stats miss qualitative indicators: private prayer, personal belief, and vicarious religion remain widespread.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 488: Working-class Sectarian Devotion -->
+        <section class="slide" id="slide-488">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚙️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Working-class Sectarian Devotion</h1>
+              <p class="flashcard-def">Marginalized social strata gravitate toward strict, world-rejecting sects and fundamentalist churches offering salvation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ernst Troeltsch (1912) and H. Richard Niebuhr (1929) showed working-class and marginalized groups are drawn to strict sects offering theodicy of disprivilege.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 489: Middle-class Holistic Spirituality -->
+        <section class="slide" id="slide-489">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌿</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Middle-class Holistic Spirituality</h1>
+              <p class="flashcard-def">Affluent professionals turn to world-affirming NAMs and client cults that emphasize self-actualisation and well-being.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Heelas &amp; Linda Woodhead (2005, Kendal Project) showed middle-class people disproportionately populate the holistic spiritual milieu (yoga, meditation).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 490: Believing Without Belonging -->
+        <section class="slide" id="slide-490">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💭</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Believing Without Belonging</h1>
+              <p class="flashcard-def">Grace Davie&#039;s concept of people maintaining private faith without attending church</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Grace Davie (1994, &#039;Religion in Britain since 1945&#039;) argued formal church membership has fallen, but private personal belief (&#039;believing without belonging&#039;) endures.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 491: Cultural Defense Model -->
+        <section class="slide" id="slide-491">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Defense Model</h1>
+              <p class="flashcard-def">Faith remains an enduring political and cultural shield against discrimination, white hegemony, and cultural erasure.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2002) identified cultural defense: religion serves as a rallying symbol to defend collective identity against external hostile forces (e.g. Poland under communism).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 492: Cultural Transition Model -->
+        <section class="slide" id="slide-492">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔄</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Transition Model</h1>
+              <p class="flashcard-def">Religion acts as a temporary bridge during initial settlement, with observance steadily waning in successive generations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2002) identified cultural transition: religion helps migrant communities cope with geographical upheaval and settlement in a new host society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 493: The Aging / Life-course Thesis -->
+        <section class="slide" id="slide-493">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👴</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Aging / Life-course Thesis</h1>
+              <p class="flashcard-def">Young people temporarily drift away during adolescence but reliably return when marrying, raising children, and confronting mortality.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sociologists note older people exhibit higher religiosity due to proximity to mortality, nostalgic socialisation, and generational religious upbringing.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 494: The Generational Secularisation Thesis -->
+        <section class="slide" id="slide-494">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">The Generational Secularisation Thesis</h1>
+              <p class="flashcard-def">Each new cohort starts life markedly less religious than the previous one and stays secular across its entire lifespan.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Voas &amp; Alasdair Crockett (2005) proved generational decline: each successive British generation is only half as religious as their parents.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 495: Scientific Rationalism -->
+        <section class="slide" id="slide-495">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔬</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Scientific Rationalism</h1>
+              <p class="flashcard-def">Knowledge constructed through observable testing, replicable experiments, falsification, and peer review.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber (1918) described &#039;the disenchantment of the world&#039;: scientific rationalism replaced mystical, magical, and religious explanations with empirical causality.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 496: Religious Meaning-systems -->
+        <section class="slide" id="slide-496">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Religious Meaning-systems</h1>
+              <p class="flashcard-def">Belief systems addressing ultimate existential concerns, sacred values, cosmic salvation, and moral rules.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Berger (1967, &#039;The Sacred Canopy&#039;) showed religion historically provided a sacred universe of meaning protecting individuals from existential terror and chaos.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 497: Consensus &amp; Harmonious Order -->
+        <section class="slide" id="slide-497">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🐝</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Consensus &amp; Harmonious Order</h1>
+              <p class="flashcard-def">Society is an integrated system where religion satisfies universal needs for moral solidarity, identity, and grief solace.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Talcott Parsons (1951) showed religion legitimates societal core values (e.g. the Ten Commandments forming the basis of Western law), integrating social order.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 498: Class Conflict &amp; Ideological Control -->
+        <section class="slide" id="slide-498">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚙️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Class Conflict &amp; Ideological Control</h1>
+              <p class="flashcard-def">Society is divided by class antagonism; religion is a bourgeois ideological weapon masking exploitation and pacifying dissent.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx (1844) argued religion is an ideological weapon used by the ruling class to justify exploitation and persuade workers that suffering is God&#039;s will.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 499: Totem -->
+        <section class="slide" id="slide-499">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🦅</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Totem</h1>
+              <p class="flashcard-def">In Émile Durkheim&#039;s study of Australian Aborigines, a sacred animal or plant that symbolizes both the clan and the collective society itself, proving that worshipping god is really worshipping society.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Émile Durkheim (1912, &#039;The Elementary Forms of Religious Life&#039;) studied Arunta Australian Aborigines, proving that worshipping the clan totem is actually worshipping society itself.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 500: Opium of the People -->
+        <section class="slide" id="slide-500">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💊</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Opium of the People</h1>
+              <p class="flashcard-def">Marx&#039;s view that religion acts as an ideological painkiller dulling the misery of class exploitation</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx (1844) famously declared religion is the &#039;opium of the people&#039;: a spiritual painkiller that dulls the misery of exploitation without curing the disease.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 501: Strict Economic Determinism -->
+        <section class="slide" id="slide-501">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Strict Economic Determinism</h1>
+              <p class="flashcard-def">Religion is a passive superstructure mirror reflecting the material economic base, serving solely to drug workers and protect capitalist profits.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Orthodox Marxists argue religion is purely part of the superstructure strictly determined by the capitalist economic base, with zero independent power.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 502: Relative Autonomy &amp; Praxis -->
+        <section class="slide" id="slide-502">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕊️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Relative Autonomy &amp; Praxis</h1>
+              <p class="flashcard-def">Religion possesses relative autonomy; while it often cements ruling hegemony, it can also provide the vocabulary and sanctuary for revolution.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Friedrich Engels (1850, &#039;The Peasant War in Germany&#039;) and Otto Maduro showed religion can possess relative autonomy, inspiring radical anti-establishment revolt.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 503: Social Order &amp; Status Quo -->
+        <section class="slide" id="slide-503">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Order &amp; Status Quo</h1>
+              <p class="flashcard-def">Religion functions to preserve social equilibrium, reinforce shared moral codes, and protect the established institutional hierarchy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Functionalists (Durkheim, Parsons) and classical Marxists agree religion historically acts as a conservative force preserving the existing status quo.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 504: Counter-hegemony &amp; Resistance -->
+        <section class="slide" id="slide-504">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔥</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Counter-hegemony &amp; Resistance</h1>
+              <p class="flashcard-def">Religion mobilizes moral outrage, provides institutional sanctuary, and inspires revolutionary action against oppressive regimes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Antonio Gramsci (1971) and Dwight Billings (1990) showed religion can provide counter-hegemonic leadership (e.g. Martin Luther King and the Civil Rights Movement).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 505: Economic Base Primacy -->
+        <section class="slide" id="slide-505">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Economic Base Primacy</h1>
+              <p class="flashcard-def">Religious beliefs are merely superstructural reflections determined by the economic base to justify bourgeois class exploitation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karl Marx argued economic class relations precede and shape religious belief, dismissing religious ideals as mere reflections of material conditions.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 506: Ideational Causal Agency -->
+        <section class="slide" id="slide-506">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💡</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideational Causal Agency</h1>
+              <p class="flashcard-def">Religious beliefs possess autonomous causal power, acting as decisive catalysts that can transform economic systems.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber (1905, &#039;The Protestant Ethic and the Spirit of Capitalism&#039;) showed Calvinist religious ideas had independent causal agency in creating modern capitalism.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 507: Weberian Ethos Correlation -->
+        <section class="slide" id="slide-507">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Weberian Ethos Correlation</h1>
+              <p class="flashcard-def">Empirical patterns confirming the correlation between Protestant asceticism (practicing strict self-discipline and renouncing luxuries, drinking, and wasteful spending) and rapid commercial modernization.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber correlated Calvinist predestination and ascetic worldly calling with the rational reinvestment ethos that triggered industrial capitalism.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 508: Historical Counter-evidence -->
+        <section class="slide" id="slide-508">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Historical Counter-evidence</h1>
+              <p class="flashcard-def">Historical evidence indicating capitalism preceded Calvinism or developed independently of Protestant theology.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> R.H. Tawney (1926) and Werner Sombart critiqued Weber, arguing capitalism was already flourishing in Catholic Italian cities before the Protestant Reformation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 509: Conservative State Alliance -->
+        <section class="slide" id="slide-509">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Conservative State Alliance</h1>
+              <p class="flashcard-def">Historical clerical alliance with landowning oligarchies and dictatorships, preaching passive fatalism to justify hierarchy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce showed the Christian Right in the USA demonstrates a conservative alliance between religious fundamentalism and conservative Republican politics.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 510: Liberation Praxis &amp; Reform -->
+        <section class="slide" id="slide-510">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">✊</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Liberation Praxis &amp; Reform</h1>
+              <p class="flashcard-def">Grassroots clergy uniting Christian theology with Marxist analysis to challenge tyranny and empower oppressed peasants.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Gustavo Gutiérrez (1971) formulated Liberation Theology in Latin America: Catholic priests actively joined peasants to resist military dictatorships and fight poverty.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 511: Emancipatory Transformation -->
+        <section class="slide" id="slide-511">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Emancipatory Transformation</h1>
+              <p class="flashcard-def">Religion mobilizes moral principles to expand human rights, eliminate racial segregation, and overthrow tyrannical regimes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sociologists cite the US Civil Rights Movement led by the Black church as empirical proof that religion can drive major emancipatory civil rights transformations.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 512: Fundamentalist Restoration -->
+        <section class="slide" id="slide-512">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⏮️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Fundamentalist Restoration</h1>
+              <p class="flashcard-def">Religion mobilizes to reverse modernization, reinstating theocratic patriarchy (a social system in which men hold primary power and dominate women) and strict traditional moral codes.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2000) showed religious fundamentalists seek to reverse secularisation and restore ancient sacred texts as the absolute law of the state.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 513: Structural Secularisation -->
+        <section class="slide" id="slide-513">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Secularisation</h1>
+              <p class="flashcard-def">The formal withdrawal of churches from political governance, lawmaking, universal schooling, and state welfare.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Bryan Wilson (1982) defined secularisation as the process whereby religious institutions, actions, and consciousness lose their social significance.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 514: Subjective Spirituality -->
+        <section class="slide" id="slide-514">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕯️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Subjective Spirituality</h1>
+              <p class="flashcard-def">The retreat of religious beliefs into private, individualized lifestyle choices devoid of collective social power.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Heelas &amp; Linda Woodhead (2005) documented the &#039;spiritual revolution&#039;: dogmatic church religion is declining while subjective holistic spirituality is expanding.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 515: Unchallenged Plausibility -->
+        <section class="slide" id="slide-515">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏰</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Unchallenged Plausibility</h1>
+              <p class="flashcard-def">A single religious institution commands a total monopoly of truth, embedding moral and political authority across the social fabric.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Berger (1967) showed medieval religion enjoyed a monopoly of truth, forming an unchallenged &#039;sacred canopy&#039; that nobody doubted.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 516: Relativised Truth Claims -->
+        <section class="slide" id="slide-516">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌐</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Relativised Truth Claims</h1>
+              <p class="flashcard-def">The coexistence of competing denominations and secular ideas, transforming faith from unquestioned dogma into subjective consumer taste.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Berger (1967) showed modern religious pluralism creates a &#039;crisis of credibility&#039;: when competing faiths offer different truths, all claims become relativised.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 517: Secularised Western Enclaves -->
+        <section class="slide" id="slide-517">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🇪🇺</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Secularised Western Enclaves</h1>
+              <p class="flashcard-def">Western European nations displaying uniquely low church attendance, state welfare dependency, and moral indifference to faith.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pippa Norris &amp; Ronald Inglehart (2004) proved Western Europe is an exceptional secularised enclave due to high existential security and comprehensive welfare states.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 518: Worldwide Resurgent Piety -->
+        <section class="slide" id="slide-518">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌏</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Worldwide Resurgent Piety</h1>
+              <p class="flashcard-def">Dynamic global growth of Pentecostal Christianity, political Islam, and Hindu nationalism across the Global South and North America.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Peter Berger (1999, &#039;The Desecularization of the World&#039;) admitted his earlier secularisation theory was wrong: the world outside Western Europe is fiercely religious.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 519: Stark &amp; Bainbridge -->
+        <section class="slide" id="slide-519">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Stark &amp; Bainbridge</h1>
+              <p class="flashcard-def">Religious demand is naturally constant; participation rates depend entirely on supply, competition, and pastoral entrepreneurship.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Rodney Stark &amp; William Sims Bainbridge (1985, Religious Market Theory) argued religious demand is constant because people always desire supernatural compensators.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 520: Norris &amp; Inglehart -->
+        <section class="slide" id="slide-520">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛡️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">Norris &amp; Inglehart</h1>
+              <p class="flashcard-def">Religious participation is governed by demand, which fluctuates based on physical vulnerability and economic security.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Pippa Norris &amp; Ronald Inglehart (2004, &#039;Sacred and Secular&#039;) proved religiosity is highest where existential insecurity (poverty, disease, famine) is greatest.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 521: The Death of Religion -->
+        <section class="slide" id="slide-521">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">💀</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Death of Religion</h1>
+              <p class="flashcard-def">Scientific rationalism, welfare safety nets, and generational decay have permanently shattered religious authority and membership.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2002, &#039;God is Dead&#039;) argued secularisation in Western democracies is an irreversible, structural trend driven by scientific rationalism and individualism.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 522: The Mutation of Faith -->
+        <section class="slide" id="slide-522">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌱</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Mutation of Faith</h1>
+              <p class="flashcard-def">Religion is not dying but evolving into flexible consumer formats: televangelism, spiritual retreats, and digital communities.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Danièle Hervieu-Léger (2000, &#039;Religion as a Chain of Memory&#039;) argued religion has not died but mutated into personalized, consumer-style &#039;spiritual shopping&#039;.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 523: Inflexible Modernisation -->
+        <section class="slide" id="slide-523">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏛️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Inflexible Modernisation</h1>
+              <p class="flashcard-def">Industrialisation, scientific rationalism, and structural differentiation make religious decline inevitable in all advancing societies.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Secularisation theorists argue modern scientific education and social differentiation inevitably erode traditional, dogmatic religious orthodoxy.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 524: Resilient Plural Vitality -->
+        <section class="slide" id="slide-524">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌍</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Resilient Plural Vitality</h1>
+              <p class="flashcard-def">Modernisation does not extinguish faith; religion revives through fundamentalism, market competition, and political movements.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stark &amp; Finke (2000) argue religious pluralism creates competition among churches, which improves religious products and generates high church attendance (e.g. in the USA).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 525: Human Demand For Supernatural Compensators -->
+        <section class="slide" id="slide-525">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Human Demand For Supernatural Compensators</h1>
+              <p class="flashcard-def">Stark and Bainbridge&#039;s thesis that humans possess a universal desire for rewards that cannot be obtained on Earth (such as eternal life and cosmic justice), ensuring ongoing demand for religious beliefs.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Stark &amp; Bainbridge (1985) argue humans have an eternal need for compensators (immortality, life after death) that only religion can supply.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 526: Institutional Observance -->
+        <section class="slide" id="slide-526">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Institutional Observance</h1>
+              <p class="flashcard-def">Formal weekly church or mosque attendance recorded through official institutional headcounts and registers.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Bryan Wilson (1966) focused on institutional observance: regular church attendance, baptisms, and weddings have drastically collapsed in Britain.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 527: Privatised Piety &amp; Spirituality -->
+        <section class="slide" id="slide-527">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🕯️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Privatised Piety &amp; Spirituality</h1>
+              <p class="flashcard-def">Private prayer, scripture contemplation, and New Age therapies practiced independently within the domestic home.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Thomas Luckmann (1967, &#039;The Invisible Religion&#039;) showed religion has become privatised: individuals assemble idiosyncratic beliefs in the private sphere.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 528: Domestic Nurture &amp; Empathy -->
+        <section class="slide" id="slide-528">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🧸</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Domestic Nurture &amp; Empathy</h1>
+              <p class="flashcard-def">Women are conditioned into relational and nurturing roles that naturally resonate with theological teachings on love and compassion.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Linda Woodhead (2007) and feminist sociologists show women are more religious because caring roles socialize them into empathy and closeness to life and death.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 529: Differential Risk Aversion -->
+        <section class="slide" id="slide-529">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎲</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Differential Risk Aversion</h1>
+              <p class="flashcard-def">Women exhibit greater caution in existential matters, viewing irreligion as an unacceptable gamble with eternal salvation.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Alan Miller &amp; John Hoffman (1995) suggested men take more risks than women; being non-religious risks eternal damnation, so women are more risk-averse believers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 530: Ideological Oppression -->
+        <section class="slide" id="slide-530">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛓️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological Oppression</h1>
+              <p class="flashcard-def">Religious institutions glorify male supremacy, demand female domestic submission, and police female bodily autonomy.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Simone de Beauvoir (1949, &#039;The Second Sex&#039;) and Mary Daly (1973) argued religion is deeply patriarchal, duping women into accepting secondary status on earth.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 531: Protective Moral Haven -->
+        <section class="slide" id="slide-531">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏰</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Protective Moral Haven</h1>
+              <p class="flashcard-def">Churches provide women with clear moral rules, emotional solace, and supportive female solidarity networks in a hostile world.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Leila Ahmed (1992) and Linda Woodhead showed women actively use conservative religion (e.g. the Islamic hijab) as a protective moral haven and symbol of dignity.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 532: Hierarchical Orthodoxy -->
+        <section class="slide" id="slide-532">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">👑</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hierarchical Orthodoxy</h1>
+              <p class="flashcard-def">Doctrinal systems centered on a transcendent male creator, male-only clergy, and strict policing of female domestic roles.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Karen Armstrong (1993) showed established monotheistic religions (Christianity, Islam, Orthodox Judaism) exclude women from the highest priesthood hierarchies.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 533: Immanent Holistic Spirituality -->
+        <section class="slide" id="slide-533">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌸</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Immanent Holistic Spirituality</h1>
+              <p class="flashcard-def">Spiritual movements celebrating immanent divine nurture, female biological cycles, and egalitarian therapeutic networks.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Heelas &amp; Linda Woodhead (2005) showed 80% of participants in holistic spirituality are women, drawn to inner subjective development and personal healing.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 534: Dismantling Formal Barriers -->
+        <section class="slide" id="slide-534">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📈</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Dismantling Formal Barriers</h1>
+              <p class="flashcard-def">Progressive reforms opening official ministry, ordination, and theological scholarship to women across liberal denominations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Liberal religious reformers note the Church of England voted to consecrate female priests in 1992 and female bishops in 2014, dismantling formal barriers.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 535: The Stained Glass Ceiling -->
+        <section class="slide" id="slide-535">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📉</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Stained Glass Ceiling</h1>
+              <p class="flashcard-def">Invisible structural and theological prohibitions that keep women clustered in marginal roles while reserving top power for men.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Sociologists identify the &#039;stained glass ceiling&#039;: women face invisible organizational barriers preventing equal advancement to senior religious leadership.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 536: Structural Subordination -->
+        <section class="slide" id="slide-536">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔒</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Subordination</h1>
+              <p class="flashcard-def">Religious institutions enforce male supremacy, sanctify domestic subservience, and exclude women from top ecclesiastical power.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Nawal El Saadawi (1980, &#039;The Hidden Face of Eve&#039;) argued male-dominated political institutions manipulate religious scriptures to justify female subjugation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 537: Empowerment &amp; Female Agency -->
+        <section class="slide" id="slide-537">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🔓</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Empowerment &amp; Female Agency</h1>
+              <p class="flashcard-def">Women deploy religious faith, community solidarity, and holistic therapies to assert identity, autonomy, and mutual protection.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Helen Watson (1994) and modern Muslim feminists show the veil is often a chosen symbol of female agency, avoiding sexualised male objectification.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 538: Universal Truth &amp; Obligation -->
+        <section class="slide" id="slide-538">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Universal Truth &amp; Obligation</h1>
+              <p class="flashcard-def">An overarching, authoritative religious monopoly providing total explanations of existence, binding community members to communal moral obedience.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Traditional church religion was defined by universal truth claims, moral obligations, and institutional obedience to religious authorities.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 539: Hyperreal Consumer Signs -->
+        <section class="slide" id="slide-539">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🪞</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Hyperreal Consumer Signs</h1>
+              <p class="flashcard-def">Fragmented spiritual symbols consumed through mass media and fashion, devoid of doctrinal discipline or institutional allegiance.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Jean Baudrillard (1981) and postmodernists show religion in consumer culture is commodified into aesthetic signs, crystals, and yoga retreats.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 540: Ecclesiastical Conformity -->
+        <section class="slide" id="slide-540">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ecclesiastical Conformity</h1>
+              <p class="flashcard-def">Traditional religious commitment characterized by lifelong institutional loyalty, mandatory public worship, and adherence to rigid moral dogmas.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Ernst Troeltsch (1912) defined the traditional Church: a universal ecclesiastical body allied with the state, demanding conformity across the whole population.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 541: Elective Supermarket Faith -->
+        <section class="slide" id="slide-541">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛒</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Elective Supermarket Faith</h1>
+              <p class="flashcard-def">Individualised consumer approach where sovereign seekers pick and mix therapeutic practices to enhance private emotional well-being.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Zygmunt Bauman (1998) argued postmodern consumers browse an &#039;elective supermarket of faith&#039;, picking beliefs that feel good without committing to dogma.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 542: External Role Duty -->
+        <section class="slide" id="slide-542">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛪</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 3.3rem;">External Role Duty</h1>
+              <p class="flashcard-def">Traditional Christian churchgoing centered on obedience to external clerical hierarchies, rigid scripture, and self-denying communal obligations.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Classical functionalists showed religion instilled external role duties (sacrificing individual desires for family, community, and God).</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 543: Inner Subjective Well-being -->
+        <section class="slide" id="slide-543">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🌿</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Inner Subjective Well-being</h1>
+              <p class="flashcard-def">Decentralized alternative spiritualities emphasizing self-transformation, emotional healing, and living authentically in accordance with inner wisdom.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Heelas (1996, &#039;The New Age Movement&#039;) showed modern spirituality focuses entirely on the &#039;sacralisation of the self&#039; and inner subjective well-being.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 544: Ascetic Sectarian Isolation -->
+        <section class="slide" id="slide-544">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⛺</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Ascetic Sectarian Isolation</h1>
+              <p class="flashcard-def">Radical movements condemning secular society, demanding full life-abandonment, communal living, and submission to a charismatic prophet.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Max Weber and Bryan Wilson showed traditional sects (e.g. the Amish) practice ascetic isolation, shunning modern corrupt capitalist society.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 545: Therapeutic Capitalist Integration -->
+        <section class="slide" id="slide-545">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🏙️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Therapeutic Capitalist Integration</h1>
+              <p class="flashcard-def">Commercialized belief systems offering clients spiritual techniques to overcome personal anxiety and unlock worldly corporate success.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Heelas (2005) showed modern New Age practices (mindfulness, executive yoga) are enthusiastically integrated into corporate wellness programmes.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 546: Textual Literalism &amp; Certainty -->
+        <section class="slide" id="slide-546">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">📜</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Textual Literalism &amp; Certainty</h1>
+              <p class="flashcard-def">Defensive religious revival demanding strict adherence to sacred scriptures as the immutable, inerrant, and exclusive word of God.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Steve Bruce (2000) showed religious fundamentalists insist on textual literalism (inerrancy of scripture) to provide absolute certainty in a chaotic world.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 547: Subjective Spiritual Pluralism -->
+        <section class="slide" id="slide-547">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🎨</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.4rem;">Subjective Spiritual Pluralism</h1>
+              <p class="flashcard-def">Fluid, pick-and-mix approach where all spiritual claims are treated as equally valid metaphors tailored to individual emotional wellness.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Paul Heelas &amp; Linda Woodhead (2005) showed the Kendal Project demonstrated a shift from authoritative religion to subjective spiritual pluralism.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 548: The Spiritual Supermarket -->
+        <section class="slide" id="slide-548">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">🛍️</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">The Spiritual Supermarket</h1>
+              <p class="flashcard-def">Religion survives by transforming into an individualized, therapeutic consumer commodity offering holistic wellness and self-care.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> David Lyon (2000, &#039;Jesus in Disneyland&#039;) showed religion has migrated into the consumer sphere; people become religious consumers in a spiritual supermarket.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>
+      
+
+        <!-- SLIDE 549: Resurgent Dogmatic Certainty -->
+        <section class="slide" id="slide-549">
+          <div class="flashcard-stage">
+            <div class="card-graphic-sticker">⚡</div>
+            <div class="flashcard theme-8" style="background: #4338CA !important;">
+              <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
+              <h1 class="flashcard-title" style="font-size: 2.85rem;">Resurgent Dogmatic Certainty</h1>
+              <p class="flashcard-def">Religion survives by rejecting consumer relativism, reaffirming literal scriptural truth, and fighting secular decadence.</p>
+              
+                <div class="card-tip-box">
+                  <span class="tip-icon">💡</span>
+                  <span class="tip-text"><strong>Exam Tip:</strong> Manuel Castells (1997) argued fundamentalist resurgent certainty provides an unshakeable identity anchor against the disorienting tides of globalisation.</span>
+                </div>
+              
+            </div>
+          </div>
+        </section>`;
+})();
