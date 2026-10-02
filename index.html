@@ -3433,14 +3433,13 @@
       display: flex;
       flex-direction: column;
       padding: 8px 18px;
-      background: rgba(251, 251, 249, 0.96);
+      background: rgba(251, 251, 249, 0.98);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(15, 23, 42, 0.08);
       z-index: 50;
-      gap: 6px;
       flex-shrink: 0;
     }
-    .deck-top-row {
+    .deck-nav-wrapper {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -3452,43 +3451,47 @@
       align-items: center;
       gap: 12px;
       min-width: 0;
+      flex-shrink: 0;
     }
-    .desktop-only-chapter-jump {
-      display: inline-flex;
+    .deck-chapter-jump-pill {
+      display: none; /* revealed via JS when chapters exist */
       align-items: center;
-    }
-    .deck-mobile-chapter-row {
-      display: none;
-      width: 100%;
-      padding-top: 2px;
-    }
-    .mobile-chapter-select-wrap {
-      display: flex;
-      align-items: center;
-      background: #ffffff;
-      border: 1.5px solid #cbd5e1;
-      border-radius: 12px;
-      padding: 0 10px;
-      width: 100%;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
       gap: 6px;
+      background: #ffffff;
+      border: 1.5px solid #0f172a;
+      border-radius: 9999px;
+      padding: 0 12px;
+      height: 33px;
+      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.08);
+      max-width: 320px;
+      flex: 0 1 290px;
+      min-width: 170px;
+      box-sizing: border-box;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
     }
-    .chapter-select-icon {
+    .deck-chapter-jump-pill:focus-within {
+      border-color: #0284c7;
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18);
+    }
+    .chapter-pill-icon {
       font-size: 13px;
       flex-shrink: 0;
       user-select: none;
+      line-height: 1;
     }
-    .mobile-select {
-      border: none !important;
-      background: transparent !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      padding: 6px 0 !important;
-      font-size: 11px !important;
-      font-weight: 800 !important;
-      color: #0f172a !important;
-      outline: none !important;
+    .deck-chapter-select {
+      background: transparent;
+      border: none;
+      outline: none;
+      font-family: 'Outfit', sans-serif;
+      font-size: 11.5px;
+      font-weight: 800;
+      color: #0f172a;
       cursor: pointer;
+      width: 100%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 2px 0;
     }
     .syllabus-hub-btn {
       display: inline-flex;
@@ -4397,20 +4400,6 @@
     .syllabus-hub-btn .hub-btn-short-text { display: none; }
     .syllabus-hub-btn .hub-btn-long-text { display: inline; }
 
-    .deck-chapter-select {
-      background: #ffffff;
-      border: 1.5px solid #cbd5e1;
-      border-radius: 999px;
-      padding: 4px 10px;
-      font-family: 'Outfit', sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      color: #0f172a;
-      cursor: pointer;
-      outline: none;
-      max-width: 200px;
-      text-overflow: ellipsis;
-    }
     .deck-switch-btn {
       background: #f1f5f9;
       color: #0f172a;
@@ -4453,12 +4442,24 @@
 
     /* Responsive Mobile Styles */
     @media (max-width: 768px) {
-      .deck-top-bar { padding: 6px 10px; gap: 6px; }
-      .deck-top-row { gap: 6px; }
-      .deck-left-group { gap: 6px; }
+      .deck-top-bar { padding: 6px 10px 8px 10px; }
+      .deck-nav-wrapper { flex-wrap: wrap; gap: 6px; }
+      .deck-left-group { order: 1; gap: 6px; }
+      .deck-right-group { order: 2; gap: 4px; }
       .deck-title-text { display: none !important; }
-      .desktop-only-chapter-jump { display: none !important; }
-      .deck-mobile-chapter-row { display: flex; }
+      .deck-chapter-jump-pill {
+        order: 3;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 1 1 100% !important;
+        margin-top: 3px;
+        height: 34px;
+        border-radius: 12px;
+        border-color: #cbd5e1;
+        padding: 0 10px;
+        background: #ffffff;
+      }
+      .deck-chapter-select { font-size: 12px !important; }
       .syllabus-hub-btn { padding: 5px 9px; font-size: 10px; }
       .syllabus-hub-btn .hub-btn-long-text { display: none; }
       .syllabus-hub-btn .hub-btn-short-text { display: inline; }
@@ -4598,7 +4599,7 @@
 
   <!-- Top Header Navigation Bar -->
   <header class="deck-top-bar">
-    <div class="deck-top-row">
+    <div class="deck-nav-wrapper">
       <div class="deck-left-group">
         <button type="button" class="syllabus-hub-btn" onclick="exitToSyllabusHub()" title="Return to Syllabus Hub">
           <span>←</span>
@@ -4606,11 +4607,15 @@
           <span class="hub-btn-short-text">HUB</span>
         </button>
         <span class="deck-title-text" id="deck-top-title">` + escapeHtml(deckTitle) + `</span>
-        <div class="desktop-only-chapter-jump">
-          <select id="deck-chapter-jump" class="deck-chapter-select" onchange="jumpToChapter(this.value)" style="display:none;" title="Jump to Chapter"></select>
-        </div>
       </div>
-      
+
+      <div class="deck-chapter-jump-pill" id="deck-chapter-jump-container" style="display:none;">
+        <span class="chapter-pill-icon">📑</span>
+        <select id="deck-chapter-jump" class="deck-chapter-select" onchange="jumpToChapter(this.value)" title="Jump to Chapter">
+          <option value="">Jump Chapter...</option>
+        </select>
+      </div>
+
       <div class="deck-right-group">
         ` + (specialType === 'terms' ? `<button type="button" class="deck-switch-btn" onclick="switchSpecialDeck('sociologists')" title="Switch to Key Sociologists"><span>👤</span><span class="btn-text">Sociologists</span></button>` : (specialType === 'sociologists' ? `<button type="button" class="deck-switch-btn" onclick="switchSpecialDeck('terms')" title="Switch to Key Terms"><span>📚</span><span class="btn-text">Key Terms</span></button>` : '')) + `
         <span class="slide-counter-pill" id="deck-slide-counter">01 / --</span>
@@ -4621,14 +4626,6 @@
         <button type="button" class="deck-action-btn" onclick="toggleDeckFullscreen()" title="Fullscreen">
           <span>⛶</span>
         </button>
-      </div>
-    </div>
-
-    <!-- Dedicated Mobile Chapter Jump Row (never overlaps with switcher button) -->
-    <div class="deck-mobile-chapter-row" id="deck-mobile-chapter-row" style="display:none;">
-      <div class="mobile-chapter-select-wrap">
-        <span class="chapter-select-icon">📑</span>
-        <select id="deck-chapter-jump-mobile" class="deck-chapter-select mobile-select" onchange="jumpToChapter(this.value)" title="Jump to Chapter"></select>
       </div>
     </div>
   </header>
@@ -4678,20 +4675,42 @@
 
   <script>
     (function() {
+      var specialType = ` + JSON.stringify(specialType) + `;
       var slides = [];
       var currentIndex = 0;
       var foundChapters = [];
+      var jumpContainer = null;
       var chapterSelect = null;
-      var mobileChapterSelect = null;
-      var mobileRow = null;
+
+      var canonicalChapters = {
+        sociologists: [
+          { num: 1, idx: 1, title: "Socialisation, Culture & Society" },
+          { num: 2, idx: 23, title: "Social Identity: Class, Gender & Age" },
+          { num: 3, idx: 41, title: "Sociological Research Methods" },
+          { num: 4, idx: 62, title: "The Family" },
+          { num: 5, idx: 94, title: "Education" },
+          { num: 6, idx: 120, title: "Globalisation" },
+          { num: 7, idx: 138, title: "Media" },
+          { num: 8, idx: 160, title: "Religion" }
+        ],
+        terms: [
+          { num: 1, idx: 1, title: "Socialisation, Culture & Social Control" },
+          { num: 2, idx: 105, title: "Social Identity: Class, Gender & Age" },
+          { num: 3, idx: 134, title: "Sociological Research Methods" },
+          { num: 4, idx: 191, title: "The Family" },
+          { num: 5, idx: 242, title: "Education" },
+          { num: 6, idx: 336, title: "Globalisation" },
+          { num: 7, idx: 418, title: "Media" },
+          { num: 8, idx: 482, title: "Religion" }
+        ]
+      };
 
       function initPresentation() {
         slides = Array.from(document.querySelectorAll('section.slide, .slide'));
         if (!slides.length) return;
 
+        jumpContainer = document.getElementById('deck-chapter-jump-container');
         chapterSelect = document.getElementById('deck-chapter-jump');
-        mobileChapterSelect = document.getElementById('deck-chapter-jump-mobile');
-        mobileRow = document.getElementById('deck-mobile-chapter-row');
 
         // Guarantee sticker is always attached to card top-right corner
         document.querySelectorAll('.flashcard-stage').forEach(function(st) {
@@ -4713,41 +4732,43 @@
         });
 
         var coverSub = document.querySelector('.cover-subtitle');
-        if (coverSub && coverSub.innerText.trim()) {
+        if (coverSub && (coverSub.textContent || coverSub.innerText || '').trim()) {
           var titleEl = document.getElementById('deck-top-title');
-          if (titleEl) titleEl.innerText = coverSub.innerText.trim();
+          if (titleEl) titleEl.innerText = (coverSub.textContent || coverSub.innerText).trim();
         }
 
-        // Detect Chapters and build quick-jump dropdown (both desktop and mobile)
+        // Determine chapters: canonical list first, or dynamic slide traversal fallback using textContent
         foundChapters = [];
-        slides.forEach(function(s, idx) {
-          var pill = s.querySelector('.card-pill, .pill-tag');
-          var pillText = pill ? pill.innerText.trim() : '';
-          var m = pillText.match(/CHAPTER\s*0?(\d+)/i);
-          if (m) {
-            var chNum = parseInt(m[1]);
-            if (!foundChapters.find(function(c) { return c.num === chNum; })) {
-              var h1 = s.querySelector('.flashcard-title, h1, h2');
-              var title = h1 ? h1.innerText.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : ('Chapter ' + chNum);
-              if (title.length > 30) title = title.substring(0, 30) + '...';
-              foundChapters.push({ num: chNum, idx: idx, title: title });
+        if (specialType && canonicalChapters[specialType]) {
+          foundChapters = canonicalChapters[specialType].slice();
+        } else {
+          slides.forEach(function(s, idx) {
+            var pill = s.querySelector('.card-pill, .pill-tag');
+            var pillText = pill ? (pill.textContent || pill.innerText || '').trim() : '';
+            var m = pillText.match(/(?:CHAPTER|SECTION|PART)\s*0?(\d+)/i);
+            if (m) {
+              var chNum = parseInt(m[1], 10);
+              if (!foundChapters.find(function(c) { return c.num === chNum; })) {
+                var h = s.querySelector('.flashcard-title, .chapter-split-title, .cover-main-heading, h1, h2');
+                var title = h ? (h.textContent || h.innerText || '').replace(/\s+/g, ' ').trim() : ('Chapter ' + chNum);
+                if (title.length > 32) title = title.substring(0, 32) + '...';
+                foundChapters.push({ num: chNum, idx: idx, title: title });
+              }
             }
-          }
-        });
-
-        if (foundChapters.length > 1) {
-          [chapterSelect, mobileChapterSelect].forEach(function(sel) {
-            if (!sel) return;
-            sel.innerHTML = '<option value="">📑 Jump Chapter...</option>';
-            foundChapters.forEach(function(ch) {
-              var opt = document.createElement('option');
-              opt.value = ch.idx;
-              opt.innerText = 'Ch ' + ch.num + ': ' + ch.title;
-              sel.appendChild(opt);
-            });
           });
-          if (chapterSelect) chapterSelect.style.display = 'inline-block';
-          if (mobileRow) mobileRow.style.display = 'flex';
+        }
+
+        if (chapterSelect && foundChapters.length > 1) {
+          chapterSelect.innerHTML = '<option value="">📑 Jump Chapter...</option>';
+          foundChapters.forEach(function(ch) {
+            var opt = document.createElement('option');
+            opt.value = ch.idx;
+            opt.textContent = 'Ch ' + ch.num + ': ' + ch.title;
+            chapterSelect.appendChild(opt);
+          });
+          if (jumpContainer) jumpContainer.style.display = 'inline-flex';
+        } else {
+          if (jumpContainer) jumpContainer.style.display = 'none';
         }
 
         buildOverviewGrid();
@@ -4793,19 +4814,16 @@
           }
         }
 
-        // Sync both chapter dropdowns to reflect active chapter
-        if (foundChapters && foundChapters.length) {
+        // Sync chapter dropdown to reflect active chapter
+        if (chapterSelect && foundChapters && foundChapters.length) {
           var currentChapterVal = '';
           foundChapters.forEach(function(ch) {
             if (currentIndex >= ch.idx) {
               currentChapterVal = String(ch.idx);
             }
           });
-          if (chapterSelect && chapterSelect.value !== currentChapterVal) {
+          if (chapterSelect.value !== currentChapterVal) {
             chapterSelect.value = currentChapterVal;
-          }
-          if (mobileChapterSelect && mobileChapterSelect.value !== currentChapterVal) {
-            mobileChapterSelect.value = currentChapterVal;
           }
         }
 
