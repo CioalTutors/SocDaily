@@ -3997,16 +3997,50 @@
     .table-slide-wrap {
       background: #ffffff;
       border: 2px solid #0f172a;
-      border-radius: 28px;
-      padding: 24px 28px;
+      border-radius: 24px;
+      padding: 22px 26px;
       box-shadow: 0 16px 36px -12px rgba(15, 23, 42, 0.12);
       max-width: 860px;
+      width: 100%;
       margin: 0 auto;
       overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x pan-y;
+      overscroll-behavior-x: contain;
+      position: relative;
+    }
+    .table-slide-wrap::-webkit-scrollbar {
+      height: 6px;
+    }
+    .table-slide-wrap::-webkit-scrollbar-track {
+      background: #f1f5f9;
+      border-radius: 999px;
+    }
+    .table-slide-wrap::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 999px;
+    }
+    .table-scroll-hint {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      font-size: 10.5px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 4px 10px;
+      border-radius: 8px;
+      width: fit-content;
     }
     .master-table {
       width: 100%;
-      border-collapse: collapse;
+      min-width: 520px;
+      border-collapse: separate;
+      border-spacing: 0;
       font-size: 12px;
       text-align: left;
     }
@@ -4016,12 +4050,20 @@
       font-weight: 900;
       border-bottom: 2px solid #cbd5e1;
       color: #0f172a;
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+      z-index: 2;
     }
     .master-table td {
       padding: 10px 12px;
       border-bottom: 1px solid #e2e8f0;
       color: #334155;
       line-height: 1.45;
+      vertical-align: top;
+    }
+    .master-table tr:hover td {
+      background: #f8fafc;
     }
     .table-theorist-pill {
       background: #fef08a;
@@ -4187,16 +4229,16 @@
       align-items: center;
       justify-content: center;
       min-height: calc(100vh - 140px);
-      padding: 40px 24px;
+      padding: 36px 20px;
       position: relative;
       width: 100%;
     }
     .flashcard {
       position: relative;
-      border-radius: 32px;
-      max-width: 680px;
+      border-radius: 28px;
+      max-width: 660px;
       width: 100%;
-      padding: 44px 48px;
+      padding: 38px 42px;
       box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.22), 0 8px 20px -6px rgba(0, 0, 0, 0.12);
       color: #ffffff;
       font-family: 'Outfit', sans-serif;
@@ -4205,11 +4247,11 @@
     }
     .card-graphic-sticker {
       position: absolute;
-      top: -30px;
-      right: 32px;
-      font-size: 64px;
+      top: -24px;
+      right: 24px;
+      font-size: 54px;
       line-height: 1;
-      filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.18));
+      filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
       z-index: 10;
       transform: rotate(4deg);
       user-select: none;
@@ -4217,7 +4259,7 @@
       transition: transform 0.25s ease;
     }
     .flashcard:hover .card-graphic-sticker {
-      transform: rotate(8deg) scale(1.08);
+      transform: rotate(8deg) scale(1.06);
     }
     .card-pill {
       font-size: 11px;
@@ -4229,15 +4271,15 @@
       padding: 5px 14px;
       border-radius: 999px;
       display: inline-block;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
       backdrop-filter: blur(4px);
     }
     .flashcard-title {
-      font-size: 2.85rem;
+      font-size: 2.5rem;
       font-weight: 900;
       color: #ffffff;
       line-height: 1.15;
-      margin: 0 0 14px 0;
+      margin: 0 0 12px 0;
       letter-spacing: -0.02em;
     }
     .theorist-school-badge {
@@ -4248,37 +4290,37 @@
       border: 1.5px solid rgba(255, 255, 255, 0.35);
       color: #ffffff;
       font-weight: 700;
-      font-size: 12.5px;
+      font-size: 12px;
       padding: 4px 12px;
       border-radius: 8px;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
     .flashcard-def {
-      font-size: 1.25rem;
-      line-height: 1.6;
+      font-size: 1.18rem;
+      line-height: 1.55;
       color: #ffffff;
       font-weight: 450;
-      margin: 0 0 16px 0;
+      margin: 0 0 14px 0;
       opacity: 0.98;
     }
     .card-tip-box {
       background: rgba(0, 0, 0, 0.2);
       border: 1px solid rgba(255, 255, 255, 0.16);
-      border-radius: 18px;
-      padding: 14px 18px;
+      border-radius: 16px;
+      padding: 12px 16px;
       display: flex;
       align-items: flex-start;
-      gap: 12px;
-      margin-top: 20px;
+      gap: 10px;
+      margin-top: 16px;
     }
     .tip-icon {
-      font-size: 20px;
+      font-size: 18px;
       flex-shrink: 0;
       line-height: 1.2;
     }
     .tip-text {
-      font-size: 13.5px;
-      line-height: 1.55;
+      font-size: 13px;
+      line-height: 1.5;
       color: rgba(255, 255, 255, 0.92);
     }
     .tip-text strong {
@@ -4289,16 +4331,16 @@
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
-      margin-top: 20px;
+      margin-top: 16px;
     }
     .mini-badge {
       background: rgba(255, 255, 255, 0.2);
       border: 1px solid rgba(255, 255, 255, 0.3);
       color: #ffffff;
-      padding: 6px 14px;
+      padding: 5px 12px;
       border-radius: 999px;
       font-weight: 700;
-      font-size: 12px;
+      font-size: 11.5px;
     }
     .theme-1 { background: #00A859 !important; }
     .theme-2 { background: #0284C7 !important; }
@@ -4308,6 +4350,9 @@
     .theme-6 { background: #0D9488 !important; }
     .theme-7 { background: #7C3AED !important; }
     .theme-8 { background: #4338CA !important; }
+
+    .syllabus-hub-btn .hub-btn-short-text { display: none; }
+    .syllabus-hub-btn .hub-btn-long-text { display: inline; }
 
     .deck-chapter-select {
       background: #ffffff;
@@ -4363,22 +4408,130 @@
       box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.2);
     }
 
-    /* Responsive */
+    /* Responsive Mobile Styles */
     @media (max-width: 768px) {
-      .deck-top-bar { padding: 8px 12px; }
-      .deck-bottom-bar { padding: 8px 12px; }
+      .deck-top-bar { padding: 6px 10px; gap: 6px; }
+      .syllabus-hub-btn { padding: 5px 9px; font-size: 10px; }
+      .syllabus-hub-btn .hub-btn-long-text { display: none; }
+      .syllabus-hub-btn .hub-btn-short-text { display: inline; }
+      .deck-title-text { font-size: 11px; max-width: 90px; }
+      .deck-chapter-select { max-width: 95px; font-size: 9.5px; padding: 3px 6px; }
+      .deck-switch-btn { padding: 4px 7px; font-size: 10px; }
+      .deck-switch-btn .btn-text { font-size: 9.5px; }
+      .slide-counter-pill { font-size: 10px; padding: 4px 7px; }
+      .deck-action-btn { padding: 4px 7px; font-size: 10px; }
+      .deck-action-btn .btn-label-text { display: none; }
+      .deck-bottom-bar { padding: 6px 12px; }
       .deck-keyboard-hints { display: none; }
-      .dual-columns-grid { grid-template-columns: 1fr; }
-      .theorist-spotlight-card, .card-content-layout { flex-direction: column-reverse; }
-      .chapter-split-card { flex-direction: column; text-align: center; }
+      .deck-nav-btn { padding: 6px 16px; font-size: 11px; }
+
+      .stage-area { padding: 8px 10px; }
+
+      /* Flashcards on Mobile - proportional & not crammed */
+      .flashcard-stage {
+        padding: 16px 6px;
+        min-height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .flashcard {
+        max-width: 440px;
+        width: 100%;
+        padding: 22px 18px;
+        border-radius: 20px;
+        box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.25);
+      }
+      .card-graphic-sticker {
+        font-size: 38px;
+        top: -18px;
+        right: 16px;
+        transform: rotate(4deg);
+      }
+      .card-pill {
+        font-size: 9px;
+        padding: 3px 10px;
+        margin-bottom: 8px;
+        letter-spacing: 0.08em;
+      }
+      .flashcard-title {
+        font-size: 1.45rem !important;
+        line-height: 1.2 !important;
+        margin: 0 0 8px 0 !important;
+        word-break: break-word;
+      }
+      .theorist-school-badge {
+        font-size: 10.5px;
+        padding: 3px 9px;
+        margin-bottom: 10px;
+      }
+      .flashcard-def {
+        font-size: 0.92rem !important;
+        line-height: 1.45 !important;
+        margin: 0 0 10px 0 !important;
+      }
+      .card-tip-box {
+        padding: 9px 12px;
+        border-radius: 12px;
+        margin-top: 10px;
+        gap: 8px;
+      }
+      .tip-icon {
+        font-size: 16px;
+      }
+      .tip-text {
+        font-size: 11px;
+        line-height: 1.4;
+      }
+      .card-badge-row {
+        margin-top: 10px;
+        gap: 5px;
+      }
+      .mini-badge {
+        padding: 3px 9px;
+        font-size: 10px;
+      }
+
+      /* Tables on Mobile */
+      .table-slide-wrap {
+        padding: 12px 8px;
+        border-radius: 16px;
+        border-width: 1.5px;
+      }
+      .table-scroll-hint {
+        display: flex;
+      }
+      .master-table {
+        min-width: 480px;
+        font-size: 11px;
+      }
+      .master-table th {
+        padding: 8px 10px;
+        font-size: 10.5px;
+      }
+      .master-table td {
+        padding: 8px 10px;
+        font-size: 11px;
+        line-height: 1.4;
+      }
+      .table-theorist-pill {
+        font-size: 9.5px;
+        padding: 2px 6px;
+      }
+
+      /* Other Slides on Mobile */
+      .editorial-cover-card { padding: 22px 16px; border-radius: 20px; }
+      .cover-main-heading { font-size: 1.6rem; }
+      .cover-subtitle { font-size: 1.1rem; }
+      .cover-desc { font-size: 12px; line-height: 1.5; }
+      .agenda-slide-wrap { padding: 18px 14px; border-radius: 20px; }
+      .agenda-title { font-size: 1.3rem; }
+      .agenda-cards-grid { gap: 8px; }
+      .agenda-card { padding: 10px 12px; border-radius: 12px; }
+      .dual-columns-grid { grid-template-columns: 1fr; gap: 10px; }
+      .theorist-spotlight-card, .card-content-layout { flex-direction: column-reverse; padding: 18px 14px; border-radius: 20px; gap: 12px; }
+      .chapter-split-card { flex-direction: column; text-align: center; padding: 20px 16px; border-radius: 20px; gap: 12px; }
       .chapter-split-divider { width: 100%; height: 2px; }
-      .deck-action-btn { padding: 6px 10px; font-size: 11px; }
-      .flashcard-stage { padding: 24px 14px; min-height: calc(100vh - 120px); }
-      .flashcard { padding: 28px 20px; border-radius: 24px; }
-      .card-graphic-sticker { font-size: 46px; top: -22px; right: 18px; }
-      .flashcard-title { font-size: 2rem; }
-      .flashcard-def { font-size: 1.05rem; line-height: 1.5; }
-      .deck-chapter-select { max-width: 120px; font-size: 10px; }
     }
 
     /* Print Styles */
@@ -4402,7 +4555,8 @@
     <div class="deck-left-group">
       <button type="button" class="syllabus-hub-btn" onclick="exitToSyllabusHub()" title="Return to Syllabus Hub">
         <span>←</span>
-        <span>SYLLABUS HUB</span>
+        <span class="hub-btn-long-text">SYLLABUS HUB</span>
+        <span class="hub-btn-short-text">HUB</span>
       </button>
       <span class="deck-title-text" id="deck-top-title">` + escapeHtml(deckTitle) + `</span>
       <select id="deck-chapter-jump" class="deck-chapter-select" onchange="showSlide(parseInt(this.value))" style="display:none;" title="Jump to Chapter"></select>
@@ -4413,7 +4567,7 @@
       <span class="slide-counter-pill" id="deck-slide-counter">01 / --</span>
       <button type="button" class="deck-action-btn" id="deck-overview-btn" onclick="toggleOverviewModal()" title="View All Slides Grid">
         <span>▦</span>
-        <span>Overview</span>
+        <span class="btn-label-text">Overview</span>
       </button>
       <button type="button" class="deck-action-btn" onclick="toggleDeckFullscreen()" title="Fullscreen">
         <span>⛶</span>
@@ -4472,6 +4626,25 @@
       function initPresentation() {
         slides = Array.from(document.querySelectorAll('section.slide, .slide'));
         if (!slides.length) return;
+
+        // Guarantee sticker is always attached to card top-right corner
+        document.querySelectorAll('.flashcard-stage').forEach(function(st) {
+          var sticker = st.querySelector('.card-graphic-sticker');
+          var card = st.querySelector('.flashcard');
+          if (sticker && card && sticker.parentElement !== card) {
+            card.insertBefore(sticker, card.firstChild);
+          }
+        });
+
+        // Add scroll hint to tables on mobile if missing
+        document.querySelectorAll('.table-slide-wrap').forEach(function(wrap) {
+          if (!wrap.querySelector('.table-scroll-hint')) {
+            var hint = document.createElement('div');
+            hint.className = 'table-scroll-hint';
+            hint.innerHTML = '<span>↔</span><span>Swipe table sideways to view all columns</span>';
+            wrap.insertBefore(hint, wrap.firstChild);
+          }
+        });
 
         var coverSub = document.querySelector('.cover-subtitle');
         if (coverSub && coverSub.innerText.trim()) {
@@ -4648,15 +4821,54 @@
         });
 
         var touchStartX = 0;
-        var touchEndX = 0;
+        var touchStartY = 0;
+        var touchStartTime = 0;
+        var ignoreTouchNav = false;
+
         document.addEventListener('touchstart', function(e) {
-          touchStartX = e.changedTouches[0].screenX;
+          if (!e.changedTouches || !e.changedTouches.length) return;
+          var touch = e.changedTouches[0];
+          touchStartX = touch.screenX;
+          touchStartY = touch.screenY;
+          touchStartTime = Date.now();
+          
+          // Check if touch target or any ancestor is a table, table-slide-wrap, horizontally scrollable element, or control
+          var target = e.target;
+          var isTableElement = Boolean(target && target.closest && target.closest('.table-slide-wrap, table, .master-table, .comparison-card, .deck-overview-modal, select, input, button'));
+          
+          var hasHorizScroll = false;
+          var el = target;
+          while (el && el !== document.body && el !== document.documentElement) {
+            if (el.scrollWidth > el.clientWidth + 4) {
+              var overflowX = window.getComputedStyle(el).overflowX;
+              if (overflowX === 'auto' || overflowX === 'scroll') {
+                hasHorizScroll = true;
+                break;
+              }
+            }
+            el = el.parentElement;
+          }
+
+          ignoreTouchNav = isTableElement || hasHorizScroll;
         }, { passive: true });
+
         document.addEventListener('touchend', function(e) {
-          touchEndX = e.changedTouches[0].screenX;
-          var diff = touchEndX - touchStartX;
-          if (Math.abs(diff) > 50) {
-            if (diff < 0) deckNextSlide();
+          if (ignoreTouchNav) return;
+          if (!e.changedTouches || !e.changedTouches.length) return;
+          var touch = e.changedTouches[0];
+          var touchEndX = touch.screenX;
+          var touchEndY = touch.screenY;
+          var elapsed = Date.now() - touchStartTime;
+
+          // Only fast, deliberate horizontal swipes (< 650ms)
+          if (elapsed > 650) return;
+
+          var diffX = touchEndX - touchStartX;
+          var diffY = touchEndY - touchStartY;
+
+          // Must be horizontal gesture: |diffX| >= 60px and at least 1.7x vertical movement
+          if (Math.abs(diffX) >= 60 && Math.abs(diffX) > Math.abs(diffY) * 1.7) {
+            if (diffX < 0) deckNextSlide();
             else deckPrevSlide();
           }
         }, { passive: true });

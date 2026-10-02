@@ -1,11 +1,13 @@
-// Auto-generated Key Sociologists and Key Terms slide data
-(function() {
-  var root = typeof window !== 'undefined' ? window : (typeof global !== 'undefined' ? global : this);
-  root.KEY_SOCIOLOGISTS_HTML = ` <!-- SLIDE 1: COVER -->
+// CIE A-Level Sociology 9699 - Master Key Sociologists & Key Terms Presentations
+// Auto-bundled dataset to support 100% offline and direct-run browser environments
+
+var _target = typeof window !== 'undefined' ? window : (typeof global !== 'undefined' ? global : this);
+
+_target.KEY_SOCIOLOGISTS_HTML = ` <!-- SLIDE 1: COVER -->
     <section class="slide active" id="slide-1">
       <div class="flashcard-stage">
-        <div class="card-graphic-sticker">👤</div>
         <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">👤</div>
           <div class="card-pill">CAMBRIDGE A-LEVEL SOCIOLOGY 9699</div>
           <h1 class="flashcard-title" style="font-size: 3.1rem; line-height: 1.1; margin-bottom: 12px;">Key Sociologists &amp; Thinkers:<br>Master Directory</h1>
           <p class="flashcard-def" style="margin-bottom: 22px;">Essential canonical sociologists across Chapters 1 to 8 (Papers 1–4). Includes theorist name, theoretical school, landmark studies, and what they said in short below.</p>
@@ -22,8 +24,8 @@
       <!-- SLIDE 2: CHAPTER 1 DIVIDER -->
       <section class="slide" id="slide-2">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🌱</div>
           <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
             <div class="card-pill">CHAPTER 01 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Socialisation, Culture &amp; Social Control</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Nature vs Nurture • Feral Children • Agencies of Socialisation • Structural &amp; Interactionist Perspectives • Formal &amp; Informal Social Control • Power &amp; Resistance</p>
@@ -39,8 +41,8 @@
         <!-- SLIDE 3: Ann Oakley -->
         <section class="slide" id="slide-3">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍👧</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👩‍👧</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Sociology (1972, 1974)</div>
@@ -59,8 +61,8 @@
         <!-- SLIDE 4: Talcott Parsons -->
         <section class="slide" id="slide-4">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
               <div class="theorist-school-badge">Structural Functionalism (1951, 1955)</div>
@@ -79,8 +81,8 @@
         <!-- SLIDE 5: George Herbert Mead -->
         <section class="slide" id="slide-5">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">George Herbert Mead</h1>
               <div class="theorist-school-badge">Symbolic Interactionism (1934)</div>
@@ -99,8 +101,8 @@
         <!-- SLIDE 6: Erving Goffman -->
         <section class="slide" id="slide-6">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Erving Goffman</h1>
               <div class="theorist-school-badge">Dramaturgical Interactionism (1959, 1961)</div>
@@ -119,8 +121,8 @@
         <!-- SLIDE 7: Charles Horton Cooley -->
         <section class="slide" id="slide-7">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Charles Horton Cooley</h1>
               <div class="theorist-school-badge">Interactionist Social Psychology (1909)</div>
@@ -139,8 +141,8 @@
         <!-- SLIDE 8: Émile Durkheim -->
         <section class="slide" id="slide-8">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Classical Functionalism (1893, 1895)</div>
@@ -159,8 +161,8 @@
         <!-- SLIDE 9: Edward Wilson -->
         <section class="slide" id="slide-9">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Edward Wilson</h1>
               <div class="theorist-school-badge">Sociobiology &amp; Evolutionary Psychology (1975)</div>
@@ -179,8 +181,8 @@
         <!-- SLIDE 10: Dennis Wrong -->
         <section class="slide" id="slide-10">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dennis Wrong</h1>
               <div class="theorist-school-badge">Critical Interactionism (1961)</div>
@@ -199,8 +201,8 @@
         <!-- SLIDE 11: Samuel Bowles -->
         <section class="slide" id="slide-11">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Samuel Bowles</h1>
               <div class="theorist-school-badge">Marxist Sociology of Education (1976)</div>
@@ -219,8 +221,8 @@
         <!-- SLIDE 12: Herbert Gintis -->
         <section class="slide" id="slide-12">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Herbert Gintis</h1>
               <div class="theorist-school-badge">Marxist Sociology of Education (1976)</div>
@@ -239,8 +241,8 @@
         <!-- SLIDE 13: Paul Willis -->
         <section class="slide" id="slide-13">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
               <div class="theorist-school-badge">Neo-Marxist Cultural Studies (1977)</div>
@@ -259,8 +261,8 @@
         <!-- SLIDE 14: Walter Miller -->
         <section class="slide" id="slide-14">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Walter Miller</h1>
               <div class="theorist-school-badge">Subcultural Delinquency Theory (1958)</div>
@@ -279,8 +281,8 @@
         <!-- SLIDE 15: Travis Hirschi -->
         <section class="slide" id="slide-15">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔗</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔗</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Travis Hirschi</h1>
               <div class="theorist-school-badge">Social Bond / Control Theory (1969)</div>
@@ -299,8 +301,8 @@
         <!-- SLIDE 16: Charles Murray -->
         <section class="slide" id="slide-16">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Charles Murray</h1>
               <div class="theorist-school-badge">New Right Perspective (1984, 1989)</div>
@@ -319,8 +321,8 @@
         <!-- SLIDE 17: Louis Althusser -->
         <section class="slide" id="slide-17">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
               <div class="theorist-school-badge">Structural Marxism (1971)</div>
@@ -339,8 +341,8 @@
         <!-- SLIDE 18: J. Hood-Williams -->
         <section class="slide" id="slide-18">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🚸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">J. Hood-Williams</h1>
               <div class="theorist-school-badge">Gender Socialisation &amp; Childhood (1990)</div>
@@ -359,8 +361,8 @@
         <!-- SLIDE 19: Stuart Hall -->
         <section class="slide" id="slide-19">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🎸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
               <div class="theorist-school-badge">Neo-Marxist Cultural Studies (1978)</div>
@@ -379,8 +381,8 @@
         <!-- SLIDE 20: Steve Bruce -->
         <section class="slide" id="slide-20">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steve Bruce</h1>
               <div class="theorist-school-badge">Sociology of Social Control &amp; Religion (2002)</div>
@@ -399,8 +401,8 @@
         <!-- SLIDE 21: James Potter -->
         <section class="slide" id="slide-21">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">James Potter</h1>
               <div class="theorist-school-badge">Media Socialisation &amp; Effects (2003)</div>
@@ -419,8 +421,8 @@
         <!-- SLIDE 22: Paul Hodkinson -->
         <section class="slide" id="slide-22">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🖤</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🖤</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Hodkinson</h1>
               <div class="theorist-school-badge">Subcultural Theory &amp; Youth Culture (2002)</div>
@@ -439,8 +441,8 @@
         <!-- SLIDE 23: Michel Foucault -->
         <section class="slide" id="slide-23">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👁️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👁️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Michel Foucault</h1>
               <div class="theorist-school-badge">Post-Structuralist Theory (1975)</div>
@@ -459,8 +461,8 @@
       <!-- SLIDE 24: CHAPTER 2 DIVIDER -->
       <section class="slide" id="slide-24">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🎭</div>
           <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🎭</div>
             <div class="card-pill">CHAPTER 02 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Social Identity: Class, Gender, Ethnicity &amp; Age</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Social Class Identities • Hegemonic &amp; Subordinate Masculinities • Feminine Identities • Ethnic &amp; Hybrid Identities • Age Identities, Youth Culture &amp; Childhood</p>
@@ -476,8 +478,8 @@
         <!-- SLIDE 25: Ann Oakley -->
         <section class="slide" id="slide-25">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍💼</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">👩‍💼</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Sociology (1974)</div>
@@ -496,8 +498,8 @@
         <!-- SLIDE 26: Robert Connell -->
         <section class="slide" id="slide-26">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦁</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🦁</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Connell</h1>
               <div class="theorist-school-badge">Gender Theory &amp; Sociology of Masculinities (1995)</div>
@@ -516,8 +518,8 @@
         <!-- SLIDE 27: Louise Archer -->
         <section class="slide" id="slide-27">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💄</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">💄</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louise Archer</h1>
               <div class="theorist-school-badge">Class, Gender &amp; Youth Identity (2010)</div>
@@ -536,8 +538,8 @@
         <!-- SLIDE 28: Paul Willis -->
         <section class="slide" id="slide-28">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
               <div class="theorist-school-badge">Class Identity &amp; Working-Class Culture (1977)</div>
@@ -556,8 +558,8 @@
         <!-- SLIDE 29: Mairtin Mac an Ghaill -->
         <section class="slide" id="slide-29">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Mairtin Mac an Ghaill</h1>
               <div class="theorist-school-badge">Gender &amp; Crisis of Masculinity (1994)</div>
@@ -576,8 +578,8 @@
         <!-- SLIDE 30: Stuart Hall -->
         <section class="slide" id="slide-30">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
               <div class="theorist-school-badge">Cultural Studies &amp; Post-Colonial Theory (1992, 1996)</div>
@@ -596,8 +598,8 @@
         <!-- SLIDE 31: Sundeep Johal -->
         <section class="slide" id="slide-31">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sundeep Johal</h1>
               <div class="theorist-school-badge">British Asian Identity &amp; Code-Switching (1998)</div>
@@ -616,8 +618,8 @@
         <!-- SLIDE 32: Mike Savage -->
         <section class="slide" id="slide-32">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mike Savage</h1>
               <div class="theorist-school-badge">Class Stratification &amp; Cultural Capital (2013)</div>
@@ -636,8 +638,8 @@
         <!-- SLIDE 33: Rosemary Crompton -->
         <section class="slide" id="slide-33">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rosemary Crompton</h1>
               <div class="theorist-school-badge">Occupational Class &amp; Social Reproduction (2006)</div>
@@ -656,8 +658,8 @@
         <!-- SLIDE 34: John Benyon -->
         <section class="slide" id="slide-34">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">John Benyon</h1>
               <div class="theorist-school-badge">Sociology of Masculinities (2002)</div>
@@ -676,8 +678,8 @@
         <!-- SLIDE 35: Neil Postman -->
         <section class="slide" id="slide-35">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Neil Postman</h1>
               <div class="theorist-school-badge">Media Ecology &amp; Childhood Identity (1994)</div>
@@ -696,8 +698,8 @@
         <!-- SLIDE 36: Sue Palmer -->
         <section class="slide" id="slide-36">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sue Palmer</h1>
               <div class="theorist-school-badge">Childhood Studies &amp; Modern Culture (2006)</div>
@@ -716,8 +718,8 @@
         <!-- SLIDE 37: Shmuel Eisenstadt -->
         <section class="slide" id="slide-37">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌉</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌉</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Shmuel Eisenstadt</h1>
               <div class="theorist-school-badge">Functionalist Youth Theory (1956)</div>
@@ -736,8 +738,8 @@
         <!-- SLIDE 38: David Gillborn -->
         <section class="slide" id="slide-38">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gillborn</h1>
               <div class="theorist-school-badge">Critical Race Theory &amp; Institutional Identity (1997, 2008)</div>
@@ -756,8 +758,8 @@
         <!-- SLIDE 39: Tariq Modood -->
         <section class="slide" id="slide-39">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕌</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🕌</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Tariq Modood</h1>
               <div class="theorist-school-badge">Multiculturalism &amp; Ethnic Identity (1997, 2005)</div>
@@ -776,8 +778,8 @@
         <!-- SLIDE 40: Heidi Mirza -->
         <section class="slide" id="slide-40">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Heidi Mirza</h1>
               <div class="theorist-school-badge">Black Feminist Sociology (1992)</div>
@@ -796,8 +798,8 @@
         <!-- SLIDE 41: Amy Chua -->
         <section class="slide" id="slide-41">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🐅</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🐅</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Amy Chua</h1>
               <div class="theorist-school-badge">Cultural Socialisation &amp; Parenting (2011)</div>
@@ -816,8 +818,8 @@
       <!-- SLIDE 42: CHAPTER 3 DIVIDER -->
       <section class="slide" id="slide-42">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🔬</div>
           <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
             <div class="card-pill">CHAPTER 03 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Sociological Research Methods</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Positivism vs Interpretivism • Quantitative &amp; Qualitative Methods • Sampling &amp; Triangulation • Reliability, Validity &amp; Ethics • Sociological Value Freedom</p>
@@ -833,8 +835,8 @@
         <!-- SLIDE 43: Auguste Comte -->
         <section class="slide" id="slide-43">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Auguste Comte</h1>
               <div class="theorist-school-badge">Foundational Positivism (1830, 1848)</div>
@@ -853,8 +855,8 @@
         <!-- SLIDE 44: Émile Durkheim -->
         <section class="slide" id="slide-44">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Positivist Quantitative Realism (1895, 1897)</div>
@@ -873,8 +875,8 @@
         <!-- SLIDE 45: Max Weber -->
         <section class="slide" id="slide-45">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Max Weber</h1>
               <div class="theorist-school-badge">Interpretivist Methodology (1922)</div>
@@ -893,8 +895,8 @@
         <!-- SLIDE 46: Karl Popper -->
         <section class="slide" id="slide-46">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karl Popper</h1>
               <div class="theorist-school-badge">Philosophy of Science &amp; Falsificationism (1959)</div>
@@ -913,8 +915,8 @@
         <!-- SLIDE 47: Robert K. Merton -->
         <section class="slide" id="slide-47">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert K. Merton</h1>
               <div class="theorist-school-badge">Sociology of Science &amp; Middle-Range Theory (1968)</div>
@@ -933,8 +935,8 @@
         <!-- SLIDE 48: Norman Denzin -->
         <section class="slide" id="slide-48">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔺</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔺</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Norman Denzin</h1>
               <div class="theorist-school-badge">Methodological Triangulation (1978)</div>
@@ -953,8 +955,8 @@
         <!-- SLIDE 49: Eileen Barker -->
         <section class="slide" id="slide-49">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eileen Barker</h1>
               <div class="theorist-school-badge">Methodological Pluralism &amp; Covert Ethics (1984)</div>
@@ -973,8 +975,8 @@
         <!-- SLIDE 50: Sudhir Venkatesh -->
         <section class="slide" id="slide-50">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏙️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏙️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sudhir Venkatesh</h1>
               <div class="theorist-school-badge">Ethnographic Participant Observation (2008)</div>
@@ -993,8 +995,8 @@
         <!-- SLIDE 51: Jenni Ward -->
         <section class="slide" id="slide-51">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jenni Ward</h1>
               <div class="theorist-school-badge">Qualitative Fieldwork &amp; Vulnerable Groups (2008)</div>
@@ -1013,8 +1015,8 @@
         <!-- SLIDE 52: Jason Ditton -->
         <section class="slide" id="slide-52">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕵️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🕵️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jason Ditton</h1>
               <div class="theorist-school-badge">Covert Participant Observation &amp; Deception (1977)</div>
@@ -1033,8 +1035,8 @@
         <!-- SLIDE 53: Ann Oakley -->
         <section class="slide" id="slide-53">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Methodology (1981)</div>
@@ -1053,8 +1055,8 @@
         <!-- SLIDE 54: William Thomas -->
         <section class="slide" id="slide-54">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✉️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">✉️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">William Thomas</h1>
               <div class="theorist-school-badge">Chicago School &amp; Interpretivist Documentation (1918)</div>
@@ -1073,8 +1075,8 @@
         <!-- SLIDE 55: Florian Znaniecki -->
         <section class="slide" id="slide-55">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📖</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📖</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Florian Znaniecki</h1>
               <div class="theorist-school-badge">Qualitative Personal Documents (1918)</div>
@@ -1093,8 +1095,8 @@
         <!-- SLIDE 56: Robert Rosenthal -->
         <section class="slide" id="slide-56">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧪</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🧪</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Rosenthal</h1>
               <div class="theorist-school-badge">Experimental Social Psychology &amp; Fieldwork (1968)</div>
@@ -1113,8 +1115,8 @@
         <!-- SLIDE 57: Lenore Jacobson -->
         <section class="slide" id="slide-57">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Lenore Jacobson</h1>
               <div class="theorist-school-badge">Educational Field Experimentation (1968)</div>
@@ -1133,8 +1135,8 @@
         <!-- SLIDE 58: Elton Mayo -->
         <section class="slide" id="slide-58">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Elton Mayo</h1>
               <div class="theorist-school-badge">Industrial Field Experimentation (1933)</div>
@@ -1153,8 +1155,8 @@
         <!-- SLIDE 59: Howard Becker -->
         <section class="slide" id="slide-59">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Howard Becker</h1>
               <div class="theorist-school-badge">Interactionist Ethics &amp; Value Commitment (1967)</div>
@@ -1173,8 +1175,8 @@
         <!-- SLIDE 60: Alvin Gouldner -->
         <section class="slide" id="slide-60">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Alvin Gouldner</h1>
               <div class="theorist-school-badge">Reflexive Sociology (1970)</div>
@@ -1193,8 +1195,8 @@
         <!-- SLIDE 61: Mayssoun Sukarieh -->
         <section class="slide" id="slide-61">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mayssoun Sukarieh</h1>
               <div class="theorist-school-badge">Critical Youth Studies &amp; Research Ethics (2012)</div>
@@ -1213,8 +1215,8 @@
         <!-- SLIDE 62: Stuart Tannock -->
         <section class="slide" id="slide-62">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Tannock</h1>
               <div class="theorist-school-badge">Critical Research Ethics &amp; Educational Studies (2012)</div>
@@ -1233,8 +1235,8 @@
       <!-- SLIDE 63: CHAPTER 4 DIVIDER -->
       <section class="slide" id="slide-63">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
           <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
             <div class="card-pill">CHAPTER 04 • PAPER 2</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">The Family</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Functionalist, Marxist &amp; Feminist Views • Family Diversity &amp; Households • Conjugal Roles &amp; Domestic Labour • Power, Decision-Making &amp; Abuse • Childhood &amp; Demographics</p>
@@ -1250,8 +1252,8 @@
         <!-- SLIDE 64: George Peter Murdock -->
         <section class="slide" id="slide-64">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">George Peter Murdock</h1>
               <div class="theorist-school-badge">Structural Functionalism (1949)</div>
@@ -1270,8 +1272,8 @@
         <!-- SLIDE 65: Talcott Parsons -->
         <section class="slide" id="slide-65">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛁</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛁</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
               <div class="theorist-school-badge">Functional Fit &amp; Nuclear Family Theory (1955)</div>
@@ -1290,8 +1292,8 @@
         <!-- SLIDE 66: Ronald Fletcher -->
         <section class="slide" id="slide-66">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏥</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏥</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ronald Fletcher</h1>
               <div class="theorist-school-badge">Functionalist Welfare Synthesis (1966)</div>
@@ -1310,8 +1312,8 @@
         <!-- SLIDE 67: Steven Horwitz -->
         <section class="slide" id="slide-67">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steven Horwitz</h1>
               <div class="theorist-school-badge">Neoliberal Institutional Economics &amp; Family (2005)</div>
@@ -1330,8 +1332,8 @@
         <!-- SLIDE 68: Friedrich Engels -->
         <section class="slide" id="slide-68">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Friedrich Engels</h1>
               <div class="theorist-school-badge">Classical Marxism (1884)</div>
@@ -1350,8 +1352,8 @@
         <!-- SLIDE 69: Louis Althusser -->
         <section class="slide" id="slide-69">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
               <div class="theorist-school-badge">Structural Marxism (1971)</div>
@@ -1370,8 +1372,8 @@
         <!-- SLIDE 70: Eli Zaretsky -->
         <section class="slide" id="slide-70">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛋️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛋️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eli Zaretsky</h1>
               <div class="theorist-school-badge">Marxist Psychoanalytic Family Theory (1976)</div>
@@ -1390,8 +1392,8 @@
         <!-- SLIDE 71: Shulamith Firestone -->
         <section class="slide" id="slide-71">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Shulamith Firestone</h1>
               <div class="theorist-school-badge">Radical Feminism (1970)</div>
@@ -1410,8 +1412,8 @@
         <!-- SLIDE 72: Ann Oakley -->
         <section class="slide" id="slide-72">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧹</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧹</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Sociology of Housework (1974)</div>
@@ -1430,8 +1432,8 @@
         <!-- SLIDE 73: Fran Ansley -->
         <section class="slide" id="slide-73">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Fran Ansley</h1>
               <div class="theorist-school-badge">Marxist Feminism (1972)</div>
@@ -1450,8 +1452,8 @@
         <!-- SLIDE 74: Christine Delphy -->
         <section class="slide" id="slide-74">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Christine Delphy</h1>
               <div class="theorist-school-badge">Radical Materialist Feminism (1992)</div>
@@ -1470,8 +1472,8 @@
         <!-- SLIDE 75: Diana Leonard -->
         <section class="slide" id="slide-75">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Diana Leonard</h1>
               <div class="theorist-school-badge">Radical Materialist Feminism (1992)</div>
@@ -1490,8 +1492,8 @@
         <!-- SLIDE 76: Michael Young -->
         <section class="slide" id="slide-76">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Michael Young</h1>
               <div class="theorist-school-badge">March of Progress Family Theory (1973)</div>
@@ -1510,8 +1512,8 @@
         <!-- SLIDE 77: Peter Willmott -->
         <section class="slide" id="slide-77">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Peter Willmott</h1>
               <div class="theorist-school-badge">March of Progress &amp; Family Studies (1973)</div>
@@ -1530,8 +1532,8 @@
         <!-- SLIDE 78: Jonathan Gershuny -->
         <section class="slide" id="slide-78">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏱️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⏱️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jonathan Gershuny</h1>
               <div class="theorist-school-badge">Lagged Adaptation &amp; Time-Use Studies (1992, 2000)</div>
@@ -1550,8 +1552,8 @@
         <!-- SLIDE 79: Esther Dermott -->
         <section class="slide" id="slide-79">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👧</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👧</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Esther Dermott</h1>
               <div class="theorist-school-badge">Intimate Fatherhood (2003, 2008)</div>
@@ -1570,8 +1572,8 @@
         <!-- SLIDE 80: Stephen Edgell -->
         <section class="slide" id="slide-80">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗳️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🗳️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stephen Edgell</h1>
               <div class="theorist-school-badge">Family Power &amp; Decision-Making (1980)</div>
@@ -1590,8 +1592,8 @@
         <!-- SLIDE 81: Jan Pahl -->
         <section class="slide" id="slide-81">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💳</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">💳</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jan Pahl</h1>
               <div class="theorist-school-badge">Financial Allocation &amp; Marital Inequality (1989, 2008)</div>
@@ -1610,8 +1612,8 @@
         <!-- SLIDE 82: Russell Dobash -->
         <section class="slide" id="slide-82">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Russell Dobash</h1>
               <div class="theorist-school-badge">Feminist Criminology &amp; Domestic Abuse (1979, 1992)</div>
@@ -1630,8 +1632,8 @@
         <!-- SLIDE 83: Rebecca Dobash -->
         <section class="slide" id="slide-83">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rebecca Dobash</h1>
               <div class="theorist-school-badge">Patriarchy &amp; Domestic Violence (1979, 1992)</div>
@@ -1650,8 +1652,8 @@
         <!-- SLIDE 84: Robert Chester -->
         <section class="slide" id="slide-84">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Chester</h1>
               <div class="theorist-school-badge">Neo-Conventional Family Thesis (1985)</div>
@@ -1670,8 +1672,8 @@
         <!-- SLIDE 85: Charles Murray -->
         <section class="slide" id="slide-85">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Charles Murray</h1>
               <div class="theorist-school-badge">New Right Family Critique (1984, 1990)</div>
@@ -1690,8 +1692,8 @@
         <!-- SLIDE 86: Judith Stacey -->
         <section class="slide" id="slide-86">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Judith Stacey</h1>
               <div class="theorist-school-badge">Postmodern Feminist Family Studies (1998)</div>
@@ -1710,8 +1712,8 @@
         <!-- SLIDE 87: David Morgan -->
         <section class="slide" id="slide-87">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍳</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🍳</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Morgan</h1>
               <div class="theorist-school-badge">Family Practices (1996, 2011)</div>
@@ -1730,8 +1732,8 @@
         <!-- SLIDE 88: Anthony Giddens -->
         <section class="slide" id="slide-88">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">❤️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">❤️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Anthony Giddens</h1>
               <div class="theorist-school-badge">Transformation of Intimacy (1992)</div>
@@ -1750,8 +1752,8 @@
         <!-- SLIDE 89: Carol Smart -->
         <section class="slide" id="slide-89">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🐕</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🐕</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Carol Smart</h1>
               <div class="theorist-school-badge">Personal Life Perspective (2007)</div>
@@ -1770,8 +1772,8 @@
         <!-- SLIDE 90: Jeffrey Weeks -->
         <section class="slide" id="slide-90">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jeffrey Weeks</h1>
               <div class="theorist-school-badge">Sociology of Sexuality &amp; Chosen Families (1999)</div>
@@ -1790,8 +1792,8 @@
         <!-- SLIDE 91: Julia Brannen -->
         <section class="slide" id="slide-91">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Julia Brannen</h1>
               <div class="theorist-school-badge">The Beanpole Family (2003)</div>
@@ -1810,8 +1812,8 @@
         <!-- SLIDE 92: Richard Berthoud -->
         <section class="slide" id="slide-92">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗺️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🗺️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Richard Berthoud</h1>
               <div class="theorist-school-badge">Ethnic Family Diversity in the UK (2001)</div>
@@ -1830,8 +1832,8 @@
         <!-- SLIDE 93: Annette Lareau -->
         <section class="slide" id="slide-93">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Annette Lareau</h1>
               <div class="theorist-school-badge">Class Stratification &amp; Childrearing (2003)</div>
@@ -1850,8 +1852,8 @@
         <!-- SLIDE 94: Arlie Russell Hochschild -->
         <section class="slide" id="slide-94">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⌛</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⌛</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Arlie Russell Hochschild</h1>
               <div class="theorist-school-badge">The Second Shift &amp; Emotional Labour (1989, 2003)</div>
@@ -1870,8 +1872,8 @@
       <!-- SLIDE 95: CHAPTER 5 DIVIDER -->
       <section class="slide" id="slide-95">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🎓</div>
           <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
             <div class="card-pill">CHAPTER 05 • PAPER 3</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Education</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Role of Education &amp; Meritocracy • Class, Gender &amp; Ethnic Differences in Attainment • Teacher Labelling, Streaming &amp; Subcultures • Hidden Curriculum • Educational Policy</p>
@@ -1887,8 +1889,8 @@
         <!-- SLIDE 96: Émile Durkheim -->
         <section class="slide" id="slide-96">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Functionalist Educational Solidarity (1925)</div>
@@ -1907,8 +1909,8 @@
         <!-- SLIDE 97: Talcott Parsons -->
         <section class="slide" id="slide-97">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🌉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
               <div class="theorist-school-badge">Meritocracy &amp; Universalistic Standards (1961)</div>
@@ -1927,8 +1929,8 @@
         <!-- SLIDE 98: Kingsley Davis -->
         <section class="slide" id="slide-98">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Kingsley Davis</h1>
               <div class="theorist-school-badge">Functionalist Role Allocation (1945)</div>
@@ -1947,8 +1949,8 @@
         <!-- SLIDE 99: Wilbert Moore -->
         <section class="slide" id="slide-99">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Wilbert Moore</h1>
               <div class="theorist-school-badge">Stratification &amp; Functional Importance (1945)</div>
@@ -1967,8 +1969,8 @@
         <!-- SLIDE 100: Samuel Bowles -->
         <section class="slide" id="slide-100">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Samuel Bowles</h1>
               <div class="theorist-school-badge">Marxist Sociology &amp; Correspondence Principle (1976)</div>
@@ -1987,8 +1989,8 @@
         <!-- SLIDE 101: Herbert Gintis -->
         <section class="slide" id="slide-101">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Herbert Gintis</h1>
               <div class="theorist-school-badge">Hidden Curriculum &amp; Myth of Meritocracy (1976)</div>
@@ -2007,8 +2009,8 @@
         <!-- SLIDE 102: Louis Althusser -->
         <section class="slide" id="slide-102">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
               <div class="theorist-school-badge">Structural Marxist Education Theory (1971)</div>
@@ -2027,8 +2029,8 @@
         <!-- SLIDE 103: Pierre Bourdieu -->
         <section class="slide" id="slide-103">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎨</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎨</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Pierre Bourdieu</h1>
               <div class="theorist-school-badge">Cultural Capital &amp; Habitus (1977, 1984)</div>
@@ -2047,8 +2049,8 @@
         <!-- SLIDE 104: Paul Willis -->
         <section class="slide" id="slide-104">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
               <div class="theorist-school-badge">Counter-School Culture &amp; Resistance (1977)</div>
@@ -2067,8 +2069,8 @@
         <!-- SLIDE 105: Basil Bernstein -->
         <section class="slide" id="slide-105">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Basil Bernstein</h1>
               <div class="theorist-school-badge">Sociolinguistics &amp; Speech Codes (1971)</div>
@@ -2087,8 +2089,8 @@
         <!-- SLIDE 106: David Hargreaves -->
         <section class="slide" id="slide-106">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Hargreaves</h1>
               <div class="theorist-school-badge">Subcultural Differentiation &amp; Polarisation (1967)</div>
@@ -2107,8 +2109,8 @@
         <!-- SLIDE 107: Howard Becker -->
         <section class="slide" id="slide-107">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏷️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏷️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Howard Becker</h1>
               <div class="theorist-school-badge">Labelling Theory &amp; The Ideal Pupil (1971)</div>
@@ -2127,8 +2129,8 @@
         <!-- SLIDE 108: Nell Keddie -->
         <section class="slide" id="slide-108">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Nell Keddie</h1>
               <div class="theorist-school-badge">Cultural Difference &amp; Stratification of Knowledge (1971)</div>
@@ -2147,8 +2149,8 @@
         <!-- SLIDE 109: Robin Nash -->
         <section class="slide" id="slide-109">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robin Nash</h1>
               <div class="theorist-school-badge">Classroom Expectations &amp; Self-Fulfilling Prophecy (1972)</div>
@@ -2167,8 +2169,8 @@
         <!-- SLIDE 110: Louise Archer -->
         <section class="slide" id="slide-110">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👟</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👟</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louise Archer</h1>
               <div class="theorist-school-badge">Symbolic Violence &amp; Nike Identities (2010)</div>
@@ -2187,8 +2189,8 @@
         <!-- SLIDE 111: David Gillborn -->
         <section class="slide" id="slide-111">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gillborn</h1>
               <div class="theorist-school-badge">Institutional Racism &amp; Educational Triage (2000, 2008)</div>
@@ -2207,8 +2209,8 @@
         <!-- SLIDE 112: Cecile Wright -->
         <section class="slide" id="slide-112">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚸</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🚸</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Cecile Wright</h1>
               <div class="theorist-school-badge">Teacher Labelling &amp; Asian Students (1992)</div>
@@ -2227,8 +2229,8 @@
         <!-- SLIDE 113: Heidi Mirza -->
         <section class="slide" id="slide-113">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Heidi Mirza</h1>
               <div class="theorist-school-badge">Black Girls &amp; Strategic Adaptations (1992)</div>
@@ -2247,8 +2249,8 @@
         <!-- SLIDE 114: Sewell -->
         <section class="slide" id="slide-114">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧢</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧢</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sewell</h1>
               <div class="theorist-school-badge">Black Masculinity &amp; Subcultural Adaptations (1997)</div>
@@ -2267,8 +2269,8 @@
         <!-- SLIDE 115: Becky Francis -->
         <section class="slide" id="slide-115">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚽</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚽</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Becky Francis</h1>
               <div class="theorist-school-badge">Feminist Classroom Dynamics &amp; Laddishness (2000)</div>
@@ -2287,8 +2289,8 @@
         <!-- SLIDE 116: Sue Sharpe -->
         <section class="slide" id="slide-116">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sue Sharpe</h1>
               <div class="theorist-school-badge">Longitudinal Study of Female Priorities (1976, 1994)</div>
@@ -2307,8 +2309,8 @@
         <!-- SLIDE 117: Mairtin Mac an Ghaill -->
         <section class="slide" id="slide-117">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👔</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👔</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Mairtin Mac an Ghaill</h1>
               <div class="theorist-school-badge">Male Peer Subcultures in School (1994)</div>
@@ -2327,8 +2329,8 @@
         <!-- SLIDE 118: Peter Saunders -->
         <section class="slide" id="slide-118">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Peter Saunders</h1>
               <div class="theorist-school-badge">Meritocracy &amp; Intelligence Distribution (1996, 2010)</div>
@@ -2347,8 +2349,8 @@
         <!-- SLIDE 119: Richard Breen -->
         <section class="slide" id="slide-119">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Richard Breen</h1>
               <div class="theorist-school-badge">Rational Action Theory &amp; Educational Transitions (2004, 2010)</div>
@@ -2367,8 +2369,8 @@
         <!-- SLIDE 120: Melvin Tumin -->
         <section class="slide" id="slide-120">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Melvin Tumin</h1>
               <div class="theorist-school-badge">Critical Stratification Theory (1953)</div>
@@ -2387,8 +2389,8 @@
       <!-- SLIDE 121: CHAPTER 6 DIVIDER -->
       <section class="slide" id="slide-121">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🌐</div>
           <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
             <div class="card-pill">CHAPTER 06 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Globalisation</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Dimensions of Globalisation • Modernisation vs Dependency Theory • World Systems Theory • Cultural Homogenisation &amp; Glocalisation • Global Migration &amp; Transnational Crime</p>
@@ -2404,8 +2406,8 @@
         <!-- SLIDE 122: Jan Aart Scholte -->
         <section class="slide" id="slide-122">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jan Aart Scholte</h1>
               <div class="theorist-school-badge">Globalisation as Supraterritoriality (2000, 2005)</div>
@@ -2424,8 +2426,8 @@
         <!-- SLIDE 123: Anthony Giddens -->
         <section class="slide" id="slide-123">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏃</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏃</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Anthony Giddens</h1>
               <div class="theorist-school-badge">High Modernity &amp; Runaway World (1990, 1999)</div>
@@ -2444,8 +2446,8 @@
         <!-- SLIDE 124: Marshall McLuhan -->
         <section class="slide" id="slide-124">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Marshall McLuhan</h1>
               <div class="theorist-school-badge">Media Ecology &amp; Global Village (1964)</div>
@@ -2464,8 +2466,8 @@
         <!-- SLIDE 125: Roland Robertson -->
         <section class="slide" id="slide-125">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍔</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🍔</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Roland Robertson</h1>
               <div class="theorist-school-badge">Glocalisation &amp; Cultural Sociology (1992, 1995)</div>
@@ -2484,8 +2486,8 @@
         <!-- SLIDE 126: Fatima Adamu -->
         <section class="slide" id="slide-126">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧕</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🧕</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Fatima Adamu</h1>
               <div class="theorist-school-badge">Globalisation &amp; African Gender Dynamics (2003)</div>
@@ -2504,8 +2506,8 @@
         <!-- SLIDE 127: Arjun Appadurai -->
         <section class="slide" id="slide-127">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌊</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌊</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Arjun Appadurai</h1>
               <div class="theorist-school-badge">Global Cultural Scapes (1996)</div>
@@ -2524,8 +2526,8 @@
         <!-- SLIDE 128: Immanuel Wallerstein -->
         <section class="slide" id="slide-128">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Immanuel Wallerstein</h1>
               <div class="theorist-school-badge">World Systems Theory (1974, 2004)</div>
@@ -2544,8 +2546,8 @@
         <!-- SLIDE 129: Walter Rostow -->
         <section class="slide" id="slide-129">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Walter Rostow</h1>
               <div class="theorist-school-badge">Modernisation Theory (1960)</div>
@@ -2564,8 +2566,8 @@
         <!-- SLIDE 130: Andre Gunder Frank -->
         <section class="slide" id="slide-130">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Andre Gunder Frank</h1>
               <div class="theorist-school-badge">Dependency Theory (1966, 1971)</div>
@@ -2584,8 +2586,8 @@
         <!-- SLIDE 131: Naomi Klein -->
         <section class="slide" id="slide-131">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏷️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏷️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Naomi Klein</h1>
               <div class="theorist-school-badge">Anti-Corporate Globalisation &amp; Brand Imperialism (2000)</div>
@@ -2604,8 +2606,8 @@
         <!-- SLIDE 132: Arlie Russell Hochschild -->
         <section class="slide" id="slide-132">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✈️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">✈️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Arlie Russell Hochschild</h1>
               <div class="theorist-school-badge">Global Care Chains (2000, 2002)</div>
@@ -2624,8 +2626,8 @@
         <!-- SLIDE 133: Misha Glenny -->
         <section class="slide" id="slide-133">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕶️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🕶️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Misha Glenny</h1>
               <div class="theorist-school-badge">McMafia &amp; Transnational Organised Crime (2008)</div>
@@ -2644,8 +2646,8 @@
         <!-- SLIDE 134: Frank Pearce -->
         <section class="slide" id="slide-134">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Frank Pearce</h1>
               <div class="theorist-school-badge">Crimes of the Powerful &amp; Corporate Crime (1976, 2001)</div>
@@ -2664,8 +2666,8 @@
         <!-- SLIDE 135: Rob White -->
         <section class="slide" id="slide-135">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌲</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌲</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rob White</h1>
               <div class="theorist-school-badge">Green Criminology &amp; Global Eco-Crime (2008)</div>
@@ -2684,8 +2686,8 @@
         <!-- SLIDE 136: Paul Collier -->
         <section class="slide" id="slide-136">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Collier</h1>
               <div class="theorist-school-badge">Development Economics &amp; The Bottom Billion (2007)</div>
@@ -2704,8 +2706,8 @@
         <!-- SLIDE 137: Ulrich Beck -->
         <section class="slide" id="slide-137">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">☢️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">☢️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ulrich Beck</h1>
               <div class="theorist-school-badge">Global Risk Society (1992)</div>
@@ -2724,8 +2726,8 @@
         <!-- SLIDE 138: Sundeep Johal -->
         <section class="slide" id="slide-138">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📡</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📡</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sundeep Johal</h1>
               <div class="theorist-school-badge">Transnational Media &amp; Diasporic Culture (1998)</div>
@@ -2744,8 +2746,8 @@
       <!-- SLIDE 139: CHAPTER 7 DIVIDER -->
       <section class="slide" id="slide-139">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">📺</div>
           <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
             <div class="card-pill">CHAPTER 07 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Media</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Ownership &amp; Control of Media • News Selection &amp; Moral Panics • Representations of Class, Gender &amp; Ethnicity • Audience Effects Models • New Media, Digital Surveillance &amp; Culture</p>
@@ -2761,8 +2763,8 @@
         <!-- SLIDE 140: James Curran -->
         <section class="slide" id="slide-140">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📰</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📰</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">James Curran</h1>
               <div class="theorist-school-badge">Political Economy of Media (1981, 2009)</div>
@@ -2781,8 +2783,8 @@
         <!-- SLIDE 141: Jean Seaton -->
         <section class="slide" id="slide-141">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎙️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎙️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jean Seaton</h1>
               <div class="theorist-school-badge">History of Broadcasting &amp; Media Monopoly (2009)</div>
@@ -2801,8 +2803,8 @@
         <!-- SLIDE 142: Ben Bagdikian -->
         <section class="slide" id="slide-142">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏢</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏢</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ben Bagdikian</h1>
               <div class="theorist-school-badge">Media Monopoly &amp; Conglomeration (1983, 2004)</div>
@@ -2821,8 +2823,8 @@
         <!-- SLIDE 143: Noam Chomsky -->
         <section class="slide" id="slide-143">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📢</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📢</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Noam Chomsky</h1>
               <div class="theorist-school-badge">Propaganda Model &amp; Critical Media Analysis (1988)</div>
@@ -2841,8 +2843,8 @@
         <!-- SLIDE 144: Edward Herman -->
         <section class="slide" id="slide-144">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💵</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">💵</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Edward Herman</h1>
               <div class="theorist-school-badge">Political Economy of Communications (1988)</div>
@@ -2861,8 +2863,8 @@
         <!-- SLIDE 145: Greg Philo -->
         <section class="slide" id="slide-145">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Greg Philo</h1>
               <div class="theorist-school-badge">Glasgow Media Group &amp; Hegemonic News (1976, 1982)</div>
@@ -2881,8 +2883,8 @@
         <!-- SLIDE 146: Laura Mulvey -->
         <section class="slide" id="slide-146">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👁️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👁️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Laura Mulvey</h1>
               <div class="theorist-school-badge">Feminist Film Theory (1975)</div>
@@ -2901,8 +2903,8 @@
         <!-- SLIDE 147: Ben Carrington -->
         <section class="slide" id="slide-147">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏃</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏃</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ben Carrington</h1>
               <div class="theorist-school-badge">Race, Sport &amp; Media Representation (2001, 2002)</div>
@@ -2921,8 +2923,8 @@
         <!-- SLIDE 148: Stanley Cohen -->
         <section class="slide" id="slide-148">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stanley Cohen</h1>
               <div class="theorist-school-badge">Folk Devils &amp; Moral Panics (1972)</div>
@@ -2941,8 +2943,8 @@
         <!-- SLIDE 149: Albert Bandura -->
         <section class="slide" id="slide-149">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Albert Bandura</h1>
               <div class="theorist-school-badge">Social Learning Theory &amp; Hypodermic Model (1963)</div>
@@ -2961,8 +2963,8 @@
         <!-- SLIDE 150: William Belson -->
         <section class="slide" id="slide-150">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">William Belson</h1>
               <div class="theorist-school-badge">Empirical Studies on TV Violence (1978)</div>
@@ -2981,8 +2983,8 @@
         <!-- SLIDE 151: Elihu Katz -->
         <section class="slide" id="slide-151">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Elihu Katz</h1>
               <div class="theorist-school-badge">Two-Step Flow Communications Model (1955)</div>
@@ -3001,8 +3003,8 @@
         <!-- SLIDE 152: Paul Lazarsfeld -->
         <section class="slide" id="slide-152">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗳️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🗳️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Lazarsfeld</h1>
               <div class="theorist-school-badge">Empirical Communications Sociology (1955)</div>
@@ -3021,8 +3023,8 @@
         <!-- SLIDE 153: Dennis McQuail -->
         <section class="slide" id="slide-153">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📱</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📱</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dennis McQuail</h1>
               <div class="theorist-school-badge">Uses &amp; Gratifications Model (1972)</div>
@@ -3041,8 +3043,8 @@
         <!-- SLIDE 154: Jay Blumler -->
         <section class="slide" id="slide-154">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jay Blumler</h1>
               <div class="theorist-school-badge">Active Audience Theory (1972)</div>
@@ -3061,8 +3063,8 @@
         <!-- SLIDE 155: Stuart Hall -->
         <section class="slide" id="slide-155">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📡</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📡</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
               <div class="theorist-school-badge">Encoding/Decoding Media Model (1973, 1980)</div>
@@ -3081,8 +3083,8 @@
         <!-- SLIDE 156: David Morley -->
         <section class="slide" id="slide-156">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Morley</h1>
               <div class="theorist-school-badge">Audience Reception &amp; Class (1980)</div>
@@ -3101,8 +3103,8 @@
         <!-- SLIDE 157: George Gerbner -->
         <section class="slide" id="slide-157">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌆</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🌆</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">George Gerbner</h1>
               <div class="theorist-school-badge">Cultivation Theory (1976, 1986)</div>
@@ -3121,8 +3123,8 @@
         <!-- SLIDE 158: Sherry Turkle -->
         <section class="slide" id="slide-158">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📵</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📵</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sherry Turkle</h1>
               <div class="theorist-school-badge">Digital Culture &amp; Social Psychology (2011)</div>
@@ -3141,8 +3143,8 @@
         <!-- SLIDE 159: Judith Butler -->
         <section class="slide" id="slide-159">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Judith Butler</h1>
               <div class="theorist-school-badge">Gender Performativity &amp; Media (1990)</div>
@@ -3161,8 +3163,8 @@
         <!-- SLIDE 160: David Gauntlett -->
         <section class="slide" id="slide-160">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧰</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🧰</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gauntlett</h1>
               <div class="theorist-school-badge">Media, Gender &amp; Identity Toolbox (2002, 2008)</div>
@@ -3181,8 +3183,8 @@
       <!-- SLIDE 161: CHAPTER 8 DIVIDER -->
       <section class="slide" id="slide-161">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">⛪</div>
           <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
             <div class="card-pill">CHAPTER 08 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Religion</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Functions of Religion • Classical Perspectives (Durkheim, Marx, Weber) • The Secularisation Debate • Religious Organisations, Sects &amp; Cults • Gender, Fundamentalism &amp; Postmodernity</p>
@@ -3198,8 +3200,8 @@
         <!-- SLIDE 162: Émile Durkheim -->
         <section class="slide" id="slide-162">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪵</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🪵</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Classical Functionalism &amp; Totemism (1912)</div>
@@ -3218,8 +3220,8 @@
         <!-- SLIDE 163: Karl Marx -->
         <section class="slide" id="slide-163">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karl Marx</h1>
               <div class="theorist-school-badge">Classical Marxism (1844)</div>
@@ -3238,8 +3240,8 @@
         <!-- SLIDE 164: Max Weber -->
         <section class="slide" id="slide-164">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏳</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⏳</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Max Weber</h1>
               <div class="theorist-school-badge">Social Action Theory &amp; Protestant Ethic (1905)</div>
@@ -3258,8 +3260,8 @@
         <!-- SLIDE 165: Robert Bellah -->
         <section class="slide" id="slide-165">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦅</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🦅</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Bellah</h1>
               <div class="theorist-school-badge">Civil Religion (1967)</div>
@@ -3278,8 +3280,8 @@
         <!-- SLIDE 166: Steve Bruce -->
         <section class="slide" id="slide-166">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steve Bruce</h1>
               <div class="theorist-school-badge">Sociology of Secularisation (2001, 2011)</div>
@@ -3298,8 +3300,8 @@
         <!-- SLIDE 167: Bryan Wilson -->
         <section class="slide" id="slide-167">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏳</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⏳</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Bryan Wilson</h1>
               <div class="theorist-school-badge">The Secularisation Thesis (1966, 1982)</div>
@@ -3318,8 +3320,8 @@
         <!-- SLIDE 168: Pippa Norris -->
         <section class="slide" id="slide-168">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Pippa Norris</h1>
               <div class="theorist-school-badge">Existential Security Theory (2004)</div>
@@ -3338,8 +3340,8 @@
         <!-- SLIDE 169: Ronald Inglehart -->
         <section class="slide" id="slide-169">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ronald Inglehart</h1>
               <div class="theorist-school-badge">Cultural Evolution &amp; Secularisation (2004)</div>
@@ -3358,8 +3360,8 @@
         <!-- SLIDE 170: Eileen Barker -->
         <section class="slide" id="slide-170">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eileen Barker</h1>
               <div class="theorist-school-badge">New Religious Movements (1984)</div>
@@ -3378,8 +3380,8 @@
         <!-- SLIDE 171: Grace Davie -->
         <section class="slide" id="slide-171">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕯️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🕯️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Grace Davie</h1>
               <div class="theorist-school-badge">Believing Without Belonging (1994, 2007)</div>
@@ -3398,8 +3400,8 @@
         <!-- SLIDE 172: David Martin -->
         <section class="slide" id="slide-172">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗺️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🗺️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Martin</h1>
               <div class="theorist-school-badge">Secularisation &amp; Comparative History (1978, 2005)</div>
@@ -3418,8 +3420,8 @@
         <!-- SLIDE 173: Mary Daly -->
         <section class="slide" id="slide-173">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mary Daly</h1>
               <div class="theorist-school-badge">Radical Feminist Theology (1968, 1973)</div>
@@ -3438,8 +3440,8 @@
         <!-- SLIDE 174: Dean Kelley -->
         <section class="slide" id="slide-174">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dean Kelley</h1>
               <div class="theorist-school-badge">Why Conservative Churches Are Growing (1972, 1986)</div>
@@ -3458,8 +3460,8 @@
         <!-- SLIDE 175: Karen Armstrong -->
         <section class="slide" id="slide-175">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏺</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏺</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karen Armstrong</h1>
               <div class="theorist-school-badge">Feminist History of Religion (1993)</div>
@@ -3473,11 +3475,12 @@
             </div>
           </div>
         </section>`;
-  root.KEY_TERMS_HTML = ` <!-- SLIDE 1: COVER -->
+
+_target.KEY_TERMS_HTML = ` <!-- SLIDE 1: COVER -->
     <section class="slide active" id="slide-1">
       <div class="flashcard-stage">
-        <div class="card-graphic-sticker">📚</div>
         <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📚</div>
           <div class="card-pill">CAMBRIDGE A-LEVEL SOCIOLOGY 9699</div>
           <h1 class="flashcard-title" style="font-size: 3.1rem; line-height: 1.1; margin-bottom: 12px;">Exhaustive Glossary:<br>Key Terms &amp; Concepts</h1>
           <p class="flashcard-def" style="margin-bottom: 22px;">Complete, intensive glossary containing all 540 sociological terms from the notes across Chapters 1 to 8 (Papers 1–4). Every concept explained in simple plain English with relevant theorists cited in exam tips.</p>
@@ -3494,8 +3497,8 @@
       <!-- SLIDE 2: CHAPTER 1 DIVIDER -->
       <section class="slide" id="slide-2">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🌱</div>
           <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
             <div class="card-pill">CHAPTER 01 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Socialisation, Culture &amp; Social Control</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Nature vs Nurture • Feral Children • Agencies of Socialisation • Structural &amp; Interactionist Perspectives • Formal &amp; Informal Social Control • Power &amp; Resistance</p>
@@ -3511,8 +3514,8 @@
         <!-- SLIDE 3: Society -->
         <section class="slide" id="slide-3">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Society</h1>
               <p class="flashcard-def">A bounded collective of individuals who share a common culture (shared beliefs, values, customs, and ways of life), occupy an identifiable geographic territory, and interact within an overarching social framework (an organised network of shared institutions and authoritative rules) of shared institutions and authoritative rules.</p>
@@ -3530,8 +3533,8 @@
         <!-- SLIDE 4: Imagined Communities -->
         <section class="slide" id="slide-4">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">💭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Imagined Communities</h1>
               <p class="flashcard-def">Societies are imagined communities (nations where citizens feel united by a shared mental identity despite never meeting) because they exist mentally as much as physically. Citizens will never meet or hear the vast majority of their fellows, yet within each mind lives the powerful image of their collective communion.</p>
@@ -3549,8 +3552,8 @@
         <!-- SLIDE 5: Pluralist Integration -->
         <section class="slide" id="slide-5">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏝️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏝️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Pluralist Integration</h1>
               <p class="flashcard-def">Mauritius demonstrates an imagined community (a nation where citizens feel united by a shared mental identity despite never meeting) in practice: an ethnically diverse population peacefully unified within a shared national territory, democratic political system, and common civic identity.</p>
@@ -3568,8 +3571,8 @@
         <!-- SLIDE 6: Demographic Mosaic -->
         <section class="slide" id="slide-6">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🇲🇺</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🇲🇺</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Demographic Mosaic</h1>
               <p class="flashcard-def">The island population is composed of 68% Indo-Mauritian and 25% Creole, alongside smaller influential minorities of Franco-Mauritians and Sino-Mauritians—all united under one sovereign flag.</p>
@@ -3587,8 +3590,8 @@
         <!-- SLIDE 7: Social Construction -->
         <section class="slide" id="slide-7">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Construction</h1>
               <p class="flashcard-def">Human behavior and institutional reality are not biologically fixed. They are produced, sustained, and altered through continuous social interaction and collective cultural agreement.</p>
@@ -3606,8 +3609,8 @@
         <!-- SLIDE 8: Behavioral Regularities -->
         <section class="slide" id="slide-8">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Behavioral Regularities</h1>
               <p class="flashcard-def">For a society to avoid anarchy and function predictably, social actors must establish common meanings, shared symbolic systems, and dependable behavioral regularities across daily life.</p>
@@ -3625,8 +3628,8 @@
         <!-- SLIDE 9: Culture -->
         <section class="slide" id="slide-9">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📖</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📖</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Culture</h1>
               <p class="flashcard-def">The comprehensive total way of life of a human society, encompassing all physical objects (material artifacts) and abstract cognitive ideas (values, norms, knowledge, and beliefs).</p>
@@ -3644,8 +3647,8 @@
         <!-- SLIDE 10: Material Culture -->
         <section class="slide" id="slide-10">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Material Culture</h1>
               <p class="flashcard-def">Physical objects, tools, technology, architecture, and goods produced by a human society.</p>
@@ -3663,8 +3666,8 @@
         <!-- SLIDE 11: Non-material Culture -->
         <section class="slide" id="slide-11">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Non-material Culture</h1>
               <p class="flashcard-def">Abstract knowledge, values, etiquette, beliefs, and behavioral norms governing interaction.</p>
@@ -3682,8 +3685,8 @@
         <!-- SLIDE 12: Technological Duality -->
         <section class="slide" id="slide-12">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤳</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🤳</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Technological Duality</h1>
               <p class="flashcard-def">Material Aspect: Silicon chips, touchscreens, batteries, and glass.Non-Material Aspect: Rules of etiquette (muting in cinemas), privacy boundaries, texting slang, and social prestige.</p>
@@ -3701,8 +3704,8 @@
         <!-- SLIDE 13: Cultural Triad -->
         <section class="slide" id="slide-13">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Triad</h1>
               <p class="flashcard-def">Cultures are constructed from three fundamental building blocks: Roles define social positions and expectations; Values provide broad moral targets; and Norms enforce precise situational conduct.</p>
@@ -3720,8 +3723,8 @@
         <!-- SLIDE 14: Social Roles -->
         <section class="slide" id="slide-14">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Roles</h1>
               <p class="flashcard-def">A Role is a social position carrying agreed behavioral expectations. Roles are inherently relational—they cannot exist in isolation, but only in complementary reciprocal pairs (e.g., Teacher ↔ Student, Doctor ↔ Patient).</p>
@@ -3739,8 +3742,8 @@
         <!-- SLIDE 15: Pupil Role-set -->
         <section class="slide" id="slide-15">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎒</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🎒</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Pupil Role-set</h1>
               <p class="flashcard-def">A single pupil status engages with 7 distinct relationships: (1) Subject teachers, (2) Other teachers, (3) Classmates, (4) Older/younger peers, (5) Administrative staff, (6) Caretaking staff, and (7) Parents/guardians.</p>
@@ -3758,8 +3761,8 @@
         <!-- SLIDE 16: Social Values -->
         <section class="slide" id="slide-16">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⭐</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⭐</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Values</h1>
               <p class="flashcard-def">Broad, shared beliefs and general targets regarding what is desirable, worthwhile, and morally correct in a society.</p>
@@ -3777,8 +3780,8 @@
         <!-- SLIDE 17: Social Norms -->
         <section class="slide" id="slide-17">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📋</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📋</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Norms</h1>
               <p class="flashcard-def">Specific, enforceable guidelines and situational rules that dictate exact behavioral conduct in particular settings.</p>
@@ -3796,8 +3799,8 @@
         <!-- SLIDE 18: Nurture Primacy -->
         <section class="slide" id="slide-18">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍼</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🍼</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Nurture Primacy</h1>
               <p class="flashcard-def">Sociologists argue that distinctively human behavior is learned through socialisation (the lifelong process of learning culture, values, and norms), rather than dictated by hardwired biological instincts. Without social nurture, human potential remains completely dormant.</p>
@@ -3815,8 +3818,8 @@
         <!-- SLIDE 19: Feral Child -->
         <section class="slide" id="slide-19">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🐺</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🐺</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Feral Child</h1>
               <p class="flashcard-def">A feral child (a child raised in extreme isolation without human contact or care) lacks speech and culture. They serve as rare &#039;natural experiments&#039; proving distinctively human behaviours are learned through nurture rather than genetically pre-programmed.</p>
@@ -3834,8 +3837,8 @@
         <!-- SLIDE 20: Dani -->
         <section class="slide" id="slide-20">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏚️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏚️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Dani</h1>
               <p class="flashcard-def">Discovered in Florida at age 7, locked in an empty, dark, cockroach-infested room with zero verbal interaction or human touch.</p>
@@ -3853,8 +3856,8 @@
         <!-- SLIDE 21: Genie -->
         <section class="slide" id="slide-21">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚪</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🚪</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Genie</h1>
               <p class="flashcard-def">Strapped to a potty chair in total isolation until age 13 in California; beaten by her father whenever she made any noise.</p>
@@ -3872,8 +3875,8 @@
         <!-- SLIDE 22: Instinct Refutation -->
         <section class="slide" id="slide-22">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚶</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🚶</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Instinct Refutation</h1>
               <p class="flashcard-def">If upright walking, language, and empathy were innate biological instincts, feral children would display them automatically. Their complete absence provides decisive empirical proof that distinctively human behaviour requires socialisation.</p>
@@ -3891,8 +3894,8 @@
         <!-- SLIDE 23: The &#039;I&#039; -->
         <section class="slide" id="slide-23">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;I&#039;</h1>
               <p class="flashcard-def">The unsocialised, spontaneous, creative, and impulsive aspect of self-awareness and direct action.</p>
@@ -3910,8 +3913,8 @@
         <!-- SLIDE 24: The &#039;Me&#039; -->
         <section class="slide" id="slide-24">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Me&#039;</h1>
               <p class="flashcard-def">The &#039;social self&#039; built through socialisation, which anticipates societal expectations and censors the &#039;I&#039;.</p>
@@ -3929,8 +3932,8 @@
         <!-- SLIDE 25: Reflex Regulation -->
         <section class="slide" id="slide-25">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Reflex Regulation</h1>
               <p class="flashcard-def">When burning a hand on a hot stove: the &#039;I&#039; experiences raw physical agony. However, the &#039;Me&#039; determines whether you scream, swear, or conceal your pain based on age, gender, and the presence of onlookers.</p>
@@ -3948,8 +3951,8 @@
         <!-- SLIDE 26: Reflective Stages -->
         <section class="slide" id="slide-26">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Reflective Stages</h1>
               <p class="flashcard-def">Stage 1: We imagine how our appearance and actions look to others.Stage 2: We imagine their judgment or evaluation of that appearance.Stage 3: We experience self-feelings (pride, shame, confidence) and adapt our self-concept.</p>
@@ -3967,8 +3970,8 @@
         <!-- SLIDE 27: Impression Management -->
         <section class="slide" id="slide-27">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👔</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👔</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Impression Management</h1>
               <p class="flashcard-def">Impression Management (controlling the image and persona one projects to an audience): Performing in calculated ways to project an idealized image.Social Props: Using physical objects to reinforce identity—such as carrying an academic textbook to project the status of a dedicated student.</p>
@@ -3986,8 +3989,8 @@
         <!-- SLIDE 28: Total Institution -->
         <section class="slide" id="slide-28">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Total Institution</h1>
               <p class="flashcard-def">In Asylums (1961), Goffman studied psychiatric wards as total institutions (enclosed establishments controlling every aspect of inmate life). Confiscating clothes and shaving hair—mortification of the self—destroys civilian identity, proving selfhood is an ongoing social performance supported by external props.</p>
@@ -4005,8 +4008,8 @@
         <!-- SLIDE 29: Stigma (1963): Spoiled Identity -->
         <section class="slide" id="slide-29">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Stigma (1963): Spoiled Identity</h1>
               <p class="flashcard-def">When an individual possesses a discrediting attribute (physical disability, criminal record, mental illness), their front-stage performance is compromised.</p>
@@ -4024,8 +4027,8 @@
         <!-- SLIDE 30: Gender Advertisements -->
         <section class="slide" id="slide-30">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Gender Advertisements</h1>
               <p class="flashcard-def">Goffman analyzed commercial ads, showing poses stage women in submissive, infant-like postures while men are staged in commanding authority.</p>
@@ -4043,8 +4046,8 @@
         <!-- SLIDE 31: Common Culture -->
         <section class="slide" id="slide-31">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Common Culture</h1>
               <p class="flashcard-def">A shared set of values, norms, customs, symbols, and beliefs held collectively by members of a society, creating social cohesion and mutual identity.</p>
@@ -4062,8 +4065,8 @@
         <!-- SLIDE 32: Social Framework -->
         <section class="slide" id="slide-32">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Framework</h1>
               <p class="flashcard-def">An organised network of shared institutions and authoritative rules</p>
@@ -4081,8 +4084,8 @@
         <!-- SLIDE 33: Role-set -->
         <section class="slide" id="slide-33">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕸️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🕸️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Role-set</h1>
               <p class="flashcard-def">The cluster of different relational roles tied to a single social status</p>
@@ -4100,8 +4103,8 @@
         <!-- SLIDE 34: Looking-glass Self -->
         <section class="slide" id="slide-34">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Looking-glass Self</h1>
               <p class="flashcard-def">Forming self-identity based on how we imagine others perceive and judge us</p>
@@ -4119,8 +4122,8 @@
         <!-- SLIDE 35: Total Institutions -->
         <section class="slide" id="slide-35">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Total Institutions</h1>
               <p class="flashcard-def">Enclosed establishments controlling every aspect of inmate life</p>
@@ -4138,8 +4141,8 @@
         <!-- SLIDE 36: Expressive Role -->
         <section class="slide" id="slide-36">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🤱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Expressive Role</h1>
               <p class="flashcard-def">Oriented toward emotional warmth, child socialisation (the lifelong process of learning culture, values, and norms), and stabilizing adult personalities within the domestic home.</p>
@@ -4157,8 +4160,8 @@
         <!-- SLIDE 37: Instrumental Role -->
         <section class="slide" id="slide-37">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Instrumental Role</h1>
               <p class="flashcard-def">Oriented toward economic breadwinning, resource acquisition, and connecting the family unit to the wider industrial economy.</p>
@@ -4176,8 +4179,8 @@
         <!-- SLIDE 38: Biological Determinism -->
         <section class="slide" id="slide-38">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Biological Determinism</h1>
               <p class="flashcard-def">Human behavior, gender divisions, and social hierarchies are genetically programmed by evolutionary biogrammars (genetically hardwired behavioral predispositions proposed by sociobiologists).</p>
@@ -4195,8 +4198,8 @@
         <!-- SLIDE 39: Social Constructionism -->
         <section class="slide" id="slide-39">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Constructionism</h1>
               <p class="flashcard-def">Human behavior is learned through social interaction; caregiver sensitivity (Meins et al.) and cultural variability disprove genetic destiny.</p>
@@ -4214,8 +4217,8 @@
         <!-- SLIDE 40: Primary Socialisation -->
         <section class="slide" id="slide-40">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">❤️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">❤️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Primary Socialisation</h1>
               <p class="flashcard-def">Emotionally charged, unconditional identification with parents; constructs the foundational personality and moral compass.</p>
@@ -4233,8 +4236,8 @@
         <!-- SLIDE 41: Secondary Socialisation -->
         <section class="slide" id="slide-41">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👔</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👔</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Secondary Socialisation</h1>
               <p class="flashcard-def">Conditional, formal, and instrumental relations in institutions; teaches specialized skills, bureaucratic discipline, and public norms.</p>
@@ -4252,8 +4255,8 @@
         <!-- SLIDE 42: Social Control -->
         <section class="slide" id="slide-42">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Control</h1>
               <p class="flashcard-def">Social control (mechanisms, rules, and sanctions used by society to enforce conformity) refers to the system of mechanisms, rules, and sanctions used by a society to encourage conformity, enforce shared norms, and discourage deviance. Without social control, predictable human cooperation collapses into social disorder.</p>
@@ -4271,8 +4274,8 @@
         <!-- SLIDE 43: Formal Social Control -->
         <section class="slide" id="slide-43">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👮</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👮</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Formal Social Control</h1>
               <p class="flashcard-def">Explicit, written laws and bureaucratic regulations enforced by specialized state agencies armed with coercive legal power.</p>
@@ -4290,8 +4293,8 @@
         <!-- SLIDE 44: Informal Social Control -->
         <section class="slide" id="slide-44">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Informal Social Control</h1>
               <p class="flashcard-def">Unwritten social expectations and interpersonal reactions enforced through spontaneous everyday approval or disapproval.</p>
@@ -4309,8 +4312,8 @@
         <!-- SLIDE 45: Positive Sanctions -->
         <section class="slide" id="slide-45">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⭐</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⭐</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Positive Sanctions</h1>
               <p class="flashcard-def">Pleasurable rewards, praise, and social recognition designed to encourage individuals to repeat approved conduct.</p>
@@ -4328,8 +4331,8 @@
         <!-- SLIDE 46: Negative Sanctions -->
         <section class="slide" id="slide-46">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚫</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🚫</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Negative Sanctions</h1>
               <p class="flashcard-def">Punitive penalties, deterrents, and social disapproval applied when an individual breaks shared social expectations.</p>
@@ -4347,8 +4350,8 @@
         <!-- SLIDE 47: Particularistic Standards -->
         <section class="slide" id="slide-47">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Particularistic Standards</h1>
               <p class="flashcard-def">Rules and expectations applied uniquely to a specific child based on unconditional kinship love and personal birth order.</p>
@@ -4366,8 +4369,8 @@
         <!-- SLIDE 48: Universalistic Standards -->
         <section class="slide" id="slide-48">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Universalistic Standards</h1>
               <p class="flashcard-def">Impersonal, standardized rules applied equally to all members of society regardless of family background or personal kinship.</p>
@@ -4385,8 +4388,8 @@
         <!-- SLIDE 49: Formal Curriculum -->
         <section class="slide" id="slide-49">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📖</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📖</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Formal Curriculum</h1>
               <p class="flashcard-def">Official, timetabled subjects, overt academic knowledge, and standardized examinable qualifications.</p>
@@ -4404,8 +4407,8 @@
         <!-- SLIDE 50: Hidden Curriculum -->
         <section class="slide" id="slide-50">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏰</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⏰</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Hidden Curriculum</h1>
               <p class="flashcard-def">Unstated behavioral routines, hierarchies, and values transmitted through institutional school organisation.</p>
@@ -4423,8 +4426,8 @@
         <!-- SLIDE 51: Positive Cosmic Sanctions -->
         <section class="slide" id="slide-51">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✨</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">✨</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Positive Cosmic Sanctions</h1>
               <p class="flashcard-def">Spiritual compensations promising eternal happiness or elevated status in exchange for earthly righteousness.</p>
@@ -4442,8 +4445,8 @@
         <!-- SLIDE 52: Negative Cosmic Sanctions -->
         <section class="slide" id="slide-52">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Negative Cosmic Sanctions</h1>
               <p class="flashcard-def">Religious sanctions involving threats of supernatural punishment, eternal damnation, divine retribution, or excommunication used by religious authorities to enforce conformity.</p>
@@ -4461,8 +4464,8 @@
         <!-- SLIDE 53: Traditional Religious Patriarchy -->
         <section class="slide" id="slide-53">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Traditional Religious Patriarchy</h1>
               <p class="flashcard-def">Priesthoods and theology monopolized by men; female roles confined to domestic virtue, modesty, and submission.</p>
@@ -4480,8 +4483,8 @@
         <!-- SLIDE 54: Female-friendly Modernity -->
         <section class="slide" id="slide-54">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Female-friendly Modernity</h1>
               <p class="flashcard-def">Reinterpreting sacred scripture to support gender equality and elevating women into senior ecclesiastical governance.</p>
@@ -4499,8 +4502,8 @@
         <!-- SLIDE 55: Biogrammars -->
         <section class="slide" id="slide-55">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Biogrammars</h1>
               <p class="flashcard-def">Genetically hardwired behavioral predispositions proposed by sociobiologists</p>
@@ -4518,8 +4521,8 @@
         <!-- SLIDE 56: Correspondence Theory -->
         <section class="slide" id="slide-56">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Correspondence Theory</h1>
               <p class="flashcard-def">Bowles &amp; Gintis&#039; theory that school hierarchies mirror capitalist workplace discipline</p>
@@ -4537,8 +4540,8 @@
         <!-- SLIDE 57: Structuralist Perspective -->
         <section class="slide" id="slide-57">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏢</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏢</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structuralist Perspective</h1>
               <p class="flashcard-def">Top-down view: society is an objective reality external to individuals, constraining behavior through institutions and economic forces.</p>
@@ -4556,8 +4559,8 @@
         <!-- SLIDE 58: Social Action Perspective -->
         <section class="slide" id="slide-58">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Action Perspective</h1>
               <p class="flashcard-def">Bottom-up view: rejects structural determinism, arguing society is actively produced through everyday subjective encounters and shared meanings.</p>
@@ -4575,8 +4578,8 @@
         <!-- SLIDE 59: Goal Attainment -->
         <section class="slide" id="slide-59">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Goal Attainment</h1>
               <p class="flashcard-def">Sets collective societal priorities and mobilizes political power and state resources to achieve shared national objectives.</p>
@@ -4594,8 +4597,8 @@
         <!-- SLIDE 60: Adaptation -->
         <section class="slide" id="slide-60">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Adaptation</h1>
               <p class="flashcard-def">Solves physical survival by organizing industrial production and allocating material goods and economic services.</p>
@@ -4613,8 +4616,8 @@
         <!-- SLIDE 61: Integration -->
         <section class="slide" id="slide-61">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Integration</h1>
               <p class="flashcard-def">Fosters shared moral consensus, social solidarity, and emotional belonging, resolving inter-group disputes through legal and cultural norms.</p>
@@ -4632,8 +4635,8 @@
         <!-- SLIDE 62: Latency -->
         <section class="slide" id="slide-62">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛋️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🛋️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Latency</h1>
               <p class="flashcard-def">Manages emotional stress and interpersonal tensions, socialising children into adult roles and recharging workers&#039; mental stamina.</p>
@@ -4651,8 +4654,8 @@
         <!-- SLIDE 63: Soft Social Controls -->
         <section class="slide" id="slide-63">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍🏫</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👩‍🏫</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Soft Social Controls</h1>
               <p class="flashcard-def">Informal, everyday mechanisms that guide individuals toward voluntary conformity through the internalisation of moral values.</p>
@@ -4670,8 +4673,8 @@
         <!-- SLIDE 64: Hard Social Controls -->
         <section class="slide" id="slide-64">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👮</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👮</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hard Social Controls</h1>
               <p class="flashcard-def">Formal, coercive state interventions deployed when socialisation (the lifelong process of learning culture, values, and norms) fails, using statutory power to punish deviance and deter disruption.</p>
@@ -4689,8 +4692,8 @@
         <!-- SLIDE 65: The Economic Base -->
         <section class="slide" id="slide-65">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Economic Base</h1>
               <p class="flashcard-def">The economic mode of production: encompasses the forces of production (factories, technology) and relations of production (capitalist vs wage worker).</p>
@@ -4708,8 +4711,8 @@
         <!-- SLIDE 66: The Superstructure -->
         <section class="slide" id="slide-66">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Superstructure</h1>
               <p class="flashcard-def">Institutions resting on the base that legitimate and defend capitalist inequality through legal codes, political power, and cultural ideology.</p>
@@ -4727,8 +4730,8 @@
         <!-- SLIDE 67: Repressive Apparatuses -->
         <section class="slide" id="slide-67">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Repressive Apparatuses</h1>
               <p class="flashcard-def">State institutions that operate primarily through direct physical coercion, legal punishment, and armed suppression.</p>
@@ -4746,8 +4749,8 @@
         <!-- SLIDE 68: Ideological Apparatuses -->
         <section class="slide" id="slide-68">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological Apparatuses</h1>
               <p class="flashcard-def">Cultural institutions that operate through persuasion and socialization, transmitting ruling-class beliefs into human consciousness.</p>
@@ -4765,8 +4768,8 @@
         <!-- SLIDE 69: The Caste System -->
         <section class="slide" id="slide-69">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔒</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔒</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Caste System</h1>
               <p class="flashcard-def">A rigid, closed hierarchy where social status is ascribed permanently at birth, ritualized by religion, with zero upward or downward mobility.</p>
@@ -4784,8 +4787,8 @@
         <!-- SLIDE 70: The Class System -->
         <section class="slide" id="slide-70">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Class System</h1>
               <p class="flashcard-def">An open stratification hierarchy where status is achieved through economic effort, educational credentials, and occupational mobility.</p>
@@ -4803,8 +4806,8 @@
         <!-- SLIDE 71: Interpersonal Power -->
         <section class="slide" id="slide-71">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏠</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏠</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Interpersonal Power</h1>
               <p class="flashcard-def">Direct physical coercion, emotional manipulation, and unequal domestic exploitation of female labor within the household.</p>
@@ -4822,8 +4825,8 @@
         <!-- SLIDE 72: Cultural Power -->
         <section class="slide" id="slide-72">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Power</h1>
               <p class="flashcard-def">Systemic male control of public institutions, corporate hierarchies, political bodies, and media representations.</p>
@@ -4841,8 +4844,8 @@
         <!-- SLIDE 73: Marxist Feminism -->
         <section class="slide" id="slide-73">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Marxist Feminism</h1>
               <p class="flashcard-def">Capitalism is the primary beneficiary of female subordination: women reproduce future labor power for free and act as cheap reserve labor.</p>
@@ -4860,8 +4863,8 @@
         <!-- SLIDE 74: Radical Feminism -->
         <section class="slide" id="slide-74">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔥</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔥</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Radical Feminism</h1>
               <p class="flashcard-def">Patriarchy is the primary, universal system of domination, preceding capitalism and enforced through male violence and sexual control.</p>
@@ -4879,8 +4882,8 @@
         <!-- SLIDE 75: Social Structures -->
         <section class="slide" id="slide-75">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Structures</h1>
               <p class="flashcard-def">The overarching, patterned arrangements of relationships, institutions, and social hierarchies that shape and constrain individual behavior.</p>
@@ -4898,8 +4901,8 @@
         <!-- SLIDE 76: Social Facts -->
         <section class="slide" id="slide-76">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Facts</h1>
               <p class="flashcard-def">External forces like laws, customs, and money that exert coercive control over individuals</p>
@@ -4917,8 +4920,8 @@
         <!-- SLIDE 77: Functional Prerequisites -->
         <section class="slide" id="slide-77">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Functional Prerequisites</h1>
               <p class="flashcard-def">Universal survival requirements that every society must satisfy to maintain stability</p>
@@ -4936,8 +4939,8 @@
         <!-- SLIDE 78: Anomie -->
         <section class="slide" id="slide-78">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌪️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌪️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Anomie</h1>
               <p class="flashcard-def">A condition of normlessness and moral breakdown identified by Durkheim, occurring when rapid social change weakens shared rules and leaves individuals feeling disconnected.</p>
@@ -4955,8 +4958,8 @@
         <!-- SLIDE 79: Collective Conscience -->
         <section class="slide" id="slide-79">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Collective Conscience</h1>
               <p class="flashcard-def">Durkheim&#039;s term for the shared moral beliefs, values, and sentiments uniting a society</p>
@@ -4974,8 +4977,8 @@
         <!-- SLIDE 80: Economic Base -->
         <section class="slide" id="slide-80">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Economic Base</h1>
               <p class="flashcard-def">Karl Marx&#039;s concept of the foundational economic structure of society (the means and relations of production) that shapes and determines the political and cultural superstructure.</p>
@@ -4993,8 +4996,8 @@
         <!-- SLIDE 81: Superstructure -->
         <section class="slide" id="slide-81">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Superstructure</h1>
               <p class="flashcard-def">Legal, political, educational, and religious institutions</p>
@@ -5012,8 +5015,8 @@
         <!-- SLIDE 82: Repressive State Apparatuses -->
         <section class="slide" id="slide-82">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👮</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👮</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Repressive State Apparatuses</h1>
               <p class="flashcard-def">RSAs: police and army enforcing control through physical force</p>
@@ -5031,8 +5034,8 @@
         <!-- SLIDE 83: Ideological State Apparatuses -->
         <section class="slide" id="slide-83">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Ideological State Apparatuses</h1>
               <p class="flashcard-def">ISAs: schools and media subtly spreading ruling-class values to manufacture consent</p>
@@ -5050,8 +5053,8 @@
         <!-- SLIDE 84: Patriarchy -->
         <section class="slide" id="slide-84">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Patriarchy</h1>
               <p class="flashcard-def">A social system in which men hold primary power and dominate women</p>
@@ -5069,8 +5072,8 @@
         <!-- SLIDE 85: Liberal Feminism -->
         <section class="slide" id="slide-85">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Liberal Feminism</h1>
               <p class="flashcard-def">A feminist approach arguing that gender inequality stems from outdated cultural stereotypes and discriminatory laws, seeking equality through legal reform, policy changes, and education.</p>
@@ -5088,8 +5091,8 @@
         <!-- SLIDE 86: The Street Brawl -->
         <section class="slide" id="slide-86">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Street Brawl</h1>
               <p class="flashcard-def">Identical physical punches thrown on a public pavement: socially interpreted as illegal assault, hooliganism, and violent disorder.</p>
@@ -5107,8 +5110,8 @@
         <!-- SLIDE 87: The Boxing Match -->
         <section class="slide" id="slide-87">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏆</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏆</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Boxing Match</h1>
               <p class="flashcard-def">Identical physical punches thrown within a licensed arena: socially interpreted as athletic discipline, courage, and legitimate sportsmanship.</p>
@@ -5126,8 +5129,8 @@
         <!-- SLIDE 88: Unwritten Social Rules -->
         <section class="slide" id="slide-88">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Unwritten Social Rules</h1>
               <p class="flashcard-def">Informal, conversational norms continuously negotiated between actors in fluid everyday encounters.</p>
@@ -5145,8 +5148,8 @@
         <!-- SLIDE 89: Formal Codified Laws -->
         <section class="slide" id="slide-89">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Formal Codified Laws</h1>
               <p class="flashcard-def">Written statutory prohibitions created and enforced by designated state bodies armed with legal punishment.</p>
@@ -5164,8 +5167,8 @@
         <!-- SLIDE 90: Active Power -->
         <section class="slide" id="slide-90">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Active Power</h1>
               <p class="flashcard-def">The visible capacity to mobilize collective resources, direct social action, and achieve intentional, measurable change.</p>
@@ -5183,8 +5186,8 @@
         <!-- SLIDE 91: Passive Power -->
         <section class="slide" id="slide-91">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧊</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧊</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Passive Power</h1>
               <p class="flashcard-def">The covert power of non-decision making: preventing issues from entering the political agenda by making change seem impossible.</p>
@@ -5202,8 +5205,8 @@
         <!-- SLIDE 92: Charismatic &amp; Traditional -->
         <section class="slide" id="slide-92">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Charismatic &amp; Traditional</h1>
               <p class="flashcard-def">Charismatic: obedience rooted in devotion to a dynamic leader. Traditional: obedience rooted in sanctity of ancient customs.</p>
@@ -5221,8 +5224,8 @@
         <!-- SLIDE 93: Rational-legal Authority -->
         <section class="slide" id="slide-93">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📑</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📑</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Rational-legal Authority</h1>
               <p class="flashcard-def">Obedience rooted in clearly codified impersonal offices, meritocratic rules, constitutional statutes, and legal procedures.</p>
@@ -5240,8 +5243,8 @@
         <!-- SLIDE 94: Subcultural Commitment -->
         <section class="slide" id="slide-94">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦇</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🦇</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Subcultural Commitment</h1>
               <p class="flashcard-def">Deep, enduring identity rooted in distinctive values, consistent dress codes, dedicated venues, and dense friendship networks.</p>
@@ -5259,8 +5262,8 @@
         <!-- SLIDE 95: Postmodern &#039;Neo-tribes&#039; -->
         <section class="slide" id="slide-95">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛍️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🛍️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Postmodern &#039;Neo-tribes&#039;</h1>
               <p class="flashcard-def">Fluid, temporary lifestyle groupings where youth playfully &#039;pick-and-mix&#039; styles without deep ideological commitment (Maffesoli).</p>
@@ -5278,8 +5281,8 @@
         <!-- SLIDE 96: Breaching Experiments -->
         <section class="slide" id="slide-96">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Breaching Experiments</h1>
               <p class="flashcard-def">Deliberately disrupting unspoken, taken-for-granted social rules to reveal how fragile social order is and how strongly individuals react to norm violations (e.g. students acting as polite lodgers in their own homes).</p>
@@ -5297,8 +5300,8 @@
         <!-- SLIDE 97: Subjective Typifications -->
         <section class="slide" id="slide-97">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Subjective Typifications</h1>
               <p class="flashcard-def">Shared mental categories and common-sense classifications that individuals use during everyday interaction to make sense of people and social situations.</p>
@@ -5316,8 +5319,8 @@
         <!-- SLIDE 98: Group Belonging -->
         <section class="slide" id="slide-98">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Group Belonging</h1>
               <p class="flashcard-def">The psychological fear of social isolation and ostracism</p>
@@ -5335,8 +5338,8 @@
         <!-- SLIDE 99: Panopticon -->
         <section class="slide" id="slide-99">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏰</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏰</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Panopticon</h1>
               <p class="flashcard-def">Bentham&#039;s circular prison where unseen surveillance causes inmates to self-police</p>
@@ -5354,8 +5357,8 @@
         <!-- SLIDE 100: Focal Concerns -->
         <section class="slide" id="slide-100">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Focal Concerns</h1>
               <p class="flashcard-def">Core lower-class values: trouble, toughness, smartness, excitement, fate, and autonomy</p>
@@ -5373,8 +5376,8 @@
         <!-- SLIDE 101: Under-socialisation -->
         <section class="slide" id="slide-101">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Under-socialisation</h1>
               <p class="flashcard-def">Inadequate or incomplete learning of society&#039;s core values, norms, and moral rules during childhood, often cited by New Right theorists as a primary cause of delinquency and deviance.</p>
@@ -5392,8 +5395,8 @@
         <!-- SLIDE 102: Economic Marginalisation -->
         <section class="slide" id="slide-102">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Economic Marginalisation</h1>
               <p class="flashcard-def">The systemic exclusion of specific social groups (such as lower-class youth) from stable, well-paying employment, increasing feelings of frustration, alienation, and deviance.</p>
@@ -5411,8 +5414,8 @@
         <!-- SLIDE 103: Structural Coercion -->
         <section class="slide" id="slide-103">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Coercion</h1>
               <p class="flashcard-def">The use of institutional force, legal penalties, surveillance, and state power (such as police and courts) to compel conformity and punish deviance.</p>
@@ -5430,8 +5433,8 @@
         <!-- SLIDE 104: Voluntary Conformity -->
         <section class="slide" id="slide-104">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Voluntary Conformity</h1>
               <p class="flashcard-def">Willing compliance with social norms and expectations that occurs because individuals have genuinely internalised the values of their culture through socialisation.</p>
@@ -5449,8 +5452,8 @@
         <!-- SLIDE 105: Human Resistance -->
         <section class="slide" id="slide-105">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Human Resistance</h1>
               <p class="flashcard-def">The active agency of individuals and subcultures to question, resist, or subvert dominant cultural rules and social control rather than passively complying (e.g. anti-school subcultures).</p>
@@ -5468,8 +5471,8 @@
       <!-- SLIDE 106: CHAPTER 2 DIVIDER -->
       <section class="slide" id="slide-106">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🎭</div>
           <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🎭</div>
             <div class="card-pill">CHAPTER 02 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Social Identity: Class, Gender, Ethnicity &amp; Age</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Social Class Identities • Hegemonic &amp; Subordinate Masculinities • Feminine Identities • Ethnic &amp; Hybrid Identities • Age Identities, Youth Culture &amp; Childhood</p>
@@ -5485,8 +5488,8 @@
         <!-- SLIDE 107: Landed Aristocracy -->
         <section class="slide" id="slide-107">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏰</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🏰</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Landed Aristocracy</h1>
               <p class="flashcard-def">Historic elite whose wealth and social closure derive from ancestral land and dynastic lineage.</p>
@@ -5504,8 +5507,8 @@
         <!-- SLIDE 108: Corporate Super-rich -->
         <section class="slide" id="slide-108">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Super-rich</h1>
               <p class="flashcard-def">Modern upper class whose wealth stems from global corporate assets, hedge funds, and finance capital.</p>
@@ -5523,8 +5526,8 @@
         <!-- SLIDE 109: Hegemonic Masculinity -->
         <section class="slide" id="slide-109">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏋️</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🏋️</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hegemonic Masculinity</h1>
               <p class="flashcard-def">The culturally normative ideal of manhood that legitimates male authority over women and other men.</p>
@@ -5542,8 +5545,8 @@
         <!-- SLIDE 110: Emphasised Femininity -->
         <section class="slide" id="slide-110">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌸</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌸</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Emphasised Femininity</h1>
               <p class="flashcard-def">A compliant feminine identity constructed around accommodating the interests and desires of men.</p>
@@ -5561,8 +5564,8 @@
         <!-- SLIDE 111: Contingent Femininities -->
         <section class="slide" id="slide-111">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎀</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🎀</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Contingent Femininities</h1>
               <p class="flashcard-def">Identities structurally dependent on male validation, marital status, and domestic subordination.</p>
@@ -5580,8 +5583,8 @@
         <!-- SLIDE 112: Autonomous Femininities -->
         <section class="slide" id="slide-112">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔥</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🔥</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Autonomous Femininities</h1>
               <p class="flashcard-def">Identities constructed around independent careers, educational success, and personal self-determination.</p>
@@ -5599,8 +5602,8 @@
         <!-- SLIDE 113: Positive Ethnic Boundaries -->
         <section class="slide" id="slide-113">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Positive Ethnic Boundaries</h1>
               <p class="flashcard-def">Boundaries erected internally by minority groups to cultivate mutual pride, belonging, and security.</p>
@@ -5618,8 +5621,8 @@
         <!-- SLIDE 114: Imposed Boundaries &amp; &#039;the Other&#039; -->
         <section class="slide" id="slide-114">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚪</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🚪</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Imposed Boundaries &amp; &#039;the Other&#039;</h1>
               <p class="flashcard-def">Hostile boundaries erected by dominant majorities to exclude and marginalise minority groups.</p>
@@ -5637,8 +5640,8 @@
         <!-- SLIDE 115: Heavy Manual Labor -->
         <section class="slide" id="slide-115">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Heavy Manual Labor</h1>
               <p class="flashcard-def">Physically demanding industrial work (mining, docks, steelworks) that historically formed the foundation of traditional working-class male identity and masculine pride.</p>
@@ -5656,8 +5659,8 @@
         <!-- SLIDE 116: Instrumental Orientation -->
         <section class="slide" id="slide-116">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Instrumental Orientation</h1>
               <p class="flashcard-def">Viewing work purely as a paycheck to support family, without workplace solidarity</p>
@@ -5675,8 +5678,8 @@
         <!-- SLIDE 117: Manipulation -->
         <section class="slide" id="slide-117">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Manipulation</h1>
               <p class="flashcard-def">An agency of socialisation technique where parents encourage gender-typed behaviours and discourage behaviors deemed inappropriate for a child&#039;s sex.</p>
@@ -5694,8 +5697,8 @@
         <!-- SLIDE 118: Canalisation -->
         <section class="slide" id="slide-118">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Canalisation</h1>
               <p class="flashcard-def">An agency of socialisation technique identified by Ann Oakley where parents channel children&#039;s interests towards gender-typed toys, clothing, and activities (e.g. dolls for girls, cars for boys).</p>
@@ -5713,8 +5716,8 @@
         <!-- SLIDE 119: Verbal Appellations -->
         <section class="slide" id="slide-119">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Verbal Appellations</h1>
               <p class="flashcard-def">The use of gender-differentiated language and pet names by parents (such as calling boys &#039;brave little soldier&#039; and girls &#039;sweet little princess&#039;) to reinforce traditional gender expectations.</p>
@@ -5732,8 +5735,8 @@
         <!-- SLIDE 120: Normalised Femininity -->
         <section class="slide" id="slide-120">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Normalised Femininity</h1>
               <p class="flashcard-def">The socially expected standard of female behaviour (passive, nurturing, domestic) that society portrays as natural and inevitable for women.</p>
@@ -5751,8 +5754,8 @@
         <!-- SLIDE 121: Assertive Femininities -->
         <section class="slide" id="slide-121">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Assertive Femininities</h1>
               <p class="flashcard-def">A contemporary female identity described by Hollows and McRobbie, where young women combine assertive independence, educational confidence, and economic ambition with aspects of traditional femininity (&#039;Girl Power&#039;).</p>
@@ -5770,8 +5773,8 @@
         <!-- SLIDE 122: Moral Panics -->
         <section class="slide" id="slide-122">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Moral Panics</h1>
               <p class="flashcard-def">Intense, exaggerated media outcries over groups portrayed as evil threats to moral order</p>
@@ -5789,8 +5792,8 @@
         <!-- SLIDE 123: Functionalism: S.n. Eisenstadt -->
         <section class="slide" id="slide-123">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧑‍🤝‍🧑</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🧑‍🤝‍🧑</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Functionalism: S.n. Eisenstadt</h1>
               <p class="flashcard-def">Youth serves as a vital transitional bridge moving adolescents smoothly from childhood dependency to adult status.</p>
@@ -5808,8 +5811,8 @@
         <!-- SLIDE 124: Neo-marxism: Symbolic Resistance -->
         <section class="slide" id="slide-124">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧷</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🧷</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Neo-marxism: Symbolic Resistance</h1>
               <p class="flashcard-def">Youth subcultures represent symbolic ideological resistance against class exploitation and deindustrialisation.</p>
@@ -5827,8 +5830,8 @@
         <!-- SLIDE 125: The Sociological Subject -->
         <section class="slide" id="slide-125">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Sociological Subject</h1>
               <p class="flashcard-def">Identity anchored in stable institutional roles, collective norms, and predictable social structures (Hall, 1992).</p>
@@ -5846,8 +5849,8 @@
         <!-- SLIDE 126: The Postmodern Subject -->
         <section class="slide" id="slide-126">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Postmodern Subject</h1>
               <p class="flashcard-def">A fragmented, decentred persona composed of multiple shifting identities and styles (Hall, 1992).</p>
@@ -5865,8 +5868,8 @@
         <!-- SLIDE 127: The &#039;Grey Pound&#039; &amp; Active Elders -->
         <section class="slide" id="slide-127">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💷</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">💷</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The &#039;Grey Pound&#039; &amp; Active Elders</h1>
               <p class="flashcard-def">Affluent older generations in the West commanding unprecedented spending power and active retirement lifestyles.</p>
@@ -5884,8 +5887,8 @@
         <!-- SLIDE 128: Global Youth Bulge: Africa -->
         <section class="slide" id="slide-128">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Global Youth Bulge: Africa</h1>
               <p class="flashcard-def">In stark contrast to aging Western societies, developing nations experience a massive demographic wave of young people.</p>
@@ -5903,8 +5906,8 @@
         <!-- SLIDE 129: Control Over Space -->
         <section class="slide" id="slide-129">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Control Over Space</h1>
               <p class="flashcard-def">The social and parental restriction of physical movement and territory (such as confining girls to the home and bedroom culture while boys enjoy wider freedom in public spaces).</p>
@@ -5922,8 +5925,8 @@
         <!-- SLIDE 130: Control Over Time -->
         <section class="slide" id="slide-130">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Control Over Time</h1>
               <p class="flashcard-def">The rigid structuring of an individual&#039;s daily routine using school timetables, clocks, and bells to condition pupils into obedience and industrial punctuality.</p>
@@ -5941,8 +5944,8 @@
         <!-- SLIDE 131: Control Over Bodies -->
         <section class="slide" id="slide-131">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Control Over Bodies</h1>
               <p class="flashcard-def">The social regulation of physical movement, sitting posture, clothing, and grooming, particularly used by schools and families to enforce discipline and gender conformity.</p>
@@ -5960,8 +5963,8 @@
         <!-- SLIDE 132: Cultural Hybridity -->
         <section class="slide" id="slide-132">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎨</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🎨</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Hybridity</h1>
               <p class="flashcard-def">The creative blending of two or more cultural traditions into a new identity</p>
@@ -5979,8 +5982,8 @@
         <!-- SLIDE 133: Social Institutions -->
         <section class="slide" id="slide-133">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Institutions</h1>
               <p class="flashcard-def">Established, organised social structures (such as the family, education, religion, law, and the economy) that guide human behavior and maintain social order.</p>
@@ -5998,8 +6001,8 @@
         <!-- SLIDE 134: Care Deficit -->
         <section class="slide" id="slide-134">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Care Deficit</h1>
               <p class="flashcard-def">The emotional crisis in developing nations when migrant mothers leave to care for Western children</p>
@@ -6017,8 +6020,8 @@
       <!-- SLIDE 135: CHAPTER 3 DIVIDER -->
       <section class="slide" id="slide-135">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🔬</div>
           <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
             <div class="card-pill">CHAPTER 03 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Sociological Research Methods</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Positivism vs Interpretivism • Quantitative &amp; Qualitative Methods • Sampling &amp; Triangulation • Reliability, Validity &amp; Ethics • Sociological Value Freedom</p>
@@ -6034,8 +6037,8 @@
         <!-- SLIDE 136: Primary Data -->
         <section class="slide" id="slide-136">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Primary Data</h1>
               <p class="flashcard-def">Information gathered directly by the researcher specifically for their sociological investigation.</p>
@@ -6053,8 +6056,8 @@
         <!-- SLIDE 137: Secondary Data -->
         <section class="slide" id="slide-137">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Secondary Data</h1>
               <p class="flashcard-def">Pre-existing data generated by state agencies, historical witnesses, or past researchers.</p>
@@ -6072,8 +6075,8 @@
         <!-- SLIDE 138: Quantitative Data -->
         <section class="slide" id="slide-138">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔢</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔢</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Quantitative Data</h1>
               <p class="flashcard-def">Numerical, standardized measurement designed to discover objective social facts (external forces like laws, customs, and money that exert coercive control over individuals) and correlations.</p>
@@ -6091,8 +6094,8 @@
         <!-- SLIDE 139: Qualitative Data -->
         <section class="slide" id="slide-139">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Qualitative Data</h1>
               <p class="flashcard-def">Textual, visual, and narrative data capturing subjective meanings, emotions, and motivations.</p>
@@ -6110,8 +6113,8 @@
         <!-- SLIDE 140: Hard Statistics -->
         <section class="slide" id="slide-140">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔒</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔒</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Hard Statistics</h1>
               <p class="flashcard-def">Quantitative official records that are strictly mandated by law, yielding very high accuracy and validity.</p>
@@ -6129,8 +6132,8 @@
         <!-- SLIDE 141: Soft Statistics -->
         <section class="slide" id="slide-141">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Soft Statistics</h1>
               <p class="flashcard-def">Official statistics heavily influenced by human discretion, reporting decisions, and shifting state definitions.</p>
@@ -6148,8 +6151,8 @@
         <!-- SLIDE 142: Official Statistics -->
         <section class="slide" id="slide-142">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Official Statistics</h1>
               <p class="flashcard-def">Large-scale quantitative data collected by government agencies for administrative governance.</p>
@@ -6167,8 +6170,8 @@
         <!-- SLIDE 143: Personal Documents -->
         <section class="slide" id="slide-143">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✉️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">✉️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Personal Documents</h1>
               <p class="flashcard-def">Intimate qualitative records created by individuals expressing private thoughts and experiences.</p>
@@ -6186,8 +6189,8 @@
         <!-- SLIDE 144: Laboratory Experiments -->
         <section class="slide" id="slide-144">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Laboratory Experiments</h1>
               <p class="flashcard-def">Conducted in an artificial, strictly controlled environment where all extraneous variables are regulated.</p>
@@ -6205,8 +6208,8 @@
         <!-- SLIDE 145: Field Experiments -->
         <section class="slide" id="slide-145">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Field Experiments</h1>
               <p class="flashcard-def">Conducted in real-world natural social settings (classrooms, workplaces) without subjects&#039; direct awareness.</p>
@@ -6224,8 +6227,8 @@
         <!-- SLIDE 146: Operationalisation -->
         <section class="slide" id="slide-146">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Operationalisation</h1>
               <p class="flashcard-def">Converting abstract theoretical concepts into measurable empirical indicators</p>
@@ -6243,8 +6246,8 @@
         <!-- SLIDE 147: Positivism -->
         <section class="slide" id="slide-147">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Positivism</h1>
               <p class="flashcard-def">Studying society scientifically via objective quantitative laws</p>
@@ -6262,8 +6265,8 @@
         <!-- SLIDE 148: Interpretivism -->
         <section class="slide" id="slide-148">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Interpretivism</h1>
               <p class="flashcard-def">A sociological paradigm arguing that society cannot be studied like natural science; sociologists must uncover the subjective meanings, motives, and interpretations that guide human action.</p>
@@ -6281,8 +6284,8 @@
         <!-- SLIDE 149: Authenticity -->
         <section class="slide" id="slide-149">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Authenticity</h1>
               <p class="flashcard-def">In research methodology, the criterion determining whether a documentary source is genuine, unaltered, and truly produced by the claimed author.</p>
@@ -6300,8 +6303,8 @@
         <!-- SLIDE 150: Credibility -->
         <section class="slide" id="slide-150">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Credibility</h1>
               <p class="flashcard-def">In research methodology, the criterion evaluating whether a document or evidence is honest, accurate, believable, and free from deliberate bias.</p>
@@ -6319,8 +6322,8 @@
         <!-- SLIDE 151: Cyclical Moral Panic -->
         <section class="slide" id="slide-151">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cyclical Moral Panic</h1>
               <p class="flashcard-def">An exaggerated media outcry over a group portrayed as a threat to moral order</p>
@@ -6338,8 +6341,8 @@
         <!-- SLIDE 152: Self-fulfilling Prophecy -->
         <section class="slide" id="slide-152">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔮</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔮</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Self-fulfilling Prophecy</h1>
               <p class="flashcard-def">A teacher&#039;s label that directly influences a pupil to behave in a way that confirms the label</p>
@@ -6357,8 +6360,8 @@
         <!-- SLIDE 153: Hawthorne Effect -->
         <section class="slide" id="slide-153">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👁️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">👁️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Hawthorne Effect</h1>
               <p class="flashcard-def">Participants altering natural behaviour simply because they know they are being observed</p>
@@ -6376,8 +6379,8 @@
         <!-- SLIDE 154: Structured Interviews -->
         <section class="slide" id="slide-154">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📋</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📋</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structured Interviews</h1>
               <p class="flashcard-def">Reading a standardized list of questions in rigid order with zero deviation across respondents.</p>
@@ -6395,8 +6398,8 @@
         <!-- SLIDE 155: Unstructured Interviews -->
         <section class="slide" id="slide-155">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎙️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🎙️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Unstructured Interviews</h1>
               <p class="flashcard-def">An open, informal dialogue where the respondent sets the agenda and speaks in their own words.</p>
@@ -6414,8 +6417,8 @@
         <!-- SLIDE 156: Overt Fieldwork -->
         <section class="slide" id="slide-156">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪪</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🪪</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Overt Fieldwork</h1>
               <p class="flashcard-def">The researcher openly declares their academic identity and purpose to the group being studied.</p>
@@ -6433,8 +6436,8 @@
         <!-- SLIDE 157: Covert Fieldwork -->
         <section class="slide" id="slide-157">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕵️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🕵️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Covert Fieldwork</h1>
               <p class="flashcard-def">The researcher secretly infiltrates a group, posing as an authentic peer without revealing identity.</p>
@@ -6452,8 +6455,8 @@
         <!-- SLIDE 158: Going Native -->
         <section class="slide" id="slide-158">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Going Native</h1>
               <p class="flashcard-def">A researcher becoming so emotionally attached to a group that they lose objectivity</p>
@@ -6471,8 +6474,8 @@
         <!-- SLIDE 159: Evaluation -->
         <section class="slide" id="slide-159">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Evaluation</h1>
               <p class="flashcard-def">Critical reflection on research bias and reporting</p>
@@ -6490,8 +6493,8 @@
         <!-- SLIDE 160: Methodological Triangulation -->
         <section class="slide" id="slide-160">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Methodological Triangulation</h1>
               <p class="flashcard-def">Combining multiple research methods to cross-check validity</p>
@@ -6509,8 +6512,8 @@
         <!-- SLIDE 161: Reflexivity -->
         <section class="slide" id="slide-161">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Reflexivity</h1>
               <p class="flashcard-def">The ongoing self-critical awareness practiced by researchers to evaluate how their own social position, values, and presence might bias data collection and analysis.</p>
@@ -6528,8 +6531,8 @@
         <!-- SLIDE 162: Triangulation -->
         <section class="slide" id="slide-162">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Triangulation</h1>
               <p class="flashcard-def">Combining multiple research methods or data sources to cross-check validity</p>
@@ -6547,8 +6550,8 @@
         <!-- SLIDE 163: Social Surveys -->
         <section class="slide" id="slide-163">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Surveys</h1>
               <p class="flashcard-def">Standardized cross-sectional data collected from large representative samples.</p>
@@ -6566,8 +6569,8 @@
         <!-- SLIDE 164: Cross-sectional Surveys -->
         <section class="slide" id="slide-164">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📸</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📸</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cross-sectional Surveys</h1>
               <p class="flashcard-def">Data gathered from a representative sample at a single, frozen point in time.</p>
@@ -6585,8 +6588,8 @@
         <!-- SLIDE 165: Longitudinal Studies -->
         <section class="slide" id="slide-165">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Longitudinal Studies</h1>
               <p class="flashcard-def">Tracking the same cohort across recurring &#039;waves&#039; over months, years, or decades.</p>
@@ -6604,8 +6607,8 @@
         <!-- SLIDE 166: Methodological Pluralism -->
         <section class="slide" id="slide-166">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧰</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🧰</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Methodological Pluralism</h1>
               <p class="flashcard-def">The research strategy of combining multiple research methods (such as quantitative surveys with qualitative observation) within a single study to gain deeper validity and reliability.</p>
@@ -6623,8 +6626,8 @@
         <!-- SLIDE 167: Methodological -->
         <section class="slide" id="slide-167">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧰</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🧰</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Methodological</h1>
               <p class="flashcard-def">The research strategy of methodological pluralism—combining multiple research methods (such as quantitative surveys with qualitative observation) within a single study to gain deeper validity.</p>
@@ -6642,8 +6645,8 @@
         <!-- SLIDE 168: The Cudos Ethos -->
         <section class="slide" id="slide-168">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The Cudos Ethos</h1>
               <p class="flashcard-def">Normative institutional rules designed to preserve scientific objectivity and public welfare.</p>
@@ -6661,8 +6664,8 @@
         <!-- SLIDE 169: Commercial Science -->
         <section class="slide" id="slide-169">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Commercial Science</h1>
               <p class="flashcard-def">Modern corporate research driven by private patents, market profits, and political sponsorship.</p>
@@ -6680,8 +6683,8 @@
         <!-- SLIDE 170: Law of Three Stages -->
         <section class="slide" id="slide-170">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Law of Three Stages</h1>
               <p class="flashcard-def">Auguste Comte&#039;s evolutionary theory that human societies progress through theological, metaphysical, and finally positivist (scientific) stages of thinking.</p>
@@ -6699,8 +6702,8 @@
         <!-- SLIDE 171: Standardisation -->
         <section class="slide" id="slide-171">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Standardisation</h1>
               <p class="flashcard-def">The methodological practice of administering identical questions under identical conditions to every respondent to maximize comparative reliability.</p>
@@ -6718,8 +6721,8 @@
         <!-- SLIDE 172: Replicability -->
         <section class="slide" id="slide-172">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Replicability</h1>
               <p class="flashcard-def">Independent peer repetition yielding identical findings</p>
@@ -6737,8 +6740,8 @@
         <!-- SLIDE 173: Verstehen -->
         <section class="slide" id="slide-173">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Verstehen</h1>
               <p class="flashcard-def">Deeply understanding action from the actor&#039;s own viewpoint</p>
@@ -6756,8 +6759,8 @@
         <!-- SLIDE 174: Aktuelles Verstehen -->
         <section class="slide" id="slide-174">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Aktuelles Verstehen</h1>
               <p class="flashcard-def">Direct observational grasp, like seeing someone cry or chop wood</p>
@@ -6775,8 +6778,8 @@
         <!-- SLIDE 175: Erklärendes Verstehen -->
         <section class="slide" id="slide-175">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Erklärendes Verstehen</h1>
               <p class="flashcard-def">Explanatory understanding of the underlying motive and cultural purpose driving the action</p>
@@ -6794,8 +6797,8 @@
         <!-- SLIDE 176: Reliability and Replication -->
         <section class="slide" id="slide-176">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏱️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">⏱️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Reliability and Replication</h1>
               <p class="flashcard-def">The scientific requirement that a research study can be repeated by other researchers using identical methods to verify whether the same findings occur.</p>
@@ -6813,8 +6816,8 @@
         <!-- SLIDE 177: Quantitative Instruments -->
         <section class="slide" id="slide-177">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔢</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔢</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Quantitative Instruments</h1>
               <p class="flashcard-def">Standardized tools designed to measure objective social structures and quantify causal relationships across large populations.</p>
@@ -6832,8 +6835,8 @@
         <!-- SLIDE 178: Qualitative Instruments -->
         <section class="slide" id="slide-178">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Qualitative Instruments</h1>
               <p class="flashcard-def">Flexible instruments designed to uncover subjective meanings, empathetic lived experience, and active social agency.</p>
@@ -6851,8 +6854,8 @@
         <!-- SLIDE 179: Theoretical Ambition -->
         <section class="slide" id="slide-179">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Theoretical Ambition</h1>
               <p class="flashcard-def">The unconstrained research vision maximizing validity, reliability, and representativeness across an exhaustive sample.</p>
@@ -6870,8 +6873,8 @@
         <!-- SLIDE 180: Pragmatic Compromise -->
         <section class="slide" id="slide-180">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Pragmatic Compromise</h1>
               <p class="flashcard-def">The operational concessions enforced by restricted funding, contractual deadlines, and gatekeeper obstruction.</p>
@@ -6889,8 +6892,8 @@
         <!-- SLIDE 181: Absolutist Moral Duty -->
         <section class="slide" id="slide-181">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛑</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🛑</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Absolutist Moral Duty</h1>
               <p class="flashcard-def">Ethical rules are universal and unconditional; deception and lack of consent are impermissible regardless of scientific gains.</p>
@@ -6908,8 +6911,8 @@
         <!-- SLIDE 182: Consequentialist Calculus -->
         <section class="slide" id="slide-182">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Consequentialist Calculus</h1>
               <p class="flashcard-def">Ethical decisions depend on outcomes; deception is justified if research produces profound public welfare benefits.</p>
@@ -6927,8 +6930,8 @@
         <!-- SLIDE 183: Informed Consent -->
         <section class="slide" id="slide-183">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✍️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">✍️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Informed Consent</h1>
               <p class="flashcard-def">Participants freely agreeing to take part with full knowledge of research aims</p>
@@ -6946,8 +6949,8 @@
         <!-- SLIDE 184: Value-free Sociology -->
         <section class="slide" id="slide-184">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Value-free Sociology</h1>
               <p class="flashcard-def">Sociology must emulate the physical sciences by completely expelling moral values, establishing objective social facts (external forces like laws, customs, and money that exert coercive control over individuals) without preaching.</p>
@@ -6965,8 +6968,8 @@
         <!-- SLIDE 185: Value-committed Sociology -->
         <section class="slide" id="slide-185">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✊</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">✊</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Value-committed Sociology</h1>
               <p class="flashcard-def">Sociology must take the side of marginalized groups, using empirical evidence to actively challenge injustice and oppression.</p>
@@ -6984,8 +6987,8 @@
         <!-- SLIDE 186: High Validity / Low Reliability -->
         <section class="slide" id="slide-186">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">High Validity / Low Reliability</h1>
               <p class="flashcard-def">Prioritizes deep subjective truth, naturalistic rapport, and rich description at the expense of standardization.</p>
@@ -7003,8 +7006,8 @@
         <!-- SLIDE 187: High Reliability / Low Validity -->
         <section class="slide" id="slide-187">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">High Reliability / Low Validity</h1>
               <p class="flashcard-def">Prioritizes standardized replication, statistical generalizability, and uniform measurement across large samples.</p>
@@ -7022,8 +7025,8 @@
         <!-- SLIDE 188: Academic Extraction -->
         <section class="slide" id="slide-188">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Academic Extraction</h1>
               <p class="flashcard-def">Researchers mine vulnerable communities for traumatic interview data to publish academic papers without providing local aid.</p>
@@ -7041,8 +7044,8 @@
         <!-- SLIDE 189: Participatory Reciprocity -->
         <section class="slide" id="slide-189">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Participatory Reciprocity</h1>
               <p class="flashcard-def">Collaborative research co-designed with participants to generate actionable political advocacy and material community improvements.</p>
@@ -7060,8 +7063,8 @@
         <!-- SLIDE 190: Theoretical Paradigms -->
         <section class="slide" id="slide-190">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Theoretical Paradigms</h1>
               <p class="flashcard-def">Broad overarching worldviews and frameworks (such as Positivism or Interpretivism) that guide how sociologists conceptualize society and conduct research.</p>
@@ -7079,8 +7082,8 @@
         <!-- SLIDE 191: Ethical Consequences -->
         <section class="slide" id="slide-191">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ethical Consequences</h1>
               <p class="flashcard-def">The moral implications of sociological research, requiring protection of participants from physical harm, psychological distress, deception, and invasion of privacy.</p>
@@ -7098,8 +7101,8 @@
       <!-- SLIDE 192: CHAPTER 4 DIVIDER -->
       <section class="slide" id="slide-192">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
           <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
             <div class="card-pill">CHAPTER 04 • PAPER 2</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">The Family</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Functionalist, Marxist &amp; Feminist Views • Family Diversity &amp; Households • Conjugal Roles &amp; Domestic Labour • Power, Decision-Making &amp; Abuse • Childhood &amp; Demographics</p>
@@ -7115,8 +7118,8 @@
         <!-- SLIDE 193: Murdock&#039;s Universal Model -->
         <section class="slide" id="slide-193">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Murdock&#039;s Universal Model</h1>
               <p class="flashcard-def">Defines family exclusively through heterosexual marriage, co-residence, reproduction, and children.</p>
@@ -7134,8 +7137,8 @@
         <!-- SLIDE 194: Giddens&#039; Kinship Model -->
         <section class="slide" id="slide-194">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Giddens&#039; Kinship Model</h1>
               <p class="flashcard-def">Defines family flexibly through emotional care and adults assuming ongoing childcare responsibility.</p>
@@ -7153,8 +7156,8 @@
         <!-- SLIDE 195: The Evolutionary Fit Thesis -->
         <section class="slide" id="slide-195">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Evolutionary Fit Thesis</h1>
               <p class="flashcard-def">Pre-industrial extended families naturally evolved into mobile nuclear units to fit industrial production.</p>
@@ -7172,8 +7175,8 @@
         <!-- SLIDE 196: Empirical Counter-evidence -->
         <section class="slide" id="slide-196">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Empirical Counter-evidence</h1>
               <p class="flashcard-def">Archival demographic data demonstrating that Parsons&#039; evolutionary timeline was historically flawed.</p>
@@ -7191,8 +7194,8 @@
         <!-- SLIDE 197: Functionalist Harmony -->
         <section class="slide" id="slide-197">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕊️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🕊️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Functionalist Harmony</h1>
               <p class="flashcard-def">The family is a universally beneficial institution that stabilizes adult mental health and integrates children into society.</p>
@@ -7210,8 +7213,8 @@
         <!-- SLIDE 198: Marxist Critique -->
         <section class="slide" id="slide-198">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚩</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🚩</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Marxist Critique</h1>
               <p class="flashcard-def">The family is an ideological apparatus that conditions submission, extracts profits, and subsidises capitalist labor.</p>
@@ -7229,8 +7232,8 @@
         <!-- SLIDE 199: Economic Capital -->
         <section class="slide" id="slide-199">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💰</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">💰</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Economic Capital</h1>
               <p class="flashcard-def">Direct material wealth, inherited property, liquid financial assets, and ownership of the means of production.</p>
@@ -7248,8 +7251,8 @@
         <!-- SLIDE 200: Cultural &amp; Social Capital -->
         <section class="slide" id="slide-200">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎻</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎻</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural &amp; Social Capital</h1>
               <p class="flashcard-def">Intangible linguistic codes, habitus dispositions, elite tastes, and exclusive high-trust friendship networks.</p>
@@ -7267,8 +7270,8 @@
         <!-- SLIDE 201: Capitalist Exploitation -->
         <section class="slide" id="slide-201">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Capitalist Exploitation</h1>
               <p class="flashcard-def">Capitalism is the ultimate driver and beneficiary of female domestic subjugation and unpaid reproductive labor.</p>
@@ -7286,8 +7289,8 @@
         <!-- SLIDE 202: Patriarchal Domination -->
         <section class="slide" id="slide-202">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Patriarchal Domination</h1>
               <p class="flashcard-def">Patriarchy (a social system in which men hold primary power and dominate women) is an autonomous power structure through which men directly control and exploit women within the home.</p>
@@ -7305,8 +7308,8 @@
         <!-- SLIDE 203: Warm Bath Theory -->
         <section class="slide" id="slide-203">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛁</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛁</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Warm Bath Theory</h1>
               <p class="flashcard-def">The functionalist claim that the home acts as a soothing haven relieving workplace stress</p>
@@ -7324,8 +7327,8 @@
         <!-- SLIDE 204: Cultural Capital -->
         <section class="slide" id="slide-204">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎻</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎻</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Capital</h1>
               <p class="flashcard-def">The middle-class language skills, educational knowledge, cultural tastes, and refined manners that parents pass to their children, which schools reward with higher academic credentials.</p>
@@ -7343,8 +7346,8 @@
         <!-- SLIDE 205: Habitus -->
         <section class="slide" id="slide-205">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👔</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👔</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Habitus</h1>
               <p class="flashcard-def">Deeply ingrained class-based manners, habits, and cultural tastes</p>
@@ -7362,8 +7365,8 @@
         <!-- SLIDE 206: Marriage As Sacred Duty -->
         <section class="slide" id="slide-206">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Marriage As Sacred Duty</h1>
               <p class="flashcard-def">A permanent, religiously sanctioned union essential for social respectability and economic survival.</p>
@@ -7381,8 +7384,8 @@
         <!-- SLIDE 207: Marriage As Lifestyle Choice -->
         <section class="slide" id="slide-207">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥂</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🥂</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Marriage As Lifestyle Choice</h1>
               <p class="flashcard-def">An optional, negotiable partnership entered into purely for mutual intimacy and personal fulfillment.</p>
@@ -7400,8 +7403,8 @@
         <!-- SLIDE 208: Biological Ascribed Kinship -->
         <section class="slide" id="slide-208">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Biological Ascribed Kinship</h1>
               <p class="flashcard-def">Family defined exclusively by genetic descent, legal marriage contracts, and bloodlines.</p>
@@ -7419,8 +7422,8 @@
         <!-- SLIDE 209: Kath Weston&#039;s Families of Choice -->
         <section class="slide" id="slide-209">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Kath Weston&#039;s Families of Choice</h1>
               <p class="flashcard-def">Family constructed voluntarily through mutual affection, shared care, and chosen commitment.</p>
@@ -7438,8 +7441,8 @@
         <!-- SLIDE 210: Risk Society -->
         <section class="slide" id="slide-210">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Risk Society</h1>
               <p class="flashcard-def">Modern life dominated by manufactured social and personal hazards</p>
@@ -7457,8 +7460,8 @@
         <!-- SLIDE 211: Concerted Cultivation -->
         <section class="slide" id="slide-211">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎹</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎹</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Concerted Cultivation</h1>
               <p class="flashcard-def">Deliberate parental engineering of child talents, analytical reasoning, and adult institutional negotiation.</p>
@@ -7476,8 +7479,8 @@
         <!-- SLIDE 212: Natural Growth -->
         <section class="slide" id="slide-212">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚽</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚽</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Natural Growth</h1>
               <p class="flashcard-def">Granting spontaneous childhood freedom within clear physical boundaries and parental authority.</p>
@@ -7495,8 +7498,8 @@
         <!-- SLIDE 213: Robert Chester: Neo-conventional -->
         <section class="slide" id="slide-213">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏠</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏠</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Robert Chester: Neo-conventional</h1>
               <p class="flashcard-def">Claims reports of the death of the nuclear family are exaggerated; nuclear living remains the dominant life-cycle phase.</p>
@@ -7514,8 +7517,8 @@
         <!-- SLIDE 214: Judith Stacey: Fluid Diversity -->
         <section class="slide" id="slide-214">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Judith Stacey: Fluid Diversity</h1>
               <p class="flashcard-def">Rejects Chester&#039;s claims; argues traditional nuclear dominance has been permanently displaced by plural alternative forms.</p>
@@ -7533,8 +7536,8 @@
         <!-- SLIDE 215: The New Right -->
         <section class="slide" id="slide-215">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The New Right</h1>
               <p class="flashcard-def">Family diversity is social breakdown; society must restore the traditional married heterosexual nuclear family.</p>
@@ -7552,8 +7555,8 @@
         <!-- SLIDE 216: Postmodernism -->
         <section class="slide" id="slide-216">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Postmodernism</h1>
               <p class="flashcard-def">Family diversity is evidence of individual freedom, gender equality, and democratic lifestyle choice.</p>
@@ -7571,8 +7574,8 @@
         <!-- SLIDE 217: Symmetrical Family -->
         <section class="slide" id="slide-217">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Symmetrical Family</h1>
               <p class="flashcard-def">A nuclear home where domestic tasks and leisure are shared equitably</p>
@@ -7590,8 +7593,8 @@
         <!-- SLIDE 218: Joint Conjugal Roles -->
         <section class="slide" id="slide-218">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Joint Conjugal Roles</h1>
               <p class="flashcard-def">Domestic arrangements in the family where husband and wife share household chores, childcare tasks, breadwinning, and leisure activities relatively equally, rather than dividing them by rigid gender lines.</p>
@@ -7609,8 +7612,8 @@
         <!-- SLIDE 219: Liberal Reformism -->
         <section class="slide" id="slide-219">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Liberal Reformism</h1>
               <p class="flashcard-def">Pursuing gender equality through legal reform, educational access, and flexible conjugal negotiation.</p>
@@ -7628,8 +7631,8 @@
         <!-- SLIDE 220: Radical Separatism -->
         <section class="slide" id="slide-220">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔥</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🔥</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Radical Separatism</h1>
               <p class="flashcard-def">Viewing the nuclear family as irredeemably patriarchal; demanding structural abolition or female separatism.</p>
@@ -7647,8 +7650,8 @@
         <!-- SLIDE 221: Segregated Conjugal Roles -->
         <section class="slide" id="slide-221">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Segregated Conjugal Roles</h1>
               <p class="flashcard-def">Spouses perform strictly separated domestic tasks and spend leisure time apart with same-sex networks.</p>
@@ -7666,8 +7669,8 @@
         <!-- SLIDE 222: Parsonian Complementarity -->
         <section class="slide" id="slide-222">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕊️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🕊️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Parsonian Complementarity</h1>
               <p class="flashcard-def">Conjugal division is natural, complementary, and functional for social order and emotional health.</p>
@@ -7685,8 +7688,8 @@
         <!-- SLIDE 223: Morgan&#039;s Power Conflict -->
         <section class="slide" id="slide-223">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Morgan&#039;s Power Conflict</h1>
               <p class="flashcard-def">The family is a contested arena of conflicting interests, hidden domination, and power struggles.</p>
@@ -7704,8 +7707,8 @@
         <!-- SLIDE 224: The Romantic Haven Myth -->
         <section class="slide" id="slide-224">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Romantic Haven Myth</h1>
               <p class="flashcard-def">The ideological belief that the privatised family is an emotional haven of unconditional safety and peace.</p>
@@ -7723,8 +7726,8 @@
         <!-- SLIDE 225: The &#039;Dark Side&#039; Reality -->
         <section class="slide" id="slide-225">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The &#039;Dark Side&#039; Reality</h1>
               <p class="flashcard-def">The empirical reality of the family home as the primary statistical site of domestic violence and abuse.</p>
@@ -7742,8 +7745,8 @@
         <!-- SLIDE 226: The Case For Psychic Income -->
         <section class="slide" id="slide-226">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💎</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">💎</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Case For Psychic Income</h1>
               <p class="flashcard-def">The family is an indispensable engine of emotional balance, mutual affection, and personal identity.</p>
@@ -7761,8 +7764,8 @@
         <!-- SLIDE 227: The Case For Conflict Pathology -->
         <section class="slide" id="slide-227">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💥</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">💥</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Case For Conflict Pathology</h1>
               <p class="flashcard-def">The family is a claustrophobic institution producing psychological neurosis, exploitation, and abuse.</p>
@@ -7780,8 +7783,8 @@
         <!-- SLIDE 228: Triple Shift -->
         <section class="slide" id="slide-228">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏱️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⏱️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Triple Shift</h1>
               <p class="flashcard-def">Performing paid work, domestic chores, and emotional care</p>
@@ -7799,8 +7802,8 @@
         <!-- SLIDE 229: Emotion Work -->
         <section class="slide" id="slide-229">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👩‍👧</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Emotion Work</h1>
               <p class="flashcard-def">Managing family feelings and calming household conflict</p>
@@ -7818,8 +7821,8 @@
         <!-- SLIDE 230: The Medieval &#039;Miniature Adult&#039; -->
         <section class="slide" id="slide-230">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Medieval &#039;Miniature Adult&#039;</h1>
               <p class="flashcard-def">Youth integrated into adult economic, social, and cultural life immediately upon physical weaning.</p>
@@ -7837,8 +7840,8 @@
         <!-- SLIDE 231: The Modern Protected Child -->
         <section class="slide" id="slide-231">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧸</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧸</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Modern Protected Child</h1>
               <p class="flashcard-def">A socially segregated, legally protected developmental stage defined by innocence and dependence.</p>
@@ -7856,8 +7859,8 @@
         <!-- SLIDE 232: The Child-centred &#039;Golden Age&#039; -->
         <section class="slide" id="slide-232">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧸</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧸</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Child-centred &#039;Golden Age&#039;</h1>
               <p class="flashcard-def">The view that childhood in modern Western society has reached an unprecedented peak of health, protection, and devotion.</p>
@@ -7875,8 +7878,8 @@
         <!-- SLIDE 233: The &#039;Toxic / Disappearing&#039; Child -->
         <section class="slide" id="slide-233">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧪</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧪</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The &#039;Toxic / Disappearing&#039; Child</h1>
               <p class="flashcard-def">The view that modern technological capitalism is destroying the innocence, mental health, and essence of childhood.</p>
@@ -7894,8 +7897,8 @@
         <!-- SLIDE 234: Middle-class Cultivated Youth -->
         <section class="slide" id="slide-234">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎻</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎻</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Middle-class Cultivated Youth</h1>
               <p class="flashcard-def">Childhood designed entirely around adult-sponsored enrichment, resume-building, and protected leisure.</p>
@@ -7913,8 +7916,8 @@
         <!-- SLIDE 235: Ethnic Enterprise Youth -->
         <section class="slide" id="slide-235">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🥡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ethnic Enterprise Youth</h1>
               <p class="flashcard-def">Childhood embedded in reciprocal economic work supporting family commercial survival.</p>
@@ -7932,8 +7935,8 @@
         <!-- SLIDE 236: The Isolated Nuclear Family -->
         <section class="slide" id="slide-236">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Isolated Nuclear Family</h1>
               <p class="flashcard-def">The functionalist claim that modern industrial families are geographically mobile and severed from extended kin.</p>
@@ -7951,8 +7954,8 @@
         <!-- SLIDE 237: The Modified Extended Family -->
         <section class="slide" id="slide-237">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👵</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👵</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Modified Extended Family</h1>
               <p class="flashcard-def">The empirical reality of dense daily intergenerational childcare, financial support, and emotional solidarity.</p>
@@ -7970,8 +7973,8 @@
         <!-- SLIDE 238: Traditional Indigenous Elder Status -->
         <section class="slide" id="slide-238">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Traditional Indigenous Elder Status</h1>
               <p class="flashcard-def">Elders hold the highest moral prestige, property control, and spiritual respect in the community.</p>
@@ -7989,8 +7992,8 @@
         <!-- SLIDE 239: Modern Industrial Capitalist Ageism -->
         <section class="slide" id="slide-239">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Modern Industrial Capitalist Ageism</h1>
               <p class="flashcard-def">Elders suffer loss of occupational identity, workforce exit, and negative stereotyping as social burdens.</p>
@@ -8008,8 +8011,8 @@
         <!-- SLIDE 240: The Traditional Patriarch -->
         <section class="slide" id="slide-240">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎩</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎩</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Traditional Patriarch</h1>
               <p class="flashcard-def">Sole economic provider, ultimate household authority, and distant disciplinarian.</p>
@@ -8027,8 +8030,8 @@
         <!-- SLIDE 241: The &#039;Fully Involved&#039; Modern Dad -->
         <section class="slide" id="slide-241">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍼</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🍼</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The &#039;Fully Involved&#039; Modern Dad</h1>
               <p class="flashcard-def">An emotionally accessible partner who shares 50/50 daily caregiving and domestic management.</p>
@@ -8046,8 +8049,8 @@
         <!-- SLIDE 242: Ageism -->
         <section class="slide" id="slide-242">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👩‍👧</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Ageism</h1>
               <p class="flashcard-def">Prejudice, discrimination, and stereotyping directed against individuals based on chronological age</p>
@@ -8065,8 +8068,8 @@
       <!-- SLIDE 243: CHAPTER 5 DIVIDER -->
       <section class="slide" id="slide-243">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🎓</div>
           <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
             <div class="card-pill">CHAPTER 05 • PAPER 3</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Education</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Role of Education &amp; Meritocracy • Class, Gender &amp; Ethnic Differences in Attainment • Teacher Labelling, Streaming &amp; Subcultures • Hidden Curriculum • Educational Policy</p>
@@ -8082,8 +8085,8 @@
         <!-- SLIDE 244: Pre-industrial Learning -->
         <section class="slide" id="slide-244">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏡</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏡</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Pre-industrial Learning</h1>
               <p class="flashcard-def">Informal domestic transmission of subsistence craft skills embedded in kinship networks.</p>
@@ -8101,8 +8104,8 @@
         <!-- SLIDE 245: State Mass Schooling -->
         <section class="slide" id="slide-245">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">State Mass Schooling</h1>
               <p class="flashcard-def">Compulsory universal schooling designed to train a standardized, disciplined national workforce.</p>
@@ -8120,8 +8123,8 @@
         <!-- SLIDE 246: Meritocratic Allocation -->
         <section class="slide" id="slide-246">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌟</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🌟</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Meritocratic Allocation</h1>
               <p class="flashcard-def">Testing natural talent objectively to match human capacity to economic needs without class bias.</p>
@@ -8139,8 +8142,8 @@
         <!-- SLIDE 247: Class Stratification -->
         <section class="slide" id="slide-247">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Class Stratification</h1>
               <p class="flashcard-def">Rigid institutional segregation reinforcing middle-class privilege and working-class failure.</p>
@@ -8158,8 +8161,8 @@
         <!-- SLIDE 248: The Classroom Regimen -->
         <section class="slide" id="slide-248">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Classroom Regimen</h1>
               <p class="flashcard-def">Institutional school routines conditioning youth to accept external command and surveillance.</p>
@@ -8177,8 +8180,8 @@
         <!-- SLIDE 249: The Workplace Regimen -->
         <section class="slide" id="slide-249">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Workplace Regimen</h1>
               <p class="flashcard-def">Corporate production conditions requiring compliant, fragmented, and clock-disciplined wage labour.</p>
@@ -8196,8 +8199,8 @@
         <!-- SLIDE 250: Repressive State Apparatus -->
         <section class="slide" id="slide-250">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Repressive State Apparatus</h1>
               <p class="flashcard-def">State agencies maintaining ruling-class order primarily through physical coercion and legal force.</p>
@@ -8215,8 +8218,8 @@
         <!-- SLIDE 251: Ideological State Apparatus -->
         <section class="slide" id="slide-251">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological State Apparatus</h1>
               <p class="flashcard-def">Institutions securing ruling-class hegemony by shaping values, worldviews, and beliefs invisibly.</p>
@@ -8234,8 +8237,8 @@
         <!-- SLIDE 252: Cultural Capital Barrier -->
         <section class="slide" id="slide-252">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Capital Barrier</h1>
               <p class="flashcard-def">Differences in language codes, habitus, and aesthetic familiarity rewarded by official examiners.</p>
@@ -8253,8 +8256,8 @@
         <!-- SLIDE 253: Material Capital Barrier -->
         <section class="slide" id="slide-253">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏠</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏠</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Material Capital Barrier</h1>
               <p class="flashcard-def">Physical, dietary, and financial deprivations preventing effective study and cognitive flourishing.</p>
@@ -8272,8 +8275,8 @@
         <!-- SLIDE 254: The Vocational Ideal -->
         <section class="slide" id="slide-254">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌟</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🌟</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Vocational Ideal</h1>
               <p class="flashcard-def">Official claims that vocational schemes provide cutting-edge skills and smooth transitions to high-wage jobs.</p>
@@ -8291,8 +8294,8 @@
         <!-- SLIDE 255: The Workfare Reality -->
         <section class="slide" id="slide-255">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Workfare Reality</h1>
               <p class="flashcard-def">Empirical findings showing schemes supply cheap disposable labor and suppress working-class wages.</p>
@@ -8310,8 +8313,8 @@
         <!-- SLIDE 256: The &#039;Lads&#039; -->
         <section class="slide" id="slide-256">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧢</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧢</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Lads&#039;</h1>
               <p class="flashcard-def">Working-class boys celebrating manual masculinity and seeing through meritocratic slogans.</p>
@@ -8329,8 +8332,8 @@
         <!-- SLIDE 257: The &#039;Ear&#039;oles&#039; -->
         <section class="slide" id="slide-257">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Ear&#039;oles&#039;</h1>
               <p class="flashcard-def">Pupils who accepted formal school rules and believed academic qualifications unlocked social mobility.</p>
@@ -8348,8 +8351,8 @@
         <!-- SLIDE 258: Vocational Exploitation -->
         <section class="slide" id="slide-258">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Vocational Exploitation</h1>
               <p class="flashcard-def">Schemes act as instruments of labour discipline, supplying disposable low-wage workers to capitalist firms.</p>
@@ -8367,8 +8370,8 @@
         <!-- SLIDE 259: Vocational Empowerment -->
         <section class="slide" id="slide-259">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍🔧</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👩‍🔧</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Vocational Empowerment</h1>
               <p class="flashcard-def">Initiatives open doors for young women to enter historically segregated, well-paying technical careers.</p>
@@ -8386,8 +8389,8 @@
         <!-- SLIDE 260: Social Democracy -->
         <section class="slide" id="slide-260">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Democracy</h1>
               <p class="flashcard-def">Education is a public human right designed to foster social solidarity, equity, and democratic citizenship.</p>
@@ -8405,8 +8408,8 @@
         <!-- SLIDE 261: Social Capital -->
         <section class="slide" id="slide-261">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Social Capital</h1>
               <p class="flashcard-def">The valuable network of social contacts, influential friendships, and elite connections that provide advantages in education and career advancement.</p>
@@ -8424,8 +8427,8 @@
         <!-- SLIDE 262: Inter-generational Mobility -->
         <section class="slide" id="slide-262">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👦</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👨‍👦</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Inter-generational Mobility</h1>
               <p class="flashcard-def">Movement between social class of origin (parents) and social class of destination (adult children).</p>
@@ -8443,8 +8446,8 @@
         <!-- SLIDE 263: Intra-generational Mobility -->
         <section class="slide" id="slide-263">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Intra-generational Mobility</h1>
               <p class="flashcard-def">Movement up or down the occupational hierarchy across an individual&#039;s personal working career.</p>
@@ -8462,8 +8465,8 @@
         <!-- SLIDE 264: Ascribed Status System -->
         <section class="slide" id="slide-264">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏰</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏰</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ascribed Status System</h1>
               <p class="flashcard-def">Social position fixed arbitrarily at birth through immutable genealogy, bloodline, or caste.</p>
@@ -8481,8 +8484,8 @@
         <!-- SLIDE 265: Achieved Status System -->
         <section class="slide" id="slide-265">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Achieved Status System</h1>
               <p class="flashcard-def">Social position attained through individual talent, effort, and certified qualifications.</p>
@@ -8500,8 +8503,8 @@
         <!-- SLIDE 266: Meritocratic Escalator -->
         <section class="slide" id="slide-266">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪜</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🪜</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Meritocratic Escalator</h1>
               <p class="flashcard-def">Education operates as an open, fair sorting machine that propels natural talent upward regardless of wealth.</p>
@@ -8519,8 +8522,8 @@
         <!-- SLIDE 267: Rigged Class Maze -->
         <section class="slide" id="slide-267">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕸️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🕸️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Rigged Class Maze</h1>
               <p class="flashcard-def">Education operates as a class filter converting parental economic resources into legitimate certificates.</p>
@@ -8538,8 +8541,8 @@
         <!-- SLIDE 268: Open Systemic Mobility -->
         <section class="slide" id="slide-268">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌟</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🌟</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Open Systemic Mobility</h1>
               <p class="flashcard-def">The belief that state education provides an impartial ladder allowing any child with grit to rise.</p>
@@ -8557,8 +8560,8 @@
         <!-- SLIDE 269: Ideological Camouflage -->
         <section class="slide" id="slide-269">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological Camouflage</h1>
               <p class="flashcard-def">Using exceptional success stories to conceal institutional barriers and systematic class sorting.</p>
@@ -8576,8 +8579,8 @@
         <!-- SLIDE 270: Althusser: Passive Dupes -->
         <section class="slide" id="slide-270">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Althusser: Passive Dupes</h1>
               <p class="flashcard-def">Pupils are helpless victims smoothly indoctrinated by the Ideological State Apparatus.</p>
@@ -8595,8 +8598,8 @@
         <!-- SLIDE 271: Willis: Active Rebels -->
         <section class="slide" id="slide-271">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧢</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧢</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Willis: Active Rebels</h1>
               <p class="flashcard-def">Pupils possess penetrating insight, creating anti-school cultures that resist authority.</p>
@@ -8614,8 +8617,8 @@
         <!-- SLIDE 272: Individual &amp; Family Agency -->
         <section class="slide" id="slide-272">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Individual &amp; Family Agency</h1>
               <p class="flashcard-def">Educational mobility is determined by personal grit, smart study choices, and dedicated parental support.</p>
@@ -8633,8 +8636,8 @@
         <!-- SLIDE 273: Structural Class Rigging -->
         <section class="slide" id="slide-273">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Class Rigging</h1>
               <p class="flashcard-def">Educational mobility is constrained by deep structural inequalities in economic and cultural capital (middle-class language skills, educational knowledge, and cultural tastes rewarded by schools).</p>
@@ -8652,8 +8655,8 @@
         <!-- SLIDE 274: Genetic Meritocracy -->
         <section class="slide" id="slide-274">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Genetic Meritocracy</h1>
               <p class="flashcard-def">Differences in mobility reflect natural distributions of innate intelligence and individual drive.</p>
@@ -8671,8 +8674,8 @@
         <!-- SLIDE 275: Cultural Reproduction -->
         <section class="slide" id="slide-275">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Reproduction</h1>
               <p class="flashcard-def">Standardized tests measure accumulated middle-class cultural capital rather than innate biological ability.</p>
@@ -8690,8 +8693,8 @@
         <!-- SLIDE 276: Myth of Meritocracy -->
         <section class="slide" id="slide-276">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏆</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏆</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Myth of Meritocracy</h1>
               <p class="flashcard-def">Bowles and Gintis&#039;s Marxist concept that schools create the false belief that academic success is based purely on individual ability and effort, disguising how class privilege really determines outcomes.</p>
@@ -8709,8 +8712,8 @@
         <!-- SLIDE 277: Parentocracy -->
         <section class="slide" id="slide-277">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👩‍👧</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Parentocracy</h1>
               <p class="flashcard-def">Educational power shifting from schools to parents as consumers</p>
@@ -8728,8 +8731,8 @@
         <!-- SLIDE 278: Objective Knowledge -->
         <section class="slide" id="slide-278">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Objective Knowledge</h1>
               <p class="flashcard-def">Views the curriculum as a neutral, timeless repository of scientific facts and universal truths.</p>
@@ -8747,8 +8750,8 @@
         <!-- SLIDE 279: Socially Constructed Knowledge -->
         <section class="slide" id="slide-279">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Socially Constructed Knowledge</h1>
               <p class="flashcard-def">Views the curriculum as an ideological selection designed to preserve class and status dominance.</p>
@@ -8766,8 +8769,8 @@
         <!-- SLIDE 280: Formal Workplace Learning -->
         <section class="slide" id="slide-280">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Formal Workplace Learning</h1>
               <p class="flashcard-def">Structured vocational training and formal job education that transmits specialized technical numeracy, professional literacy, and certified skills required in the modern economy.</p>
@@ -8785,8 +8788,8 @@
         <!-- SLIDE 281: Credentialism -->
         <section class="slide" id="slide-281">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Credentialism</h1>
               <p class="flashcard-def">Relying on formal exam certificates as the primary test of occupational worth</p>
@@ -8804,8 +8807,8 @@
         <!-- SLIDE 282: Stem Subjects -->
         <section class="slide" id="slide-282">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Stem Subjects</h1>
               <p class="flashcard-def">Academic disciplines encompassing Science, Technology, Engineering, and Mathematics, historically characterized by masculine gender stereotyping and lower female uptake.</p>
@@ -8823,8 +8826,8 @@
         <!-- SLIDE 283: Socialisation Messages -->
         <section class="slide" id="slide-283">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏰</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⏰</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Socialisation Messages</h1>
               <p class="flashcard-def">Enforce behavioral obedience, punctuality, and docility required for modern workplace discipline.</p>
@@ -8842,8 +8845,8 @@
         <!-- SLIDE 284: Status Messages -->
         <section class="slide" id="slide-284">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏷️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏷️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Status Messages</h1>
               <p class="flashcard-def">Communicate implicit signals regarding an individual pupil&#039;s personal worth and expected social rank.</p>
@@ -8861,8 +8864,8 @@
         <!-- SLIDE 285: Innate Intelligence -->
         <section class="slide" id="slide-285">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Innate Intelligence</h1>
               <p class="flashcard-def">Assumes IQ is an inherited, fixed, and objective biological property distributed across populations.</p>
@@ -8880,8 +8883,8 @@
         <!-- SLIDE 286: Cultural Capital in Disguise -->
         <section class="slide" id="slide-286">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Capital in Disguise</h1>
               <p class="flashcard-def">Views test performance as the product of class socialisation (the lifelong process of learning culture, values, and norms), linguistic familiarity, and coaching.</p>
@@ -8899,8 +8902,8 @@
         <!-- SLIDE 287: Meritocratic Sifting -->
         <section class="slide" id="slide-287">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Meritocratic Sifting</h1>
               <p class="flashcard-def">Schooling acts as a fair, objective filter allocating high-IQ individuals to demanding economic roles.</p>
@@ -8918,8 +8921,8 @@
         <!-- SLIDE 288: Structural Class Reproduction -->
         <section class="slide" id="slide-288">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Structural Class Reproduction</h1>
               <p class="flashcard-def">Attainment reflects parental economic capital and cultural privilege; IQ is a legitimating myth.</p>
@@ -8937,8 +8940,8 @@
         <!-- SLIDE 289: Innate Cognitive Ability -->
         <section class="slide" id="slide-289">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Innate Cognitive Ability</h1>
               <p class="flashcard-def">Assumes educational achievement reflects fixed, scientifically measurable biological intelligence.</p>
@@ -8956,8 +8959,8 @@
         <!-- SLIDE 290: Cultural Capital &amp; Habitus -->
         <section class="slide" id="slide-290">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Capital &amp; Habitus</h1>
               <p class="flashcard-def">Assumes attainment reflects inherited linguistic fluency, family reading habits, and elite culture.</p>
@@ -8975,8 +8978,8 @@
         <!-- SLIDE 291: Cognitive Meritocracy -->
         <section class="slide" id="slide-291">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cognitive Meritocracy</h1>
               <p class="flashcard-def">Schooling identifies innate biological intelligence and fairly allocates high-IQ individuals to executive careers.</p>
@@ -8994,8 +8997,8 @@
         <!-- SLIDE 292: Home Material Poverty -->
         <section class="slide" id="slide-292">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏚️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏚️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Home Material Poverty</h1>
               <p class="flashcard-def">Direct economic barriers within the domestic household that cripple health, physical vitality, and daily study conditions.</p>
@@ -9013,8 +9016,8 @@
         <!-- SLIDE 293: Institutional Disinvestment -->
         <section class="slide" id="slide-293">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Institutional Disinvestment</h1>
               <p class="flashcard-def">Systemic underfunding within state schools serving working-class communities, degrading pedagogical quality.</p>
@@ -9032,8 +9035,8 @@
         <!-- SLIDE 294: Immediate Gratification -->
         <section class="slide" id="slide-294">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Immediate Gratification</h1>
               <p class="flashcard-def">Prioritizing instant earnings and early independence over prolonged, uncertain educational credential pathways.</p>
@@ -9051,8 +9054,8 @@
         <!-- SLIDE 295: Deferred Gratification -->
         <section class="slide" id="slide-295">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏳</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⏳</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Deferred Gratification</h1>
               <p class="flashcard-def">Sacrificing immediate income and leisure for long-term credentials, professional status, and lucrative careers.</p>
@@ -9070,8 +9073,8 @@
         <!-- SLIDE 296: Working-class Intimidation -->
         <section class="slide" id="slide-296">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚪</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🚪</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Working-class Intimidation</h1>
               <p class="flashcard-def">Working-class parents feel silenced by professional jargon, middle-class teacher habitus (deeply ingrained class-based habits, manners, and worldviews acquired through socialisation (the lifelong process of learning culture, values, and norms)), and tokenistic school consultation.</p>
@@ -9089,8 +9092,8 @@
         <!-- SLIDE 297: Middle-class Intervention -->
         <section class="slide" id="slide-297">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍💼</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👩‍💼</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Middle-class Intervention</h1>
               <p class="flashcard-def">Educated mothers aggressively intervene in school tracking, asserting parental rights and securing institutional advantages.</p>
@@ -9108,8 +9111,8 @@
         <!-- SLIDE 298: Elaborated Code -->
         <section class="slide" id="slide-298">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Elaborated Code</h1>
               <p class="flashcard-def">Formal, grammatically explicit middle-class language used in exams and textbooks</p>
@@ -9127,8 +9130,8 @@
         <!-- SLIDE 299: Self-negating Prophecy -->
         <section class="slide" id="slide-299">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✊</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">✊</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Self-negating Prophecy</h1>
               <p class="flashcard-def">Pupils reject unfair teacher stereotypes, channeling indignation into dedicated revision to disprove teacher expectations.</p>
@@ -9146,8 +9149,8 @@
         <!-- SLIDE 300: Top-stream Enrichment -->
         <section class="slide" id="slide-300">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌟</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🌟</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Top-stream Enrichment</h1>
               <p class="flashcard-def">Enriched classroom pedagogy that prepares middle-class pupils for advanced exams, critical thinking, and elite universities.</p>
@@ -9165,8 +9168,8 @@
         <!-- SLIDE 301: Bottom-stream Rationing -->
         <section class="slide" id="slide-301">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔒</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🔒</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Bottom-stream Rationing</h1>
               <p class="flashcard-def">Restricted, basic curricula designed for control rather than excellence, locking working-class pupils out of higher qualifications.</p>
@@ -9184,8 +9187,8 @@
         <!-- SLIDE 302: Academic Conformity -->
         <section class="slide" id="slide-302">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Academic Conformity</h1>
               <p class="flashcard-def">Embracing school academic values, obeying teachers, and pursuing qualifications to achieve meritocratic social mobility.</p>
@@ -9203,8 +9206,8 @@
         <!-- SLIDE 303: Subcultural Inversion -->
         <section class="slide" id="slide-303">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Subcultural Inversion</h1>
               <p class="flashcard-def">Flipping school values upside-down so that disruptive, anti-academic behavior confers street credibility and peer respect.</p>
@@ -9222,8 +9225,8 @@
         <!-- SLIDE 304: Ingratiation -->
         <section class="slide" id="slide-304">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Ingratiation</h1>
               <p class="flashcard-def">A pupil adaptation strategy where students actively seek teacher favor and conform enthusiastically to school expectations to gain advantages.</p>
@@ -9241,8 +9244,8 @@
         <!-- SLIDE 305: Compliance -->
         <section class="slide" id="slide-305">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Compliance</h1>
               <p class="flashcard-def">A pupil adaptation strategy where students pragmatically conform to school rules and do schoolwork purely to pass exams and avoid trouble, without genuinely internalizing the school ethos.</p>
@@ -9260,8 +9263,8 @@
         <!-- SLIDE 306: Opportunism -->
         <section class="slide" id="slide-306">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Opportunism</h1>
               <p class="flashcard-def">Fluctuating between peer banter and teacher pleasing</p>
@@ -9279,8 +9282,8 @@
         <!-- SLIDE 307: Ritualism -->
         <section class="slide" id="slide-307">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Ritualism</h1>
               <p class="flashcard-def">A pupil adaptation strategy identified by Robert Merton and school ethnographers where students mechanically follow rules and attend lessons without caring about academic success.</p>
@@ -9298,8 +9301,8 @@
         <!-- SLIDE 308: Retreatment -->
         <section class="slide" id="slide-308">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Retreatment</h1>
               <p class="flashcard-def">A pupil adaptation strategy where students mentally withdraw from the school environment into daydreaming without actively rebelling.</p>
@@ -9317,8 +9320,8 @@
         <!-- SLIDE 309: Rebellion -->
         <section class="slide" id="slide-309">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Rebellion</h1>
               <p class="flashcard-def">Complete rejection of school goals and authority in favor of peer counter-culture</p>
@@ -9336,8 +9339,8 @@
         <!-- SLIDE 310: Individual Racial Prejudice -->
         <section class="slide" id="slide-310">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👤</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👤</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Individual Racial Prejudice</h1>
               <p class="flashcard-def">Overt, conscious racial slurs, bullying, or individual malice committed by individual teachers or peers.</p>
@@ -9355,8 +9358,8 @@
         <!-- SLIDE 311: Institutional Racism -->
         <section class="slide" id="slide-311">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Institutional Racism</h1>
               <p class="flashcard-def">Routine organizational procedures and policies that systematically lock ethnic minorities into lower attainment tracks.</p>
@@ -9374,8 +9377,8 @@
         <!-- SLIDE 312: Linguistic Deficit Myth -->
         <section class="slide" id="slide-312">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">❌</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">❌</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Linguistic Deficit Myth</h1>
               <p class="flashcard-def">Claims that working-class and Black youth communicate in broken, ungrammatical patois that stunts abstract thinking.</p>
@@ -9393,8 +9396,8 @@
         <!-- SLIDE 313: Linguistic Equality -->
         <section class="slide" id="slide-313">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✅</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">✅</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Linguistic Equality</h1>
               <p class="flashcard-def">Demonstrates that Black English Vernacular is a sophisticated, highly structured linguistic system with complex grammar.</p>
@@ -9412,8 +9415,8 @@
         <!-- SLIDE 314: Teacher Deficit Stereotypes -->
         <section class="slide" id="slide-314">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏷️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏷️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Teacher Deficit Stereotypes</h1>
               <p class="flashcard-def">Teacher assumptions that Black female pupils are unacademic, uncooperative, and destined for low-tier manual jobs.</p>
@@ -9431,8 +9434,8 @@
         <!-- SLIDE 315: Mirza&#039;s Strategic Reality -->
         <section class="slide" id="slide-315">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩🏾‍🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👩🏾‍🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Mirza&#039;s Strategic Reality</h1>
               <p class="flashcard-def">Black girls deploy tactical resistance, circumventing biased teachers through peer study groups and Saturday Schools.</p>
@@ -9450,8 +9453,8 @@
         <!-- SLIDE 316: Overt Interpersonal Racism -->
         <section class="slide" id="slide-316">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Overt Interpersonal Racism</h1>
               <p class="flashcard-def">Direct, intentional verbal abuse, racist slurs, harassment, or physical discrimination committed by one individual against another based on their ethnic background.</p>
@@ -9469,8 +9472,8 @@
         <!-- SLIDE 317: Pro-school Acceptors -->
         <section class="slide" id="slide-317">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Pro-school Acceptors</h1>
               <p class="flashcard-def">Black pupils who consciously or unconsciously adopt school norms to secure high grades and social mobility.</p>
@@ -9488,8 +9491,8 @@
         <!-- SLIDE 318: Anti-school Resistors -->
         <section class="slide" id="slide-318">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Anti-school Resistors</h1>
               <p class="flashcard-def">Pupils who reject racist teacher authority and white institutional culture, seeking status through street masculinity.</p>
@@ -9507,8 +9510,8 @@
         <!-- SLIDE 319: The Survivors&#039; Camouflage -->
         <section class="slide" id="slide-319">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📖</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📖</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Survivors&#039; Camouflage</h1>
               <p class="flashcard-def">Pro-school pupils who deliberately play into quiet, docile Asian stereotypes to avoid confrontation and achieve top grades.</p>
@@ -9526,8 +9529,8 @@
         <!-- SLIDE 320: The Gang&#039;s Confrontation -->
         <section class="slide" id="slide-320">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Gang&#039;s Confrontation</h1>
               <p class="flashcard-def">Anti-school subcultural group asserting Asian identity, challenging white bullying, and refusing to tolerate racial injustice.</p>
@@ -9545,8 +9548,8 @@
         <!-- SLIDE 321: Marxist Class Primacy -->
         <section class="slide" id="slide-321">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Marxist Class Primacy</h1>
               <p class="flashcard-def">Argues economic class is the single fundamental cause of educational inequality, viewing race as a secondary symptom of capitalism.</p>
@@ -9564,8 +9567,8 @@
         <!-- SLIDE 322: Intersectional Matrix Model -->
         <section class="slide" id="slide-322">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Intersectional Matrix Model</h1>
               <p class="flashcard-def">Argues class, ethnicity, and gender operate as interacting systems of power that cannot be understood in isolation.</p>
@@ -9583,8 +9586,8 @@
         <!-- SLIDE 323: Domestic Socialisation -->
         <section class="slide" id="slide-323">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏠</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏠</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Domestic Socialisation</h1>
               <p class="flashcard-def">Social conditioning directing young women toward domestic duties, marriage, motherhood, and economic reliance on male wages.</p>
@@ -9602,8 +9605,8 @@
         <!-- SLIDE 324: Career Femininities -->
         <section class="slide" id="slide-324">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Career Femininities</h1>
               <p class="flashcard-def">Primary socialisation (early childhood learning of language, morals, and identity within the family) promoting educational credentials as essential safeguards for career autonomy and financial self-reliance.</p>
@@ -9621,8 +9624,8 @@
         <!-- SLIDE 325: Modular Coursework -->
         <section class="slide" id="slide-325">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📑</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📑</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Modular Coursework</h1>
               <p class="flashcard-def">Evaluation based on sustained independent research, multiple drafts, and neat organizational presentation over time.</p>
@@ -9640,8 +9643,8 @@
         <!-- SLIDE 326: Terminal Examinations -->
         <section class="slide" id="slide-326">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏱️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⏱️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Terminal Examinations</h1>
               <p class="flashcard-def">End-of-course timed examinations prioritizing rapid memory recall, risk-taking, and crisis performance.</p>
@@ -9659,8 +9662,8 @@
         <!-- SLIDE 327: &#039;Mere Diligence&#039; -->
         <section class="slide" id="slide-327">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✍️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">✍️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">&#039;Mere Diligence&#039;</h1>
               <p class="flashcard-def">Teacher explanations that attribute female academic success entirely to passive compliance, neat folders, and revision drills.</p>
@@ -9678,8 +9681,8 @@
         <!-- SLIDE 328: &#039;Innate Ability&#039; -->
         <section class="slide" id="slide-328">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">&#039;Innate Ability&#039;</h1>
               <p class="flashcard-def">Teacher explanations that attribute male performance to natural cognitive intellect, raw brilliance, and effortless spark.</p>
@@ -9697,8 +9700,8 @@
         <!-- SLIDE 329: Industrial Manual Economy -->
         <section class="slide" id="slide-329">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Industrial Manual Economy</h1>
               <p class="flashcard-def">Heavy industrial economy offering abundant manual jobs requiring physical labor, guaranteeing working-class male breadwinner status without exams.</p>
@@ -9716,8 +9719,8 @@
         <!-- SLIDE 330: Post-industrial Knowledge Economy -->
         <section class="slide" id="slide-330">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💻</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">💻</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Post-industrial Knowledge Economy</h1>
               <p class="flashcard-def">Service and knowledge economy requiring formal credentials, literacy, emotional labor, and digital proficiency.</p>
@@ -9735,8 +9738,8 @@
         <!-- SLIDE 331: The Boffin Formations -->
         <section class="slide" id="slide-331">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Boffin Formations</h1>
               <p class="flashcard-def">Pupils who embrace school rules, homework rituals, and teacher authority, seeking social mobility through institutional conformity.</p>
@@ -9754,8 +9757,8 @@
         <!-- SLIDE 332: New Wave Girls &amp; Mod Boys -->
         <section class="slide" id="slide-332">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">New Wave Girls &amp; Mod Boys</h1>
               <p class="flashcard-def">Pupils who succeed academically while actively rejecting school authority, sexist double standards, and institutional rituals.</p>
@@ -9773,8 +9776,8 @@
         <!-- SLIDE 333: Working-class Laddism -->
         <section class="slide" id="slide-333">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧢</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧢</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Working-class Laddism</h1>
               <p class="flashcard-def">Total immersion in anti-school laddish defiance without home academic support, producing severe examination failure.</p>
@@ -9792,8 +9795,8 @@
         <!-- SLIDE 334: Middle-class Secret Study -->
         <section class="slide" id="slide-334">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤫</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🤫</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Middle-class Secret Study</h1>
               <p class="flashcard-def">Performing cool laddish nonchalance in school corridors while secretly completing intensive revision and tutoring at home.</p>
@@ -9811,8 +9814,8 @@
         <!-- SLIDE 335: Pro-education Girls -->
         <section class="slide" id="slide-335">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Pro-education Girls</h1>
               <p class="flashcard-def">Pupil subcultures where female students prioritize academic achievement, revision, and university entry while navigating peer relationships.</p>
@@ -9830,8 +9833,8 @@
         <!-- SLIDE 336: Anti-education Girls -->
         <section class="slide" id="slide-336">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎓</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Anti-education Girls</h1>
               <p class="flashcard-def">Pupil subcultures identified in sociological research where girls openly reject academic values and school authority in favor of peer status.</p>
@@ -9849,8 +9852,8 @@
       <!-- SLIDE 337: CHAPTER 6 DIVIDER -->
       <section class="slide" id="slide-337">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🌐</div>
           <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
             <div class="card-pill">CHAPTER 06 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Globalisation</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Dimensions of Globalisation • Modernisation vs Dependency Theory • World Systems Theory • Cultural Homogenisation &amp; Glocalisation • Global Migration &amp; Transnational Crime</p>
@@ -9866,8 +9869,8 @@
         <!-- SLIDE 338: Symbolic Tokens &amp; Capital -->
         <section class="slide" id="slide-338">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💳</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💳</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Symbolic Tokens &amp; Capital</h1>
               <p class="flashcard-def">Detaching economic transactions and units of value from physical material objects and local bank vaults.</p>
@@ -9885,8 +9888,8 @@
         <!-- SLIDE 339: Virtual Ties &amp; Cyberspace -->
         <section class="slide" id="slide-339">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💻</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💻</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Virtual Ties &amp; Cyberspace</h1>
               <p class="flashcard-def">Lifting human emotional and occupational ties out of physical communities into virtual networks.</p>
@@ -9904,8 +9907,8 @@
         <!-- SLIDE 340: Cultural Homogenisation -->
         <section class="slide" id="slide-340">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🇺🇸</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🇺🇸</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Homogenisation</h1>
               <p class="flashcard-def">The worldwide diffusion of Western consumer capitalism leading to uniform global tastes and habits.</p>
@@ -9923,8 +9926,8 @@
         <!-- SLIDE 341: Hybridity &amp; Resistance -->
         <section class="slide" id="slide-341">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hybridity &amp; Resistance</h1>
               <p class="flashcard-def">The active synthesis of global flows with indigenous traditions alongside movements of resistance.</p>
@@ -9942,8 +9945,8 @@
         <!-- SLIDE 342: Simulacra -->
         <section class="slide" id="slide-342">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📸</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📸</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Simulacra</h1>
               <p class="flashcard-def">Copies or media representations that have no original in the physical world</p>
@@ -9961,8 +9964,8 @@
         <!-- SLIDE 343: Hyperreality -->
         <section class="slide" id="slide-343">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Hyperreality</h1>
               <p class="flashcard-def">Baudrillard&#039;s concept of media simulations and images feeling more real than physical reality</p>
@@ -9980,8 +9983,8 @@
         <!-- SLIDE 344: Glocalisation -->
         <section class="slide" id="slide-344">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌏</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌏</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Glocalisation</h1>
               <p class="flashcard-def">Robertson&#039;s concept of global products being adapted to fit local cultural tastes</p>
@@ -9999,8 +10002,8 @@
         <!-- SLIDE 345: Advanced Capitalist Core -->
         <section class="slide" id="slide-345">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Advanced Capitalist Core</h1>
               <p class="flashcard-def">Dominant industrialised states with high-skill production, massive capital reserves, and geopolitical authority.</p>
@@ -10018,8 +10021,8 @@
         <!-- SLIDE 346: Subordinate Periphery -->
         <section class="slide" id="slide-346">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛏️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛏️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Subordinate Periphery</h1>
               <p class="flashcard-def">Underdeveloped supplier regions locked in unequal dependency and low-wage primary extraction.</p>
@@ -10037,8 +10040,8 @@
         <!-- SLIDE 347: The Emotional Care Drain -->
         <section class="slide" id="slide-347">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💔</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💔</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Emotional Care Drain</h1>
               <p class="flashcard-def">The severe emotional fragmentation suffered by migrant mothers and families separated across continents.</p>
@@ -10056,8 +10059,8 @@
         <!-- SLIDE 348: Remittance Capital Flows -->
         <section class="slide" id="slide-348">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💵</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💵</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Remittance Capital Flows</h1>
               <p class="flashcard-def">The essential financial earnings remitted back to home communities, sustaining developing nation households.</p>
@@ -10075,8 +10078,8 @@
         <!-- SLIDE 349: Sceptical Paradigm -->
         <section class="slide" id="slide-349">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛑</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🛑</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Sceptical Paradigm</h1>
               <p class="flashcard-def">Views globalisation as an exaggerated Western capitalist myth reinforcing regional economic divides and corporate dominance.</p>
@@ -10094,8 +10097,8 @@
         <!-- SLIDE 350: Transformationalist Paradigm -->
         <section class="slide" id="slide-350">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Transformationalist Paradigm</h1>
               <p class="flashcard-def">Views globalisation as an unprecedented, contradictory transformation creating cultural hybridity (the creative blending of two or more ethnic or cultural traditions into a new identity) and shared governance.</p>
@@ -10113,8 +10116,8 @@
         <!-- SLIDE 351: Cultural Imperialism -->
         <section class="slide" id="slide-351">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🇺🇸</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🇺🇸</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Imperialism</h1>
               <p class="flashcard-def">Arguments asserting that globalisation produces Western consumer uniformity and erodes indigenous identities.</p>
@@ -10132,8 +10135,8 @@
         <!-- SLIDE 352: Glocalisation &amp; Agency -->
         <section class="slide" id="slide-352">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Glocalisation &amp; Agency</h1>
               <p class="flashcard-def">Evaluative evidence showing active local agency, cultural fusions, and conscious resistance.</p>
@@ -10151,8 +10154,8 @@
         <!-- SLIDE 353: Corporate Dominance -->
         <section class="slide" id="slide-353">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛏️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛏️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Dominance</h1>
               <p class="flashcard-def">Arguments demonstrating that globalisation primarily enriches Western elites and core corporations.</p>
@@ -10170,8 +10173,8 @@
         <!-- SLIDE 354: Development &amp; Rights -->
         <section class="slide" id="slide-354">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🚀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Development &amp; Rights</h1>
               <p class="flashcard-def">Evaluative evidence demonstrating widespread human development and supranational empowerment.</p>
@@ -10189,8 +10192,8 @@
         <!-- SLIDE 355: Globalist Openness -->
         <section class="slide" id="slide-355">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Globalist Openness</h1>
               <p class="flashcard-def">Economic, political, and cultural flows eroding sovereign physical borders and expanding cosmopolitan values.</p>
@@ -10208,8 +10211,8 @@
         <!-- SLIDE 356: Reactive Nationalism -->
         <section class="slide" id="slide-356">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗳️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🗳️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Reactive Nationalism</h1>
               <p class="flashcard-def">Political counter-movements asserting strict border control, native priority, and national sovereignty.</p>
@@ -10227,8 +10230,8 @@
         <!-- SLIDE 357: Cultural Defence -->
         <section class="slide" id="slide-357">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Cultural Defence</h1>
               <p class="flashcard-def">Deploying religious institutions and traditions defensively to protect ethnic community identity from outside dominance.</p>
@@ -10246,8 +10249,8 @@
         <!-- SLIDE 358: Religious Fundamentalism -->
         <section class="slide" id="slide-358">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Religious Fundamentalism</h1>
               <p class="flashcard-def">An aggressive ideological crusade demanding absolute scriptural literalism and theocratic control over modern society.</p>
@@ -10265,8 +10268,8 @@
         <!-- SLIDE 359: Assimilationist Expectation -->
         <section class="slide" id="slide-359">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Assimilationist Expectation</h1>
               <p class="flashcard-def">The conventional expectation that immigrant minorities must surrender ancestral cultures and adopt host norms.</p>
@@ -10284,8 +10287,8 @@
         <!-- SLIDE 360: Hybrid Pluralism -->
         <section class="slide" id="slide-360">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Hybrid Pluralism</h1>
               <p class="flashcard-def">The post-colonial reality where citizens blend cultural repertoires, creating dynamic new identities.</p>
@@ -10303,8 +10306,8 @@
         <!-- SLIDE 361: Millennia of Divergence -->
         <section class="slide" id="slide-361">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏹</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏹</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Millennia of Divergence</h1>
               <p class="flashcard-def">The epoch where geographical isolation drove early human bands to develop wildly diverse, localized cultures.</p>
@@ -10322,8 +10325,8 @@
         <!-- SLIDE 362: Era of Convergence -->
         <section class="slide" id="slide-362">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Era of Convergence</h1>
               <p class="flashcard-def">The contemporary epoch where commerce and digital networks bind humanity into a single shared space.</p>
@@ -10341,8 +10344,8 @@
         <!-- SLIDE 363: Mcdonaldisation -->
         <section class="slide" id="slide-363">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍟</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🍟</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Mcdonaldisation</h1>
               <p class="flashcard-def">Extending bureaucratic rationalisation to consumer sectors, creating uniform, predictable, and deskilled experiences.</p>
@@ -10360,8 +10363,8 @@
         <!-- SLIDE 364: Disneyisation -->
         <section class="slide" id="slide-364">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏰</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏰</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Disneyisation</h1>
               <p class="flashcard-def">Restructuring consumer institutions around theme park principles of narrative theming, spectacle, and fun.</p>
@@ -10379,8 +10382,8 @@
         <!-- SLIDE 365: Corporate Uniformity -->
         <section class="slide" id="slide-365">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🇺🇸</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🇺🇸</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Uniformity</h1>
               <p class="flashcard-def">Arguments asserting that global corporate capitalism imposes American consumerism and destroys cultural diversity.</p>
@@ -10398,8 +10401,8 @@
         <!-- SLIDE 366: Cultural Creativity -->
         <section class="slide" id="slide-366">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Creativity</h1>
               <p class="flashcard-def">Evaluative evidence showing active local filtering, hybrid cultural innovation, and counter-flows.</p>
@@ -10417,8 +10420,8 @@
         <!-- SLIDE 367: Erosion of Nationhood -->
         <section class="slide" id="slide-367">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Erosion of Nationhood</h1>
               <p class="flashcard-def">Arguments that transnational flows and supranational governance dissolve traditional place-based national identities.</p>
@@ -10436,8 +10439,8 @@
         <!-- SLIDE 368: Populist Assertiveness -->
         <section class="slide" id="slide-368">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗳️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🗳️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Populist Assertiveness</h1>
               <p class="flashcard-def">Evaluative evidence showing that globalization stimulates fierce reactive nationalism and boundary-building.</p>
@@ -10455,8 +10458,8 @@
         <!-- SLIDE 369: Democratic Diffusion -->
         <section class="slide" id="slide-369">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕊️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🕊️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Democratic Diffusion</h1>
               <p class="flashcard-def">The hyperglobalist view that free markets, digital networks, and universal human rights treaties inevitably foster liberal governance.</p>
@@ -10474,8 +10477,8 @@
         <!-- SLIDE 370: Authoritarian Capitalism -->
         <section class="slide" id="slide-370">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Authoritarian Capitalism</h1>
               <p class="flashcard-def">Sovereign states that fully integrate into global capitalist markets while maintaining autocratic, illiberal political regimes.</p>
@@ -10493,8 +10496,8 @@
         <!-- SLIDE 371: Anti-neoliberal Critique -->
         <section class="slide" id="slide-371">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✊</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">✊</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Anti-neoliberal Critique</h1>
               <p class="flashcard-def">Moral and economic mobilisations against unconstrained corporate dominance, environmental degradation, and loss of local democratic sovereignty.</p>
@@ -10512,8 +10515,8 @@
         <!-- SLIDE 372: Movement Contradictions -->
         <section class="slide" id="slide-372">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Movement Contradictions</h1>
               <p class="flashcard-def">Scholarly evaluations identifying strategic inconsistencies, loose coordination, and unintended consequences within the movement.</p>
@@ -10531,8 +10534,8 @@
         <!-- SLIDE 373: Multi-directional Pluralism -->
         <section class="slide" id="slide-373">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🔀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Multi-directional Pluralism</h1>
               <p class="flashcard-def">The bottom-up emergence of decentralized cultural fusions, indigenous agency, and powerful non-Western contra-flows.</p>
@@ -10550,8 +10553,8 @@
         <!-- SLIDE 374: The Borderless Market -->
         <section class="slide" id="slide-374">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Borderless Market</h1>
               <p class="flashcard-def">The celebratory model asserting that frictionless capital mobility empowers global consumers and unlocks unprecedented prosperity.</p>
@@ -10569,8 +10572,8 @@
         <!-- SLIDE 375: Corporate State Capture -->
         <section class="slide" id="slide-375">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛢️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🛢️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate State Capture</h1>
               <p class="flashcard-def">The coercive reality where mega-corporations subordinate sovereign governments, exploit labor, and devastate local ecologies.</p>
@@ -10588,8 +10591,8 @@
         <!-- SLIDE 376: Supranational Governance -->
         <section class="slide" id="slide-376">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Supranational Governance</h1>
               <p class="flashcard-def">The transfer of legislative and executive authority upward to regional and international supranational institutions.</p>
@@ -10607,8 +10610,8 @@
         <!-- SLIDE 377: Regional Devolution -->
         <section class="slide" id="slide-377">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📍</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📍</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Regional Devolution</h1>
               <p class="flashcard-def">The decentralization of fiscal and administrative powers downward to sub-national parliaments and local communities.</p>
@@ -10626,8 +10629,8 @@
         <!-- SLIDE 378: The Withering State -->
         <section class="slide" id="slide-378">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Withering State</h1>
               <p class="flashcard-def">The thesis that frictionless capital markets and digital networks have rendered traditional sovereign governments obsolete.</p>
@@ -10645,8 +10648,8 @@
         <!-- SLIDE 379: The Resilient State -->
         <section class="slide" id="slide-379">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Resilient State</h1>
               <p class="flashcard-def">The counter-thesis that nation-states remain the indispensable foundation of law, property rights, and market stability.</p>
@@ -10664,8 +10667,8 @@
         <!-- SLIDE 380: Communicable Illness -->
         <section class="slide" id="slide-380">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦟</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🦟</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Communicable Illness</h1>
               <p class="flashcard-def">Infectious waterborne and airborne illnesses historically driving high mortality across low-income developing nations.</p>
@@ -10683,8 +10686,8 @@
         <!-- SLIDE 381: Diseases of Affluence -->
         <section class="slide" id="slide-381">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍔</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🍔</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Diseases of Affluence</h1>
               <p class="flashcard-def">Non-communicable chronic conditions exported worldwide alongside Western industrial diets and sedentary lifestyles.</p>
@@ -10702,8 +10705,8 @@
         <!-- SLIDE 382: Neoliberal Modernisation -->
         <section class="slide" id="slide-382">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Neoliberal Modernisation</h1>
               <p class="flashcard-def">The policy claim that fiscal discipline, free markets, and deregulation cure corruption and generate sustainable prosperity.</p>
@@ -10721,8 +10724,8 @@
         <!-- SLIDE 383: Structural Devastation -->
         <section class="slide" id="slide-383">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Devastation</h1>
               <p class="flashcard-def">The documented sociological consequence of welfare retrenchment, mass unemployment, and public asset stripping.</p>
@@ -10740,8 +10743,8 @@
         <!-- SLIDE 384: Participatory Agility -->
         <section class="slide" id="slide-384">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🩺</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🩺</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Participatory Agility</h1>
               <p class="flashcard-def">Flexible civil society interventions working directly with impoverished communities, bypassing corrupt state bureaucracies.</p>
@@ -10759,8 +10762,8 @@
         <!-- SLIDE 385: Accountability Deficit -->
         <section class="slide" id="slide-385">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Accountability Deficit</h1>
               <p class="flashcard-def">Ethical failures, executive inflation, and ideological co-optation compromising the moral legitimacy of global NGOs.</p>
@@ -10778,8 +10781,8 @@
         <!-- SLIDE 386: Corporate Exploitation -->
         <section class="slide" id="slide-386">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">☣️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">☣️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Exploitation</h1>
               <p class="flashcard-def">The extraction of natural resources, environmental degradation, and farmgate price exploitation by unaccountable global multinationals.</p>
@@ -10797,8 +10800,8 @@
         <!-- SLIDE 387: Fdi Modernisation -->
         <section class="slide" id="slide-387">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚀</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🚀</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Fdi Modernisation</h1>
               <p class="flashcard-def">The view that TNCs act as indispensable catalysts of capital investment, formal wage employment, and technological innovation.</p>
@@ -10816,8 +10819,8 @@
         <!-- SLIDE 388: Internal Deficit Model -->
         <section class="slide" id="slide-388">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Internal Deficit Model</h1>
               <p class="flashcard-def">Blames poverty on internal traditional cultural fatalism, low capital savings, weak technology, and unscientific values.</p>
@@ -10835,8 +10838,8 @@
         <!-- SLIDE 389: External Exploitation Model -->
         <section class="slide" id="slide-389">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">External Exploitation Model</h1>
               <p class="flashcard-def">Blames poverty on external imperial conquest, unequal terms of trade, and systematic surplus extraction by Western core nations.</p>
@@ -10854,8 +10857,8 @@
         <!-- SLIDE 390: 1951 Convention Refugees -->
         <section class="slide" id="slide-390">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛂</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🛂</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">1951 Convention Refugees</h1>
               <p class="flashcard-def">Persons forced across sovereign borders due to well-founded fear of persecution, conflict, or violence.</p>
@@ -10873,8 +10876,8 @@
         <!-- SLIDE 391: Internally Displaced -->
         <section class="slide" id="slide-391">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛺</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛺</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Internally Displaced</h1>
               <p class="flashcard-def">Persons displaced by warfare or environmental disasters who remain trapped within home country borders.</p>
@@ -10892,8 +10895,8 @@
         <!-- SLIDE 392: 19th-century Urbanisation -->
         <section class="slide" id="slide-392">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">19th-century Urbanisation</h1>
               <p class="flashcard-def">Labor-intensive factory manufacturing systematically absorbed incoming rural agricultural workers.</p>
@@ -10911,8 +10914,8 @@
         <!-- SLIDE 393: Fragmented Megacity Growth -->
         <section class="slide" id="slide-393">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏚️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏚️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Fragmented Megacity Growth</h1>
               <p class="flashcard-def">Rapid demographic migration occurs without matching formal industrial job creation or civic infrastructure.</p>
@@ -10930,8 +10933,8 @@
         <!-- SLIDE 394: Militarized Border Control -->
         <section class="slide" id="slide-394">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛑</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🛑</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Militarized Border Control</h1>
               <p class="flashcard-def">State deployment of biometric barriers, deportations, and physical walls to enforce sovereign demographic selection.</p>
@@ -10949,8 +10952,8 @@
         <!-- SLIDE 395: Structural Labour Demand -->
         <section class="slide" id="slide-395">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Labour Demand</h1>
               <p class="flashcard-def">Advanced capitalist economies fundamentally require steady flows of low-cost, flexible labor to remain solvent.</p>
@@ -10968,8 +10971,8 @@
         <!-- SLIDE 396: Immigration -->
         <section class="slide" id="slide-396">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Immigration</h1>
               <p class="flashcard-def">The movement of people into a foreign country or region with the intention of settling permanently, creating diverse multi-ethnic societies and transnational ties.</p>
@@ -10987,8 +10990,8 @@
         <!-- SLIDE 397: Emigration -->
         <section class="slide" id="slide-397">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Emigration</h1>
               <p class="flashcard-def">The permanent departure of individuals from their country of origin to settle in another nation, driven by economic or political push factors.</p>
@@ -11006,8 +11009,8 @@
         <!-- SLIDE 398: Transnational Cultural Capital -->
         <section class="slide" id="slide-398">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎻</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🎻</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Transnational Cultural Capital</h1>
               <p class="flashcard-def">Elite qualifications, language fluency, and global credentials</p>
@@ -11025,8 +11028,8 @@
         <!-- SLIDE 399: Commercial Enclave Tourism -->
         <section class="slide" id="slide-399">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏨</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏨</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Commercial Enclave Tourism</h1>
               <p class="flashcard-def">Packaged resort enclaves that isolate tourists within Western-styled bubbles.</p>
@@ -11044,8 +11047,8 @@
         <!-- SLIDE 400: The Postmodern Authentic Quest -->
         <section class="slide" id="slide-400">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎒</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🎒</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Postmodern Authentic Quest</h1>
               <p class="flashcard-def">Individualized travel seeking uncommercialized, pristine cultural and ecological encounters.</p>
@@ -11063,8 +11066,8 @@
         <!-- SLIDE 401: The &#039;Brain Drain&#039; -->
         <section class="slide" id="slide-401">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">The &#039;Brain Drain&#039;</h1>
               <p class="flashcard-def">The selective loss of highly skilled doctors, educators, and engineers to high-income states.</p>
@@ -11082,8 +11085,8 @@
         <!-- SLIDE 402: Remittance Lifelines -->
         <section class="slide" id="slide-402">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💵</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💵</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Remittance Lifelines</h1>
               <p class="flashcard-def">Direct financial cash transfers sent home by overseas workers to family households.</p>
@@ -11101,8 +11104,8 @@
         <!-- SLIDE 403: Macro Determinism -->
         <section class="slide" id="slide-403">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Macro Determinism</h1>
               <p class="flashcard-def">Migration flows are determined and restricted by overarching capitalist and geopolitical structures.</p>
@@ -11120,8 +11123,8 @@
         <!-- SLIDE 404: Micro Human Agency -->
         <section class="slide" id="slide-404">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚶</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🚶</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Micro Human Agency</h1>
               <p class="flashcard-def">Migrants act as active social agents calculating risks, mobilizing networks, and negotiating borders.</p>
@@ -11139,8 +11142,8 @@
         <!-- SLIDE 405: Territorial Ethnic Mafias -->
         <section class="slide" id="slide-405">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕴️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🕴️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Territorial Ethnic Mafias</h1>
               <p class="flashcard-def">Hierarchical organizations rooted in family kinship, ethnic loyalty, and local protection rackets.</p>
@@ -11158,8 +11161,8 @@
         <!-- SLIDE 406: Glenny&#039;s &#039;Mcmafia&#039; Franchises -->
         <section class="slide" id="slide-406">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Glenny&#039;s &#039;Mcmafia&#039; Franchises</h1>
               <p class="flashcard-def">Flexible, non-ideological networks linking local retail distribution into global commodity chains.</p>
@@ -11177,8 +11180,8 @@
         <!-- SLIDE 407: Human Trafficking -->
         <section class="slide" id="slide-407">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Human Trafficking</h1>
               <p class="flashcard-def">Recruitment and movement of individuals through force, fraud, or deception for continuous commercial exploitation.</p>
@@ -11196,8 +11199,8 @@
         <!-- SLIDE 408: People Smuggling -->
         <section class="slide" id="slide-408">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚤</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🚤</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">People Smuggling</h1>
               <p class="flashcard-def">A commercial fee-paid service where a facilitator assists a migrant in crossing an international border illegally.</p>
@@ -11215,8 +11218,8 @@
         <!-- SLIDE 409: Corporate &amp; Tnc Crime -->
         <section class="slide" id="slide-409">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏢</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏢</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate &amp; Tnc Crime</h1>
               <p class="flashcard-def">Illegal or harmful acts committed by powerful corporations and executives to expand profits.</p>
@@ -11234,8 +11237,8 @@
         <!-- SLIDE 410: Conventional Street Crime -->
         <section class="slide" id="slide-410">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👮</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">👮</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Conventional Street Crime</h1>
               <p class="flashcard-def">Individual property and violent offenses committed primarily by socioeconomically marginalized offenders.</p>
@@ -11253,8 +11256,8 @@
         <!-- SLIDE 411: Mcmafia -->
         <section class="slide" id="slide-411">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Mcmafia</h1>
               <p class="flashcard-def">Transnational criminal networks operating like corporate franchises</p>
@@ -11272,8 +11275,8 @@
         <!-- SLIDE 412: Traditional Legalism -->
         <section class="slide" id="slide-412">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📖</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📖</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Traditional Legalism</h1>
               <p class="flashcard-def">Confines criminology strictly to actions that violate written, legally enacted national environmental laws.</p>
@@ -11291,8 +11294,8 @@
         <!-- SLIDE 413: Lynch &amp; Stretsky&#039;s Zemiology -->
         <section class="slide" id="slide-413">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Lynch &amp; Stretsky&#039;s Zemiology</h1>
               <p class="flashcard-def">Defines environmental crime by the objective scale of ecological harm inflicted on species and the biosphere.</p>
@@ -11310,8 +11313,8 @@
         <!-- SLIDE 414: Capitalist Class Power -->
         <section class="slide" id="slide-414">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Capitalist Class Power</h1>
               <p class="flashcard-def">Global crime is structured by transnational capitalism, deregulated markets, and elite state-corporate collusion.</p>
@@ -11329,8 +11332,8 @@
         <!-- SLIDE 415: Transnational Patriarchy -->
         <section class="slide" id="slide-415">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍⚖️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">👩‍⚖️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Transnational Patriarchy</h1>
               <p class="flashcard-def">Global crime is structured by universal systems of male dominance, gendered exploitation, and violence against women.</p>
@@ -11348,8 +11351,8 @@
         <!-- SLIDE 416: Cybercriminal Advantages -->
         <section class="slide" id="slide-416">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕶️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🕶️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cybercriminal Advantages</h1>
               <p class="flashcard-def">Technical and geographical factors granting cybercriminals immense operational advantages over state authorities.</p>
@@ -11367,8 +11370,8 @@
         <!-- SLIDE 417: State Jurisdictional Paralysis -->
         <section class="slide" id="slide-417">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛑</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🛑</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">State Jurisdictional Paralysis</h1>
               <p class="flashcard-def">Structural and bureaucratic barriers preventing national law enforcement from curbing borderless digital crime.</p>
@@ -11386,8 +11389,8 @@
         <!-- SLIDE 418: Advanced Cybercrime -->
         <section class="slide" id="slide-418">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💻</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💻</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Advanced Cybercrime</h1>
               <p class="flashcard-def">Sophisticated criminal operations using malicious software, ransomware, and digital infrastructure attacks across international borders.</p>
@@ -11405,8 +11408,8 @@
       <!-- SLIDE 419: CHAPTER 7 DIVIDER -->
       <section class="slide" id="slide-419">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">📺</div>
           <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
             <div class="card-pill">CHAPTER 07 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Media</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Ownership &amp; Control of Media • News Selection &amp; Moral Panics • Representations of Class, Gender &amp; Ethnicity • Audience Effects Models • New Media, Digital Surveillance &amp; Culture</p>
@@ -11422,8 +11425,8 @@
         <!-- SLIDE 420: Traditional Broadcast Media -->
         <section class="slide" id="slide-420">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📻</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📻</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Traditional Broadcast Media</h1>
               <p class="flashcard-def">Centralized, one-way mass communication where passive consumers receive standardized broadcast output.</p>
@@ -11441,8 +11444,8 @@
         <!-- SLIDE 421: Interactive Digital Media -->
         <section class="slide" id="slide-421">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📱</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📱</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Interactive Digital Media</h1>
               <p class="flashcard-def">Decentralized multi-directional networks where active prosumers generate, remix, and share digital content.</p>
@@ -11460,8 +11463,8 @@
         <!-- SLIDE 422: Marxist Proprietorial Control -->
         <section class="slide" id="slide-422">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Marxist Proprietorial Control</h1>
               <p class="flashcard-def">Media barons directly dictate editorial policies to defend private property, promote deregulation, and legitimize capitalism.</p>
@@ -11479,8 +11482,8 @@
         <!-- SLIDE 423: Pluralist Managerial Pluralism -->
         <section class="slide" id="slide-423">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Pluralist Managerial Pluralism</h1>
               <p class="flashcard-def">Professional managers run complex corporations while sovereign audiences dictate content through market purchasing choices.</p>
@@ -11498,8 +11501,8 @@
         <!-- SLIDE 424: 20th-century Conglomerates -->
         <section class="slide" id="slide-424">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏢</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏢</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">20th-century Conglomerates</h1>
               <p class="flashcard-def">Vertically integrated corporate giants managed by centralized executive boards and individual press moguls.</p>
@@ -11517,8 +11520,8 @@
         <!-- SLIDE 425: 21st-century Platform Networks -->
         <section class="slide" id="slide-425">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">21st-century Platform Networks</h1>
               <p class="flashcard-def">Flexible, decentralized network platforms capturing global behavioral surplus within proprietary walled gardens.</p>
@@ -11536,8 +11539,8 @@
         <!-- SLIDE 426: The Obsolescence Thesis -->
         <section class="slide" id="slide-426">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Obsolescence Thesis</h1>
               <p class="flashcard-def">The view that digital technologies have rendered print newspapers, scheduled radio, and broadcast TV obsolete.</p>
@@ -11555,8 +11558,8 @@
         <!-- SLIDE 427: The Colonisation Thesis -->
         <section class="slide" id="slide-427">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Colonisation Thesis</h1>
               <p class="flashcard-def">The evidence that traditional media institutions aggressively adapted, colonized, and dominate digital platforms.</p>
@@ -11574,8 +11577,8 @@
         <!-- SLIDE 428: Proprietor &amp; Corporate Control -->
         <section class="slide" id="slide-428">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Proprietor &amp; Corporate Control</h1>
               <p class="flashcard-def">Arguments that media output is dictated by concentrated corporate elites and private proprietors.</p>
@@ -11593,8 +11596,8 @@
         <!-- SLIDE 429: Managerial &amp; Prosumer Power -->
         <section class="slide" id="slide-429">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Managerial &amp; Prosumer Power</h1>
               <p class="flashcard-def">Arguments that managers, consumer sovereignty, and interactive prosumers prevent elite control.</p>
@@ -11612,8 +11615,8 @@
         <!-- SLIDE 430: The Death of Legacy Media -->
         <section class="slide" id="slide-430">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Death of Legacy Media</h1>
               <p class="flashcard-def">Evidence demonstrating that digital media has shattered the economic foundations of old media.</p>
@@ -11631,8 +11634,8 @@
         <!-- SLIDE 431: Digital Colonisation &amp; Resilience -->
         <section class="slide" id="slide-431">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Digital Colonisation &amp; Resilience</h1>
               <p class="flashcard-def">Evidence that traditional media successfully adapted and colonised the new digital landscape.</p>
@@ -11650,8 +11653,8 @@
         <!-- SLIDE 432: Surveillance Capitalism -->
         <section class="slide" id="slide-432">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Surveillance Capitalism</h1>
               <p class="flashcard-def">Tech monopolies harvesting personal behavioral data to sell predictive models</p>
@@ -11669,8 +11672,8 @@
         <!-- SLIDE 433: Pluralist Consumer Sovereignty -->
         <section class="slide" id="slide-433">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛒</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🛒</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Pluralist Consumer Sovereignty</h1>
               <p class="flashcard-def">Audience choice drives production; commercial discipline forces media companies to deliver responsive, diverse content.</p>
@@ -11688,8 +11691,8 @@
         <!-- SLIDE 434: Critical Political Economy -->
         <section class="slide" id="slide-434">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Critical Political Economy</h1>
               <p class="flashcard-def">Concentrated corporate ownership limits content to commodified products that defend private capital and ruling-class hegemony.</p>
@@ -11707,8 +11710,8 @@
         <!-- SLIDE 435: Instrumental Marxism -->
         <section class="slide" id="slide-435">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕹️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🕹️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Instrumental Marxism</h1>
               <p class="flashcard-def">Media owners directly intervene to impose their conservative class ideology onto newsrooms and passive audiences.</p>
@@ -11726,8 +11729,8 @@
         <!-- SLIDE 436: Hegemonic Neo-marxism -->
         <section class="slide" id="slide-436">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hegemonic Neo-marxism</h1>
               <p class="flashcard-def">Ideological consensus is maintained through professional routines and cultural common sense without daily owner meddling.</p>
@@ -11745,8 +11748,8 @@
         <!-- SLIDE 437: The Democratic Fourth Estate -->
         <section class="slide" id="slide-437">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Democratic Fourth Estate</h1>
               <p class="flashcard-def">The normative belief that journalism functions as an independent watchdog holding powerful state and corporate elites accountable.</p>
@@ -11764,8 +11767,8 @@
         <!-- SLIDE 438: Commercial &amp; State Subjugation -->
         <section class="slide" id="slide-438">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Commercial &amp; State Subjugation</h1>
               <p class="flashcard-def">The empirical reality that news production is systematically constrained by cost-cutting, advertiser boycotts, and state control.</p>
@@ -11783,8 +11786,8 @@
         <!-- SLIDE 439: The Mirror Model Fallacy -->
         <section class="slide" id="slide-439">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📷</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📷</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Mirror Model Fallacy</h1>
               <p class="flashcard-def">The common-sense assumption that news organizations objectively capture and broadcast real-world events impartially.</p>
@@ -11802,8 +11805,8 @@
         <!-- SLIDE 440: The Social Construction of News -->
         <section class="slide" id="slide-440">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Social Construction of News</h1>
               <p class="flashcard-def">The sociological reality that news is systematically constructed via gatekeeping, news values, and commercial filters.</p>
@@ -11821,8 +11824,8 @@
         <!-- SLIDE 441: Marxist Ideological Model -->
         <section class="slide" id="slide-441">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Marxist Ideological Model</h1>
               <p class="flashcard-def">Media is an ideological tool used by ruling elites to conceal objective class exploitation and maintain false consciousness.</p>
@@ -11840,8 +11843,8 @@
         <!-- SLIDE 442: Postmodern Hyper-reality -->
         <section class="slide" id="slide-442">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔮</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🔮</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Postmodern Hyper-reality</h1>
               <p class="flashcard-def">Media images no longer conceal real exploitation; simulations replace physical truth entirely in a swirl of signs.</p>
@@ -11859,8 +11862,8 @@
         <!-- SLIDE 443: Ruling-class Determination -->
         <section class="slide" id="slide-443">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ruling-class Determination</h1>
               <p class="flashcard-def">Arguments that media content is determined by ruling-class interests to preserve capitalist exploitation.</p>
@@ -11878,8 +11881,8 @@
         <!-- SLIDE 444: Consumer &amp; Prosumer Power -->
         <section class="slide" id="slide-444">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Consumer &amp; Prosumer Power</h1>
               <p class="flashcard-def">Arguments that consumers, market discipline, and interactive prosumers determine media content.</p>
@@ -11897,8 +11900,8 @@
         <!-- SLIDE 445: Social Construction of News -->
         <section class="slide" id="slide-445">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Construction of News</h1>
               <p class="flashcard-def">Evidence that news is an ideological artifact produced through professional values and commercial pressures.</p>
@@ -11916,8 +11919,8 @@
         <!-- SLIDE 446: Objective Mirror &amp; Citizen Realism -->
         <section class="slide" id="slide-446">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📷</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📷</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Objective Mirror &amp; Citizen Realism</h1>
               <p class="flashcard-def">Arguments that professional journalistic standards and citizen smartphones record real-world events.</p>
@@ -11935,8 +11938,8 @@
         <!-- SLIDE 447: Folk Devils -->
         <section class="slide" id="slide-447">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">😈</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">😈</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Folk Devils</h1>
               <p class="flashcard-def">Stanley Cohen&#039;s concept of scapegoated groups (e.g., youth subcultures) who are portrayed in sensationalist media coverage as evil threats to society&#039;s moral order, triggering a moral panic.</p>
@@ -11954,8 +11957,8 @@
         <!-- SLIDE 448: User Privacy Resistance -->
         <section class="slide" id="slide-448">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">User Privacy Resistance</h1>
               <p class="flashcard-def">Active citizens deploy technical counter-measures, peer-to-peer encryption, and deliberate risk management to reclaim digital autonomy.</p>
@@ -11973,8 +11976,8 @@
         <!-- SLIDE 449: Corporate Enclosure -->
         <section class="slide" id="slide-449">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔒</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🔒</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Corporate Enclosure</h1>
               <p class="flashcard-def">Media conglomerates deploy litigation, digital rights management (DRM), and subscription paywalls to protect private intellectual property.</p>
@@ -11992,8 +11995,8 @@
         <!-- SLIDE 450: Open Network Sharing -->
         <section class="slide" id="slide-450">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Open Network Sharing</h1>
               <p class="flashcard-def">Decentralized protocols treat information as a collective human good, enabling planetary peer sharing without corporate gatekeeping.</p>
@@ -12011,8 +12014,8 @@
         <!-- SLIDE 451: Digital Pessimism -->
         <section class="slide" id="slide-451">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Digital Pessimism</h1>
               <p class="flashcard-def">A critical sociological perspective arguing that digital media and internet platforms exploit users through unpaid digital labour, invade privacy, spread disinformation, and deepen corporate surveillance.</p>
@@ -12030,8 +12033,8 @@
         <!-- SLIDE 452: Democratic Liberation -->
         <section class="slide" id="slide-452">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚀</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🚀</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Democratic Liberation</h1>
               <p class="flashcard-def">Digital networks decentralize knowledge, empower active prosumers, and foster mass open-source peer production.</p>
@@ -12049,8 +12052,8 @@
         <!-- SLIDE 453: Corporate Monopoly -->
         <section class="slide" id="slide-453">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏢</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏢</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Corporate Monopoly</h1>
               <p class="flashcard-def">Digital platforms centralize wealth into predatory corporate oligopolies extracting free labour and surveilling citizens.</p>
@@ -12068,8 +12071,8 @@
         <!-- SLIDE 454: Global Connection -->
         <section class="slide" id="slide-454">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Global Connection</h1>
               <p class="flashcard-def">Digital networks dissolve geographical barriers, empowering individuals to forge transnational friendships and mutual support groups.</p>
@@ -12087,8 +12090,8 @@
         <!-- SLIDE 455: Digital Alienation -->
         <section class="slide" id="slide-455">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Digital Alienation</h1>
               <p class="flashcard-def">Commercial algorithms partition the public into polarized ideological tribes, promoting toxic harassment and social isolation.</p>
@@ -12106,8 +12109,8 @@
         <!-- SLIDE 456: Pathological Caricatures -->
         <section class="slide" id="slide-456">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Pathological Caricatures</h1>
               <p class="flashcard-def">Working-class communities are routinely framed as problematic, criminal, inarticulate, and financially dependent on the state.</p>
@@ -12125,8 +12128,8 @@
         <!-- SLIDE 457: The Universal Standard -->
         <section class="slide" id="slide-457">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👔</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👔</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Universal Standard</h1>
               <p class="flashcard-def">Middle- and upper-class lifestyles are presented as the default, cultured, and aspirational norm of modern civilized citizenship.</p>
@@ -12144,8 +12147,8 @@
         <!-- SLIDE 458: The Male Gaze &amp; Erasure -->
         <section class="slide" id="slide-458">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👁️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👁️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Male Gaze &amp; Erasure</h1>
               <p class="flashcard-def">Media visual codes continue to commodify women&#039;s bodies and symbolically annihilate older females past youthful reproductive age.</p>
@@ -12163,8 +12166,8 @@
         <!-- SLIDE 459: Evolving Roles &amp; Agency -->
         <section class="slide" id="slide-459">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦸‍♀️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🦸‍♀️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Evolving Roles &amp; Agency</h1>
               <p class="flashcard-def">New media representations and active audiences challenge submissive archetypes, asserting female power, independence, and agency.</p>
@@ -12182,8 +12185,8 @@
         <!-- SLIDE 460: Inferential Racism &amp; Threats -->
         <section class="slide" id="slide-460">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📰</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📰</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Inferential Racism &amp; Threats</h1>
               <p class="flashcard-def">Mainstream media relies on colonial stereotypes, framing ethnic minorities as criminal, cultural, or national security hazards.</p>
@@ -12201,8 +12204,8 @@
         <!-- SLIDE 461: Independent Agency &amp; Voice -->
         <section class="slide" id="slide-461">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎙️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎙️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Independent Agency &amp; Voice</h1>
               <p class="flashcard-def">Ethnic-minority creators utilize digital platforms and independent cinema to bypass white gatekeepers and dismantle racial tropes.</p>
@@ -12220,8 +12223,8 @@
         <!-- SLIDE 462: The Delinquent Threat -->
         <section class="slide" id="slide-462">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Delinquent Threat</h1>
               <p class="flashcard-def">Youth culture is viewed through an adult gaze that pathologizes young people as antisocial, politically indifferent, and prone to crime.</p>
@@ -12239,8 +12242,8 @@
         <!-- SLIDE 463: The Empowered Consumer -->
         <section class="slide" id="slide-463">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💰</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">💰</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Empowered Consumer</h1>
               <p class="flashcard-def">Commercial media increasingly celebrates older demographics as active, wealthy, and stylish consumers controlling national wealth.</p>
@@ -12258,8 +12261,8 @@
         <!-- SLIDE 464: Direct Effects Model -->
         <section class="slide" id="slide-464">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💉</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">💉</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Direct Effects Model</h1>
               <p class="flashcard-def">Assumes audiences are atomized, uncritical recipients who copy screen violence through immediate observational imitation.</p>
@@ -12277,8 +12280,8 @@
         <!-- SLIDE 465: Media Literacy Paradigm -->
         <section class="slide" id="slide-465">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Media Literacy Paradigm</h1>
               <p class="flashcard-def">Proves audiences possess cognitive agency, decoding screen narratives while recognizing structural roots of crime.</p>
@@ -12296,8 +12299,8 @@
         <!-- SLIDE 466: The Hypodermic Syringe -->
         <section class="slide" id="slide-466">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💉</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">💉</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Hypodermic Syringe</h1>
               <p class="flashcard-def">Media messages are directly injected into passive, atomized individuals, dictating behavior, values, and emotional states.</p>
@@ -12315,8 +12318,8 @@
         <!-- SLIDE 467: Uses &amp; Gratifications -->
         <section class="slide" id="slide-467">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Uses &amp; Gratifications</h1>
               <p class="flashcard-def">Active, sovereign consumers purposefully select and decode media products to fulfill diverse personal psychological needs.</p>
@@ -12334,8 +12337,8 @@
         <!-- SLIDE 468: Hegemonic Saturation -->
         <section class="slide" id="slide-468">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hegemonic Saturation</h1>
               <p class="flashcard-def">Heavy media viewing cultivates distorted, fearful realities over time, instilling common-sense capitalist norms and Mean World paranoia.</p>
@@ -12353,8 +12356,8 @@
         <!-- SLIDE 469: Oppositional Decoding -->
         <section class="slide" id="slide-469">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🖼️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🖼️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Oppositional Decoding</h1>
               <p class="flashcard-def">Audiences critically decode media messages through the lens of social class and lived biographical experience, resisting preferred readings.</p>
@@ -12372,8 +12375,8 @@
         <!-- SLIDE 470: The Culture Industry -->
         <section class="slide" id="slide-470">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Culture Industry</h1>
               <p class="flashcard-def">Corporate cartels mass-manufacture formulaic entertainment to distract, pacify, and subordinate the working-class mass audience.</p>
@@ -12391,8 +12394,8 @@
         <!-- SLIDE 471: Interactive Prosumer Agency -->
         <section class="slide" id="slide-471">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📱</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📱</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Interactive Prosumer Agency</h1>
               <p class="flashcard-def">Digital platforms transform audiences into active prosumers who remix, subvert, and challenge corporate commercial hegemony.</p>
@@ -12410,8 +12413,8 @@
         <!-- SLIDE 472: Laboratory Imitation -->
         <section class="slide" id="slide-472">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧸</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🧸</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Laboratory Imitation</h1>
               <p class="flashcard-def">Asserts that viewing filmed aggression directly triggers imitative violence, desensitises youth, and instills aggressive behaviors.</p>
@@ -12429,8 +12432,8 @@
         <!-- SLIDE 473: Methodological Reality -->
         <section class="slide" id="slide-473">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Methodological Reality</h1>
               <p class="flashcard-def">Proves that direct effects claims fail real-world criminological scrutiny, as family socialization and peer dynamics govern crime.</p>
@@ -12448,8 +12451,8 @@
         <!-- SLIDE 474: Imitation &amp; Desensitisation -->
         <section class="slide" id="slide-474">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💥</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">💥</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Imitation &amp; Desensitisation</h1>
               <p class="flashcard-def">Claims that violent screen content triggers observational aggression, desensitizes viewers, and encourages real-world crime.</p>
@@ -12467,8 +12470,8 @@
         <!-- SLIDE 475: Catharsis &amp; Empathy -->
         <section class="slide" id="slide-475">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕊️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🕊️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Catharsis &amp; Empathy</h1>
               <p class="flashcard-def">Evidence that media safely purges frustration, sensitizes citizens to tragedy, and coincides with historical pacification.</p>
@@ -12486,8 +12489,8 @@
         <!-- SLIDE 476: Deviance Amplification Spiral -->
         <section class="slide" id="slide-476">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌪️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🌪️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Deviance Amplification Spiral</h1>
               <p class="flashcard-def">Focuses on the cyclical communication system where institutional reactions escalate minor deviance into serious crime.</p>
@@ -12505,8 +12508,8 @@
         <!-- SLIDE 477: Folk Devils &amp; Moral Panics -->
         <section class="slide" id="slide-477">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Folk Devils &amp; Moral Panics</h1>
               <p class="flashcard-def">Focuses on the cultural demonization of subcultural groups and the mobilization of moral crusaders to enforce social boundaries.</p>
@@ -12524,8 +12527,8 @@
         <!-- SLIDE 478: Spontaneous Public Anxiety -->
         <section class="slide" id="slide-478">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Spontaneous Public Anxiety</h1>
               <p class="flashcard-def">Moral panics emerge organically from authentic public anxieties during rapid change, clarifying collective moral boundaries.</p>
@@ -12543,8 +12546,8 @@
         <!-- SLIDE 479: Manufactured Elite Diversion -->
         <section class="slide" id="slide-479">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Manufactured Elite Diversion</h1>
               <p class="flashcard-def">Moral panics are calculated ideological tools manufactured by ruling elites to scapegoat minorities and legitimize police repression.</p>
@@ -12562,8 +12565,8 @@
         <!-- SLIDE 480: The Media As Corrupter -->
         <section class="slide" id="slide-480">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Media As Corrupter</h1>
               <p class="flashcard-def">Media depicted as a destructive engine driving deviance amplification, sensationalist moral panics, and psychological harm.</p>
@@ -12581,8 +12584,8 @@
         <!-- SLIDE 481: The Media As Emancipator -->
         <section class="slide" id="slide-481">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✨</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">✨</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Media As Emancipator</h1>
               <p class="flashcard-def">Digital platforms providing vital tools for personal agency, gender subversion, democratic sousveillance, and civic education.</p>
@@ -12600,8 +12603,8 @@
         <!-- SLIDE 482: Deviancy Amplification Spiral -->
         <section class="slide" id="slide-482">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📣</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📣</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Deviancy Amplification Spiral</h1>
               <p class="flashcard-def">Media hysteria prompting police crackdowns that intensify youth deviance</p>
@@ -12619,8 +12622,8 @@
       <!-- SLIDE 483: CHAPTER 8 DIVIDER -->
       <section class="slide" id="slide-483">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">⛪</div>
           <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
             <div class="card-pill">CHAPTER 08 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Religion</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Functions of Religion • Classical Perspectives (Durkheim, Marx, Weber) • The Secularisation Debate • Religious Organisations, Sects &amp; Cults • Gender, Fundamentalism &amp; Postmodernity</p>
@@ -12636,8 +12639,8 @@
         <!-- SLIDE 484: Inclusive (Functional) Models -->
         <section class="slide" id="slide-484">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Inclusive (Functional) Models</h1>
               <p class="flashcard-def">Defines religion by its social contribution to cohesion, meaning-making, and collective identity, regardless of supernatural belief.</p>
@@ -12655,8 +12658,8 @@
         <!-- SLIDE 485: Exclusive (Substantive) Models -->
         <section class="slide" id="slide-485">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Exclusive (Substantive) Models</h1>
               <p class="flashcard-def">Defines religion strictly by its core supernatural beliefs in deities, transcendent cosmic forces, and the sacred realm.</p>
@@ -12674,8 +12677,8 @@
         <!-- SLIDE 486: Quantitative Institutional Metrics -->
         <section class="slide" id="slide-486">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Quantitative Institutional Metrics</h1>
               <p class="flashcard-def">Measures observable, verifiable institutional behaviors like Sunday attendance, baptisms, and ordinations.</p>
@@ -12693,8 +12696,8 @@
         <!-- SLIDE 487: Qualitative Subjective Indicators -->
         <section class="slide" id="slide-487">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💭</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">💭</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Qualitative Subjective Indicators</h1>
               <p class="flashcard-def">Investigates self-reported belief in God, afterlife, personal prayer, and emotional attachment.</p>
@@ -12712,8 +12715,8 @@
         <!-- SLIDE 488: Working-class Sectarian Devotion -->
         <section class="slide" id="slide-488">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Working-class Sectarian Devotion</h1>
               <p class="flashcard-def">Marginalized social strata gravitate toward strict, world-rejecting sects and fundamentalist churches offering salvation.</p>
@@ -12731,8 +12734,8 @@
         <!-- SLIDE 489: Middle-class Holistic Spirituality -->
         <section class="slide" id="slide-489">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌿</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌿</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Middle-class Holistic Spirituality</h1>
               <p class="flashcard-def">Affluent professionals turn to world-affirming NAMs and client cults that emphasize self-actualisation and well-being.</p>
@@ -12750,8 +12753,8 @@
         <!-- SLIDE 490: Believing Without Belonging -->
         <section class="slide" id="slide-490">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💭</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">💭</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Believing Without Belonging</h1>
               <p class="flashcard-def">Grace Davie&#039;s concept of people maintaining private faith without attending church</p>
@@ -12769,8 +12772,8 @@
         <!-- SLIDE 491: Cultural Defense Model -->
         <section class="slide" id="slide-491">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Defense Model</h1>
               <p class="flashcard-def">Faith remains an enduring political and cultural shield against discrimination, white hegemony, and cultural erasure.</p>
@@ -12788,8 +12791,8 @@
         <!-- SLIDE 492: Cultural Transition Model -->
         <section class="slide" id="slide-492">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Cultural Transition Model</h1>
               <p class="flashcard-def">Religion acts as a temporary bridge during initial settlement, with observance steadily waning in successive generations.</p>
@@ -12807,8 +12810,8 @@
         <!-- SLIDE 493: The Aging / Life-course Thesis -->
         <section class="slide" id="slide-493">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👴</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">👴</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Aging / Life-course Thesis</h1>
               <p class="flashcard-def">Young people temporarily drift away during adolescence but reliably return when marrying, raising children, and confronting mortality.</p>
@@ -12826,8 +12829,8 @@
         <!-- SLIDE 494: The Generational Secularisation Thesis -->
         <section class="slide" id="slide-494">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">The Generational Secularisation Thesis</h1>
               <p class="flashcard-def">Each new cohort starts life markedly less religious than the previous one and stays secular across its entire lifespan.</p>
@@ -12845,8 +12848,8 @@
         <!-- SLIDE 495: Scientific Rationalism -->
         <section class="slide" id="slide-495">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Scientific Rationalism</h1>
               <p class="flashcard-def">Knowledge constructed through observable testing, replicable experiments, falsification, and peer review.</p>
@@ -12864,8 +12867,8 @@
         <!-- SLIDE 496: Religious Meaning-systems -->
         <section class="slide" id="slide-496">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Religious Meaning-systems</h1>
               <p class="flashcard-def">Belief systems addressing ultimate existential concerns, sacred values, cosmic salvation, and moral rules.</p>
@@ -12883,8 +12886,8 @@
         <!-- SLIDE 497: Consensus &amp; Harmonious Order -->
         <section class="slide" id="slide-497">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🐝</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🐝</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Consensus &amp; Harmonious Order</h1>
               <p class="flashcard-def">Society is an integrated system where religion satisfies universal needs for moral solidarity, identity, and grief solace.</p>
@@ -12902,8 +12905,8 @@
         <!-- SLIDE 498: Class Conflict &amp; Ideological Control -->
         <section class="slide" id="slide-498">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Class Conflict &amp; Ideological Control</h1>
               <p class="flashcard-def">Society is divided by class antagonism; religion is a bourgeois ideological weapon masking exploitation and pacifying dissent.</p>
@@ -12921,8 +12924,8 @@
         <!-- SLIDE 499: Totem -->
         <section class="slide" id="slide-499">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦅</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🦅</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Totem</h1>
               <p class="flashcard-def">In Émile Durkheim&#039;s study of Australian Aborigines, a sacred animal or plant that symbolizes both the clan and the collective society itself, proving that worshipping god is really worshipping society.</p>
@@ -12940,8 +12943,8 @@
         <!-- SLIDE 500: Opium of the People -->
         <section class="slide" id="slide-500">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💊</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">💊</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Opium of the People</h1>
               <p class="flashcard-def">Marx&#039;s view that religion acts as an ideological painkiller dulling the misery of class exploitation</p>
@@ -12959,8 +12962,8 @@
         <!-- SLIDE 501: Strict Economic Determinism -->
         <section class="slide" id="slide-501">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Strict Economic Determinism</h1>
               <p class="flashcard-def">Religion is a passive superstructure mirror reflecting the material economic base, serving solely to drug workers and protect capitalist profits.</p>
@@ -12978,8 +12981,8 @@
         <!-- SLIDE 502: Relative Autonomy &amp; Praxis -->
         <section class="slide" id="slide-502">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕊️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🕊️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Relative Autonomy &amp; Praxis</h1>
               <p class="flashcard-def">Religion possesses relative autonomy; while it often cements ruling hegemony, it can also provide the vocabulary and sanctuary for revolution.</p>
@@ -12997,8 +13000,8 @@
         <!-- SLIDE 503: Social Order &amp; Status Quo -->
         <section class="slide" id="slide-503">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Social Order &amp; Status Quo</h1>
               <p class="flashcard-def">Religion functions to preserve social equilibrium, reinforce shared moral codes, and protect the established institutional hierarchy.</p>
@@ -13016,8 +13019,8 @@
         <!-- SLIDE 504: Counter-hegemony &amp; Resistance -->
         <section class="slide" id="slide-504">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔥</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🔥</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Counter-hegemony &amp; Resistance</h1>
               <p class="flashcard-def">Religion mobilizes moral outrage, provides institutional sanctuary, and inspires revolutionary action against oppressive regimes.</p>
@@ -13035,8 +13038,8 @@
         <!-- SLIDE 505: Economic Base Primacy -->
         <section class="slide" id="slide-505">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Economic Base Primacy</h1>
               <p class="flashcard-def">Religious beliefs are merely superstructural reflections determined by the economic base to justify bourgeois class exploitation.</p>
@@ -13054,8 +13057,8 @@
         <!-- SLIDE 506: Ideational Causal Agency -->
         <section class="slide" id="slide-506">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideational Causal Agency</h1>
               <p class="flashcard-def">Religious beliefs possess autonomous causal power, acting as decisive catalysts that can transform economic systems.</p>
@@ -13073,8 +13076,8 @@
         <!-- SLIDE 507: Weberian Ethos Correlation -->
         <section class="slide" id="slide-507">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Weberian Ethos Correlation</h1>
               <p class="flashcard-def">Empirical patterns confirming the correlation between Protestant asceticism (practicing strict self-discipline and renouncing luxuries, drinking, and wasteful spending) and rapid commercial modernization.</p>
@@ -13092,8 +13095,8 @@
         <!-- SLIDE 508: Historical Counter-evidence -->
         <section class="slide" id="slide-508">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Historical Counter-evidence</h1>
               <p class="flashcard-def">Historical evidence indicating capitalism preceded Calvinism or developed independently of Protestant theology.</p>
@@ -13111,8 +13114,8 @@
         <!-- SLIDE 509: Conservative State Alliance -->
         <section class="slide" id="slide-509">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Conservative State Alliance</h1>
               <p class="flashcard-def">Historical clerical alliance with landowning oligarchies and dictatorships, preaching passive fatalism to justify hierarchy.</p>
@@ -13130,8 +13133,8 @@
         <!-- SLIDE 510: Liberation Praxis &amp; Reform -->
         <section class="slide" id="slide-510">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✊</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">✊</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Liberation Praxis &amp; Reform</h1>
               <p class="flashcard-def">Grassroots clergy uniting Christian theology with Marxist analysis to challenge tyranny and empower oppressed peasants.</p>
@@ -13149,8 +13152,8 @@
         <!-- SLIDE 511: Emancipatory Transformation -->
         <section class="slide" id="slide-511">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Emancipatory Transformation</h1>
               <p class="flashcard-def">Religion mobilizes moral principles to expand human rights, eliminate racial segregation, and overthrow tyrannical regimes.</p>
@@ -13168,8 +13171,8 @@
         <!-- SLIDE 512: Fundamentalist Restoration -->
         <section class="slide" id="slide-512">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏮️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⏮️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Fundamentalist Restoration</h1>
               <p class="flashcard-def">Religion mobilizes to reverse modernization, reinstating theocratic patriarchy (a social system in which men hold primary power and dominate women) and strict traditional moral codes.</p>
@@ -13187,8 +13190,8 @@
         <!-- SLIDE 513: Structural Secularisation -->
         <section class="slide" id="slide-513">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Secularisation</h1>
               <p class="flashcard-def">The formal withdrawal of churches from political governance, lawmaking, universal schooling, and state welfare.</p>
@@ -13206,8 +13209,8 @@
         <!-- SLIDE 514: Subjective Spirituality -->
         <section class="slide" id="slide-514">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕯️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🕯️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Subjective Spirituality</h1>
               <p class="flashcard-def">The retreat of religious beliefs into private, individualized lifestyle choices devoid of collective social power.</p>
@@ -13225,8 +13228,8 @@
         <!-- SLIDE 515: Unchallenged Plausibility -->
         <section class="slide" id="slide-515">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏰</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏰</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Unchallenged Plausibility</h1>
               <p class="flashcard-def">A single religious institution commands a total monopoly of truth, embedding moral and political authority across the social fabric.</p>
@@ -13244,8 +13247,8 @@
         <!-- SLIDE 516: Relativised Truth Claims -->
         <section class="slide" id="slide-516">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Relativised Truth Claims</h1>
               <p class="flashcard-def">The coexistence of competing denominations and secular ideas, transforming faith from unquestioned dogma into subjective consumer taste.</p>
@@ -13263,8 +13266,8 @@
         <!-- SLIDE 517: Secularised Western Enclaves -->
         <section class="slide" id="slide-517">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🇪🇺</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🇪🇺</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Secularised Western Enclaves</h1>
               <p class="flashcard-def">Western European nations displaying uniquely low church attendance, state welfare dependency, and moral indifference to faith.</p>
@@ -13282,8 +13285,8 @@
         <!-- SLIDE 518: Worldwide Resurgent Piety -->
         <section class="slide" id="slide-518">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌏</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌏</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Worldwide Resurgent Piety</h1>
               <p class="flashcard-def">Dynamic global growth of Pentecostal Christianity, political Islam, and Hindu nationalism across the Global South and North America.</p>
@@ -13301,8 +13304,8 @@
         <!-- SLIDE 519: Stark &amp; Bainbridge -->
         <section class="slide" id="slide-519">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Stark &amp; Bainbridge</h1>
               <p class="flashcard-def">Religious demand is naturally constant; participation rates depend entirely on supply, competition, and pastoral entrepreneurship.</p>
@@ -13320,8 +13323,8 @@
         <!-- SLIDE 520: Norris &amp; Inglehart -->
         <section class="slide" id="slide-520">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">Norris &amp; Inglehart</h1>
               <p class="flashcard-def">Religious participation is governed by demand, which fluctuates based on physical vulnerability and economic security.</p>
@@ -13339,8 +13342,8 @@
         <!-- SLIDE 521: The Death of Religion -->
         <section class="slide" id="slide-521">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💀</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">💀</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Death of Religion</h1>
               <p class="flashcard-def">Scientific rationalism, welfare safety nets, and generational decay have permanently shattered religious authority and membership.</p>
@@ -13358,8 +13361,8 @@
         <!-- SLIDE 522: The Mutation of Faith -->
         <section class="slide" id="slide-522">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Mutation of Faith</h1>
               <p class="flashcard-def">Religion is not dying but evolving into flexible consumer formats: televangelism, spiritual retreats, and digital communities.</p>
@@ -13377,8 +13380,8 @@
         <!-- SLIDE 523: Inflexible Modernisation -->
         <section class="slide" id="slide-523">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Inflexible Modernisation</h1>
               <p class="flashcard-def">Industrialisation, scientific rationalism, and structural differentiation make religious decline inevitable in all advancing societies.</p>
@@ -13396,8 +13399,8 @@
         <!-- SLIDE 524: Resilient Plural Vitality -->
         <section class="slide" id="slide-524">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Resilient Plural Vitality</h1>
               <p class="flashcard-def">Modernisation does not extinguish faith; religion revives through fundamentalism, market competition, and political movements.</p>
@@ -13415,8 +13418,8 @@
         <!-- SLIDE 525: Human Demand For Supernatural Compensators -->
         <section class="slide" id="slide-525">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Human Demand For Supernatural Compensators</h1>
               <p class="flashcard-def">Stark and Bainbridge&#039;s thesis that humans possess a universal desire for rewards that cannot be obtained on Earth (such as eternal life and cosmic justice), ensuring ongoing demand for religious beliefs.</p>
@@ -13434,8 +13437,8 @@
         <!-- SLIDE 526: Institutional Observance -->
         <section class="slide" id="slide-526">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Institutional Observance</h1>
               <p class="flashcard-def">Formal weekly church or mosque attendance recorded through official institutional headcounts and registers.</p>
@@ -13453,8 +13456,8 @@
         <!-- SLIDE 527: Privatised Piety &amp; Spirituality -->
         <section class="slide" id="slide-527">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕯️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🕯️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Privatised Piety &amp; Spirituality</h1>
               <p class="flashcard-def">Private prayer, scripture contemplation, and New Age therapies practiced independently within the domestic home.</p>
@@ -13472,8 +13475,8 @@
         <!-- SLIDE 528: Domestic Nurture &amp; Empathy -->
         <section class="slide" id="slide-528">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧸</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🧸</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Domestic Nurture &amp; Empathy</h1>
               <p class="flashcard-def">Women are conditioned into relational and nurturing roles that naturally resonate with theological teachings on love and compassion.</p>
@@ -13491,8 +13494,8 @@
         <!-- SLIDE 529: Differential Risk Aversion -->
         <section class="slide" id="slide-529">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎲</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🎲</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Differential Risk Aversion</h1>
               <p class="flashcard-def">Women exhibit greater caution in existential matters, viewing irreligion as an unacceptable gamble with eternal salvation.</p>
@@ -13510,8 +13513,8 @@
         <!-- SLIDE 530: Ideological Oppression -->
         <section class="slide" id="slide-530">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ideological Oppression</h1>
               <p class="flashcard-def">Religious institutions glorify male supremacy, demand female domestic submission, and police female bodily autonomy.</p>
@@ -13529,8 +13532,8 @@
         <!-- SLIDE 531: Protective Moral Haven -->
         <section class="slide" id="slide-531">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏰</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏰</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Protective Moral Haven</h1>
               <p class="flashcard-def">Churches provide women with clear moral rules, emotional solace, and supportive female solidarity networks in a hostile world.</p>
@@ -13548,8 +13551,8 @@
         <!-- SLIDE 532: Hierarchical Orthodoxy -->
         <section class="slide" id="slide-532">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hierarchical Orthodoxy</h1>
               <p class="flashcard-def">Doctrinal systems centered on a transcendent male creator, male-only clergy, and strict policing of female domestic roles.</p>
@@ -13567,8 +13570,8 @@
         <!-- SLIDE 533: Immanent Holistic Spirituality -->
         <section class="slide" id="slide-533">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌸</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌸</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Immanent Holistic Spirituality</h1>
               <p class="flashcard-def">Spiritual movements celebrating immanent divine nurture, female biological cycles, and egalitarian therapeutic networks.</p>
@@ -13586,8 +13589,8 @@
         <!-- SLIDE 534: Dismantling Formal Barriers -->
         <section class="slide" id="slide-534">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Dismantling Formal Barriers</h1>
               <p class="flashcard-def">Progressive reforms opening official ministry, ordination, and theological scholarship to women across liberal denominations.</p>
@@ -13605,8 +13608,8 @@
         <!-- SLIDE 535: The Stained Glass Ceiling -->
         <section class="slide" id="slide-535">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Stained Glass Ceiling</h1>
               <p class="flashcard-def">Invisible structural and theological prohibitions that keep women clustered in marginal roles while reserving top power for men.</p>
@@ -13624,8 +13627,8 @@
         <!-- SLIDE 536: Structural Subordination -->
         <section class="slide" id="slide-536">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔒</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🔒</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Structural Subordination</h1>
               <p class="flashcard-def">Religious institutions enforce male supremacy, sanctify domestic subservience, and exclude women from top ecclesiastical power.</p>
@@ -13643,8 +13646,8 @@
         <!-- SLIDE 537: Empowerment &amp; Female Agency -->
         <section class="slide" id="slide-537">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔓</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🔓</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Empowerment &amp; Female Agency</h1>
               <p class="flashcard-def">Women deploy religious faith, community solidarity, and holistic therapies to assert identity, autonomy, and mutual protection.</p>
@@ -13662,8 +13665,8 @@
         <!-- SLIDE 538: Universal Truth &amp; Obligation -->
         <section class="slide" id="slide-538">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Universal Truth &amp; Obligation</h1>
               <p class="flashcard-def">An overarching, authoritative religious monopoly providing total explanations of existence, binding community members to communal moral obedience.</p>
@@ -13681,8 +13684,8 @@
         <!-- SLIDE 539: Hyperreal Consumer Signs -->
         <section class="slide" id="slide-539">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Hyperreal Consumer Signs</h1>
               <p class="flashcard-def">Fragmented spiritual symbols consumed through mass media and fashion, devoid of doctrinal discipline or institutional allegiance.</p>
@@ -13700,8 +13703,8 @@
         <!-- SLIDE 540: Ecclesiastical Conformity -->
         <section class="slide" id="slide-540">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ecclesiastical Conformity</h1>
               <p class="flashcard-def">Traditional religious commitment characterized by lifelong institutional loyalty, mandatory public worship, and adherence to rigid moral dogmas.</p>
@@ -13719,8 +13722,8 @@
         <!-- SLIDE 541: Elective Supermarket Faith -->
         <section class="slide" id="slide-541">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛒</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🛒</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Elective Supermarket Faith</h1>
               <p class="flashcard-def">Individualised consumer approach where sovereign seekers pick and mix therapeutic practices to enhance private emotional well-being.</p>
@@ -13738,8 +13741,8 @@
         <!-- SLIDE 542: External Role Duty -->
         <section class="slide" id="slide-542">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.3rem;">External Role Duty</h1>
               <p class="flashcard-def">Traditional Christian churchgoing centered on obedience to external clerical hierarchies, rigid scripture, and self-denying communal obligations.</p>
@@ -13757,8 +13760,8 @@
         <!-- SLIDE 543: Inner Subjective Well-being -->
         <section class="slide" id="slide-543">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌿</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🌿</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Inner Subjective Well-being</h1>
               <p class="flashcard-def">Decentralized alternative spiritualities emphasizing self-transformation, emotional healing, and living authentically in accordance with inner wisdom.</p>
@@ -13776,8 +13779,8 @@
         <!-- SLIDE 544: Ascetic Sectarian Isolation -->
         <section class="slide" id="slide-544">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛺</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛺</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Ascetic Sectarian Isolation</h1>
               <p class="flashcard-def">Radical movements condemning secular society, demanding full life-abandonment, communal living, and submission to a charismatic prophet.</p>
@@ -13795,8 +13798,8 @@
         <!-- SLIDE 545: Therapeutic Capitalist Integration -->
         <section class="slide" id="slide-545">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏙️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏙️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Therapeutic Capitalist Integration</h1>
               <p class="flashcard-def">Commercialized belief systems offering clients spiritual techniques to overcome personal anxiety and unlock worldly corporate success.</p>
@@ -13814,8 +13817,8 @@
         <!-- SLIDE 546: Textual Literalism &amp; Certainty -->
         <section class="slide" id="slide-546">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Textual Literalism &amp; Certainty</h1>
               <p class="flashcard-def">Defensive religious revival demanding strict adherence to sacred scriptures as the immutable, inerrant, and exclusive word of God.</p>
@@ -13833,8 +13836,8 @@
         <!-- SLIDE 547: Subjective Spiritual Pluralism -->
         <section class="slide" id="slide-547">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎨</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🎨</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.4rem;">Subjective Spiritual Pluralism</h1>
               <p class="flashcard-def">Fluid, pick-and-mix approach where all spiritual claims are treated as equally valid metaphors tailored to individual emotional wellness.</p>
@@ -13852,8 +13855,8 @@
         <!-- SLIDE 548: The Spiritual Supermarket -->
         <section class="slide" id="slide-548">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛍️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🛍️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">The Spiritual Supermarket</h1>
               <p class="flashcard-def">Religion survives by transforming into an individualized, therapeutic consumer commodity offering holistic wellness and self-care.</p>
@@ -13871,8 +13874,8 @@
         <!-- SLIDE 549: Resurgent Dogmatic Certainty -->
         <section class="slide" id="slide-549">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 2.85rem;">Resurgent Dogmatic Certainty</h1>
               <p class="flashcard-def">Religion survives by rejecting consumer relativism, reaffirming literal scriptural truth, and fighting secular decadence.</p>
@@ -13885,4 +13888,3 @@
             </div>
           </div>
         </section>`;
-})();

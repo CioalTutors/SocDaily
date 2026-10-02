@@ -1,8 +1,8 @@
  <!-- SLIDE 1: COVER -->
     <section class="slide active" id="slide-1">
       <div class="flashcard-stage">
-        <div class="card-graphic-sticker">👤</div>
         <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">👤</div>
           <div class="card-pill">CAMBRIDGE A-LEVEL SOCIOLOGY 9699</div>
           <h1 class="flashcard-title" style="font-size: 3.1rem; line-height: 1.1; margin-bottom: 12px;">Key Sociologists &amp; Thinkers:<br>Master Directory</h1>
           <p class="flashcard-def" style="margin-bottom: 22px;">Essential canonical sociologists across Chapters 1 to 8 (Papers 1–4). Includes theorist name, theoretical school, landmark studies, and what they said in short below.</p>
@@ -19,8 +19,8 @@
       <!-- SLIDE 2: CHAPTER 1 DIVIDER -->
       <section class="slide" id="slide-2">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🌱</div>
           <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🌱</div>
             <div class="card-pill">CHAPTER 01 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Socialisation, Culture &amp; Social Control</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Nature vs Nurture • Feral Children • Agencies of Socialisation • Structural &amp; Interactionist Perspectives • Formal &amp; Informal Social Control • Power &amp; Resistance</p>
@@ -36,8 +36,8 @@
         <!-- SLIDE 3: Ann Oakley -->
         <section class="slide" id="slide-3">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍👧</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👩‍👧</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Sociology (1972, 1974)</div>
@@ -56,8 +56,8 @@
         <!-- SLIDE 4: Talcott Parsons -->
         <section class="slide" id="slide-4">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
               <div class="theorist-school-badge">Structural Functionalism (1951, 1955)</div>
@@ -76,8 +76,8 @@
         <!-- SLIDE 5: George Herbert Mead -->
         <section class="slide" id="slide-5">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">George Herbert Mead</h1>
               <div class="theorist-school-badge">Symbolic Interactionism (1934)</div>
@@ -96,8 +96,8 @@
         <!-- SLIDE 6: Erving Goffman -->
         <section class="slide" id="slide-6">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Erving Goffman</h1>
               <div class="theorist-school-badge">Dramaturgical Interactionism (1959, 1961)</div>
@@ -116,8 +116,8 @@
         <!-- SLIDE 7: Charles Horton Cooley -->
         <section class="slide" id="slide-7">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Charles Horton Cooley</h1>
               <div class="theorist-school-badge">Interactionist Social Psychology (1909)</div>
@@ -136,8 +136,8 @@
         <!-- SLIDE 8: Émile Durkheim -->
         <section class="slide" id="slide-8">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Classical Functionalism (1893, 1895)</div>
@@ -156,8 +156,8 @@
         <!-- SLIDE 9: Edward Wilson -->
         <section class="slide" id="slide-9">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Edward Wilson</h1>
               <div class="theorist-school-badge">Sociobiology &amp; Evolutionary Psychology (1975)</div>
@@ -176,8 +176,8 @@
         <!-- SLIDE 10: Dennis Wrong -->
         <section class="slide" id="slide-10">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dennis Wrong</h1>
               <div class="theorist-school-badge">Critical Interactionism (1961)</div>
@@ -196,8 +196,8 @@
         <!-- SLIDE 11: Samuel Bowles -->
         <section class="slide" id="slide-11">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Samuel Bowles</h1>
               <div class="theorist-school-badge">Marxist Sociology of Education (1976)</div>
@@ -216,8 +216,8 @@
         <!-- SLIDE 12: Herbert Gintis -->
         <section class="slide" id="slide-12">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Herbert Gintis</h1>
               <div class="theorist-school-badge">Marxist Sociology of Education (1976)</div>
@@ -236,8 +236,8 @@
         <!-- SLIDE 13: Paul Willis -->
         <section class="slide" id="slide-13">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
               <div class="theorist-school-badge">Neo-Marxist Cultural Studies (1977)</div>
@@ -256,8 +256,8 @@
         <!-- SLIDE 14: Walter Miller -->
         <section class="slide" id="slide-14">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Walter Miller</h1>
               <div class="theorist-school-badge">Subcultural Delinquency Theory (1958)</div>
@@ -276,8 +276,8 @@
         <!-- SLIDE 15: Travis Hirschi -->
         <section class="slide" id="slide-15">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔗</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🔗</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Travis Hirschi</h1>
               <div class="theorist-school-badge">Social Bond / Control Theory (1969)</div>
@@ -296,8 +296,8 @@
         <!-- SLIDE 16: Charles Murray -->
         <section class="slide" id="slide-16">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Charles Murray</h1>
               <div class="theorist-school-badge">New Right Perspective (1984, 1989)</div>
@@ -316,8 +316,8 @@
         <!-- SLIDE 17: Louis Althusser -->
         <section class="slide" id="slide-17">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
               <div class="theorist-school-badge">Structural Marxism (1971)</div>
@@ -336,8 +336,8 @@
         <!-- SLIDE 18: J. Hood-Williams -->
         <section class="slide" id="slide-18">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🚸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">J. Hood-Williams</h1>
               <div class="theorist-school-badge">Gender Socialisation &amp; Childhood (1990)</div>
@@ -356,8 +356,8 @@
         <!-- SLIDE 19: Stuart Hall -->
         <section class="slide" id="slide-19">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎸</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🎸</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
               <div class="theorist-school-badge">Neo-Marxist Cultural Studies (1978)</div>
@@ -376,8 +376,8 @@
         <!-- SLIDE 20: Steve Bruce -->
         <section class="slide" id="slide-20">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛪</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">⛪</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steve Bruce</h1>
               <div class="theorist-school-badge">Sociology of Social Control &amp; Religion (2002)</div>
@@ -396,8 +396,8 @@
         <!-- SLIDE 21: James Potter -->
         <section class="slide" id="slide-21">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">James Potter</h1>
               <div class="theorist-school-badge">Media Socialisation &amp; Effects (2003)</div>
@@ -416,8 +416,8 @@
         <!-- SLIDE 22: Paul Hodkinson -->
         <section class="slide" id="slide-22">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🖤</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">🖤</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Hodkinson</h1>
               <div class="theorist-school-badge">Subcultural Theory &amp; Youth Culture (2002)</div>
@@ -436,8 +436,8 @@
         <!-- SLIDE 23: Michel Foucault -->
         <section class="slide" id="slide-23">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👁️</div>
             <div class="flashcard theme-1" style="background: #00A859 !important;">
+          <div class="card-graphic-sticker">👁️</div>
               <div class="card-pill">CHAPTER 1 • PAPER 1 • SOCIALISATION, CULTURE &amp; SOCIAL CONTROL</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Michel Foucault</h1>
               <div class="theorist-school-badge">Post-Structuralist Theory (1975)</div>
@@ -456,8 +456,8 @@
       <!-- SLIDE 24: CHAPTER 2 DIVIDER -->
       <section class="slide" id="slide-24">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🎭</div>
           <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🎭</div>
             <div class="card-pill">CHAPTER 02 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Social Identity: Class, Gender, Ethnicity &amp; Age</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Social Class Identities • Hegemonic &amp; Subordinate Masculinities • Feminine Identities • Ethnic &amp; Hybrid Identities • Age Identities, Youth Culture &amp; Childhood</p>
@@ -473,8 +473,8 @@
         <!-- SLIDE 25: Ann Oakley -->
         <section class="slide" id="slide-25">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👩‍💼</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">👩‍💼</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Sociology (1974)</div>
@@ -493,8 +493,8 @@
         <!-- SLIDE 26: Robert Connell -->
         <section class="slide" id="slide-26">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦁</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🦁</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Connell</h1>
               <div class="theorist-school-badge">Gender Theory &amp; Sociology of Masculinities (1995)</div>
@@ -513,8 +513,8 @@
         <!-- SLIDE 27: Louise Archer -->
         <section class="slide" id="slide-27">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💄</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">💄</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louise Archer</h1>
               <div class="theorist-school-badge">Class, Gender &amp; Youth Identity (2010)</div>
@@ -533,8 +533,8 @@
         <!-- SLIDE 28: Paul Willis -->
         <section class="slide" id="slide-28">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
               <div class="theorist-school-badge">Class Identity &amp; Working-Class Culture (1977)</div>
@@ -553,8 +553,8 @@
         <!-- SLIDE 29: Mairtin Mac an Ghaill -->
         <section class="slide" id="slide-29">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Mairtin Mac an Ghaill</h1>
               <div class="theorist-school-badge">Gender &amp; Crisis of Masculinity (1994)</div>
@@ -573,8 +573,8 @@
         <!-- SLIDE 30: Stuart Hall -->
         <section class="slide" id="slide-30">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
               <div class="theorist-school-badge">Cultural Studies &amp; Post-Colonial Theory (1992, 1996)</div>
@@ -593,8 +593,8 @@
         <!-- SLIDE 31: Sundeep Johal -->
         <section class="slide" id="slide-31">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sundeep Johal</h1>
               <div class="theorist-school-badge">British Asian Identity &amp; Code-Switching (1998)</div>
@@ -613,8 +613,8 @@
         <!-- SLIDE 32: Mike Savage -->
         <section class="slide" id="slide-32">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mike Savage</h1>
               <div class="theorist-school-badge">Class Stratification &amp; Cultural Capital (2013)</div>
@@ -633,8 +633,8 @@
         <!-- SLIDE 33: Rosemary Crompton -->
         <section class="slide" id="slide-33">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rosemary Crompton</h1>
               <div class="theorist-school-badge">Occupational Class &amp; Social Reproduction (2006)</div>
@@ -653,8 +653,8 @@
         <!-- SLIDE 34: John Benyon -->
         <section class="slide" id="slide-34">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">John Benyon</h1>
               <div class="theorist-school-badge">Sociology of Masculinities (2002)</div>
@@ -673,8 +673,8 @@
         <!-- SLIDE 35: Neil Postman -->
         <section class="slide" id="slide-35">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Neil Postman</h1>
               <div class="theorist-school-badge">Media Ecology &amp; Childhood Identity (1994)</div>
@@ -693,8 +693,8 @@
         <!-- SLIDE 36: Sue Palmer -->
         <section class="slide" id="slide-36">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚠️</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">⚠️</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sue Palmer</h1>
               <div class="theorist-school-badge">Childhood Studies &amp; Modern Culture (2006)</div>
@@ -713,8 +713,8 @@
         <!-- SLIDE 37: Shmuel Eisenstadt -->
         <section class="slide" id="slide-37">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌉</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🌉</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Shmuel Eisenstadt</h1>
               <div class="theorist-school-badge">Functionalist Youth Theory (1956)</div>
@@ -733,8 +733,8 @@
         <!-- SLIDE 38: David Gillborn -->
         <section class="slide" id="slide-38">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gillborn</h1>
               <div class="theorist-school-badge">Critical Race Theory &amp; Institutional Identity (1997, 2008)</div>
@@ -753,8 +753,8 @@
         <!-- SLIDE 39: Tariq Modood -->
         <section class="slide" id="slide-39">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕌</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🕌</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Tariq Modood</h1>
               <div class="theorist-school-badge">Multiculturalism &amp; Ethnic Identity (1997, 2005)</div>
@@ -773,8 +773,8 @@
         <!-- SLIDE 40: Heidi Mirza -->
         <section class="slide" id="slide-40">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Heidi Mirza</h1>
               <div class="theorist-school-badge">Black Feminist Sociology (1992)</div>
@@ -793,8 +793,8 @@
         <!-- SLIDE 41: Amy Chua -->
         <section class="slide" id="slide-41">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🐅</div>
             <div class="flashcard theme-2" style="background: #0284C7 !important;">
+          <div class="card-graphic-sticker">🐅</div>
               <div class="card-pill">CHAPTER 2 • PAPER 1 • SOCIAL IDENTITY: CLASS, GENDER, ETHNICITY &amp; AGE</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Amy Chua</h1>
               <div class="theorist-school-badge">Cultural Socialisation &amp; Parenting (2011)</div>
@@ -813,8 +813,8 @@
       <!-- SLIDE 42: CHAPTER 3 DIVIDER -->
       <section class="slide" id="slide-42">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🔬</div>
           <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
             <div class="card-pill">CHAPTER 03 • PAPER 1</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Sociological Research Methods</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Positivism vs Interpretivism • Quantitative &amp; Qualitative Methods • Sampling &amp; Triangulation • Reliability, Validity &amp; Ethics • Sociological Value Freedom</p>
@@ -830,8 +830,8 @@
         <!-- SLIDE 43: Auguste Comte -->
         <section class="slide" id="slide-43">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📐</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📐</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Auguste Comte</h1>
               <div class="theorist-school-badge">Foundational Positivism (1830, 1848)</div>
@@ -850,8 +850,8 @@
         <!-- SLIDE 44: Émile Durkheim -->
         <section class="slide" id="slide-44">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Positivist Quantitative Realism (1895, 1897)</div>
@@ -870,8 +870,8 @@
         <!-- SLIDE 45: Max Weber -->
         <section class="slide" id="slide-45">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧠</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🧠</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Max Weber</h1>
               <div class="theorist-school-badge">Interpretivist Methodology (1922)</div>
@@ -890,8 +890,8 @@
         <!-- SLIDE 46: Karl Popper -->
         <section class="slide" id="slide-46">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karl Popper</h1>
               <div class="theorist-school-badge">Philosophy of Science &amp; Falsificationism (1959)</div>
@@ -910,8 +910,8 @@
         <!-- SLIDE 47: Robert K. Merton -->
         <section class="slide" id="slide-47">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert K. Merton</h1>
               <div class="theorist-school-badge">Sociology of Science &amp; Middle-Range Theory (1968)</div>
@@ -930,8 +930,8 @@
         <!-- SLIDE 48: Norman Denzin -->
         <section class="slide" id="slide-48">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔺</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🔺</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Norman Denzin</h1>
               <div class="theorist-school-badge">Methodological Triangulation (1978)</div>
@@ -950,8 +950,8 @@
         <!-- SLIDE 49: Eileen Barker -->
         <section class="slide" id="slide-49">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eileen Barker</h1>
               <div class="theorist-school-badge">Methodological Pluralism &amp; Covert Ethics (1984)</div>
@@ -970,8 +970,8 @@
         <!-- SLIDE 50: Sudhir Venkatesh -->
         <section class="slide" id="slide-50">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏙️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏙️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sudhir Venkatesh</h1>
               <div class="theorist-school-badge">Ethnographic Participant Observation (2008)</div>
@@ -990,8 +990,8 @@
         <!-- SLIDE 51: Jenni Ward -->
         <section class="slide" id="slide-51">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🤝</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🤝</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jenni Ward</h1>
               <div class="theorist-school-badge">Qualitative Fieldwork &amp; Vulnerable Groups (2008)</div>
@@ -1010,8 +1010,8 @@
         <!-- SLIDE 52: Jason Ditton -->
         <section class="slide" id="slide-52">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕵️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🕵️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jason Ditton</h1>
               <div class="theorist-school-badge">Covert Participant Observation &amp; Deception (1977)</div>
@@ -1030,8 +1030,8 @@
         <!-- SLIDE 53: Ann Oakley -->
         <section class="slide" id="slide-53">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💬</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💬</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Methodology (1981)</div>
@@ -1050,8 +1050,8 @@
         <!-- SLIDE 54: William Thomas -->
         <section class="slide" id="slide-54">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✉️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">✉️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">William Thomas</h1>
               <div class="theorist-school-badge">Chicago School &amp; Interpretivist Documentation (1918)</div>
@@ -1070,8 +1070,8 @@
         <!-- SLIDE 55: Florian Znaniecki -->
         <section class="slide" id="slide-55">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📖</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">📖</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Florian Znaniecki</h1>
               <div class="theorist-school-badge">Qualitative Personal Documents (1918)</div>
@@ -1090,8 +1090,8 @@
         <!-- SLIDE 56: Robert Rosenthal -->
         <section class="slide" id="slide-56">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧪</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🧪</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Rosenthal</h1>
               <div class="theorist-school-badge">Experimental Social Psychology &amp; Fieldwork (1968)</div>
@@ -1110,8 +1110,8 @@
         <!-- SLIDE 57: Lenore Jacobson -->
         <section class="slide" id="slide-57">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏫</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🏫</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Lenore Jacobson</h1>
               <div class="theorist-school-badge">Educational Field Experimentation (1968)</div>
@@ -1130,8 +1130,8 @@
         <!-- SLIDE 58: Elton Mayo -->
         <section class="slide" id="slide-58">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💡</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">💡</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Elton Mayo</h1>
               <div class="theorist-school-badge">Industrial Field Experimentation (1933)</div>
@@ -1150,8 +1150,8 @@
         <!-- SLIDE 59: Howard Becker -->
         <section class="slide" id="slide-59">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Howard Becker</h1>
               <div class="theorist-school-badge">Interactionist Ethics &amp; Value Commitment (1967)</div>
@@ -1170,8 +1170,8 @@
         <!-- SLIDE 60: Alvin Gouldner -->
         <section class="slide" id="slide-60">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪞</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🪞</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Alvin Gouldner</h1>
               <div class="theorist-school-badge">Reflexive Sociology (1970)</div>
@@ -1190,8 +1190,8 @@
         <!-- SLIDE 61: Mayssoun Sukarieh -->
         <section class="slide" id="slide-61">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mayssoun Sukarieh</h1>
               <div class="theorist-school-badge">Critical Youth Studies &amp; Research Ethics (2012)</div>
@@ -1210,8 +1210,8 @@
         <!-- SLIDE 62: Stuart Tannock -->
         <section class="slide" id="slide-62">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-3" style="background: #0066FF !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 3 • PAPER 1 • SOCIOLOGICAL RESEARCH METHODS</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Tannock</h1>
               <div class="theorist-school-badge">Critical Research Ethics &amp; Educational Studies (2012)</div>
@@ -1230,8 +1230,8 @@
       <!-- SLIDE 63: CHAPTER 4 DIVIDER -->
       <section class="slide" id="slide-63">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
           <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
             <div class="card-pill">CHAPTER 04 • PAPER 2</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">The Family</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Functionalist, Marxist &amp; Feminist Views • Family Diversity &amp; Households • Conjugal Roles &amp; Domestic Labour • Power, Decision-Making &amp; Abuse • Childhood &amp; Demographics</p>
@@ -1247,8 +1247,8 @@
         <!-- SLIDE 64: George Peter Murdock -->
         <section class="slide" id="slide-64">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👩‍👧‍👦</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">George Peter Murdock</h1>
               <div class="theorist-school-badge">Structural Functionalism (1949)</div>
@@ -1267,8 +1267,8 @@
         <!-- SLIDE 65: Talcott Parsons -->
         <section class="slide" id="slide-65">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛁</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛁</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
               <div class="theorist-school-badge">Functional Fit &amp; Nuclear Family Theory (1955)</div>
@@ -1287,8 +1287,8 @@
         <!-- SLIDE 66: Ronald Fletcher -->
         <section class="slide" id="slide-66">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏥</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏥</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ronald Fletcher</h1>
               <div class="theorist-school-badge">Functionalist Welfare Synthesis (1966)</div>
@@ -1307,8 +1307,8 @@
         <!-- SLIDE 67: Steven Horwitz -->
         <section class="slide" id="slide-67">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steven Horwitz</h1>
               <div class="theorist-school-badge">Neoliberal Institutional Economics &amp; Family (2005)</div>
@@ -1327,8 +1327,8 @@
         <!-- SLIDE 68: Friedrich Engels -->
         <section class="slide" id="slide-68">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Friedrich Engels</h1>
               <div class="theorist-school-badge">Classical Marxism (1884)</div>
@@ -1347,8 +1347,8 @@
         <!-- SLIDE 69: Louis Althusser -->
         <section class="slide" id="slide-69">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
               <div class="theorist-school-badge">Structural Marxism (1971)</div>
@@ -1367,8 +1367,8 @@
         <!-- SLIDE 70: Eli Zaretsky -->
         <section class="slide" id="slide-70">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛋️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛋️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eli Zaretsky</h1>
               <div class="theorist-school-badge">Marxist Psychoanalytic Family Theory (1976)</div>
@@ -1387,8 +1387,8 @@
         <!-- SLIDE 71: Shulamith Firestone -->
         <section class="slide" id="slide-71">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧬</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧬</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Shulamith Firestone</h1>
               <div class="theorist-school-badge">Radical Feminism (1970)</div>
@@ -1407,8 +1407,8 @@
         <!-- SLIDE 72: Ann Oakley -->
         <section class="slide" id="slide-72">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧹</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧹</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ann Oakley</h1>
               <div class="theorist-school-badge">Feminist Sociology of Housework (1974)</div>
@@ -1427,8 +1427,8 @@
         <!-- SLIDE 73: Fran Ansley -->
         <section class="slide" id="slide-73">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Fran Ansley</h1>
               <div class="theorist-school-badge">Marxist Feminism (1972)</div>
@@ -1447,8 +1447,8 @@
         <!-- SLIDE 74: Christine Delphy -->
         <section class="slide" id="slide-74">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Christine Delphy</h1>
               <div class="theorist-school-badge">Radical Materialist Feminism (1992)</div>
@@ -1467,8 +1467,8 @@
         <!-- SLIDE 75: Diana Leonard -->
         <section class="slide" id="slide-75">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Diana Leonard</h1>
               <div class="theorist-school-badge">Radical Materialist Feminism (1992)</div>
@@ -1487,8 +1487,8 @@
         <!-- SLIDE 76: Michael Young -->
         <section class="slide" id="slide-76">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Michael Young</h1>
               <div class="theorist-school-badge">March of Progress Family Theory (1973)</div>
@@ -1507,8 +1507,8 @@
         <!-- SLIDE 77: Peter Willmott -->
         <section class="slide" id="slide-77">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏡</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🏡</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Peter Willmott</h1>
               <div class="theorist-school-badge">March of Progress &amp; Family Studies (1973)</div>
@@ -1527,8 +1527,8 @@
         <!-- SLIDE 78: Jonathan Gershuny -->
         <section class="slide" id="slide-78">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏱️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⏱️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jonathan Gershuny</h1>
               <div class="theorist-school-badge">Lagged Adaptation &amp; Time-Use Studies (1992, 2000)</div>
@@ -1547,8 +1547,8 @@
         <!-- SLIDE 79: Esther Dermott -->
         <section class="slide" id="slide-79">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👨‍👧</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">👨‍👧</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Esther Dermott</h1>
               <div class="theorist-school-badge">Intimate Fatherhood (2003, 2008)</div>
@@ -1567,8 +1567,8 @@
         <!-- SLIDE 80: Stephen Edgell -->
         <section class="slide" id="slide-80">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗳️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🗳️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stephen Edgell</h1>
               <div class="theorist-school-badge">Family Power &amp; Decision-Making (1980)</div>
@@ -1587,8 +1587,8 @@
         <!-- SLIDE 81: Jan Pahl -->
         <section class="slide" id="slide-81">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💳</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">💳</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jan Pahl</h1>
               <div class="theorist-school-badge">Financial Allocation &amp; Marital Inequality (1989, 2008)</div>
@@ -1607,8 +1607,8 @@
         <!-- SLIDE 82: Russell Dobash -->
         <section class="slide" id="slide-82">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Russell Dobash</h1>
               <div class="theorist-school-badge">Feminist Criminology &amp; Domestic Abuse (1979, 1992)</div>
@@ -1627,8 +1627,8 @@
         <!-- SLIDE 83: Rebecca Dobash -->
         <section class="slide" id="slide-83">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rebecca Dobash</h1>
               <div class="theorist-school-badge">Patriarchy &amp; Domestic Violence (1979, 1992)</div>
@@ -1647,8 +1647,8 @@
         <!-- SLIDE 84: Robert Chester -->
         <section class="slide" id="slide-84">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔄</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🔄</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Chester</h1>
               <div class="theorist-school-badge">Neo-Conventional Family Thesis (1985)</div>
@@ -1667,8 +1667,8 @@
         <!-- SLIDE 85: Charles Murray -->
         <section class="slide" id="slide-85">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Charles Murray</h1>
               <div class="theorist-school-badge">New Right Family Critique (1984, 1990)</div>
@@ -1687,8 +1687,8 @@
         <!-- SLIDE 86: Judith Stacey -->
         <section class="slide" id="slide-86">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧩</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🧩</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Judith Stacey</h1>
               <div class="theorist-school-badge">Postmodern Feminist Family Studies (1998)</div>
@@ -1707,8 +1707,8 @@
         <!-- SLIDE 87: David Morgan -->
         <section class="slide" id="slide-87">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍳</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🍳</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Morgan</h1>
               <div class="theorist-school-badge">Family Practices (1996, 2011)</div>
@@ -1727,8 +1727,8 @@
         <!-- SLIDE 88: Anthony Giddens -->
         <section class="slide" id="slide-88">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">❤️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">❤️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Anthony Giddens</h1>
               <div class="theorist-school-badge">Transformation of Intimacy (1992)</div>
@@ -1747,8 +1747,8 @@
         <!-- SLIDE 89: Carol Smart -->
         <section class="slide" id="slide-89">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🐕</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🐕</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Carol Smart</h1>
               <div class="theorist-school-badge">Personal Life Perspective (2007)</div>
@@ -1767,8 +1767,8 @@
         <!-- SLIDE 90: Jeffrey Weeks -->
         <section class="slide" id="slide-90">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌈</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌈</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jeffrey Weeks</h1>
               <div class="theorist-school-badge">Sociology of Sexuality &amp; Chosen Families (1999)</div>
@@ -1787,8 +1787,8 @@
         <!-- SLIDE 91: Julia Brannen -->
         <section class="slide" id="slide-91">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌱</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🌱</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Julia Brannen</h1>
               <div class="theorist-school-badge">The Beanpole Family (2003)</div>
@@ -1807,8 +1807,8 @@
         <!-- SLIDE 92: Richard Berthoud -->
         <section class="slide" id="slide-92">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗺️</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🗺️</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Richard Berthoud</h1>
               <div class="theorist-school-badge">Ethnic Family Diversity in the UK (2001)</div>
@@ -1827,8 +1827,8 @@
         <!-- SLIDE 93: Annette Lareau -->
         <section class="slide" id="slide-93">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎨</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">🎨</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Annette Lareau</h1>
               <div class="theorist-school-badge">Class Stratification &amp; Childrearing (2003)</div>
@@ -1847,8 +1847,8 @@
         <!-- SLIDE 94: Arlie Russell Hochschild -->
         <section class="slide" id="slide-94">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⌛</div>
             <div class="flashcard theme-4" style="background: #E11D48 !important;">
+          <div class="card-graphic-sticker">⌛</div>
               <div class="card-pill">CHAPTER 4 • PAPER 2 • THE FAMILY</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Arlie Russell Hochschild</h1>
               <div class="theorist-school-badge">The Second Shift &amp; Emotional Labour (1989, 2003)</div>
@@ -1867,8 +1867,8 @@
       <!-- SLIDE 95: CHAPTER 5 DIVIDER -->
       <section class="slide" id="slide-95">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🎓</div>
           <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎓</div>
             <div class="card-pill">CHAPTER 05 • PAPER 3</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Education</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Role of Education &amp; Meritocracy • Class, Gender &amp; Ethnic Differences in Attainment • Teacher Labelling, Streaming &amp; Subcultures • Hidden Curriculum • Educational Policy</p>
@@ -1884,8 +1884,8 @@
         <!-- SLIDE 96: Émile Durkheim -->
         <section class="slide" id="slide-96">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Functionalist Educational Solidarity (1925)</div>
@@ -1904,8 +1904,8 @@
         <!-- SLIDE 97: Talcott Parsons -->
         <section class="slide" id="slide-97">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🌉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Talcott Parsons</h1>
               <div class="theorist-school-badge">Meritocracy &amp; Universalistic Standards (1961)</div>
@@ -1924,8 +1924,8 @@
         <!-- SLIDE 98: Kingsley Davis -->
         <section class="slide" id="slide-98">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Kingsley Davis</h1>
               <div class="theorist-school-badge">Functionalist Role Allocation (1945)</div>
@@ -1944,8 +1944,8 @@
         <!-- SLIDE 99: Wilbert Moore -->
         <section class="slide" id="slide-99">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Wilbert Moore</h1>
               <div class="theorist-school-badge">Stratification &amp; Functional Importance (1945)</div>
@@ -1964,8 +1964,8 @@
         <!-- SLIDE 100: Samuel Bowles -->
         <section class="slide" id="slide-100">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏭</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏭</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Samuel Bowles</h1>
               <div class="theorist-school-badge">Marxist Sociology &amp; Correspondence Principle (1976)</div>
@@ -1984,8 +1984,8 @@
         <!-- SLIDE 101: Herbert Gintis -->
         <section class="slide" id="slide-101">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚙️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚙️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Herbert Gintis</h1>
               <div class="theorist-school-badge">Hidden Curriculum &amp; Myth of Meritocracy (1976)</div>
@@ -2004,8 +2004,8 @@
         <!-- SLIDE 102: Louis Althusser -->
         <section class="slide" id="slide-102">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏛️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏛️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louis Althusser</h1>
               <div class="theorist-school-badge">Structural Marxist Education Theory (1971)</div>
@@ -2024,8 +2024,8 @@
         <!-- SLIDE 103: Pierre Bourdieu -->
         <section class="slide" id="slide-103">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎨</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎨</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Pierre Bourdieu</h1>
               <div class="theorist-school-badge">Cultural Capital &amp; Habitus (1977, 1984)</div>
@@ -2044,8 +2044,8 @@
         <!-- SLIDE 104: Paul Willis -->
         <section class="slide" id="slide-104">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔨</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🔨</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Willis</h1>
               <div class="theorist-school-badge">Counter-School Culture &amp; Resistance (1977)</div>
@@ -2064,8 +2064,8 @@
         <!-- SLIDE 105: Basil Bernstein -->
         <section class="slide" id="slide-105">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Basil Bernstein</h1>
               <div class="theorist-school-badge">Sociolinguistics &amp; Speech Codes (1971)</div>
@@ -2084,8 +2084,8 @@
         <!-- SLIDE 106: David Hargreaves -->
         <section class="slide" id="slide-106">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Hargreaves</h1>
               <div class="theorist-school-badge">Subcultural Differentiation &amp; Polarisation (1967)</div>
@@ -2104,8 +2104,8 @@
         <!-- SLIDE 107: Howard Becker -->
         <section class="slide" id="slide-107">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏷️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🏷️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Howard Becker</h1>
               <div class="theorist-school-badge">Labelling Theory &amp; The Ideal Pupil (1971)</div>
@@ -2124,8 +2124,8 @@
         <!-- SLIDE 108: Nell Keddie -->
         <section class="slide" id="slide-108">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Nell Keddie</h1>
               <div class="theorist-school-badge">Cultural Difference &amp; Stratification of Knowledge (1971)</div>
@@ -2144,8 +2144,8 @@
         <!-- SLIDE 109: Robin Nash -->
         <section class="slide" id="slide-109">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🔍</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🔍</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robin Nash</h1>
               <div class="theorist-school-badge">Classroom Expectations &amp; Self-Fulfilling Prophecy (1972)</div>
@@ -2164,8 +2164,8 @@
         <!-- SLIDE 110: Louise Archer -->
         <section class="slide" id="slide-110">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👟</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👟</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Louise Archer</h1>
               <div class="theorist-school-badge">Symbolic Violence &amp; Nike Identities (2010)</div>
@@ -2184,8 +2184,8 @@
         <!-- SLIDE 111: David Gillborn -->
         <section class="slide" id="slide-111">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gillborn</h1>
               <div class="theorist-school-badge">Institutional Racism &amp; Educational Triage (2000, 2008)</div>
@@ -2204,8 +2204,8 @@
         <!-- SLIDE 112: Cecile Wright -->
         <section class="slide" id="slide-112">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚸</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🚸</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Cecile Wright</h1>
               <div class="theorist-school-badge">Teacher Labelling &amp; Asian Students (1992)</div>
@@ -2224,8 +2224,8 @@
         <!-- SLIDE 113: Heidi Mirza -->
         <section class="slide" id="slide-113">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👑</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👑</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Heidi Mirza</h1>
               <div class="theorist-school-badge">Black Girls &amp; Strategic Adaptations (1992)</div>
@@ -2244,8 +2244,8 @@
         <!-- SLIDE 114: Sewell -->
         <section class="slide" id="slide-114">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧢</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">🧢</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sewell</h1>
               <div class="theorist-school-badge">Black Masculinity &amp; Subcultural Adaptations (1997)</div>
@@ -2264,8 +2264,8 @@
         <!-- SLIDE 115: Becky Francis -->
         <section class="slide" id="slide-115">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚽</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚽</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Becky Francis</h1>
               <div class="theorist-school-badge">Feminist Classroom Dynamics &amp; Laddishness (2000)</div>
@@ -2284,8 +2284,8 @@
         <!-- SLIDE 116: Sue Sharpe -->
         <section class="slide" id="slide-116">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📚</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📚</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sue Sharpe</h1>
               <div class="theorist-school-badge">Longitudinal Study of Female Priorities (1976, 1994)</div>
@@ -2304,8 +2304,8 @@
         <!-- SLIDE 117: Mairtin Mac an Ghaill -->
         <section class="slide" id="slide-117">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👔</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">👔</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Mairtin Mac an Ghaill</h1>
               <div class="theorist-school-badge">Male Peer Subcultures in School (1994)</div>
@@ -2324,8 +2324,8 @@
         <!-- SLIDE 118: Peter Saunders -->
         <section class="slide" id="slide-118">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Peter Saunders</h1>
               <div class="theorist-school-badge">Meritocracy &amp; Intelligence Distribution (1996, 2010)</div>
@@ -2344,8 +2344,8 @@
         <!-- SLIDE 119: Richard Breen -->
         <section class="slide" id="slide-119">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Richard Breen</h1>
               <div class="theorist-school-badge">Rational Action Theory &amp; Educational Transitions (2004, 2010)</div>
@@ -2364,8 +2364,8 @@
         <!-- SLIDE 120: Melvin Tumin -->
         <section class="slide" id="slide-120">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚖️</div>
             <div class="flashcard theme-5" style="background: #D97706 !important;">
+          <div class="card-graphic-sticker">⚖️</div>
               <div class="card-pill">CHAPTER 5 • PAPER 3 • EDUCATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Melvin Tumin</h1>
               <div class="theorist-school-badge">Critical Stratification Theory (1953)</div>
@@ -2384,8 +2384,8 @@
       <!-- SLIDE 121: CHAPTER 6 DIVIDER -->
       <section class="slide" id="slide-121">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">🌐</div>
           <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
             <div class="card-pill">CHAPTER 06 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Globalisation</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Dimensions of Globalisation • Modernisation vs Dependency Theory • World Systems Theory • Cultural Homogenisation &amp; Glocalisation • Global Migration &amp; Transnational Crime</p>
@@ -2401,8 +2401,8 @@
         <!-- SLIDE 122: Jan Aart Scholte -->
         <section class="slide" id="slide-122">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jan Aart Scholte</h1>
               <div class="theorist-school-badge">Globalisation as Supraterritoriality (2000, 2005)</div>
@@ -2421,8 +2421,8 @@
         <!-- SLIDE 123: Anthony Giddens -->
         <section class="slide" id="slide-123">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏃</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏃</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Anthony Giddens</h1>
               <div class="theorist-school-badge">High Modernity &amp; Runaway World (1990, 1999)</div>
@@ -2441,8 +2441,8 @@
         <!-- SLIDE 124: Marshall McLuhan -->
         <section class="slide" id="slide-124">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌍</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌍</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Marshall McLuhan</h1>
               <div class="theorist-school-badge">Media Ecology &amp; Global Village (1964)</div>
@@ -2461,8 +2461,8 @@
         <!-- SLIDE 125: Roland Robertson -->
         <section class="slide" id="slide-125">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🍔</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🍔</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Roland Robertson</h1>
               <div class="theorist-school-badge">Glocalisation &amp; Cultural Sociology (1992, 1995)</div>
@@ -2481,8 +2481,8 @@
         <!-- SLIDE 126: Fatima Adamu -->
         <section class="slide" id="slide-126">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧕</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🧕</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Fatima Adamu</h1>
               <div class="theorist-school-badge">Globalisation &amp; African Gender Dynamics (2003)</div>
@@ -2501,8 +2501,8 @@
         <!-- SLIDE 127: Arjun Appadurai -->
         <section class="slide" id="slide-127">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌊</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌊</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Arjun Appadurai</h1>
               <div class="theorist-school-badge">Global Cultural Scapes (1996)</div>
@@ -2521,8 +2521,8 @@
         <!-- SLIDE 128: Immanuel Wallerstein -->
         <section class="slide" id="slide-128">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌐</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌐</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Immanuel Wallerstein</h1>
               <div class="theorist-school-badge">World Systems Theory (1974, 2004)</div>
@@ -2541,8 +2541,8 @@
         <!-- SLIDE 129: Walter Rostow -->
         <section class="slide" id="slide-129">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Walter Rostow</h1>
               <div class="theorist-school-badge">Modernisation Theory (1960)</div>
@@ -2561,8 +2561,8 @@
         <!-- SLIDE 130: Andre Gunder Frank -->
         <section class="slide" id="slide-130">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Andre Gunder Frank</h1>
               <div class="theorist-school-badge">Dependency Theory (1966, 1971)</div>
@@ -2581,8 +2581,8 @@
         <!-- SLIDE 131: Naomi Klein -->
         <section class="slide" id="slide-131">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏷️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🏷️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Naomi Klein</h1>
               <div class="theorist-school-badge">Anti-Corporate Globalisation &amp; Brand Imperialism (2000)</div>
@@ -2601,8 +2601,8 @@
         <!-- SLIDE 132: Arlie Russell Hochschild -->
         <section class="slide" id="slide-132">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">✈️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">✈️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 2.75rem; margin-bottom: 4px;">Arlie Russell Hochschild</h1>
               <div class="theorist-school-badge">Global Care Chains (2000, 2002)</div>
@@ -2621,8 +2621,8 @@
         <!-- SLIDE 133: Misha Glenny -->
         <section class="slide" id="slide-133">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕶️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🕶️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Misha Glenny</h1>
               <div class="theorist-school-badge">McMafia &amp; Transnational Organised Crime (2008)</div>
@@ -2641,8 +2641,8 @@
         <!-- SLIDE 134: Frank Pearce -->
         <section class="slide" id="slide-134">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💼</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">💼</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Frank Pearce</h1>
               <div class="theorist-school-badge">Crimes of the Powerful &amp; Corporate Crime (1976, 2001)</div>
@@ -2661,8 +2661,8 @@
         <!-- SLIDE 135: Rob White -->
         <section class="slide" id="slide-135">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌲</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">🌲</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Rob White</h1>
               <div class="theorist-school-badge">Green Criminology &amp; Global Eco-Crime (2008)</div>
@@ -2681,8 +2681,8 @@
         <!-- SLIDE 136: Paul Collier -->
         <section class="slide" id="slide-136">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Collier</h1>
               <div class="theorist-school-badge">Development Economics &amp; The Bottom Billion (2007)</div>
@@ -2701,8 +2701,8 @@
         <!-- SLIDE 137: Ulrich Beck -->
         <section class="slide" id="slide-137">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">☢️</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">☢️</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ulrich Beck</h1>
               <div class="theorist-school-badge">Global Risk Society (1992)</div>
@@ -2721,8 +2721,8 @@
         <!-- SLIDE 138: Sundeep Johal -->
         <section class="slide" id="slide-138">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📡</div>
             <div class="flashcard theme-6" style="background: #0D9488 !important;">
+          <div class="card-graphic-sticker">📡</div>
               <div class="card-pill">CHAPTER 6 • PAPER 4 • GLOBALISATION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sundeep Johal</h1>
               <div class="theorist-school-badge">Transnational Media &amp; Diasporic Culture (1998)</div>
@@ -2741,8 +2741,8 @@
       <!-- SLIDE 139: CHAPTER 7 DIVIDER -->
       <section class="slide" id="slide-139">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">📺</div>
           <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
             <div class="card-pill">CHAPTER 07 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Media</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Ownership &amp; Control of Media • News Selection &amp; Moral Panics • Representations of Class, Gender &amp; Ethnicity • Audience Effects Models • New Media, Digital Surveillance &amp; Culture</p>
@@ -2758,8 +2758,8 @@
         <!-- SLIDE 140: James Curran -->
         <section class="slide" id="slide-140">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📰</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📰</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">James Curran</h1>
               <div class="theorist-school-badge">Political Economy of Media (1981, 2009)</div>
@@ -2778,8 +2778,8 @@
         <!-- SLIDE 141: Jean Seaton -->
         <section class="slide" id="slide-141">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎙️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎙️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jean Seaton</h1>
               <div class="theorist-school-badge">History of Broadcasting &amp; Media Monopoly (2009)</div>
@@ -2798,8 +2798,8 @@
         <!-- SLIDE 142: Ben Bagdikian -->
         <section class="slide" id="slide-142">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏢</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏢</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ben Bagdikian</h1>
               <div class="theorist-school-badge">Media Monopoly &amp; Conglomeration (1983, 2004)</div>
@@ -2818,8 +2818,8 @@
         <!-- SLIDE 143: Noam Chomsky -->
         <section class="slide" id="slide-143">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📢</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📢</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Noam Chomsky</h1>
               <div class="theorist-school-badge">Propaganda Model &amp; Critical Media Analysis (1988)</div>
@@ -2838,8 +2838,8 @@
         <!-- SLIDE 144: Edward Herman -->
         <section class="slide" id="slide-144">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">💵</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">💵</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Edward Herman</h1>
               <div class="theorist-school-badge">Political Economy of Communications (1988)</div>
@@ -2858,8 +2858,8 @@
         <!-- SLIDE 145: Greg Philo -->
         <section class="slide" id="slide-145">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Greg Philo</h1>
               <div class="theorist-school-badge">Glasgow Media Group &amp; Hegemonic News (1976, 1982)</div>
@@ -2878,8 +2878,8 @@
         <!-- SLIDE 146: Laura Mulvey -->
         <section class="slide" id="slide-146">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👁️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👁️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Laura Mulvey</h1>
               <div class="theorist-school-badge">Feminist Film Theory (1975)</div>
@@ -2898,8 +2898,8 @@
         <!-- SLIDE 147: Ben Carrington -->
         <section class="slide" id="slide-147">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏃</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🏃</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ben Carrington</h1>
               <div class="theorist-school-badge">Race, Sport &amp; Media Representation (2001, 2002)</div>
@@ -2918,8 +2918,8 @@
         <!-- SLIDE 148: Stanley Cohen -->
         <section class="slide" id="slide-148">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🚨</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🚨</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stanley Cohen</h1>
               <div class="theorist-school-badge">Folk Devils &amp; Moral Panics (1972)</div>
@@ -2938,8 +2938,8 @@
         <!-- SLIDE 149: Albert Bandura -->
         <section class="slide" id="slide-149">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🥊</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🥊</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Albert Bandura</h1>
               <div class="theorist-school-badge">Social Learning Theory &amp; Hypodermic Model (1963)</div>
@@ -2958,8 +2958,8 @@
         <!-- SLIDE 150: William Belson -->
         <section class="slide" id="slide-150">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📺</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📺</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">William Belson</h1>
               <div class="theorist-school-badge">Empirical Studies on TV Violence (1978)</div>
@@ -2978,8 +2978,8 @@
         <!-- SLIDE 151: Elihu Katz -->
         <section class="slide" id="slide-151">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗣️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🗣️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Elihu Katz</h1>
               <div class="theorist-school-badge">Two-Step Flow Communications Model (1955)</div>
@@ -2998,8 +2998,8 @@
         <!-- SLIDE 152: Paul Lazarsfeld -->
         <section class="slide" id="slide-152">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗳️</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🗳️</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Paul Lazarsfeld</h1>
               <div class="theorist-school-badge">Empirical Communications Sociology (1955)</div>
@@ -3018,8 +3018,8 @@
         <!-- SLIDE 153: Dennis McQuail -->
         <section class="slide" id="slide-153">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📱</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📱</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dennis McQuail</h1>
               <div class="theorist-school-badge">Uses &amp; Gratifications Model (1972)</div>
@@ -3038,8 +3038,8 @@
         <!-- SLIDE 154: Jay Blumler -->
         <section class="slide" id="slide-154">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎯</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎯</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Jay Blumler</h1>
               <div class="theorist-school-badge">Active Audience Theory (1972)</div>
@@ -3058,8 +3058,8 @@
         <!-- SLIDE 155: Stuart Hall -->
         <section class="slide" id="slide-155">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📡</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📡</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Stuart Hall</h1>
               <div class="theorist-school-badge">Encoding/Decoding Media Model (1973, 1980)</div>
@@ -3078,8 +3078,8 @@
         <!-- SLIDE 156: David Morley -->
         <section class="slide" id="slide-156">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">👥</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">👥</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Morley</h1>
               <div class="theorist-school-badge">Audience Reception &amp; Class (1980)</div>
@@ -3098,8 +3098,8 @@
         <!-- SLIDE 157: George Gerbner -->
         <section class="slide" id="slide-157">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🌆</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🌆</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">George Gerbner</h1>
               <div class="theorist-school-badge">Cultivation Theory (1976, 1986)</div>
@@ -3118,8 +3118,8 @@
         <!-- SLIDE 158: Sherry Turkle -->
         <section class="slide" id="slide-158">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📵</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">📵</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Sherry Turkle</h1>
               <div class="theorist-school-badge">Digital Culture &amp; Social Psychology (2011)</div>
@@ -3138,8 +3138,8 @@
         <!-- SLIDE 159: Judith Butler -->
         <section class="slide" id="slide-159">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🎭</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🎭</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Judith Butler</h1>
               <div class="theorist-school-badge">Gender Performativity &amp; Media (1990)</div>
@@ -3158,8 +3158,8 @@
         <!-- SLIDE 160: David Gauntlett -->
         <section class="slide" id="slide-160">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🧰</div>
             <div class="flashcard theme-7" style="background: #7C3AED !important;">
+          <div class="card-graphic-sticker">🧰</div>
               <div class="card-pill">CHAPTER 7 • PAPER 4 • MEDIA</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Gauntlett</h1>
               <div class="theorist-school-badge">Media, Gender &amp; Identity Toolbox (2002, 2008)</div>
@@ -3178,8 +3178,8 @@
       <!-- SLIDE 161: CHAPTER 8 DIVIDER -->
       <section class="slide" id="slide-161">
         <div class="flashcard-stage">
-          <div class="card-graphic-sticker">⛪</div>
           <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛪</div>
             <div class="card-pill">CHAPTER 08 • PAPER 4</div>
             <h1 class="flashcard-title" style="font-size: 2.85rem; line-height: 1.15; margin-bottom: 12px;">Religion</h1>
             <p class="flashcard-def" style="margin-bottom: 22px;">Definitions &amp; Functions of Religion • Classical Perspectives (Durkheim, Marx, Weber) • The Secularisation Debate • Religious Organisations, Sects &amp; Cults • Gender, Fundamentalism &amp; Postmodernity</p>
@@ -3195,8 +3195,8 @@
         <!-- SLIDE 162: Émile Durkheim -->
         <section class="slide" id="slide-162">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🪵</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🪵</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Émile Durkheim</h1>
               <div class="theorist-school-badge">Classical Functionalism &amp; Totemism (1912)</div>
@@ -3215,8 +3215,8 @@
         <!-- SLIDE 163: Karl Marx -->
         <section class="slide" id="slide-163">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⛓️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⛓️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karl Marx</h1>
               <div class="theorist-school-badge">Classical Marxism (1844)</div>
@@ -3235,8 +3235,8 @@
         <!-- SLIDE 164: Max Weber -->
         <section class="slide" id="slide-164">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏳</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⏳</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Max Weber</h1>
               <div class="theorist-school-badge">Social Action Theory &amp; Protestant Ethic (1905)</div>
@@ -3255,8 +3255,8 @@
         <!-- SLIDE 165: Robert Bellah -->
         <section class="slide" id="slide-165">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🦅</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🦅</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Robert Bellah</h1>
               <div class="theorist-school-badge">Civil Religion (1967)</div>
@@ -3275,8 +3275,8 @@
         <!-- SLIDE 166: Steve Bruce -->
         <section class="slide" id="slide-166">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📉</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📉</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Steve Bruce</h1>
               <div class="theorist-school-badge">Sociology of Secularisation (2001, 2011)</div>
@@ -3295,8 +3295,8 @@
         <!-- SLIDE 167: Bryan Wilson -->
         <section class="slide" id="slide-167">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⏳</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⏳</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Bryan Wilson</h1>
               <div class="theorist-school-badge">The Secularisation Thesis (1966, 1982)</div>
@@ -3315,8 +3315,8 @@
         <!-- SLIDE 168: Pippa Norris -->
         <section class="slide" id="slide-168">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🛡️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🛡️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Pippa Norris</h1>
               <div class="theorist-school-badge">Existential Security Theory (2004)</div>
@@ -3335,8 +3335,8 @@
         <!-- SLIDE 169: Ronald Inglehart -->
         <section class="slide" id="slide-169">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📊</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📊</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Ronald Inglehart</h1>
               <div class="theorist-school-badge">Cultural Evolution &amp; Secularisation (2004)</div>
@@ -3355,8 +3355,8 @@
         <!-- SLIDE 170: Eileen Barker -->
         <section class="slide" id="slide-170">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📜</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📜</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Eileen Barker</h1>
               <div class="theorist-school-badge">New Religious Movements (1984)</div>
@@ -3375,8 +3375,8 @@
         <!-- SLIDE 171: Grace Davie -->
         <section class="slide" id="slide-171">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🕯️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🕯️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Grace Davie</h1>
               <div class="theorist-school-badge">Believing Without Belonging (1994, 2007)</div>
@@ -3395,8 +3395,8 @@
         <!-- SLIDE 172: David Martin -->
         <section class="slide" id="slide-172">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🗺️</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🗺️</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">David Martin</h1>
               <div class="theorist-school-badge">Secularisation &amp; Comparative History (1978, 2005)</div>
@@ -3415,8 +3415,8 @@
         <!-- SLIDE 173: Mary Daly -->
         <section class="slide" id="slide-173">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">⚡</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">⚡</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Mary Daly</h1>
               <div class="theorist-school-badge">Radical Feminist Theology (1968, 1973)</div>
@@ -3435,8 +3435,8 @@
         <!-- SLIDE 174: Dean Kelley -->
         <section class="slide" id="slide-174">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">📈</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">📈</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Dean Kelley</h1>
               <div class="theorist-school-badge">Why Conservative Churches Are Growing (1972, 1986)</div>
@@ -3455,8 +3455,8 @@
         <!-- SLIDE 175: Karen Armstrong -->
         <section class="slide" id="slide-175">
           <div class="flashcard-stage">
-            <div class="card-graphic-sticker">🏺</div>
             <div class="flashcard theme-8" style="background: #4338CA !important;">
+          <div class="card-graphic-sticker">🏺</div>
               <div class="card-pill">CHAPTER 8 • PAPER 4 • RELIGION</div>
               <h1 class="flashcard-title" style="font-size: 3.1rem; margin-bottom: 4px;">Karen Armstrong</h1>
               <div class="theorist-school-badge">Feminist History of Religion (1993)</div>
